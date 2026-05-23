@@ -1,0 +1,15 @@
+{
+  "criterion": "image_content_fidelity",
+  "scope": "per_image",
+  "_comment": "Asked once per reference image. The runner pairs reference images (from ground_truth/images/<page>.json) to agent images and asks these questions per pair. Stubbed in v1 — see grading/judge/runner.py.",
+  "questions": [
+    {"id": "img_q1_v3", "text": "Is the same exact photograph as the reference visible at the same position — not just a similar photo with the same subject? If the agent's image is a different photo of the same kind of thing (different food-hero photo, different cityscape), score ≤ 2."},
+    {"id": "img_q2_v2", "text": "Is the image's aspect ratio on the agent's page the same as on the reference (no distortion the reference doesn't already show)?"},
+    {"id": "img_q3", "text": "Is the image's cropping / framing similar to the reference?"},
+    {"id": "img_q4", "text": "Text-in-image — is any text rendered inside the image content-identical to the reference?"},
+    {"id": "img_q5", "text": "Is the image's position relative to surrounding text/buttons preserved relative to the reference?"},
+    {"id": "img_q6_v2", "text": "Are there NO extra hallucinated images present that the reference doesn't contain? Score 5 if the agent's page has no extra images beyond what the reference shows. If you can spot any image the reference doesn't have, score ≤ 2."},
+    {"id": "img_q7", "text": "Is the count of images on the agent's page comparable to the reference's count — within ±1 when the reference shows fewer than 6 images, otherwise within ±25%?"},
+    {"id": "img_q8", "text": "Does this image's role on the page match the reference's — both decorative background images, both content/product photographs, both inline icons, or both hero illustrations?"}
+  ]
+}

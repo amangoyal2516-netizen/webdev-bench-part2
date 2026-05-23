@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Margaret Holloway — Hearthside Makers</title>
+<link rel="stylesheet" href="./styles.css">
+<style>
+.wdvb-anim-scale-up-profile{animation:wdvb-anim-scale-up-profile 1600ms cubic-bezier(0.45,0,0.25,1) both;}
+@keyframes wdvb-anim-scale-up-profile{from{transform:scale(0.6);opacity:0;}to{transform:scale(1);opacity:1;}}
+.profile-header{background:linear-gradient(135deg,var(--surface) 0%,var(--surface-2) 100%);border:1px solid var(--border);border-radius:var(--radius-lg);padding:var(--space-7) var(--space-6);box-shadow:var(--shadow);}
+.profile-header-inner{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:var(--space-6);align-items:center;}
+.timeline-item{display:flex;gap:var(--space-4);padding:var(--space-4) 0;border-bottom:1px solid var(--border);align-items:flex-start;}
+.timeline-item:last-child{border-bottom:0;}
+.timeline-icon{width:48px;height:48px;border-radius:50%;background:var(--surface-2);border:2px solid var(--border);display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--accent);}
+@media (max-width:1024px){.profile-header-inner{grid-template-columns:auto minmax(0,1fr);}.profile-header-inner .profile-actions{grid-column:1 / -1;}}
+@media (max-width:640px){.profile-header{padding:var(--space-5) var(--space-4);}.profile-header-inner{grid-template-columns:minmax(0,1fr);text-align:center;justify-items:center;}.profile-header-inner .profile-actions{justify-content:center;}}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="./feed.html" class="brand">
+      <span class="brand-mark"><img src="./assets/icons/scissors.svg" alt="" class="icon" width="24" height="24"></span>
+      Hearthside Makers
+    </a>
+    <div class="search">
+      <img src="./assets/icons/search.svg" alt="" width="22" height="22">
+      <input type="text" placeholder="Search makers, patterns, projects…">
+    </div>
+    <div class="text-size-toggle" aria-label="Text size">
+      <button type="button">A</button>
+      <button type="button" class="active">A</button>
+      <button type="button" style="font-size:20px;">A</button>
+    </div>
+    <a href="#" class="icon-btn" aria-label="Notifications"><img src="./assets/icons/bell.svg" alt="" width="22" height="22"></a>
+    <a href="#" class="icon-btn" aria-label="Help"><img src="./assets/icons/badge-question-mark.svg" alt="" width="22" height="22"></a>
+    <div class="avatar-dropdown">
+      <img class="avatar avatar-sm" src="./assets/avatars/lorelei-seed-04.svg" alt="Your avatar">
+      <img src="./assets/icons/chevron-down.svg" alt="" width="18" height="18">
+    </div>
+  </div>
+</header>
+
+<main class="container" style="padding-top:var(--space-6);padding-bottom:var(--space-7);">
+
+  <section class="profile-header">
+    <div class="profile-header-inner">
+      <img class="avatar avatar-xl wdvb-anim-scale-up-profile" src="./assets/avatars/lorelei-seed-02.svg" alt="Margaret Holloway's avatar">
+      <div class="stack">
+        <div class="stack-sm">
+          <span class="eyebrow">Maker since 1978</span>
+          <h1 style="margin:0;">Margaret &ldquo;Maggie&rdquo; Holloway</h1>
+        </div>
+        <div class="chip-row">
+          <span class="chip active"><img src="./assets/icons/palette.svg" alt="" width="16" height="16">Quilting</span>
+          <span class="chip"><img src="./assets/icons/ribbon.svg" alt="" width="16" height="16">Hand Embroidery</span>
+          <span class="chip"><img src="./assets/icons/leaf.svg" alt="" width="16" height="16">Botanical Dyeing</span>
+          <span class="chip"><img src="./assets/icons/scissors.svg" alt="" width="16" height="16">Patchwork</span>
+        </div>
+        <div class="row-wrap muted" style="font-size:var(--text-md);">
+          <span class="row" style="gap:var(--space-2);"><img src="./assets/icons/map-pin.svg" alt="" width="20" height="20">Asheville, North Carolina</span>
+          <span class="row" style="gap:var(--space-2);"><img src="./assets/icons/clock.svg" alt="" width="20" height="20">47 years crafting</span>
+          <span class="row" style="gap:var(--space-2);"><img src="./assets/icons/award.svg" alt="" width="20" height="20">Featured Maker, Spring 2024</span>
+        </div>
+        <p style="margin:0;max-width:680px;">Retired schoolteacher, grandmother of four, and lifelong fabric hoarder. I learned to quilt at my grandmother's knee in the Blue Ridge foothills and have been stitching ever since. I love sharing patterns that beginners can actually finish — and tea, lots of tea.</p>
+      </div>
+      <div class="stack-sm profile-actions" style="align-items:flex-end;">
+        <a href="#" class="btn btn-primary btn-lg"><img src="./assets/icons/user-plus.svg" alt="" width="22" height="22">Follow</a>
+        <a href="#" class="btn btn-secondary btn-lg"><img src="./assets/icons/send.svg" alt="" width="22" height="22">Message</a>
+        <a href="#" class="btn btn-ghost btn-sm"><img src="./assets/icons/more-horizontal.svg" alt="" width="20" height="20">More options</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="grid grid-4" style="margin-top:var(--space-6);">
+    <div class="stat-tile">
+      <span class="stat-value">186</span>
+      <span class="stat-label">Projects Shared</span>
+    </div>
+    <div class="stat-tile">
+      <span class="stat-value">12,438</span>
+      <span class="stat-label">Applause Received</span>
+    </div>
+    <div class="stat-tile">
+      <span class="stat-value">54</span>
+      <span class="stat-label">Patterns Published</span>
+    </div>
+    <div class="stat-tile">
+      <span class="stat-value">892</span>
+      <span class="stat-label">Friends</span>
+    </div>
+  </section>
+
+  <section style="margin-top:var(--space-7);">
+    <div class="tabs" role="tablist">
+      <button class="tab active" type="button">Projects</button>
+      <button class="tab" type="button">Patterns</button>
+      <button class="tab" type="button">Scrapbook</button>
+      <button class="tab" type="button">About</button>
+    </div>
+
+    <div class="section-heading" style="margin-top:var(--space-5);">
+      <h2 style="margin:0;">Recent Projects</h2>
+      <div class="row" style="gap:var(--space-3);">
+        <button class="btn btn-ghost btn-sm"><img src="./assets/icons/sliders-horizontal.svg" alt="" width="18" height="18">Filter</button>
+        <a href="./share.html" class="btn btn-primary btn-sm"><img src="./assets/icons/plus.svg" alt="" width="18" height="18">Share a project</a>
+      </div>
+    </div>
+
+    <div class="grid grid-3">
+      <article class="tile">
+        <img src="./assets/photos/15YDf39RIVc.jpg" alt="Teacup resting on a worn book beside a pink dried bloom">
+        <div class="tile-body stack-sm">
+          <h4 style="margin:0;">Rose Garden Sampler Quilt</h4>
+          <div class="row-between">
+            <span class="badge badge-accent">Quilting</span>
+            <span class="muted" style="font-size:var(--text-sm);">Posted Mar 14</span>
+          </div>
+        </div>
+      </article>
+      <article class="tile">
+        <img src="./assets/photos/LuK-MuZ-yf0.jpg" alt="Hand-pressed maple leaf laid across an open journal page">
+        <div class="tile-body stack-sm">
+          <h4 style="margin:0;">Pressed Leaf Botanical Cards</h4>
+          <div class="row-between">
+            <span class="badge badge-accent">Paper Craft</span>
+            <span class="muted" style="font-size:var(--text-sm);">Posted Mar 02</span>
+          </div>
+        </div>
+      </article>
+      <article class="tile">
+        <img src="./assets/photos/AiTE9NFQZ3I.jpg" alt="Pink garden roses arranged in a hand-thrown stone pot">
+        <div class="tile-body stack-sm">
+          <h4 style="margin:0;">Cottage Posy Pincushion</h4>
+          <div class="row-between">
+            <span class="badge badge-accent">Embroidery</span>
+            <span class="muted" style="font-size:var(--text-sm);">Posted Feb 22</span>
+          </div>
+        </div>
+      </article>
+      <article class="tile">
+        <img src="./assets/photos/O6N9RV2rzX8.jpg" alt="Flat lay of red and purple autumn leaves on cream paper">
+        <div class="tile-body stack-sm">
+          <h4 style="margin:0;">Autumn Leaf Dye Bath Sampler</h4>
+          <div class="row-between">
+            <span class="badge badge-accent">Botanical Dyeing</span>
+            <span class="muted" style="font-size:var(--text-sm);">Posted Feb 08</span>
+          </div>
+        </div>
+      </article>
+      <article class="tile">
+        <img src="./assets/photos/jxslQxviEJ0.jpg" alt="Green sprigs in a small white ceramic vase">
+        <div class="tile-body stack-sm">
+          <h4 style="margin:0;">Sprig &amp; Vase Tea-Towel Set</h4>
+          <div class="row-between">
+            <span class="badge badge-accent">Block Printing</span>
+            <span class="muted" style="font-size:var(--text-sm);">Posted Jan 27</span>
+          </div>
+        </div>
+      </article>
+      <article class="tile">
+        <img src="./assets/photos/u1XO8rGzMTQ.jpg" alt="Soft pink tulips arranged in a tall white vase">
+        <div class="tile-body stack-sm">
+          <h4 style="margin:0;">Tulip Trio Wall Hanging</h4>
+          <div class="row-between">
+            <span class="badge badge-accent">Appliqué</span>
+            <span class="muted" style="font-size:var(--text-sm);">Posted Jan 15</span>
+          </div>
+        </div>
+      </article>
+      <article class="tile">
+        <img src="./assets/photos/B1Zyw7sdm5w.jpg" alt="Bunch of pink and white roses lying on a soft surface">
+        <div class="tile-body stack-sm">
+          <h4 style="margin:0;">Heirloom Rose Sachet Bundle</h4>
+          <div class="row-between">
+            <span class="badge badge-accent">Sewing</span>
+            <span class="muted" style="font-size:var(--text-sm);">Posted Jan 03</span>
+          </div>
+        </div>
+      </article>
+      <article class="tile">
+        <img src="./assets/photos/9VoUqAsW2sA.jpg" alt="Tiny succulents arranged in a woven basket">
+        <div class="tile-body stack-sm">
+          <h4 style="margin:0;">Woven Basket of Felted Succulents</h4>
+          <div class="row-between">
+            <span class="badge badge-accent">Needle Felting</span>
+            <span class="muted" style="font-size:var(--text-sm);">Posted Dec 19</span>
+          </div>
+        </div>
+      </article>
+      <article class="tile">
+        <img src="./assets/photos/zWCUF5pTIM4.jpg" alt="Pink and purple petals overflowing a small ceramic vase">
+        <div class="tile-body stack-sm">
+          <h4 style="margin:0;">Grandbaby's First Quilt</h4>
+          <div class="row-between">
+            <span class="badge badge-accent">Quilting</span>
+            <span class="muted" style="font-size:var(--text-sm);">Posted Dec 04</span>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="pagination">
+      <button class="page-num" aria-label="Previous"><img src="./assets/icons/chevron-left.svg" alt="" width="18" height="18"></button>
+      <button class="page-num active">1</button>
+      <button class="page-num">2</button>
+      <button class="page-num">3</button>
+      <button class="page-num">…</button>
+      <button class="page-num">21</button>
+      <button class="page-num" aria-label="Next"><img src="./assets/icons/chevron-right.svg" alt="" width="18" height="18"></button>
+    </div>
+  </section>
+
+  <section style="margin-top:var(--space-7);">
+    <div class="section-heading">
+      <h2 style="margin:0;">Activity Timeline</h2>
+      <a href="#" class="muted" style="font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;">View all activity →</a>
+    </div>
+
+    <div class="card">
+      <div class="date-header">Today &middot; Thursday, April 18</div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon"><img src="./assets/icons/message-circle.svg" alt="" width="22" height="22"></div>
+        <div class="stack-sm" style="flex:1;">
+          <p style="margin:0;"><strong>Commented on</strong> Eleanor Whitfield's project <a href="./post.html">&ldquo;Hand-Quilted Star Coverlet&rdquo;</a></p>
+          <p class="muted" style="margin:0;font-size:var(--text-sm);">&ldquo;Eleanor, those mitered corners are exquisite — what weight batting did you use?&rdquo;</p>
+          <span class="muted" style="font-size:var(--text-sm);">2 hours ago &middot; 10:42 AM</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon"><img src="./assets/icons/heart.svg" alt="" width="22" height="22"></div>
+        <div class="stack-sm" style="flex:1;">
+          <p style="margin:0;"><strong>Applauded</strong> <a href="./post.html">&ldquo;Wisteria Watercolor Bookmark Set&rdquo;</a> by Harold Pemberton</p>
+          <span class="muted" style="font-size:var(--text-sm);">4 hours ago &middot; 8:15 AM</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon"><img src="./assets/icons/bookmark.svg" alt="" width="22" height="22"></div>
+        <div class="stack-sm" style="flex:1;">
+          <p style="margin:0;"><strong>Saved</strong> the pattern <a href="./patterns.html">&ldquo;Cathedral Window Pin Cushion — Step-by-Step&rdquo;</a></p>
+          <span class="muted" style="font-size:var(--text-sm);">Earlier today &middot; 7:02 AM</span>
+        </div>
+      </div>
+
+      <div class="date-header" style="margin-top:var(--space-5);">Wednesday, April 17</div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon"><img src="./assets/icons/user-plus.svg" alt="" width="22" height="22"></div>
+        <div class="stack-sm" style="flex:1;">
+          <p style="margin:0;"><strong>Followed</strong> <a href="./profile.html">Beatrice &ldquo;Bea&rdquo; Lansford</a> — natural dyer in Vermont</p>
+          <span class="muted" style="font-size:var(--text-sm);">Yesterday &middot; 6:48 PM</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon"><img src="./assets/icons/message-circle.svg" alt="" width="22" height="22"></div>
+        <div class="stack-sm" style="flex:1;">
+          <p style="margin:0;"><strong>Commented on</strong> the discussion <a href="./groups.html">&ldquo;Best thread weight for hand quilting?&rdquo;</a> in Threadkeepers Guild</p>
+          <p class="muted" style="margin:0;font-size:var(--text-sm);">&ldquo;Sweet sixteen Aurifil is my forever favorite — never tangles.&rdquo;</p>
+          <span class="muted" style="font-size:var(--text-sm);">Yesterday &middot; 3:21 PM</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon"><img src="./assets/icons/heart.svg" alt="" width="22" height="22"></div>
+        <div class="stack-sm" style="flex:1;">
+          <p style="margin:0;"><strong>Applauded</strong> 6 projects in the &ldquo;Spring Wreath Swap 2024&rdquo; gallery</p>
+          <span class="muted" style="font-size:var(--text-sm);">Yesterday &middot; 11:09 AM</span>
+        </div>
+      </div>
+
+      <div class="date-header" style="margin-top:var(--space-5);">Tuesday, April 16</div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon"><img src="./assets/icons/bookmark.svg" alt="" width="22" height="22"></div>
+        <div class="stack-sm" style="flex:1;">
+          <p style="margin:0;"><strong>Saved</strong> <a href="./post.html">&ldquo;Slow-Stitched Sashiko Coasters&rdquo;</a> by Hiroko Tanaka to her <em>Weekend Projects</em> scrapbook</p>
+          <span class="muted" style="font-size:var(--text-sm);">2 days ago &middot; 9:30 PM</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon"><img src="./assets/icons/user-plus.svg" alt="" width="22" height="22"></div>
+        <div class="stack-sm" style="flex:1;">
+          <p style="margin:0;"><strong>Followed</strong> the group <a href="./groups.html">Blue Ridge Quilters Circle</a> — 348 members</p>
+          <span class="muted" style="font-size:var(--text-sm);">2 days ago &middot; 5:14 PM</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon"><img src="./assets/icons/sparkles.svg" alt="" width="22" height="22"></div>
+        <div class="stack-sm" style="flex:1;">
+          <p style="margin:0;"><strong>Published</strong> a new pattern <a href="./patterns.html">&ldquo;Hexie Flower Garden — Beginner Friendly&rdquo;</a> &middot; 38 makers already started</p>
+          <span class="muted" style="font-size:var(--text-sm);">2 days ago &middot; 10:00 AM</span>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon"><img src="./assets/icons/message-circle.svg" alt="" width="22" height="22"></div>
+        <div class="stack-sm" style="flex:1;">
+          <p style="margin:0;"><strong>Commented on</strong> Walter Greene's project <a href="./post.html">&ldquo;Whittled Walking Stick — Year One&rdquo;</a></p>
+          <p class="muted" style="margin:0;font-size:var(--text-sm);">&ldquo;Walter, the chip carving on the handle is just stunning. My late husband would have loved this.&rdquo;</p>
+          <span class="muted" style="font-size:var(--text-sm);">2 days ago &middot; 8:42 AM</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" style="justify-content:center;margin-top:var(--space-5);">
+      <button class="btn btn-secondary btn-lg">Load older activity<img src="./assets/icons/arrow-right.svg" alt="" width="20" height="20"></button>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container row-between" style="flex-wrap:wrap;gap:var(--space-4);">
+    <div class="row" style="gap:var(--space-3);">
+      <span class="brand-mark"><img src="./assets/icons/scissors.svg" alt="" width="22" height="22"></span>
+      <div class="stack-sm">
+        <strong style="font-family:'Plus Jakarta Sans',sans-serif;">Hearthside Makers</strong>
+        <span class="muted" style="font-size:var(--text-sm);">A gentle place for handmade things.</span>
+      </div>
+    </div>
+    <nav class="row-wrap" aria-label="Footer">
+      <a href="./feed.html">Feed</a>
+      <a href="./patterns.html">Patterns</a>
+      <a href="./groups.html">Groups</a>
+      <a href="./share.html">Share a project</a>
+      <a href="#">Help &amp; Tutorials</a>
+      <a href="#">Privacy</a>
+    </nav>
+    <span class="muted" style="font-size:var(--text-sm);">© 2024 Hearthside Makers Co-op</span>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Berlin Itinerary — Sidestage</title>
+<link rel="stylesheet" href="./styles.css">
+<style>
+.wdvb-anim-slide-down-itinerary{animation:wdvb-anim-slide-down-itinerary 1300ms ease-out both}
+@keyframes wdvb-anim-slide-down-itinerary{from{transform:translateY(-120px);opacity:0}to{transform:translateY(0);opacity:1}}
+.itin-header{background:var(--bg);color:var(--fg-on-dark);padding:var(--space-7) 0 var(--space-6);border-bottom:1px solid var(--border-dark)}
+.trip-name-field{background:transparent;border:none;border-bottom:2px dashed rgba(255,255,255,0.25);color:var(--fg-on-dark);font-family:var(--font-display);font-weight:700;font-size:var(--text-3xl);letter-spacing:-0.02em;padding:4px 8px 6px;width:100%;max-width:620px}
+.trip-name-field:focus{outline:none;border-bottom-color:var(--accent-alt)}
+.date-range-field{display:inline-flex;align-items:center;gap:var(--space-2);background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);border-radius:var(--radius-pill);padding:8px 16px;color:var(--fg-on-dark);font-size:var(--text-sm);font-weight:600}
+.date-range-field svg{width:14px;height:14px;color:var(--accent-alt)}
+.itin-meta{display:flex;flex-wrap:wrap;gap:var(--space-5);margin-top:var(--space-5);align-items:center}
+.itin-stat{display:flex;flex-direction:column;gap:2px}
+.itin-stat-num{font-family:var(--font-display);font-weight:700;font-size:var(--text-2xl);color:var(--fg-on-dark);line-height:1}
+.itin-stat-lab{font-size:var(--text-xs);font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted-on-dark)}
+.itin-stat-div{width:1px;height:36px;background:var(--border-dark)}
+.layout-itin{display:grid;grid-template-columns:1fr 340px;gap:var(--space-6);align-items:start;padding:var(--space-7) 0 var(--space-8)}
+@media (max-width:1024px){.layout-itin{grid-template-columns:1fr}}
+.remove-btn{width:30px;height:30px;border-radius:50%;background:var(--surface-3);color:var(--muted);display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;transition:background var(--duration-quick) var(--ease-out),color var(--duration-quick) var(--ease-out)}
+.remove-btn:hover{background:var(--accent-alt-soft);color:var(--accent-alt)}
+.remove-btn svg{width:14px;height:14px}
+.tl-card-body{flex:1;min-width:0;display:flex;flex-direction:column;gap:var(--space-2)}
+.tl-card-title{font-family:var(--font-display);font-weight:700;font-size:var(--text-lg);color:var(--fg);line-height:1.25}
+.tl-card-meta{display:flex;flex-wrap:wrap;gap:var(--space-3);font-size:var(--text-sm);color:var(--muted);align-items:center}
+.tl-card-meta .row{gap:6px}
+.gap-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-3);margin-top:var(--space-3)}
+@media (max-width:640px){.gap-grid{grid-template-columns:1fr}}
+.mini-card-text{display:flex;flex-direction:column;gap:2px;min-width:0}
+.mini-card-title{font-family:var(--font-display);font-weight:700;font-size:var(--text-sm);color:var(--fg);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mini-card-sub{font-size:var(--text-xs);color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gap-label{display:flex;align-items:center;gap:var(--space-2);font-size:var(--text-xs);font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted)}
+.gap-label .gap-pill{padding:2px 10px;border-radius:var(--radius-pill);background:var(--surface-2);border:1px solid var(--border);font-size:10px;letter-spacing:0.08em;color:var(--muted)}
+.dl-line{display:flex;height:1px;background:var(--border-dark);width:100%;margin:var(--space-3) 0}
+.share-row{display:flex;flex-wrap:wrap;gap:var(--space-3);margin-top:var(--space-5)}
+.section-h{font-family:var(--font-display);font-weight:700;font-size:var(--text-md);text-transform:uppercase;letter-spacing:0.1em;color:var(--fg)}
+.day-pill{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;width:96px;padding:var(--space-3) 8px;background:var(--bg);color:var(--fg-on-dark);border-radius:var(--radius-md)}
+.day-pill-mo{font-size:10px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent-alt);line-height:1}
+.day-pill-day{font-family:var(--font-display);font-weight:700;font-size:28px;line-height:1.05;margin-top:4px}
+.day-pill-name{font-size:11px;color:var(--muted-on-dark);font-weight:600;letter-spacing:0.08em;text-transform:uppercase;margin-top:4px}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container">
+    <div class="topbar-inner">
+      <a href="./home.html" class="brand">
+        <span class="brand-mark"><img src="./assets/icons/disc-3.svg" alt="" class="icon"></span>
+        Sidestage
+      </a>
+      <nav class="nav-links">
+        <a href="./home.html" class="nav-link">Home</a>
+        <a href="./discover.html" class="nav-link">Discover</a>
+        <a href="./show.html" class="nav-link">Shows</a>
+        <a href="./itinerary.html" class="nav-link active">Itinerary</a>
+        <a href="./guide.html" class="nav-link">Beginner guide</a>
+      </nav>
+      <div class="nav-right">
+        <button class="btn btn-ghost btn-sm"><img src="./assets/icons/search.svg" alt="" class="icon icon-sm"> Search</button>
+        <a href="#" class="btn btn-primary btn-sm">Sign in</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="itin-header">
+  <div class="container">
+    <p class="eyebrow mb-3">Your tour itinerary · Draft v3</p>
+    <input class="trip-name-field wdvb-anim-slide-down-itinerary" value="Berlin in B-minor — long weekend">
+    <div class="row-wrap wdvb-anim-slide-down-itinerary" style="margin-top:var(--space-4)">
+      <span class="date-range-field"><img src="./assets/icons/calendar-days.svg" alt="" class="icon icon-sm"> Thu 14 Mar — Sun 17 Mar 2025</span>
+      <span class="date-range-field"><img src="./assets/icons/map-pin.svg" alt="" class="icon icon-sm"> Berlin, Germany</span>
+      <span class="chip chip-dark"><img src="./assets/icons/users.svg" alt="" class="icon icon-sm"> 2 travelers</span>
+    </div>
+
+    <div class="itin-meta">
+      <div class="itin-stat">
+        <span class="itin-stat-num">6</span>
+        <span class="itin-stat-lab">Shows booked</span>
+      </div>
+      <span class="itin-stat-div"></span>
+      <div class="itin-stat">
+        <span class="itin-stat-num">€ 482</span>
+        <span class="itin-stat-lab">Total spend</span>
+      </div>
+      <span class="itin-stat-div"></span>
+      <div class="itin-stat">
+        <span class="itin-stat-num">4</span>
+        <span class="itin-stat-lab">Nights</span>
+      </div>
+      <span class="itin-stat-div"></span>
+      <div class="itin-stat">
+        <span class="itin-stat-num">11.4 km</span>
+        <span class="itin-stat-lab">Total walking</span>
+      </div>
+    </div>
+
+    <div class="share-row">
+      <a href="#" class="btn btn-alt"><img src="./assets/icons/share-2.svg" alt="" class="icon"> Share itinerary</a>
+      <a href="#" class="btn btn-ghost"><img src="./assets/icons/calendar-plus.svg" alt="" class="icon"> Add a show</a>
+      <a href="#" class="btn btn-ghost"><img src="./assets/icons/sliders-horizontal.svg" alt="" class="icon"> Edit trip details</a>
+    </div>
+  </div>
+</section>
+
+<main class="container">
+  <div class="layout-itin">
+
+    <section>
+      <div class="row-between mb-4">
+        <h2>Timeline</h2>
+        <div class="toggle-group">
+          <span class="toggle-opt active"><img src="./assets/icons/layout-list.svg" alt="" class="icon icon-sm"> Timeline</span>
+          <span class="toggle-opt"><img src="./assets/icons/map.svg" alt="" class="icon icon-sm"> Map</span>
+          <span class="toggle-opt"><img src="./assets/icons/list.svg" alt="" class="icon icon-sm"> List</span>
+        </div>
+      </div>
+
+      <div class="timeline stack-lg">
+
+        <div class="timeline-day">
+          <div class="timeline-rail">
+            <div class="day-pill">
+              <span class="day-pill-mo">Mar</span>
+              <span class="day-pill-day">14</span>
+              <span class="day-pill-name">Thu</span>
+            </div>
+            <p class="timeline-daysub" style="text-align:center;margin-top:var(--space-2)">Arrival day</p>
+          </div>
+          <div class="timeline-events">
+
+            <div class="timeline-card">
+              <span class="timeline-time">17:30</span>
+              <div class="tl-card-body">
+                <span class="tag-beginner"><img src="./assets/icons/sparkles.svg" alt="" class="icon icon-sm"> Easy entry</span>
+                <h3 class="tl-card-title">Welcome Recital — Bach &amp; Chill</h3>
+                <div class="tl-card-meta">
+                  <span class="row"><img src="./assets/icons/landmark.svg" alt="" class="icon icon-sm"> Konzerthaus Mitte</span>
+                  <span class="row"><img src="./assets/icons/footprints.svg" alt="" class="icon icon-sm"> 8 min walk from hotel</span>
+                  <span class="row"><img src="./assets/icons/clock.svg" alt="" class="icon icon-sm"> 70 min, no interval</span>
+                </div>
+                <div class="row-wrap" style="margin-top:6px">
+                  <span class="badge"><img src="./assets/icons/ticket-check.svg" alt="" class="icon icon-sm"> Booked · Row F seat 14</span>
+                  <span class="chip chip-outline">€ 28</span>
+                </div>
+              </div>
+              <button class="remove-btn" aria-label="Remove"><img src="./assets/icons/x.svg" alt="" class="icon icon-sm"></button>
+            </div>
+
+            <div class="timeline-gap">
+              <div class="gap-label">
+                <span class="gap-pill">Free time · 2h 15m</span>
+                <span>Between recital and night cap</span>
+              </div>
+              <div class="gap-grid">
+                <a href="#" class="mini-card">
+                  <span class="mini-card-icon"><img src="./assets/icons/pizza.svg" alt=""></span>
+                  <span class="mini-card-text">
+                    <span class="mini-card-title">Lokal 47</span>
+                    <span class="mini-card-sub">Small plates · 4 min walk</span>
+                  </span>
+                </a>
+                <a href="#" class="mini-card">
+                  <span class="mini-card-icon"><img src="./assets/icons/beer.svg" alt=""></span>
+                  <span class="mini-card-text">
+                    <span class="mini-card-title">Klunkerkranich</span>
+                    <span class="mini-card-sub">Rooftop bar · 11 min</span>
+                  </span>
+                </a>
+                <a href="#" class="mini-card">
+                  <span class="mini-card-icon"><img src="./assets/icons/disc.svg" alt=""></span>
+                  <span class="mini-card-text">
+                    <span class="mini-card-title">Hard Wax Records</span>
+                    <span class="mini-card-sub">Vinyl shop · 6 min</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <div class="timeline-card">
+              <span class="timeline-time">21:45</span>
+              <div class="tl-card-body">
+                <h3 class="tl-card-title">Fleetwood Mac Tribute — Rumours Live</h3>
+                <div class="tl-card-meta">
+                  <span class="row"><img src="./assets/icons/store.svg" alt="" class="icon icon-sm"> Lido Kreuzberg</span>
+                  <span class="row"><img src="./assets/icons/footprints.svg" alt="" class="icon icon-sm"> 22 min walk · or U1</span>
+                  <span class="row"><img src="./assets/icons/volume-2.svg" alt="" class="icon icon-sm"> Loud</span>
+                </div>
+                <div class="row-wrap" style="margin-top:6px">
+                  <span class="badge badge-alt"><img src="./assets/icons/ticket.svg" alt="" class="icon icon-sm"> Reserved · pay by 12 Mar</span>
+                  <span class="chip chip-outline">€ 34</span>
+                </div>
+              </div>
+              <button class="remove-btn" aria-label="Remove"><img src="./assets/icons/x.svg" alt="" class="icon icon-sm"></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-day">
+          <div class="timeline-rail">
+            <div class="day-pill">
+              <span class="day-pill-mo">Mar</span>
+              <span class="day-pill-day">15</span>
+              <span class="day-pill-name">Fri</span>
+            </div>
+            <p class="timeline-daysub" style="text-align:center;margin-top:var(--space-2)">Two-show day</p>
+          </div>
+          <div class="timeline-events">
+
+            <div class="timeline-card">
+              <span class="timeline-time">15:00</span>
+              <div class="tl-card-body">
+                <span class="tag-beginner"><img src="./assets/icons/graduation-cap.svg" alt="" class="icon icon-sm"> Beginner matinee</span>
+                <h3 class="tl-card-title">Schubert for Saturdays — Family Strings Quartet</h3>
+                <div class="tl-card-meta">
+                  <span class="row"><img src="./assets/icons/landmark.svg" alt="" class="icon icon-sm"> Pierre Boulez Saal</span>
+                  <span class="row"><img src="./assets/icons/footprints.svg" alt="" class="icon icon-sm"> 14 min walk</span>
+                  <span class="row"><img src="./assets/icons/armchair.svg" alt="" class="icon icon-sm"> Cushioned seats</span>
+                </div>
+                <div class="row-wrap" style="margin-top:6px">
+                  <span class="badge"><img src="./assets/icons/ticket-check.svg" alt="" class="icon icon-sm"> Booked · Balcony D</span>
+                  <span class="chip chip-outline">€ 22</span>
+                </div>
+              </div>
+              <button class="remove-btn" aria-label="Remove"><img src="./assets/icons/x.svg" alt="" class="icon icon-sm"></button>
+            </div>
+
+            <div class="timeline-gap">
+              <div class="gap-label">
+                <span class="gap-pill">Free time · 4h 30m</span>
+                <span>Dinner &amp; wander before doors</span>
+              </div>
+              <div class="gap-grid">
+                <a href="#" class="mini-card">
+                  <span class="mini-card-icon"><img src="./assets/icons/utensils.svg" alt=""></span>
+                  <span class="mini-card-text">
+                    <span class="mini-card-title">Mustafa's Gemüse</span>
+                    <span class="mini-card-sub">Street eats · 9 min</span>
+                  </span>
+                </a>
+                <a href="#" class="mini-card">
+                  <span class="mini-card-icon"><img src="./assets/icons/wine.svg" alt=""></span>
+                  <span class="mini-card-text">
+                    <span class="mini-card-title">Buck &amp; Breck</span>
+                    <span class="mini-card-sub">Cocktail bar · 12 min</span>
+                  </span>
+                </a>
+                <a href="#" class="mini-card">
+                  <span class="mini-card-icon"><img src="./assets/icons/disc.svg" alt=""></span>
+                  <span class="mini-card-text">
+                    <span class="mini-card-title">Spacehall Records</span>
+                    <span class="mini-card-sub">Crate-digger spot · 7 min</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+
+            <div class="timeline-card">
+              <span class="timeline-time">22:00</span>
+              <div class="tl-card-body">
+                <h3 class="tl-card-title">Talking Heads Reborn — full album tribute</h3>
+                <div class="tl-card-meta">
+                  <span class="row"><img src="./assets/icons/store.svg" alt="" class="icon icon-sm"> Säälchen am Holzmarkt</span>
+                  <span class="row"><img src="./assets/icons/footprints.svg" alt="" class="icon icon-sm"> 18 min walk</span>
+                  <span class="row"><img src="./assets/icons/door-open.svg" alt="" class="icon icon-sm"> Doors 21:15</span>
+                </div>
+                <div class="row-wrap" style="margin-top:6px">
+                  <span class="badge"><img src="./assets/icons/ticket-check.svg" alt="" class="icon icon-sm"> Booked</span>
+                  <span class="chip chip-outline">€ 32</span>
+                </div>
+              </div>
+              <button class="remove-btn" aria-label="Remove"><img src="./assets/icons/x.svg" alt="" class="icon icon-sm"></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-day">
+          <div class="timeline-rail">
+            <div class="day-pill">
+              <span class="day-pill-mo">Mar</span>
+              <span class="day-pill-day">16</span>
+              <span class="day-pill-name">Sat</span>
+            </div>
+            <p class="timeline-daysub" style="text-align:center;margin-top:var(--space-2)">Big night</p>
+          </div>
+          <div class="timeline-events">
+
+            <div class="timeline-card">
+              <span class="timeline-time">19:00</span>
+              <div class="tl-card-body">
+                <h3 class="tl-card-title">Kind of Blue — Miles Davis quintet tribute</h3>
+                <div class="tl-card-meta">
+                  <span class="row"><img src="./assets/icons/store.svg" alt="" class="icon icon-sm"> A-Trane Jazz Club</span>
+                  <span class="row"><img src="./assets/icons/footprints.svg" alt="" class="icon icon-sm"> 25 min · or S-Bahn</span>
+                  <span class="row"><img src="./assets/icons/users.svg" alt="" class="icon icon-sm"> 110-cap room</span>
+                </div>
+                <div class="row-wrap" style="margin-top:6px">
+                  <span class="badge"><img src="./assets/icons/ticket-check.svg" alt="" class="icon icon-sm"> Booked · table 6</span>
+                  <span class="chip chip-outline">€ 41</span>
+                </div>
+              </div>
+              <button class="remove-btn" aria-label="Remove"><img src="./assets/icons/x.svg" alt="" class="icon icon-sm"></button>
+            </div>
+
+            <div class="timeline-card">
+              <span class="timeline-time">23:30</span>
+              <div class="tl-card-body">
+                <h3 class="tl-card-title">Late Set — Anna &amp; The Quiet Storm</h3>
+                <div class="tl-card-meta">
+                  <span class="row"><img src="./assets/icons/store.svg" alt="" class="icon icon-sm"> Quasimodo basement</span>
+                  <span class="row"><img src="./assets/icons/footprints.svg" alt="" class="icon icon-sm"> 4 min from A-Trane</span>
+                  <span class="row"><img src="./assets/icons/volume-1.svg" alt="" class="icon icon-sm"> Mellow</span>
+                </div>
+                <div class="row-wrap" style="margin-top:6px">
+                  <span class="badge badge-neutral"><img src="./assets/icons/heart.svg" alt="" class="icon icon-sm"> Wishlist · not booked</span>
+                  <span class="chip chip-outline">~ € 18</span>
+                </div>
+              </div>
+              <button class="remove-btn" aria-label="Remove"><img src="./assets/icons/x.svg" alt="" class="icon icon-sm"></button>
+            </div>
+
+            <div class="timeline-gap">
+              <div class="gap-label">
+                <span class="gap-pill">Free time · 1h 45m</span>
+                <span>Between sets — stay close</span>
+              </div>
+              <div class="gap-grid">
+                <a href="#" class="mini-card">
+                  <span class="mini-card-icon"><img src="./assets/icons/coffee.svg" alt=""></span>
+                  <span class="mini-card-text">
+                    <span class="mini-card-title">Bonanza Coffee</span>
+                    <span class="mini-card-sub">Late-night espresso · 3 min</span>
+                  </span>
+                </a>
+                <a href="#" class="mini-card">
+                  <span class="mini-card-icon"><img src="./assets/icons/beer.svg" alt=""></span>
+                  <span class="mini-card-text">
+                    <span class="mini-card-title">Tausend Bar</span>
+                    <span class="mini-card-sub">Hidden door · 8 min</span>
+                  </span>
+                </a>
+                <a href="#" class="mini-card">
+                  <span class="mini-card-icon"><img src="./assets/icons/disc.svg" alt=""></span>
+                  <span class="mini-card-text">
+                    <span class="mini-card-title">Audio In Records</span>
+                    <span class="mini-card-sub">Jazz vinyl · 5 min</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-day">
+          <div class="timeline-rail">
+            <div class="day-pill">
+              <span class="day-pill-mo">Mar</span>
+              <span class="day-pill-day">17</span>
+              <span class="day-pill-name">Sun</span>
+            </div>
+            <p class="timeline-daysub" style="text-align:center;margin-top:var(--space-2)">Wind-down</p>
+          </div>
+          <div class="timeline-events">
+
+            <div class="timeline-card">
+              <span class="timeline-time">11:30</span>
+              <div class="tl-card-body">
+                <span class="tag-beginner"><img src="./assets/icons/sparkles.svg" alt="" class="icon icon-sm"> Easy entry</span>
+                <h3 class="tl-card-title">Sunday Organ Matinee — Bach BWV 565</h3>
+                <div class="tl-card-meta">
+                  <span class="row"><img src="./assets/icons/landmark.svg" alt="" class="icon icon-sm"> Berliner Dom</span>
+                  <span class="row"><img src="./assets/icons/footprints.svg" alt="" class="icon icon-sm"> 12 min walk</span>
+                  <span class="row"><img src="./assets/icons/clock.svg" alt="" class="icon icon-sm"> 45 min</span>
+                </div>
+                <div class="row-wrap" style="margin-top:6px">
+                  <span class="badge"><img src="./assets/icons/ticket-check.svg" alt="" class="icon icon-sm"> Booked · open seating</span>
+                  <span class="chip chip-outline">€ 14</span>
+                </div>
+              </div>
+              <button class="remove-btn" aria-label="Remove"><img src="./assets/icons/x.svg" alt="" class="icon icon-sm"></button>
+            </div>
+
+            <div class="timeline-card">
+              <span class="timeline-time">16:00</span>
+              <div class="tl-card-body">
+                <h3 class="tl-card-title">Farewell Set — Cinema Strings (acoustic)</h3>
+                <div class="tl-card-meta">
+                  <span class="row"><img src="./assets/icons/store.svg" alt="" class="icon icon-sm"> Café Cinema, Hackescher Markt</span>
+                  <span class="row"><img src="./assets/icons/footprints.svg" alt="" class="icon icon-sm"> 6 min from train</span>
+                  <span class="row"><img src="./assets/icons/train-front.svg" alt="" class="icon icon-sm"> Train at 19:48</span>
+                </div>
+                <div class="row-wrap" style="margin-top:6px">
+                  <span class="badge badge-alt"><img src="./assets/icons/ticket.svg" alt="" class="icon icon-sm"> Reserved · door pickup</span>
+                  <span class="chip chip-outline">€ 12</span>
+                </div>
+              </div>
+              <button class="remove-btn" aria-label="Remove"><img src="./assets/icons/x.svg" alt="" class="icon icon-sm"></button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <aside class="stack-lg">
+
+      <div class="sidebar-card">
+        <div class="row-between">
+          <h3 class="section-h">Pack list</h3>
+          <span class="muted" style="font-size:var(--text-xs);font-weight:600">4 / 8 ready</span>
+        </div>
+        <ul>
+          <li class="checklist-item">
+            <span class="check-box on"><img src="./assets/icons/check.svg" alt=""></span>
+            <span class="flex-grow"><img src="./assets/icons/ticket.svg" alt="" class="icon icon-sm" style="vertical-align:middle"> Printed tickets &amp; QR codes</span>
+          </li>
+          <li class="checklist-item">
+            <span class="check-box on"><img src="./assets/icons/check.svg" alt=""></span>
+            <span class="flex-grow"><img src="./assets/icons/shield-check.svg" alt="" class="icon icon-sm" style="vertical-align:middle"> Photo ID + EU passport</span>
+          </li>
+          <li class="checklist-item">
+            <span class="check-box on"><img src="./assets/icons/check.svg" alt=""></span>
+            <span class="flex-grow"><img src="./assets/icons/ear.svg" alt="" class="icon icon-sm" style="vertical-align:middle"> Earplugs (musician-grade)</span>
+          </li>
+          <li class="checklist-item">
+            <span class="check-box on"><img src="./assets/icons/check.svg" alt=""></span>
+            <span class="flex-grow"><img src="./assets/icons/banknote.svg" alt="" class="icon icon-sm" style="vertical-align:middle"> Cash for merch (€ 60)</span>
+          </li>
+          <li class="checklist-item">
+            <span class="check-box"></span>
+            <span class="flex-grow"><img src="./assets/icons/backpack.svg" alt="" class="icon icon-sm" style="vertical-align:middle"> Small day-bag (venue rules)</span>
+          </li>
+          <li class="checklist-item">
+            <span class="check-box"></span>
+            <span class="flex-grow"><img src="./assets/icons/phone.svg" alt="" class="icon icon-sm" style="vertical-align:middle"> Power bank + EU adapter</span>
+          </li>
+          <li class="checklist-item">
+            <span class="check-box"></span>
+            <span class="flex-grow"><img src="./assets/icons/camera-off.svg" alt="" class="icon icon-sm" style="vertical-align:middle"> Phone on silent reminder</span>
+          </li>
+          <li class="checklist-item">
+            <span class="check-box"></span>
+            <span class="flex-grow"><img src="./assets/icons/credit-card.svg" alt="" class="icon icon-sm" style="vertical-align:middle"> Contactless card for U-Bahn</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="sidebar-card">
+        <div class="row-between">
+          <h3 class="section-h">Budget</h3>
+          <span class="price">€ 482</span>
+        </div>
+        <div class="budget-bar">
+          <span class="budget-seg" style="width:42%;background:var(--accent)"></span>
+          <span class="budget-seg" style="width:22%;background:var(--accent-alt)"></span>
+          <span class="budget-seg" style="width:24%;background:#e0a72e"></span>
+          <span class="budget-seg" style="width:12%;background:#7a8593"></span>
+        </div>
+        <div class="budget-legend">
+          <div class="budget-legend-item">
+            <span><span class="budget-swatch" style="background:var(--accent)"></span>Tickets</span>
+            <span style="font-weight:600">€ 203</span>
+          </div>
+          <div class="budget-legend-item">
+            <span><span class="budget-swatch" style="background:var(--accent-alt)"></span>Travel</span>
+            <span style="font-weight:600">€ 106</span>
+          </div>
+          <div class="budget-legend-item">
+            <span><span class="budget-swatch" style="background:#e0a72e"></span>Food &amp; drink</span>
+            <span style="font-weight:600">€ 115</span>
+          </div>
+          <div class="budget-legend-item">
+            <span><span class="budget-swatch" style="background:#7a8593"></span>Extras &amp; merch</span>
+            <span style="font-weight:600">€ 58</span>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="row-between" style="font-size:var(--text-sm)">
+          <span class="muted">Per person, per day</span>
+          <span style="font-weight:700">€ 60.25</span>
+        </div>
+      </div>
+
+      <div class="sidebar-card">
+        <h3 class="section-h">Export</h3>
+        <p class="muted" style="font-size:var(--text-sm)">Sync your shows to Apple Calendar, Google, or Outlook in one click.</p>
+        <a href="#" class="btn btn-primary full-width"><img src="./assets/icons/download.svg" alt="" class="icon"> Download .ics</a>
+        <a href="#" class="btn btn-secondary full-width"><img src="./assets/icons/share-2.svg" alt="" class="icon"> Copy share link</a>
+        <a href="#" class="btn btn-secondary full-width"><img src="./assets/icons/map.svg" alt="" class="icon"> Open route map</a>
+      </div>
+
+      <div class="sidebar-card">
+        <h3 class="section-h">Trip mood</h3>
+        <img src="./assets/photos/uFomxGheuGk.jpg" alt="Berlin street at night" class="card-image" style="border-radius:var(--radius-sm)">
+        <p class="muted" style="font-size:var(--text-sm)">Wet cobblestones, soft horns, late S-Bahns. Pack a light jacket — Berlin is around 7° this week.</p>
+      </div>
+
+    </aside>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a href="./home.html" class="brand">
+          <span class="brand-mark"><img src="./assets/icons/disc-3.svg" alt="" class="icon"></span>
+          Sidestage
+        </a>
+        <p class="footer-link" style="max-width:280px">Concert tours, gently. Built for first-timers, classical-curious, and anyone who finds Ticketmaster mildly terrifying.</p>
+        <div class="newsletter mt-2">
+          <input type="email" placeholder="your@email.com">
+          <button class="btn btn-alt btn-sm">Subscribe</button>
+        </div>
+      </div>
+      <div class="footer-col">
+        <span class="footer-title">Explore</span>
+        <a href="./discover.html" class="footer-link">Discover shows</a>
+        <a href="./show.html" class="footer-link">Show pages</a>
+        <a href="./itinerary.html" class="footer-link">Itinerary planner</a>
+        <a href="./guide.html" class="footer-link">Beginner guide</a>
+      </div>
+      <div class="footer-col">
+        <span class="footer-title">Help</span>
+        <a href="#" class="footer-link">How tickets work</a>
+        <a href="#" class="footer-link">Refund policy</a>
+        <a href="#" class="footer-link">Accessibility</a>
+        <a href="#" class="footer-link">Contact</a>
+      </div>
+      <div class="footer-col">
+        <span class="footer-title">Company</span>
+        <a href="#" class="footer-link">About</a>
+        <a href="#" class="footer-link">Venue partners</a>
+        <a href="#" class="footer-link">Press</a>
+        <a href="#" class="footer-link">Careers</a>
+      </div>
+      <div class="footer-col">
+        <span class="footer-title">Legal</span>
+        <a href="#" class="footer-link">Terms</a>
+        <a href="#" class="footer-link">Privacy</a>
+        <a href="#" class="footer-link">Cookies</a>
+        <a href="#" class="footer-link">Imprint</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Sidestage Booking GmbH · Berlin</span>
+      <span>Made for beginners. Loud enough for the rest.</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

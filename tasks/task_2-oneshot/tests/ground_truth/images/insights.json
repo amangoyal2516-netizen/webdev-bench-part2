@@ -1,0 +1,366 @@
+[
+  {
+    "src": "./assets/icons/music-2.svg",
+    "alt": "",
+    "x": 117,
+    "y": 28.1875,
+    "w": 18,
+    "h": 18,
+    "phash": "b7e0cc3790879a39",
+    "lab_mean": [
+      45.01,
+      12.65,
+      -22.94
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 1174.671875,
+    "y": 28.171875,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.08,
+      -5.67,
+      5.58
+    ]
+  },
+  {
+    "src": "./assets/icons/bell.svg",
+    "alt": "",
+    "x": 1250,
+    "y": 28.1875,
+    "w": 18,
+    "h": 18,
+    "phash": "bfbcb06383a24b83",
+    "lab_mean": [
+      12.85,
+      8.7,
+      -13.63
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-04.svg",
+    "alt": "Mira Holloway",
+    "x": 1291,
+    "y": 19.1875,
+    "w": 36,
+    "h": 36,
+    "phash": "9823c59c93636dce",
+    "lab_mean": [
+      30.99,
+      4.41,
+      -10.07
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar-days.svg",
+    "alt": "",
+    "x": 172,
+    "y": 145.390625,
+    "w": 18,
+    "h": 18,
+    "phash": "ae68add0adc295c6",
+    "lab_mean": [
+      16.93,
+      6.79,
+      -17.45
+    ]
+  },
+  {
+    "src": "./assets/icons/trending-up.svg",
+    "alt": "",
+    "x": 172,
+    "y": 305.078125,
+    "w": 18,
+    "h": 18,
+    "phash": "fa5884a739d8466e",
+    "lab_mean": [
+      25.26,
+      5.16,
+      -13.72
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar-check.svg",
+    "alt": "",
+    "x": 355.578125,
+    "y": 305.078125,
+    "w": 18,
+    "h": 18,
+    "phash": "fe6cb990ec9390c4",
+    "lab_mean": [
+      10.21,
+      6.9,
+      -11.06
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 514.515625,
+    "y": 305.078125,
+    "w": 18,
+    "h": 18,
+    "phash": "b6e2b62c4915a5b5",
+    "lab_mean": [
+      21.05,
+      12.3,
+      -13.0
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-left.svg",
+    "alt": "",
+    "x": 1122.6875,
+    "y": 147.390625,
+    "w": 18,
+    "h": 18,
+    "phash": "e659cc319b446675",
+    "lab_mean": [
+      24.34,
+      13.65,
+      -21.59
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-right.svg",
+    "alt": "",
+    "x": 1248,
+    "y": 147.390625,
+    "w": 18,
+    "h": 18,
+    "phash": "b35c994cce343399",
+    "lab_mean": [
+      30.61,
+      17.08,
+      -18.84
+    ]
+  },
+  {
+    "src": "./assets/icons/share-2.svg",
+    "alt": "",
+    "x": 1123.28125,
+    "y": 204.984375,
+    "w": 18,
+    "h": 18,
+    "phash": "ea19c84b993c6f94",
+    "lab_mean": [
+      45.77,
+      26.74,
+      -3.79
+    ]
+  },
+  {
+    "src": "./assets/icons/timer.svg",
+    "alt": "",
+    "x": 138,
+    "y": 477.46875,
+    "w": 18,
+    "h": 18,
+    "phash": "eee5b192c64d9930",
+    "lab_mean": [
+      20.85,
+      7.98,
+      -20.8
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-up.svg",
+    "alt": "",
+    "x": 331.265625,
+    "y": 477.46875,
+    "w": 18,
+    "h": 18,
+    "phash": "b634d1d3c96c24b6",
+    "lab_mean": [
+      25.4,
+      5.32,
+      -13.3
+    ]
+  },
+  {
+    "src": "./assets/icons/guitar.svg",
+    "alt": "",
+    "x": 446,
+    "y": 477.46875,
+    "w": 18,
+    "h": 18,
+    "phash": "afc8db86bc32e00b",
+    "lab_mean": [
+      21.79,
+      13.08,
+      -13.16
+    ]
+  },
+  {
+    "src": "./assets/icons/target.svg",
+    "alt": "",
+    "x": 754,
+    "y": 477.46875,
+    "w": 18,
+    "h": 18,
+    "phash": "bb1fec6094649197",
+    "lab_mean": [
+      16.1,
+      6.37,
+      -16.51
+    ]
+  },
+  {
+    "src": "./assets/icons/trophy.svg",
+    "alt": "",
+    "x": 1062,
+    "y": 477.46875,
+    "w": 18,
+    "h": 18,
+    "phash": "ac0b7af4ad9ca324",
+    "lab_mean": [
+      20.66,
+      9.62,
+      -4.25
+    ]
+  },
+  {
+    "src": "./assets/icons/sliders-horizontal.svg",
+    "alt": "",
+    "x": 1229,
+    "y": 688.625,
+    "w": 18,
+    "h": 18,
+    "phash": "ec26c759901b91db",
+    "lab_mean": [
+      12.55,
+      8.45,
+      -13.32
+    ]
+  },
+  {
+    "src": "./assets/icons/download.svg",
+    "alt": "",
+    "x": 1275,
+    "y": 688.625,
+    "w": 18,
+    "h": 18,
+    "phash": "b6e4cf93380cc333",
+    "lab_mean": [
+      13.02,
+      8.75,
+      -13.72
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1272,
+    "y": 1146.3125,
+    "w": 18,
+    "h": 18,
+    "phash": "eccc92935963c476",
+    "lab_mean": [
+      18.49,
+      11.43,
+      -18.46
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 150,
+    "y": 1223.03125,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      24.66,
+      11.31,
+      -4.9
+    ]
+  },
+  {
+    "src": "./assets/icons/trophy.svg",
+    "alt": "",
+    "x": 150,
+    "y": 1339.84375,
+    "w": 18,
+    "h": 18,
+    "phash": "b84b2bb4ed8da330",
+    "lab_mean": [
+      17.74,
+      6.92,
+      -17.87
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 150,
+    "y": 1456.65625,
+    "w": 18,
+    "h": 18,
+    "phash": "b6e2b60d4905b5b5",
+    "lab_mean": [
+      19.72,
+      11.97,
+      -12.09
+    ]
+  },
+  {
+    "src": "./assets/icons/medal.svg",
+    "alt": "",
+    "x": 150,
+    "y": 1573.46875,
+    "w": 18,
+    "h": 18,
+    "phash": "b90ec4b9e6e69164",
+    "lab_mean": [
+      16.75,
+      6.53,
+      -16.96
+    ]
+  },
+  {
+    "src": "./assets/icons/award.svg",
+    "alt": "",
+    "x": 150,
+    "y": 1690.28125,
+    "w": 18,
+    "h": 18,
+    "phash": "bc9be330a28f8b26",
+    "lab_mean": [
+      22.39,
+      13.38,
+      -13.46
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 150,
+    "y": 1807.09375,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      24.66,
+      11.31,
+      -4.9
+    ]
+  },
+  {
+    "src": "./assets/icons/star.svg",
+    "alt": "",
+    "x": 150,
+    "y": 1923.90625,
+    "w": 18,
+    "h": 18,
+    "phash": "afa2b4b38b0ed82c",
+    "lab_mean": [
+      20.18,
+      7.79,
+      -20.15
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+# Harbor task manifest (schema 1.2). Filled in by recipe/03-package/ at
+# packaging time. The `environment/Dockerfile` is self-contained (bake-in)
+# so Modal can build it from python:3.11-slim without a private registry.
+
+schema_version = "1.2"
+
+# Preserve the agent's HTML/CSS output for post-hoc inspection. Harbor's
+# `_collect_artifacts` runs AFTER the agent finishes and BEFORE the verifier
+# runs, so anything test.sh writes to /logs/artifacts is dead-on-arrival.
+# /workspace/output is where both Oracle (solve.sh cp) and Claude Code (agent
+# direct writes) land their HTML — declaring it here makes Harbor pull the
+# whole tree into jobs/<job>/<trial>/artifacts/output/.
+artifacts = [
+    { source = "/workspace/output", destination = "output" },
+]
+
+[task]
+name = "webdev-bench/task_3-oneshot"
+description = "A community social feed for senior crafters to share handmade projects, swap patterns, and follow makers — chronological timeline with large readable type and senior-friendly affordances"
+keywords = ["webdev-bench", "design-replication", "html-css"]
+[[task.authors]]
+name = "webdev-bench"
+
+[metadata]
+task_id = "task_3"
+variant = "oneshot"
+
+[verifier]
+timeout_sec = 1800.0
+
+[verifier.env]
+
+[agent]
+# 60 min — bumped to 45 min when a campaign saw all 20 trials still
+# running at the 30 min mark with no exits, then to 60 after the 45 min
+# cap was still tight in practice. Opus 4.7 on a 5-6 page reproduction
+# can spend 10-15 min on analysis (pixel-sampling reference screenshots,
+# planning the structure) before writing HTML — extra room lets it
+# actually finish.
+timeout_sec = 3600.0
+
+[environment]
+build_timeout_sec = 1800.0
+os = "linux"
+cpus = 2
+memory_mb = 4096
+storage_mb = 10240
+gpus = 0
+# Vendoring is enforced by convention via instruction.md and the soft
+# `vendored_assets_only` prereq, not by Harbor's allow_internet flag.
+allow_internet = true
+mcp_servers = []
+
+[environment.env]
+
+[solution.env]

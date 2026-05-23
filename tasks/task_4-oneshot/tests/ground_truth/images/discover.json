@@ -1,0 +1,870 @@
+[
+  {
+    "src": "./assets/icons/music.svg",
+    "alt": "",
+    "x": 87,
+    "y": 23,
+    "w": 24,
+    "h": 24,
+    "phash": "851d78b23b666b62",
+    "lab_mean": [
+      55.48,
+      -19.76,
+      -6.14
+    ]
+  },
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 1133.5625,
+    "y": 24.15625,
+    "w": 16,
+    "h": 16,
+    "phash": "eb25f03483d28dcb",
+    "lab_mean": [
+      16.23,
+      -0.83,
+      -6.54
+    ]
+  },
+  {
+    "src": "./assets/icons/tickets.svg",
+    "alt": "",
+    "x": 1178.5625,
+    "y": 23,
+    "w": 24,
+    "h": 24,
+    "phash": "e116167b39e165c5",
+    "lab_mean": [
+      43.88,
+      -0.72,
+      -5.61
+    ]
+  },
+  {
+    "src": "./assets/icons/layout-list.svg",
+    "alt": "",
+    "x": 1199.171875,
+    "y": 206.1875,
+    "w": 16,
+    "h": 16,
+    "phash": "bb339413dc89c3cc",
+    "lab_mean": [
+      70.46,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/map.svg",
+    "alt": "",
+    "x": 1288.78125,
+    "y": 206.1875,
+    "w": 16,
+    "h": 16,
+    "phash": "aff0af9bc007d405",
+    "lab_mean": [
+      63.17,
+      -0.55,
+      -1.45
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 163.484375,
+    "y": 285.484375,
+    "w": 16,
+    "h": 16,
+    "phash": "d91d5df036c24a4b",
+    "lab_mean": [
+      39.2,
+      -0.66,
+      -3.91
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar-days.svg",
+    "alt": "",
+    "x": 498.140625,
+    "y": 285.484375,
+    "w": 16,
+    "h": 16,
+    "phash": "aa38bc94b497d1c3",
+    "lab_mean": [
+      61.74,
+      -0.52,
+      -1.4
+    ]
+  },
+  {
+    "src": "./assets/icons/music-2.svg",
+    "alt": "",
+    "x": 678.171875,
+    "y": 285.484375,
+    "w": 16,
+    "h": 16,
+    "phash": "b7e0cc3790979a19",
+    "lab_mean": [
+      77.16,
+      -0.79,
+      -1.68
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 775.78125,
+    "y": 285.484375,
+    "w": 16,
+    "h": 16,
+    "phash": "bd0dc2e22c1d8fe2",
+    "lab_mean": [
+      86.3,
+      -0.9,
+      -1.86
+    ]
+  },
+  {
+    "src": "./assets/photos/A9kYGeJkMZE.jpg",
+    "alt": "Cinematic silhouette concert moment",
+    "x": 85,
+    "y": 401.375,
+    "w": 275.328125,
+    "h": 220.25,
+    "phash": "d34c4ca3499c731f",
+    "lab_mean": [
+      71.63,
+      -0.8,
+      10.74
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 107,
+    "y": 418.671875,
+    "w": 16,
+    "h": 16,
+    "phash": "a6e2a21fc91da5b4",
+    "lab_mean": [
+      65.28,
+      -5.23,
+      -2.04
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 101,
+    "y": 725.8125,
+    "w": 16,
+    "h": 16,
+    "phash": "ab3bf0ccb2248b33",
+    "lab_mean": [
+      75.97,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 101,
+    "y": 766.34375,
+    "w": 16,
+    "h": 16,
+    "phash": "8a3cbc94b59781d3",
+    "lab_mean": [
+      69.84,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 172.625,
+    "y": 822.171875,
+    "w": 16,
+    "h": 16,
+    "phash": "af3bc510b1c58ec6",
+    "lab_mean": [
+      74.32,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 320.328125,
+    "y": 822.1875,
+    "w": 16,
+    "h": 16,
+    "phash": "cc8d337293376c98",
+    "lab_mean": [
+      46.76,
+      -23.55,
+      -7.32
+    ]
+  },
+  {
+    "src": "./assets/photos/JRsZWmRd_Ws.jpg",
+    "alt": "Cathedral interior with golden light",
+    "x": 386.328125,
+    "y": 401.375,
+    "w": 275.328125,
+    "h": 220.25,
+    "phash": "c0c064e2e63f1f1f",
+    "lab_mean": [
+      24.74,
+      2.03,
+      6.91
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 408.328125,
+    "y": 418.671875,
+    "w": 16,
+    "h": 16,
+    "phash": "a6e2a21fc91da5b4",
+    "lab_mean": [
+      65.28,
+      -5.23,
+      -2.04
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 402.328125,
+    "y": 725.8125,
+    "w": 16,
+    "h": 16,
+    "phash": "ab3bf0ccb2248b33",
+    "lab_mean": [
+      75.97,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 402.328125,
+    "y": 766.34375,
+    "w": 16,
+    "h": 16,
+    "phash": "8a3cbc94b59781d3",
+    "lab_mean": [
+      69.84,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 473.953125,
+    "y": 822.171875,
+    "w": 16,
+    "h": 16,
+    "phash": "af3bc510b1c58ec6",
+    "lab_mean": [
+      74.32,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 621.65625,
+    "y": 822.1875,
+    "w": 16,
+    "h": 16,
+    "phash": "cc8d337293376c98",
+    "lab_mean": [
+      46.76,
+      -23.55,
+      -7.32
+    ]
+  },
+  {
+    "src": "./assets/photos/UPWuKzAcuUI.jpg",
+    "alt": "Person under aurora lights",
+    "x": 687.65625,
+    "y": 401.375,
+    "w": 275.34375,
+    "h": 220.265625,
+    "phash": "e6e9360e4fe4134c",
+    "lab_mean": [
+      43.01,
+      -6.67,
+      -17.75
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 703.65625,
+    "y": 748.328125,
+    "w": 16,
+    "h": 16,
+    "phash": "ab3bf0ccb2248b33",
+    "lab_mean": [
+      75.97,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 703.65625,
+    "y": 788.859375,
+    "w": 16,
+    "h": 16,
+    "phash": "8a3cbc94b59781d3",
+    "lab_mean": [
+      69.84,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 775.28125,
+    "y": 844.6875,
+    "w": 16,
+    "h": 16,
+    "phash": "af3bc510b1c58ec6",
+    "lab_mean": [
+      74.32,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 923,
+    "y": 844.703125,
+    "w": 16,
+    "h": 16,
+    "phash": "cc8d337293376c98",
+    "lab_mean": [
+      46.76,
+      -23.55,
+      -7.32
+    ]
+  },
+  {
+    "src": "./assets/photos/wdL8UywQtWU.jpg",
+    "alt": "Audience silhouettes at concert",
+    "x": 85,
+    "y": 906.703125,
+    "w": 275.328125,
+    "h": 220.25,
+    "phash": "c0c2ecb05bc6376b",
+    "lab_mean": [
+      42.25,
+      -11.0,
+      -12.28
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 107,
+    "y": 924,
+    "w": 16,
+    "h": 16,
+    "phash": "a6e2a21fc91da5b4",
+    "lab_mean": [
+      65.28,
+      -5.23,
+      -2.04
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 101,
+    "y": 1220.296875,
+    "w": 16,
+    "h": 16,
+    "phash": "ab3bf0ccb2248b33",
+    "lab_mean": [
+      75.97,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 101,
+    "y": 1249.984375,
+    "w": 16,
+    "h": 16,
+    "phash": "8a3cbc94b597c5c2",
+    "lab_mean": [
+      69.92,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 172.625,
+    "y": 1305.8125,
+    "w": 16,
+    "h": 16,
+    "phash": "af3bc510b1c58ec6",
+    "lab_mean": [
+      74.32,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 320.328125,
+    "y": 1305.828125,
+    "w": 16,
+    "h": 16,
+    "phash": "cc8d337293376c98",
+    "lab_mean": [
+      46.76,
+      -23.55,
+      -7.32
+    ]
+  },
+  {
+    "src": "./assets/photos/4e9eeHdiBi0.jpg",
+    "alt": "Night city skyline",
+    "x": 386.328125,
+    "y": 906.703125,
+    "w": 275.328125,
+    "h": 220.25,
+    "phash": "983f629b8ea138e6",
+    "lab_mean": [
+      18.95,
+      -4.35,
+      -3.02
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 402.328125,
+    "y": 1231.140625,
+    "w": 16,
+    "h": 16,
+    "phash": "ab3bf0ccb2248b33",
+    "lab_mean": [
+      75.97,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 402.328125,
+    "y": 1271.671875,
+    "w": 16,
+    "h": 16,
+    "phash": "8a3cbc94b59781d3",
+    "lab_mean": [
+      69.84,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 473.953125,
+    "y": 1327.5,
+    "w": 16,
+    "h": 16,
+    "phash": "af3bc510b1c58ec6",
+    "lab_mean": [
+      74.32,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 621.65625,
+    "y": 1327.515625,
+    "w": 16,
+    "h": 16,
+    "phash": "cc8d337293376c98",
+    "lab_mean": [
+      46.76,
+      -23.55,
+      -7.32
+    ]
+  },
+  {
+    "src": "./assets/photos/Yr1SCCRJXIY.jpg",
+    "alt": "Silhouetted figure on mountain peak",
+    "x": 687.65625,
+    "y": 906.703125,
+    "w": 275.34375,
+    "h": 220.265625,
+    "phash": "86d0782782f87d1f",
+    "lab_mean": [
+      46.06,
+      -3.6,
+      4.74
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 709.65625,
+    "y": 924,
+    "w": 16,
+    "h": 16,
+    "phash": "a6e2a21fc91da5b4",
+    "lab_mean": [
+      65.28,
+      -5.23,
+      -2.04
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 703.65625,
+    "y": 1231.15625,
+    "w": 16,
+    "h": 16,
+    "phash": "ab3bf0ccb2248b33",
+    "lab_mean": [
+      75.97,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 703.65625,
+    "y": 1271.6875,
+    "w": 16,
+    "h": 16,
+    "phash": "8a3cbc94b59781d3",
+    "lab_mean": [
+      69.84,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 775.28125,
+    "y": 1327.515625,
+    "w": 16,
+    "h": 16,
+    "phash": "af3bc510b1c58ec6",
+    "lab_mean": [
+      74.32,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 923,
+    "y": 1327.53125,
+    "w": 16,
+    "h": 16,
+    "phash": "cc8d337293376c98",
+    "lab_mean": [
+      46.76,
+      -23.55,
+      -7.32
+    ]
+  },
+  {
+    "src": "./assets/photos/uFomxGheuGk.jpg",
+    "alt": "Night street with figure walking",
+    "x": 85,
+    "y": 1389.53125,
+    "w": 275.328125,
+    "h": 220.25,
+    "phash": "9ace62b3cdcc6621",
+    "lab_mean": [
+      26.36,
+      5.53,
+      -2.03
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 101,
+    "y": 1725.625,
+    "w": 16,
+    "h": 16,
+    "phash": "ab3bf0ccb2248b33",
+    "lab_mean": [
+      75.97,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 101,
+    "y": 1755.3125,
+    "w": 16,
+    "h": 16,
+    "phash": "8a3cbc94b597c5c2",
+    "lab_mean": [
+      69.92,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 172.625,
+    "y": 1811.140625,
+    "w": 16,
+    "h": 16,
+    "phash": "af3bc510b1c58ec6",
+    "lab_mean": [
+      74.32,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 320.328125,
+    "y": 1811.15625,
+    "w": 16,
+    "h": 16,
+    "phash": "cc8d337293376c98",
+    "lab_mean": [
+      46.76,
+      -23.55,
+      -7.32
+    ]
+  },
+  {
+    "src": "./assets/photos/CF33GT7iM9c.jpg",
+    "alt": "Two people sharing warm drinks",
+    "x": 386.328125,
+    "y": 1389.53125,
+    "w": 275.328125,
+    "h": 220.25,
+    "phash": "d089adda69368a3e",
+    "lab_mean": [
+      65.94,
+      6.14,
+      2.36
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 408.328125,
+    "y": 1406.828125,
+    "w": 16,
+    "h": 16,
+    "phash": "a6e2a21fc91da5b4",
+    "lab_mean": [
+      65.28,
+      -5.23,
+      -2.04
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 402.328125,
+    "y": 1736.46875,
+    "w": 16,
+    "h": 16,
+    "phash": "ab3bf0ccb2248b33",
+    "lab_mean": [
+      75.97,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 402.328125,
+    "y": 1777,
+    "w": 16,
+    "h": 16,
+    "phash": "8a3cbc94b597c5c2",
+    "lab_mean": [
+      69.92,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 473.953125,
+    "y": 1832.828125,
+    "w": 16,
+    "h": 16,
+    "phash": "af3bc510b1c58ec6",
+    "lab_mean": [
+      74.32,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 621.65625,
+    "y": 1832.84375,
+    "w": 16,
+    "h": 16,
+    "phash": "cc8d337293376c98",
+    "lab_mean": [
+      46.76,
+      -23.55,
+      -7.32
+    ]
+  },
+  {
+    "src": "./assets/photos/JHHDUs23wjA.jpg",
+    "alt": "Cinematic city under orange clouds",
+    "x": 687.65625,
+    "y": 1389.53125,
+    "w": 275.34375,
+    "h": 220.265625,
+    "phash": "9bbbf99d6c842824",
+    "lab_mean": [
+      15.92,
+      10.19,
+      -4.17
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 703.65625,
+    "y": 1725.640625,
+    "w": 16,
+    "h": 16,
+    "phash": "ab3bf0ccb2248b33",
+    "lab_mean": [
+      75.97,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 703.65625,
+    "y": 1755.328125,
+    "w": 16,
+    "h": 16,
+    "phash": "8a3cbc94b597c5c2",
+    "lab_mean": [
+      69.92,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 775.28125,
+    "y": 1811.15625,
+    "w": 16,
+    "h": 16,
+    "phash": "af3bc510b1c58ec6",
+    "lab_mean": [
+      74.32,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 923,
+    "y": 1811.171875,
+    "w": 16,
+    "h": 16,
+    "phash": "cc8d337293376c98",
+    "lab_mean": [
+      46.76,
+      -23.55,
+      -7.32
+    ]
+  },
+  {
+    "src": "./assets/icons/external-link.svg",
+    "alt": "",
+    "x": 1324,
+    "y": 416.375,
+    "w": 16,
+    "h": 16,
+    "phash": "94a50734595b7bc6",
+    "lab_mean": [
+      31.58,
+      -1.0,
+      -7.6
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 629.984375,
+    "y": 1932.84375,
+    "w": 16,
+    "h": 16,
+    "phash": "b366cc982cc9d336",
+    "lab_mean": [
+      89.64,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/music.svg",
+    "alt": "",
+    "x": 87,
+    "y": 2086.84375,
+    "w": 24,
+    "h": 24,
+    "phash": "851d78b23b666b62",
+    "lab_mean": [
+      55.45,
+      -19.78,
+      -6.14
+    ]
+  }
+]

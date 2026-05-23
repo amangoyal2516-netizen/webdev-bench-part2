@@ -1,0 +1,198 @@
+[
+  {
+    "src": "./assets/icons/landmark.svg",
+    "alt": "",
+    "x": 136,
+    "y": 28,
+    "w": 28,
+    "h": 28,
+    "phash": "c06b790b0f2f3cb4",
+    "lab_mean": [
+      50.63,
+      8.54,
+      14.09
+    ]
+  },
+  {
+    "src": "./assets/icons/languages.svg",
+    "alt": "",
+    "x": 934.5,
+    "y": 33,
+    "w": 18,
+    "h": 18,
+    "phash": "f8b3c44b99d0ca66",
+    "lab_mean": [
+      72.47,
+      0.82,
+      15.09
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1083.28125,
+    "y": 33,
+    "w": 18,
+    "h": 18,
+    "phash": "b80cc7b3380ccbf3",
+    "lab_mean": [
+      86.18,
+      0.96,
+      17.86
+    ]
+  },
+  {
+    "src": "./assets/icons/message-circle.svg",
+    "alt": "",
+    "x": 1157.28125,
+    "y": 32,
+    "w": 20,
+    "h": 20,
+    "phash": "f403d21f4b3e29f0",
+    "lab_mean": [
+      62.43,
+      30.99,
+      34.13
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-check.svg",
+    "alt": "",
+    "x": 138,
+    "y": 243.953125,
+    "w": 14,
+    "h": 14,
+    "phash": "c5b3134ccf3338cc",
+    "lab_mean": [
+      46.3,
+      9.14,
+      15.2
+    ]
+  },
+  {
+    "src": "./assets/icons/message-square-text.svg",
+    "alt": "",
+    "x": 160,
+    "y": 599.65625,
+    "w": 26,
+    "h": 26,
+    "phash": "cd8b708572932f69",
+    "lab_mean": [
+      68.31,
+      25.83,
+      28.44
+    ]
+  },
+  {
+    "src": "./assets/photos/rH810coWgTI.jpg",
+    "alt": "A friendly wooden bridge in a Westbrook city park during daytime",
+    "x": 822.59375,
+    "y": 163,
+    "w": 489.40625,
+    "h": 613.75,
+    "phash": "82d53ba5c86b1736",
+    "lab_mean": [
+      54.03,
+      -3.77,
+      -6.93
+    ]
+  },
+  {
+    "src": "./assets/icons/trash-2.svg",
+    "alt": "",
+    "x": 174,
+    "y": 1157.140625,
+    "w": 32,
+    "h": 32,
+    "phash": "ae20b1f2f4da930b",
+    "lab_mean": [
+      53.28,
+      8.32,
+      38.31
+    ]
+  },
+  {
+    "src": "./assets/icons/file-text.svg",
+    "alt": "",
+    "x": 579.328125,
+    "y": 1157.140625,
+    "w": 32,
+    "h": 32,
+    "phash": "afa5b4b6b09a704a",
+    "lab_mean": [
+      50.49,
+      7.91,
+      36.41
+    ]
+  },
+  {
+    "src": "./assets/icons/trees.svg",
+    "alt": "",
+    "x": 984.65625,
+    "y": 1157.140625,
+    "w": 32,
+    "h": 32,
+    "phash": "aba5f452837d9928",
+    "lab_mean": [
+      57.78,
+      9.0,
+      41.43
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-question-mark.svg",
+    "alt": "",
+    "x": 180,
+    "y": 2363.46875,
+    "w": 20,
+    "h": 20,
+    "phash": "e620b99be46c9333",
+    "lab_mean": [
+      77.82,
+      1.27,
+      12.58
+    ]
+  },
+  {
+    "src": "./assets/photos/6LkxufmApSk.jpg",
+    "alt": "Aerial view of a city park bridge near Westbrook City Hall",
+    "x": 1006,
+    "y": 2173.546875,
+    "w": 276,
+    "h": 276,
+    "phash": "cad933206fe0eb0e",
+    "lab_mean": [
+      52.25,
+      -5.47,
+      18.32
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 1110.3309326171875,
+    "y": 2308.990478515625,
+    "w": 18,
+    "h": 18,
+    "phash": "85e15e66595e6159",
+    "lab_mean": [
+      59.8,
+      32.63,
+      36.02
+    ]
+  },
+  {
+    "src": "./assets/icons/triangle-alert.svg",
+    "alt": "",
+    "x": 140,
+    "y": 2816.03125,
+    "w": 20,
+    "h": 20,
+    "phash": "d54b0f3c40a333f3",
+    "lab_mean": [
+      62.35,
+      30.99,
+      34.19
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "selector": ".wdvb-anim-scale-up-post",
+  "bbox": [
+    104.0,
+    402.984375,
+    1096.0,
+    730.890625
+  ],
+  "type": "scale-up",
+  "duration_ms": 1500,
+  "easing": "ease-in-out"
+}

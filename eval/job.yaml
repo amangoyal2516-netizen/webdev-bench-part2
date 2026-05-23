@@ -1,0 +1,51 @@
+# Harbor JobConfig — full eval campaign.
+# 10 trials = 10 designs × 1 oneshot variant × 1 attempt each. Part 2
+# dropped the iter variant.
+# Run via:  bash eval/run.sh
+#
+# Schema: harbor.models.job.config:JobConfig (Harbor 0.7.x).
+# Env-var templating: Harbor expands ${VAR} from os.environ at run time
+# (harbor/utils/env.py:_TEMPLATE_PATTERN), so secrets stay out of the repo.
+#
+# Modal-as-environment requires base-verifier image in a Modal-reachable
+# registry, which isn't set up yet (see infra/modal/harbor_runner.py — stub).
+# Defaults to local docker; flip environment.type to "modal" when the
+# registry story is ready.
+
+job_name: webdev-bench-full
+n_attempts: 1
+n_concurrent_trials: 32
+
+environment:
+  type: modal
+
+agents:
+  - name: claude-code
+    model_name: claude-opus-4-7
+    env:
+      ANTHROPIC_API_KEY: "${ANTHROPIC_API_KEY}"
+
+verifier:
+  # Track B fires when RUN_TRACK_B=1 (see tasks/_template/tests/test.sh).
+  # Aggregator passes --run-track-b; the judge needs ANTHROPIC_API_KEY
+  # for the MLLM judge calls.
+  env:
+    RUN_TRACK_B: "1"
+    ANTHROPIC_API_KEY: "${ANTHROPIC_API_KEY}"
+
+# 10 designs × 1 oneshot variant. Filtered down from the 24 successful
+# generations for maximum diversity (family / palette / layout / domain).
+# Coverage: 5 dark + 5 light; 10 distinct accent palettes; ~10 distinct
+# domains; layout mix of dashboards, marketing, editorial, e-commerce,
+# kanban, sidebar-app, public archive, content-learning.
+tasks:
+  - path: tasks/task_3-oneshot    # nonprofit impact analytics  (dark, purple/orange)
+  - path: tasks/task_8-oneshot    # carbon scope 1/2/3 dashboard (dark, neon green)
+  - path: tasks/task_13-oneshot   # dev API marketing landing    (light, white/blue)
+  - path: tasks/task_17-oneshot   # kids astronomy reader        (light, coral/green)
+  - path: tasks/task_18-oneshot   # cookbook publisher kanban    (light, gold/brown)
+  - path: tasks/task_20-oneshot   # mindfulness as issue tracker (dark, magenta)
+  - path: tasks/task_22-oneshot   # litigation sidebar app       (dark, forest/cream)
+  - path: tasks/task_27-oneshot   # woodworking chronological    (light, grey/orange)
+  - path: tasks/task_29-oneshot   # architecture editorial mag   (dark, slate/teal)
+  - path: tasks/task_30-oneshot   # civic dining public archive  (light, white/blue)

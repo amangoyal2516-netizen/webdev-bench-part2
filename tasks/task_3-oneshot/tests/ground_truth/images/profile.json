@@ -1,0 +1,590 @@
+[
+  {
+    "src": "./assets/icons/scissors.svg",
+    "alt": "",
+    "x": 34,
+    "y": 30.5,
+    "w": 24,
+    "h": 24,
+    "phash": "bbc0dae4e6098dc3",
+    "lab_mean": [
+      36.62,
+      29.87,
+      32.68
+    ]
+  },
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 323.546875,
+    "y": 31.5,
+    "w": 22,
+    "h": 22,
+    "phash": "eb25f03c83528dcb",
+    "lab_mean": [
+      75.3,
+      0.8,
+      8.16
+    ]
+  },
+  {
+    "src": "./assets/icons/bell.svg",
+    "alt": "",
+    "x": 1199,
+    "y": 31.5,
+    "w": 22,
+    "h": 22,
+    "phash": "afecf02283b64a93",
+    "lab_mean": [
+      75.08,
+      0.76,
+      8.17
+    ]
+  },
+  {
+    "src": "./assets/icons/badge-question-mark.svg",
+    "alt": "",
+    "x": 1271,
+    "y": 31.5,
+    "w": 22,
+    "h": 22,
+    "phash": "ee20b99bc46c9333",
+    "lab_mean": [
+      68.63,
+      0.7,
+      7.5
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-04.svg",
+    "alt": "Your avatar",
+    "x": 1336,
+    "y": 22.5,
+    "w": 40,
+    "h": 40,
+    "phash": "b833c198c36b4de5",
+    "lab_mean": [
+      68.29,
+      0.6,
+      8.19
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1384,
+    "y": 33.5,
+    "w": 18,
+    "h": 18,
+    "phash": "b80cc7b3384ccbb3",
+    "lab_mean": [
+      88.03,
+      0.94,
+      9.44
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-02.svg",
+    "alt": "Margaret Holloway's avatar",
+    "x": 137,
+    "y": 236.375,
+    "w": 160,
+    "h": 160,
+    "phash": "bc70c09e8fc93cc5",
+    "lab_mean": [
+      74.01,
+      0.4,
+      7.8
+    ]
+  },
+  {
+    "src": "./assets/icons/palette.svg",
+    "alt": "",
+    "x": 347,
+    "y": 286.78125,
+    "w": 16,
+    "h": 16,
+    "phash": "ae59b02dd1b5c392",
+    "lab_mean": [
+      35.4,
+      29.3,
+      32.04
+    ]
+  },
+  {
+    "src": "./assets/icons/ribbon.svg",
+    "alt": "",
+    "x": 475.4375,
+    "y": 286.78125,
+    "w": 16,
+    "h": 16,
+    "phash": "bc33c6c6916fc431",
+    "lab_mean": [
+      66.86,
+      0.0,
+      4.94
+    ]
+  },
+  {
+    "src": "./assets/icons/leaf.svg",
+    "alt": "",
+    "x": 675.359375,
+    "y": 286.78125,
+    "w": 16,
+    "h": 16,
+    "phash": "baeae10bd7849c32",
+    "lab_mean": [
+      74.84,
+      0.0,
+      5.48
+    ]
+  },
+  {
+    "src": "./assets/icons/scissors.svg",
+    "alt": "",
+    "x": 871.71875,
+    "y": 286.78125,
+    "w": 16,
+    "h": 16,
+    "phash": "bb20da91f624ad99",
+    "lab_mean": [
+      73.79,
+      0.0,
+      5.41
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 329,
+    "y": 337.96875,
+    "w": 20,
+    "h": 20,
+    "phash": "fb2ab48d8330cb33",
+    "lab_mean": [
+      70.81,
+      0.2,
+      7.36
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 558.46875,
+    "y": 337.96875,
+    "w": 20,
+    "h": 20,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      70.28,
+      0.27,
+      8.3
+    ]
+  },
+  {
+    "src": "./assets/icons/award.svg",
+    "alt": "",
+    "x": 724.421875,
+    "y": 337.96875,
+    "w": 20,
+    "h": 20,
+    "phash": "ec9ba270b24b9b32",
+    "lab_mean": [
+      72.61,
+      0.2,
+      9.35
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1169.34375,
+    "y": 246.171875,
+    "w": 22,
+    "h": 22,
+    "phash": "ba7a8531d9c9a686",
+    "lab_mean": [
+      37.94,
+      30.99,
+      33.97
+    ]
+  },
+  {
+    "src": "./assets/icons/send.svg",
+    "alt": "",
+    "x": 1146.046875,
+    "y": 316.5625,
+    "w": 22,
+    "h": 22,
+    "phash": "ea5ac4e1928c9db9",
+    "lab_mean": [
+      72.08,
+      0.0,
+      5.26
+    ]
+  },
+  {
+    "src": "./assets/icons/more-horizontal.svg",
+    "alt": "",
+    "x": 1158,
+    "y": 376.765625,
+    "w": 20,
+    "h": 20,
+    "phash": "fb85c4e12b0dd4f0",
+    "lab_mean": [
+      86.19,
+      0.93,
+      13.99
+    ]
+  },
+  {
+    "src": "./assets/icons/sliders-horizontal.svg",
+    "alt": "",
+    "x": 1066.15625,
+    "y": 809.5625,
+    "w": 18,
+    "h": 18,
+    "phash": "ec26c759901b91db",
+    "lab_mean": [
+      73.88,
+      0.78,
+      8.06
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 1179.28125,
+    "y": 809.5625,
+    "w": 18,
+    "h": 18,
+    "phash": "a6269c99399993cd",
+    "lab_mean": [
+      43.52,
+      35.37,
+      38.79
+    ]
+  },
+  {
+    "src": "./assets/photos/15YDf39RIVc.jpg",
+    "alt": "Teacup resting on a worn book beside a pink dried bloom",
+    "x": 105,
+    "y": 863.5625,
+    "w": 392.65625,
+    "h": 294.484375,
+    "phash": "8c47fce0d603ac3b",
+    "lab_mean": [
+      57.92,
+      4.92,
+      11.41
+    ]
+  },
+  {
+    "src": "./assets/photos/LuK-MuZ-yf0.jpg",
+    "alt": "Hand-pressed maple leaf laid across an open journal page",
+    "x": 523.65625,
+    "y": 863.5625,
+    "w": 392.671875,
+    "h": 294.5,
+    "phash": "d0002ffe3f1d2c66",
+    "lab_mean": [
+      50.55,
+      3.46,
+      8.29
+    ]
+  },
+  {
+    "src": "./assets/photos/AiTE9NFQZ3I.jpg",
+    "alt": "Pink garden roses arranged in a hand-thrown stone pot",
+    "x": 942.328125,
+    "y": 863.5625,
+    "w": 392.65625,
+    "h": 294.484375,
+    "phash": "d51bedb0f2601b43",
+    "lab_mean": [
+      42.08,
+      10.41,
+      16.19
+    ]
+  },
+  {
+    "src": "./assets/photos/O6N9RV2rzX8.jpg",
+    "alt": "Flat lay of red and purple autumn leaves on cream paper",
+    "x": 105,
+    "y": 1280.84375,
+    "w": 392.65625,
+    "h": 294.484375,
+    "phash": "ed23d0524bb53a8e",
+    "lab_mean": [
+      50.77,
+      27.51,
+      20.36
+    ]
+  },
+  {
+    "src": "./assets/photos/jxslQxviEJ0.jpg",
+    "alt": "Green sprigs in a small white ceramic vase",
+    "x": 523.65625,
+    "y": 1280.84375,
+    "w": 392.671875,
+    "h": 294.5,
+    "phash": "f3cc5133cc33cc8c",
+    "lab_mean": [
+      84.68,
+      -6.12,
+      0.08
+    ]
+  },
+  {
+    "src": "./assets/photos/u1XO8rGzMTQ.jpg",
+    "alt": "Soft pink tulips arranged in a tall white vase",
+    "x": 942.328125,
+    "y": 1280.84375,
+    "w": 392.65625,
+    "h": 294.484375,
+    "phash": "bc1b47c31970d167",
+    "lab_mean": [
+      90.49,
+      -3.84,
+      2.76
+    ]
+  },
+  {
+    "src": "./assets/photos/B1Zyw7sdm5w.jpg",
+    "alt": "Bunch of pink and white roses lying on a soft surface",
+    "x": 105,
+    "y": 1698.125,
+    "w": 392.65625,
+    "h": 294.484375,
+    "phash": "b075bea36c32e530",
+    "lab_mean": [
+      41.34,
+      11.55,
+      11.15
+    ]
+  },
+  {
+    "src": "./assets/photos/9VoUqAsW2sA.jpg",
+    "alt": "Tiny succulents arranged in a woven basket",
+    "x": 523.65625,
+    "y": 1698.125,
+    "w": 392.671875,
+    "h": 294.5,
+    "phash": "e6998eb38d743065",
+    "lab_mean": [
+      50.06,
+      -7.38,
+      3.61
+    ]
+  },
+  {
+    "src": "./assets/photos/zWCUF5pTIM4.jpg",
+    "alt": "Pink and purple petals overflowing a small ceramic vase",
+    "x": 942.328125,
+    "y": 1698.125,
+    "w": 392.65625,
+    "h": 294.484375,
+    "phash": "aac6913d4ee3701e",
+    "lab_mean": [
+      60.96,
+      0.85,
+      0.76
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-left.svg",
+    "alt": "",
+    "x": 542.984375,
+    "y": 2129.40625,
+    "w": 18,
+    "h": 18,
+    "phash": "e69bcc269b64668c",
+    "lab_mean": [
+      91.01,
+      0.0,
+      6.59
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-right.svg",
+    "alt": "",
+    "x": 879.015625,
+    "y": 2129.40625,
+    "w": 18,
+    "h": 18,
+    "phash": "b3c6998cce313399",
+    "lab_mean": [
+      91.03,
+      0.0,
+      6.59
+    ]
+  },
+  {
+    "src": "./assets/icons/message-circle.svg",
+    "alt": "",
+    "x": 142,
+    "y": 2425.390625,
+    "w": 22,
+    "h": 22,
+    "phash": "8bf82df0b481d60f",
+    "lab_mean": [
+      69.7,
+      0.79,
+      12.48
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 142,
+    "y": 2554.375,
+    "w": 22,
+    "h": 22,
+    "phash": "ab0bb4fcd2f4c882",
+    "lab_mean": [
+      72.43,
+      0.81,
+      13.0
+    ]
+  },
+  {
+    "src": "./assets/icons/bookmark.svg",
+    "alt": "",
+    "x": 142,
+    "y": 2649.765625,
+    "w": 22,
+    "h": 22,
+    "phash": "bf726533c034d38c",
+    "lab_mean": [
+      70.67,
+      0.85,
+      12.66
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 142,
+    "y": 2838.34375,
+    "w": 22,
+    "h": 22,
+    "phash": "ba7a8531d9c9a686",
+    "lab_mean": [
+      71.38,
+      0.82,
+      12.79
+    ]
+  },
+  {
+    "src": "./assets/icons/message-circle.svg",
+    "alt": "",
+    "x": 142,
+    "y": 2933.734375,
+    "w": 22,
+    "h": 22,
+    "phash": "8bf82df0b481d60f",
+    "lab_mean": [
+      69.7,
+      0.79,
+      12.48
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 142,
+    "y": 3062.71875,
+    "w": 22,
+    "h": 22,
+    "phash": "ab0bb4fcd2f4c882",
+    "lab_mean": [
+      72.43,
+      0.81,
+      13.0
+    ]
+  },
+  {
+    "src": "./assets/icons/bookmark.svg",
+    "alt": "",
+    "x": 142,
+    "y": 3251.296875,
+    "w": 22,
+    "h": 22,
+    "phash": "bf726533c034d38c",
+    "lab_mean": [
+      70.67,
+      0.85,
+      12.66
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 142,
+    "y": 3346.6875,
+    "w": 22,
+    "h": 22,
+    "phash": "ba7a8531d9c9a686",
+    "lab_mean": [
+      71.38,
+      0.82,
+      12.79
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 142,
+    "y": 3442.078125,
+    "w": 22,
+    "h": 22,
+    "phash": "a6e2b627c915a5b4",
+    "lab_mean": [
+      64.17,
+      0.74,
+      11.58
+    ]
+  },
+  {
+    "src": "./assets/icons/message-circle.svg",
+    "alt": "",
+    "x": 142,
+    "y": 3537.46875,
+    "w": 22,
+    "h": 22,
+    "phash": "8bf82df0b481d60f",
+    "lab_mean": [
+      69.7,
+      0.79,
+      12.48
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 809.078125,
+    "y": 3706.640625,
+    "w": 20,
+    "h": 20,
+    "phash": "ecd992665933c436",
+    "lab_mean": [
+      86.12,
+      0.0,
+      6.24
+    ]
+  },
+  {
+    "src": "./assets/icons/scissors.svg",
+    "alt": "",
+    "x": 115,
+    "y": 3898.03125,
+    "w": 22,
+    "h": 22,
+    "phash": "bb00da99f624ad99",
+    "lab_mean": [
+      36.47,
+      29.89,
+      32.64
+    ]
+  }
+]

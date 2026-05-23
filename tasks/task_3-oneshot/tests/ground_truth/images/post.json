@@ -1,0 +1,646 @@
+[
+  {
+    "src": "./assets/icons/scissors.svg",
+    "alt": "",
+    "x": 35,
+    "y": 31.5,
+    "w": 22,
+    "h": 22,
+    "phash": "c4ff2566099b5266",
+    "lab_mean": [
+      61.09,
+      29.22,
+      32.05
+    ]
+  },
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 284.75,
+    "y": 31.5,
+    "w": 22,
+    "h": 22,
+    "phash": "eb25f03c83528dcb",
+    "lab_mean": [
+      75.3,
+      0.8,
+      8.16
+    ]
+  },
+  {
+    "src": "./assets/icons/bell.svg",
+    "alt": "",
+    "x": 1199,
+    "y": 31.5,
+    "w": 22,
+    "h": 22,
+    "phash": "afecf02283b64a93",
+    "lab_mean": [
+      75.08,
+      0.76,
+      8.17
+    ]
+  },
+  {
+    "src": "./assets/icons/settings.svg",
+    "alt": "",
+    "x": 1271,
+    "y": 31.5,
+    "w": 22,
+    "h": 22,
+    "phash": "ab6cf193b3998226",
+    "lab_mean": [
+      64.91,
+      0.65,
+      7.12
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-04.svg",
+    "alt": "My profile",
+    "x": 1336,
+    "y": 22.5,
+    "w": 40,
+    "h": 40,
+    "phash": "b833c198c36b4de5",
+    "lab_mean": [
+      68.29,
+      0.6,
+      8.19
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1384,
+    "y": 33.5,
+    "w": 18,
+    "h": 18,
+    "phash": "b80cc7b3384ccbb3",
+    "lab_mean": [
+      88.03,
+      0.94,
+      9.44
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-02.svg",
+    "alt": "Eleanor Whitfield",
+    "x": 129,
+    "y": 144,
+    "w": 80,
+    "h": 80,
+    "phash": "bc70e09e87c93cc5",
+    "lab_mean": [
+      72.28,
+      0.37,
+      7.41
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 225,
+    "y": 199.984375,
+    "w": 16,
+    "h": 16,
+    "phash": "ab3af4ccb2248b33",
+    "lab_mean": [
+      73.59,
+      0.0,
+      5.41
+    ]
+  },
+  {
+    "src": "./assets/icons/palette.svg",
+    "alt": "",
+    "x": 425.1875,
+    "y": 199.984375,
+    "w": 16,
+    "h": 16,
+    "phash": "ae49b42dd1b5c392",
+    "lab_mean": [
+      71.84,
+      0.0,
+      5.29
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 626.9375,
+    "y": 199.984375,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.69,
+      0.0,
+      5.33
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1035.953125,
+    "y": 159.796875,
+    "w": 18,
+    "h": 18,
+    "phash": "c1c57ada26365939",
+    "lab_mean": [
+      60.0,
+      29.81,
+      32.72
+    ]
+  },
+  {
+    "src": "./assets/icons/send.svg",
+    "alt": "",
+    "x": 1182.953125,
+    "y": 159.796875,
+    "w": 18,
+    "h": 18,
+    "phash": "ea5ac4e1928c8fb9",
+    "lab_mean": [
+      72.74,
+      0.0,
+      5.33
+    ]
+  },
+  {
+    "src": "./assets/photos/15YDf39RIVc.jpg",
+    "alt": "Finished hand-dyed wool shawl draped beside a teacup, with botanical sprigs",
+    "x": 104,
+    "y": 402.984375,
+    "w": 1096,
+    "h": 730.890625,
+    "phash": "8c47f4e5d603ac33",
+    "lab_mean": [
+      55.47,
+      4.71,
+      11.11
+    ]
+  },
+  {
+    "src": "./assets/photos/Au1eENDHD10.jpg",
+    "alt": "Dye pot and ladder beside flowering pots in the garden",
+    "x": 1216,
+    "y": 402.984375,
+    "w": 120,
+    "h": 120,
+    "phash": "c6f9a489da85a956",
+    "lab_mean": [
+      75.85,
+      2.42,
+      9.53
+    ]
+  },
+  {
+    "src": "./assets/photos/AiTE9NFQZ3I.jpg",
+    "alt": "Pink roses gathered in a concrete pot for dyeing",
+    "x": 1216,
+    "y": 534.984375,
+    "w": 120,
+    "h": 120,
+    "phash": "cb1beab9f4761041",
+    "lab_mean": [
+      47.56,
+      13.2,
+      16.25
+    ]
+  },
+  {
+    "src": "./assets/photos/LuK-MuZ-yf0.jpg",
+    "alt": "Brown maple leaf pressed on an open notebook for pattern reference",
+    "x": 1216,
+    "y": 666.984375,
+    "w": 120,
+    "h": 120,
+    "phash": "f1e942c43e3b2e62",
+    "lab_mean": [
+      56.48,
+      3.62,
+      8.41
+    ]
+  },
+  {
+    "src": "./assets/photos/I5xgbgk_vro.jpg",
+    "alt": "Pink petals in a clear glass vase used in the dye bath",
+    "x": 1216,
+    "y": 798.984375,
+    "w": 120,
+    "h": 120,
+    "phash": "e9688d896931b3cd",
+    "lab_mean": [
+      83.38,
+      8.76,
+      8.63
+    ]
+  },
+  {
+    "src": "./assets/photos/O6N9RV2rzX8.jpg",
+    "alt": "Flat lay of purple and red leaves harvested for natural color",
+    "x": 1216,
+    "y": 930.984375,
+    "w": 120,
+    "h": 120,
+    "phash": "c9a1fa54d8b91dc4",
+    "lab_mean": [
+      50.05,
+      27.52,
+      17.67
+    ]
+  },
+  {
+    "src": "./assets/icons/printer.svg",
+    "alt": "",
+    "x": 903.90625,
+    "y": 1596.40625,
+    "w": 18,
+    "h": 18,
+    "phash": "afe8bc01740b3ee1",
+    "lab_mean": [
+      63.49,
+      0.0,
+      4.77
+    ]
+  },
+  {
+    "src": "./assets/icons/bookmark.svg",
+    "alt": "",
+    "x": 1098.921875,
+    "y": 1596.40625,
+    "w": 18,
+    "h": 18,
+    "phash": "c01dda8d3acb3c72",
+    "lab_mean": [
+      59.66,
+      30.17,
+      33.15
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 145,
+    "y": 1744.796875,
+    "w": 16,
+    "h": 16,
+    "phash": "90352fcbd93286e5",
+    "lab_mean": [
+      53.0,
+      35.45,
+      39.05
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 145,
+    "y": 1863.984375,
+    "w": 16,
+    "h": 16,
+    "phash": "90352fcbd93286e5",
+    "lab_mean": [
+      53.0,
+      35.45,
+      39.05
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 145,
+    "y": 1954.375,
+    "w": 16,
+    "h": 16,
+    "phash": "90352fcbd93286e5",
+    "lab_mean": [
+      53.0,
+      35.45,
+      39.05
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1302,
+    "y": 2936.859375,
+    "w": 16,
+    "h": 16,
+    "phash": "c3e33c1cc7e3611c",
+    "lab_mean": [
+      51.97,
+      36.22,
+      39.88
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-07.svg",
+    "alt": "Margaret Linwood",
+    "x": 129,
+    "y": 3030.359375,
+    "w": 56,
+    "h": 56,
+    "phash": "b830e3c3c38ecccd",
+    "lab_mean": [
+      83.56,
+      0.44,
+      8.59
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 213,
+    "y": 3142.25,
+    "w": 18,
+    "h": 18,
+    "phash": "ca0eb5f9d2f08d82",
+    "lab_mean": [
+      77.35,
+      0.0,
+      5.66
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-03.svg",
+    "alt": "Howard Pruitt",
+    "x": 129,
+    "y": 3202.75,
+    "w": 56,
+    "h": 56,
+    "phash": "b239c7cc9c996332",
+    "lab_mean": [
+      82.5,
+      0.46,
+      8.87
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 213,
+    "y": 3314.640625,
+    "w": 18,
+    "h": 18,
+    "phash": "ca0eb5f9d2f08d82",
+    "lab_mean": [
+      77.35,
+      0.0,
+      5.66
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-09.svg",
+    "alt": "Beverly Castaneda",
+    "x": 129,
+    "y": 3375.140625,
+    "w": 56,
+    "h": 56,
+    "phash": "b931c686c7cb989c",
+    "lab_mean": [
+      79.81,
+      0.41,
+      8.07
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 213,
+    "y": 3487.03125,
+    "w": 18,
+    "h": 18,
+    "phash": "ca0eb5f9d2f08d82",
+    "lab_mean": [
+      77.35,
+      0.0,
+      5.66
+    ]
+  },
+  {
+    "src": "./assets/avatars/avataaars-seed-01.svg",
+    "alt": "Theodore Brennan",
+    "x": 129,
+    "y": 3547.53125,
+    "w": 56,
+    "h": 56,
+    "phash": "f8a3b05697cad18c",
+    "lab_mean": [
+      73.8,
+      21.88,
+      33.88
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 213,
+    "y": 3630.625,
+    "w": 18,
+    "h": 18,
+    "phash": "ca0eb5f9d2f08d82",
+    "lab_mean": [
+      77.35,
+      0.0,
+      5.66
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-06.svg",
+    "alt": "Constance Whitaker",
+    "x": 129,
+    "y": 3691.125,
+    "w": 56,
+    "h": 56,
+    "phash": "a631cfce9c193165",
+    "lab_mean": [
+      87.44,
+      0.48,
+      9.24
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 213,
+    "y": 3803.015625,
+    "w": 18,
+    "h": 18,
+    "phash": "ca0eb5f9d2f08d82",
+    "lab_mean": [
+      77.34,
+      0.0,
+      5.66
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-02.svg",
+    "alt": "Eleanor Whitfield (author)",
+    "x": 129,
+    "y": 3863.515625,
+    "w": 56,
+    "h": 56,
+    "phash": "bc70e09e87c93cc5",
+    "lab_mean": [
+      72.46,
+      0.37,
+      7.41
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 213,
+    "y": 3977,
+    "w": 18,
+    "h": 18,
+    "phash": "ca0eb5f9d2f08d82",
+    "lab_mean": [
+      77.35,
+      0.0,
+      5.66
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-11.svg",
+    "alt": "Florence Albright",
+    "x": 129,
+    "y": 4037.5,
+    "w": 56,
+    "h": 56,
+    "phash": "bc34e3c39e9c984c",
+    "lab_mean": [
+      85.2,
+      0.46,
+      8.87
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 213,
+    "y": 4149.390625,
+    "w": 18,
+    "h": 18,
+    "phash": "ca0eb5f9d2f08d82",
+    "lab_mean": [
+      77.35,
+      0.0,
+      5.66
+    ]
+  },
+  {
+    "src": "./assets/avatars/avataaars-seed-03.svg",
+    "alt": "Raymond Halverson",
+    "x": 129,
+    "y": 4209.890625,
+    "w": 56,
+    "h": 56,
+    "phash": "ac38d22671d28fcb",
+    "lab_mean": [
+      86.06,
+      0.47,
+      13.64
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 213,
+    "y": 4321.78125,
+    "w": 18,
+    "h": 18,
+    "phash": "ca0eb5f9d2f08d82",
+    "lab_mean": [
+      77.35,
+      0.0,
+      5.66
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-04.svg",
+    "alt": "You",
+    "x": 129,
+    "y": 4452.078125,
+    "w": 56,
+    "h": 56,
+    "phash": "bc37c198c34b4dc5",
+    "lab_mean": [
+      69.03,
+      0.36,
+      7.26
+    ]
+  },
+  {
+    "src": "./assets/icons/image.svg",
+    "alt": "",
+    "x": 143,
+    "y": 4649.265625,
+    "w": 20,
+    "h": 20,
+    "phash": "bb91acc6ec399146",
+    "lab_mean": [
+      63.11,
+      0.61,
+      7.03
+    ]
+  },
+  {
+    "src": "./assets/icons/send.svg",
+    "alt": "",
+    "x": 1099.515625,
+    "y": 4649.265625,
+    "w": 20,
+    "h": 20,
+    "phash": "95a53b1e6d736046",
+    "lab_mean": [
+      61.83,
+      28.51,
+      31.29
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-left.svg",
+    "alt": "Previous",
+    "x": 627,
+    "y": 4754.46875,
+    "w": 18,
+    "h": 18,
+    "phash": "e69bcc269b64668c",
+    "lab_mean": [
+      91.01,
+      0.0,
+      6.59
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-right.svg",
+    "alt": "Next",
+    "x": 795,
+    "y": 4754.46875,
+    "w": 18,
+    "h": 18,
+    "phash": "b3c6998cce313399",
+    "lab_mean": [
+      91.03,
+      0.0,
+      6.59
+    ]
+  },
+  {
+    "src": "./assets/icons/scissors.svg",
+    "alt": "",
+    "x": 115,
+    "y": 4904.46875,
+    "w": 22,
+    "h": 22,
+    "phash": "c4ff2566099b5266",
+    "lab_mean": [
+      61.09,
+      29.22,
+      32.05
+    ]
+  }
+]

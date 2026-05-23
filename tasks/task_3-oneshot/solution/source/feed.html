@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Feed — Handmade Hearth</title>
+<link rel="stylesheet" href="./styles.css">
+<style>
+.wdvb-anim-slide-right-feed{animation:wdvb-anim-slide-right-feed 1300ms ease-out both;}
+@keyframes wdvb-anim-slide-right-feed{
+  from{transform:translateX(-120px);opacity:0;}
+  to{transform:translateX(0);opacity:1;}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="./feed.html" class="brand">
+      <span class="brand-mark"><img src="./assets/icons/sparkles.svg" alt="" width="22" height="22"></span>
+      <span>Handmade Hearth</span>
+    </a>
+    <label class="search" aria-label="Search the community">
+      <img src="./assets/icons/search.svg" alt="" width="22" height="22">
+      <input type="text" placeholder="Search projects, patterns, or makers…">
+    </label>
+    <div class="text-size-toggle" role="group" aria-label="Text size">
+      <button type="button" class="active" aria-pressed="true">A</button>
+      <button type="button" style="font-size:18px;">A+</button>
+      <button type="button" style="font-size:22px;">A++</button>
+    </div>
+    <a href="#" class="icon-btn" aria-label="Help">
+      <img src="./assets/icons/badge-question-mark.svg" alt="" width="24" height="24">
+    </a>
+    <a href="./profile.html" class="avatar-dropdown" aria-label="Your account">
+      <img src="./assets/avatars/lorelei-seed-04.svg" alt="" class="avatar avatar-sm">
+      <span style="font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:16px;">Margaret</span>
+      <img src="./assets/icons/chevron-down.svg" alt="" width="18" height="18">
+    </a>
+  </div>
+</header>
+
+<div class="container-wide">
+  <div class="layout-3col">
+
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar stack-lg">
+      <a href="./share.html" class="btn btn-primary btn-lg btn-block wdvb-anim-slide-right-feed">
+        <img src="./assets/icons/plus.svg" alt="" width="22" height="22">
+        Share a project
+      </a>
+
+      <nav aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="./feed.html" class="active"><img src="./assets/icons/home.svg" alt="" width="22" height="22">Feed</a></li>
+          <li><a href="./profile.html"><img src="./assets/icons/folder-heart.svg" alt="" width="22" height="22">My Projects</a></li>
+          <li><a href="./patterns.html"><img src="./assets/icons/book-open.svg" alt="" width="22" height="22">Patterns</a></li>
+          <li><a href="#"><img src="./assets/icons/users-round.svg" alt="" width="22" height="22">Friends</a></li>
+          <li><a href="./groups.html"><img src="./assets/icons/users.svg" alt="" width="22" height="22">Groups</a></li>
+        </ul>
+      </nav>
+
+      <div class="card">
+        <div class="row" style="gap:12px;margin-bottom:12px;">
+          <img src="./assets/icons/lightbulb.svg" alt="" width="28" height="28">
+          <span class="eyebrow">Daily prompt</span>
+        </div>
+        <h4 style="margin-bottom:8px;">Tuesday's craft suggestion</h4>
+        <p style="margin-bottom:16px;font-size:17px;">Stitch a small pocket of joy — try a four-petal daisy in your favourite yellow thread. Share it with #PocketDaisy.</p>
+        <a href="./share.html" class="btn btn-secondary btn-sm">
+          Try this prompt
+          <img src="./assets/icons/arrow-right.svg" alt="" width="18" height="18">
+        </a>
+      </div>
+    </aside>
+
+    <!-- CENTER TIMELINE -->
+    <main class="stack-lg">
+
+      <div class="row-between" style="margin-bottom:-8px;">
+        <h1 style="margin:0;">Your timeline</h1>
+        <button class="btn btn-secondary btn-sm" type="button">
+          <img src="./assets/icons/sliders-horizontal.svg" alt="" width="18" height="18">
+          Filter
+        </button>
+      </div>
+
+      <div class="chip-row" style="margin-bottom:8px;">
+        <span class="chip active">All crafts</span>
+        <span class="chip">Knitting</span>
+        <span class="chip">Quilting</span>
+        <span class="chip">Pottery</span>
+        <span class="chip">Embroidery</span>
+        <span class="chip">Woodwork</span>
+        <span class="chip">Paper</span>
+      </div>
+
+      <!-- TODAY -->
+      <section>
+        <div class="date-header">Today · Tuesday, 14 May</div>
+        <div class="stack-lg">
+
+          <article class="post-card">
+            <header class="post-card-header">
+              <img src="./assets/avatars/lorelei-seed-00.svg" alt="" class="avatar avatar-md">
+              <div class="stack-sm">
+                <strong style="font-family:'Plus Jakarta Sans',sans-serif;font-size:20px;">Eleanor Whitfield</strong>
+                <span class="muted" style="font-size:16px;">Hand quilter · Two hours ago</span>
+              </div>
+              <div class="spacer"></div>
+              <button class="icon-btn" type="button" aria-label="More options">
+                <img src="./assets/icons/more-horizontal.svg" alt="" width="22" height="22">
+              </button>
+            </header>
+            <img src="./assets/photos/15YDf39RIVc.jpg" alt="Rose-print teacup beside an open quilted booklet" class="post-card-photo" style="aspect-ratio:3/2;object-fit:cover;">
+            <div class="post-card-body">
+              <p style="margin-bottom:12px;">Finally finished the appliqué binding on my mother's old quilt block. Forty years it sat in a drawer — today it caught the morning light. There's something tender about putting fresh thread through old cotton.</p>
+              <span class="badge badge-accent">Hand quilting</span>
+            </div>
+            <div class="post-actions">
+              <button class="post-action" type="button"><img src="./assets/icons/heart.svg" alt="" width="20" height="20">Applaud · 84</button>
+              <button class="post-action" type="button"><img src="./assets/icons/message-circle.svg" alt="" width="20" height="20">Comment · 12</button>
+              <button class="post-action" type="button"><img src="./assets/icons/bookmark.svg" alt="" width="20" height="20">Save</button>
+              <div class="spacer"></div>
+              <button class="post-action" type="button" aria-label="Share"><img src="./assets/icons/share-2.svg" alt="" width="20" height="20"></button>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <header class="post-card-header">
+              <img src="./assets/avatars/notionists-seed-02.svg" alt="" class="avatar avatar-md">
+              <div class="stack-sm">
+                <strong style="font-family:'Plus Jakarta Sans',sans-serif;font-size:20px;">Harold Beaumont</strong>
+                <span class="muted" style="font-size:16px;">Wood turner · Four hours ago</span>
+              </div>
+              <div class="spacer"></div>
+              <button class="icon-btn" type="button" aria-label="More options">
+                <img src="./assets/icons/more-horizontal.svg" alt="" width="22" height="22">
+              </button>
+            </header>
+            <img src="./assets/photos/XU1-sAMZFqc.jpg" alt="Hand-turned wooden bottle on a workshop table" class="post-card-photo" style="aspect-ratio:3/2;object-fit:cover;">
+            <div class="post-card-body">
+              <p style="margin-bottom:12px;">A little walnut bud-vase off the lathe this morning. The grain on this one made me stop and smile three times. Took two evenings of careful sanding — patience is the real tool.</p>
+              <span class="badge badge-accent">Wood turning</span>
+            </div>
+            <div class="post-actions">
+              <button class="post-action" type="button"><img src="./assets/icons/heart.svg" alt="" width="20" height="20">Applaud · 56</button>
+              <button class="post-action" type="button"><img src="./assets/icons/message-circle.svg" alt="" width="20" height="20">Comment · 9</button>
+              <button class="post-action" type="button"><img src="./assets/icons/bookmark.svg" alt="" width="20" height="20">Save</button>
+              <div class="spacer"></div>
+              <button class="post-action" type="button" aria-label="Share"><img src="./assets/icons/share-2.svg" alt="" width="20" height="20"></button>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <header class="post-card-header">
+              <img src="./assets/avatars/lorelei-seed-07.svg" alt="" class="avatar avatar-md">
+              <div class="stack-sm">
+                <strong style="font-family:'Plus Jakarta Sans',sans-serif;font-size:20px;">Beatrice Holloway</strong>
+                <span class="muted" style="font-size:16px;">Botanical embroidery · This afternoon</span>
+              </div>
+              <div class="spacer"></div>
+              <button class="icon-btn" type="button" aria-label="More options">
+                <img src="./assets/icons/more-horizontal.svg" alt="" width="22" height="22">
+              </button>
+            </header>
+            <img src="./assets/photos/LuK-MuZ-yf0.jpg" alt="Brown maple leaf laid on an open book" class="post-card-photo" style="aspect-ratio:3/2;object-fit:cover;">
+            <div class="post-card-body">
+              <p style="margin-bottom:12px;">Sketching this autumn leaf to start a new embroidery hoop next week. I'll work it in long-and-short stitch with three shades of russet. Anyone have a favourite linen weight for botanicals?</p>
+              <span class="badge badge-accent">Embroidery</span>
+            </div>
+            <div class="post-actions">
+              <button class="post-action" type="button"><img src="./assets/icons/heart.svg" alt="" width="20" height="20">Applaud · 41</button>
+              <button class="post-action" type="button"><img src="./assets/icons/message-circle.svg" alt="" width="20" height="20">Comment · 18</button>
+              <button class="post-action" type="button"><img src="./assets/icons/bookmark.svg" alt="" width="20" height="20">Save</button>
+              <div class="spacer"></div>
+              <button class="post-action" type="button" aria-label="Share"><img src="./assets/icons/share-2.svg" alt="" width="20" height="20"></button>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- YESTERDAY -->
+      <section>
+        <div class="date-header">Yesterday · Monday, 13 May</div>
+        <div class="stack-lg">
+
+          <article class="post-card">
+            <header class="post-card-header">
+              <img src="./assets/avatars/avataaars-seed-01.svg" alt="" class="avatar avatar-md">
+              <div class="stack-sm">
+                <strong style="font-family:'Plus Jakarta Sans',sans-serif;font-size:20px;">Frances Tilbury</strong>
+                <span class="muted" style="font-size:16px;">Wheel-thrown pottery · Yesterday at 5:42 pm</span>
+              </div>
+              <div class="spacer"></div>
+              <button class="icon-btn" type="button" aria-label="More options">
+                <img src="./assets/icons/more-horizontal.svg" alt="" width="22" height="22">
+              </button>
+            </header>
+            <img src="./assets/photos/AiTE9NFQZ3I.jpg" alt="Pink roses arranged in a grey concrete pot" class="post-card-photo" style="aspect-ratio:3/2;object-fit:cover;">
+            <div class="post-card-body">
+              <p style="margin-bottom:12px;">Pulled this little planter out of the kiln yesterday — first piece since my elbow surgery in March. Slow work, but the wheel feels like an old friend who waited patiently for me. Already filled it with garden roses.</p>
+              <span class="badge badge-accent">Pottery</span>
+            </div>
+            <div class="post-actions">
+              <button class="post-action" type="button"><img src="./assets/icons/heart.svg" alt="" width="20" height="20">Applaud · 132</button>
+              <button class="post-action" type="button"><img src="./assets/icons/message-circle.svg" alt="" width="20" height="20">Comment · 27</button>
+              <button class="post-action" type="button"><img src="./assets/icons/bookmark.svg" alt="" width="20" height="20">Save</button>
+              <div class="spacer"></div>
+              <button class="post-action" type="button" aria-label="Share"><img src="./assets/icons/share-2.svg" alt="" width="20" height="20"></button>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <header class="post-card-header">
+              <img src="./assets/avatars/notionists-seed-05.svg" alt="" class="avatar avatar-md">
+              <div class="stack-sm">
+                <strong style="font-family:'Plus Jakarta Sans',sans-serif;font-size:20px;">Ronald Ashcombe</strong>
+                <span class="muted" style="font-size:16px;">Bookbinding · Yesterday at 11:08 am</span>
+              </div>
+              <div class="spacer"></div>
+              <button class="icon-btn" type="button" aria-label="More options">
+                <img src="./assets/icons/more-horizontal.svg" alt="" width="22" height="22">
+              </button>
+            </header>
+            <img src="./assets/photos/PgfSWgL3wjI.jpg" alt="Open notebook beside a candle and a warm mug" class="post-card-photo" style="aspect-ratio:3/2;object-fit:cover;">
+            <div class="post-card-body">
+              <p style="margin-bottom:12px;">Coptic-stitched a fresh travel journal for my granddaughter's gap year. Linen thread, cover marbled by hand last spring. She wrote her first entry over morning tea — best payment a binder could ask for.</p>
+              <span class="badge badge-accent">Bookbinding</span>
+            </div>
+            <div class="post-actions">
+              <button class="post-action" type="button"><img src="./assets/icons/heart.svg" alt="" width="20" height="20">Applaud · 98</button>
+              <button class="post-action" type="button"><img src="./assets/icons/message-circle.svg" alt="" width="20" height="20">Comment · 15</button>
+              <button class="post-action" type="button"><img src="./assets/icons/bookmark.svg" alt="" width="20" height="20">Save</button>
+              <div class="spacer"></div>
+              <button class="post-action" type="button" aria-label="Share"><img src="./assets/icons/share-2.svg" alt="" width="20" height="20"></button>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- THIS WEEK -->
+      <section>
+        <div class="date-header">Earlier this week</div>
+        <div class="stack-lg">
+
+          <article class="post-card">
+            <header class="post-card-header">
+              <img src="./assets/avatars/lorelei-seed-09.svg" alt="" class="avatar avatar-md">
+              <div class="stack-sm">
+                <strong style="font-family:'Plus Jakarta Sans',sans-serif;font-size:20px;">Constance Murray</strong>
+                <span class="muted" style="font-size:16px;">Knitwear · Sunday at 3:20 pm</span>
+              </div>
+              <div class="spacer"></div>
+              <button class="icon-btn" type="button" aria-label="More options">
+                <img src="./assets/icons/more-horizontal.svg" alt="" width="22" height="22">
+              </button>
+            </header>
+            <img src="./assets/photos/u1XO8rGzMTQ.jpg" alt="Pink tulips arranged in a white ceramic vase" class="post-card-photo" style="aspect-ratio:3/2;object-fit:cover;">
+            <div class="post-card-body">
+              <p style="margin-bottom:12px;">Cast on a pink mohair shawl for spring — soft as a whisper and twice as warm. Pattern is the Tilden Wrap from page 42 of last month's club booklet. Pop your row counters on, ladies!</p>
+              <span class="badge badge-accent">Knitting</span>
+            </div>
+            <div class="post-actions">
+              <button class="post-action" type="button"><img src="./assets/icons/heart.svg" alt="" width="20" height="20">Applaud · 67</button>
+              <button class="post-action" type="button"><img src="./assets/icons/message-circle.svg" alt="" width="20" height="20">Comment · 11</button>
+              <button class="post-action" type="button"><img src="./assets/icons/bookmark.svg" alt="" width="20" height="20">Save</button>
+              <div class="spacer"></div>
+              <button class="post-action" type="button" aria-label="Share"><img src="./assets/icons/share-2.svg" alt="" width="20" height="20"></button>
+            </div>
+          </article>
+
+          <article class="post-card">
+            <header class="post-card-header">
+              <img src="./assets/avatars/avataaars-seed-03.svg" alt="" class="avatar avatar-md">
+              <div class="stack-sm">
+                <strong style="font-family:'Plus Jakarta Sans',sans-serif;font-size:20px;">Albert Henley</strong>
+                <span class="muted" style="font-size:16px;">Paper craft · Saturday at 9:15 am</span>
+              </div>
+              <div class="spacer"></div>
+              <button class="icon-btn" type="button" aria-label="More options">
+                <img src="./assets/icons/more-horizontal.svg" alt="" width="22" height="22">
+              </button>
+            </header>
+            <img src="./assets/photos/O6N9RV2rzX8.jpg" alt="Flat lay of purple and red autumn leaves" class="post-card-photo" style="aspect-ratio:3/2;object-fit:cover;">
+            <div class="post-card-body">
+              <p style="margin-bottom:12px;">Pressed leaves from last autumn finally got their home — a paper-marbled keepsake card for my sister's 80th. There's something about layered paper that feels like layered memory. Recipe in the comments.</p>
+              <span class="badge badge-accent">Paper craft</span>
+            </div>
+            <div class="post-actions">
+              <button class="post-action" type="button"><img src="./assets/icons/heart.svg" alt="" width="20" height="20">Applaud · 73</button>
+              <button class="post-action" type="button"><img src="./assets/icons/message-circle.svg" alt="" width="20" height="20">Comment · 21</button>
+              <button class="post-action" type="button"><img src="./assets/icons/bookmark.svg" alt="" width="20" height="20">Save</button>
+              <div class="spacer"></div>
+              <button class="post-action" type="button" aria-label="Share"><img src="./assets/icons/share-2.svg" alt="" width="20" height="20"></button>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <div class="pagination">
+        <button class="page-num" type="button" aria-label="Previous">
+          <img src="./assets/icons/chevron-left.svg" alt="" width="20" height="20">
+        </button>
+        <button class="page-num active" type="button">1</button>
+        <button class="page-num" type="button">2</button>
+        <button class="page-num" type="button">3</button>
+        <button class="page-num" type="button">4</button>
+        <button class="page-num" type="button" aria-label="Next">
+          <img src="./assets/icons/chevron-right.svg" alt="" width="20" height="20">
+        </button>
+      </div>
+
+    </main>
+
+    <!-- RIGHT SIDEBAR -->
+    <aside class="sidebar sidebar-right stack-lg">
+
+      <section class="card">
+        <h4 style="margin-bottom:8px;">Crafters to follow</h4>
+        <p class="muted" style="font-size:15px;margin-bottom:12px;">Hand-picked by our community team</p>
+
+        <div class="suggestion-row">
+          <img src="./assets/avatars/lorelei-seed-02.svg" alt="" class="avatar avatar-md">
+          <div class="stack-sm" style="flex:1;min-width:0;">
+            <strong style="font-family:'Plus Jakarta Sans',sans-serif;font-size:17px;">Vivian Carlisle</strong>
+            <span class="muted" style="font-size:15px;">Crochet · 340 followers</span>
+          </div>
+          <button class="btn btn-primary btn-sm" type="button">
+            <img src="./assets/icons/user-plus.svg" alt="" width="16" height="16">Follow
+          </button>
+        </div>
+
+        <div class="suggestion-row">
+          <img src="./assets/avatars/notionists-seed-07.svg" alt="" class="avatar avatar-md">
+          <div class="stack-sm" style="flex:1;min-width:0;">
+            <strong style="font-family:'Plus Jakarta Sans',sans-serif;font-size:17px;">George Pendleton</strong>
+            <span class="muted" style="font-size:15px;">Leatherwork · 218 followers</span>
+          </div>
+          <button class="btn btn-primary btn-sm" type="button">
+            <img src="./assets/icons/user-plus.svg" alt="" width="16" height="16">Follow
+          </button>
+        </div>
+
+        <div class="suggestion-row">
+          <img src="./assets/avatars/lorelei-seed-11.svg" alt="" class="avatar avatar-md">
+          <div class="stack-sm" style="flex:1;min-width:0;">
+            <strong style="font-family:'Plus Jakarta Sans',sans-serif;font-size:17px;">Mabel Crofton</strong>
+            <span class="muted" style="font-size:15px;">Lace tatting · 512 followers</span>
+          </div>
+          <button class="btn btn-primary btn-sm" type="button">
+            <img src="./assets/icons/user-plus.svg" alt="" width="16" height="16">Follow
+          </button>
+        </div>
+
+        <div class="suggestion-row">
+          <img src="./assets/avatars/avataaars-seed-02.svg" alt="" class="avatar avatar-md">
+          <div class="stack-sm" style="flex:1;min-width:0;">
+            <strong style="font-family:'Plus Jakarta Sans',sans-serif;font-size:17px;">Walter Ridgewell</strong>
+            <span class="muted" style="font-size:15px;">Stained glass · 187 followers</span>
+          </div>
+          <button class="btn btn-primary btn-sm" type="button">
+            <img src="./assets/icons/user-plus.svg" alt="" width="16" height="16">Follow
+          </button>
+        </div>
+
+        <div class="suggestion-row">
+          <img src="./assets/avatars/lorelei-seed-05.svg" alt="" class="avatar avatar-md">
+          <div class="stack-sm" style="flex:1;min-width:0;">
+            <strong style="font-family:'Plus Jakarta Sans',sans-serif;font-size:17px;">Dorothy Linsey</strong>
+            <span class="muted" style="font-size:15px;">Watercolour · 261 followers</span>
+          </div>
+          <button class="btn btn-primary btn-sm" type="button">
+            <img src="./assets/icons/user-plus.svg" alt="" width="16" height="16">Follow
+          </button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h4 style="margin-bottom:12px;">Upcoming events</h4>
+
+        <div class="event-row">
+          <div class="event-date">
+            <div class="day">18</div>
+            <div class="mon">May</div>
+          </div>
+          <div class="stack-sm" style="flex:1;min-width:0;">
+            <strong style="font-family:'Plus Jakarta Sans',sans-serif;font-size:17px;">Quilters' Tea & Talk</strong>
+            <span class="muted" style="font-size:15px;">Saturday · 2:00 pm · Online</span>
+          </div>
+        </div>
+
+        <div class="event-row">
+          <div class="event-date">
+            <div class="day">22</div>
+            <div class="mon">May</div>
+          </div>
+          <div class="stack-sm" style="flex:1;min-width:0;">
+            <strong style="font-family:'Plus Jakarta Sans',sans-serif;font-size:17px;">Wool dyeing workshop</strong>
+            <span class="muted" style="font-size:15px;">Wed · 10:30 am · Marlow Hall</span>
+          </div>
+        </div>
+
+        <div class="event-row">
+          <div class="event-date">
+            <div class="day">25</div>
+            <div class="mon">May</div>
+          </div>
+          <div class="stack-sm" style="flex:1;min-width:0;">
+            <strong style="font-family:'Plus Jakarta Sans',sans-serif;font-size:17px;">Spring craft fair</strong>
+            <span class="muted" style="font-size:15px;">Saturday · All day · Town green</span>
+          </div>
+        </div>
+
+        <div class="event-row">
+          <div class="event-date">
+            <div class="day">02</div>
+            <div class="mon">Jun</div>
+          </div>
+          <div class="stack-sm" style="flex:1;min-width:0;">
+            <strong style="font-family:'Plus Jakarta Sans',sans-serif;font-size:17px;">Beginner's pottery night</strong>
+            <span class="muted" style="font-size:15px;">Sunday · 6:00 pm · The Kiln Room</span>
+          </div>
+        </div>
+
+        <a href="#" class="btn btn-ghost btn-sm" style="margin-top:12px;width:100%;">
+          See all events
+          <img src="./assets/icons/arrow-right.svg" alt="" width="18" height="18">
+        </a>
+      </section>
+
+      <section class="card">
+        <h4 style="margin-bottom:12px;">Quick links</h4>
+        <ul class="nav-list">
+          <li><a href="./patterns.html"><img src="./assets/icons/printer.svg" alt="" width="22" height="22">Print this week's pattern</a></li>
+          <li><a href="#"><img src="./assets/icons/map-pin.svg" alt="" width="22" height="22">Local craft fairs</a></li>
+          <li><a href="#"><img src="./assets/icons/graduation-cap.svg" alt="" width="22" height="22">Beginner tutorials</a></li>
+          <li><a href="#"><img src="./assets/icons/award.svg" alt="" width="22" height="22">This month's makers</a></li>
+        </ul>
+      </section>
+
+    </aside>
+
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container-wide">
+    <div class="row-between">
+      <div class="row" style="gap:12px;">
+        <span class="brand-mark"><img src="./assets/icons/sparkles.svg" alt="" width="20" height="20"></span>
+        <span style="font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;">Handmade Hearth</span>
+      </div>
+      <p class="muted" style="margin:0;font-size:16px;">A gentle place for makers · Est. 2014</p>
+      <div class="row" style="gap:20px;">
+        <a href="#">Community guidelines</a>
+        <a href="#">Help centre</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

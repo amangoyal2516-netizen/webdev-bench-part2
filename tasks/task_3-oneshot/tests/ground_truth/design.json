@@ -1,0 +1,135 @@
+{
+  "description": "A community social feed for senior crafters to share handmade projects, swap patterns, and follow makers \u2014 chronological timeline with large readable type and senior-friendly affordances",
+  "allowed_frameworks": [
+    "html-css"
+  ],
+  "palette": {
+    "background": "#f5ecd9",
+    "surface": "#fbf6e9",
+    "text": "#3d2a1a",
+    "accent": "#b8542b",
+    "accent_alt": "#c89a3c",
+    "muted": "#8a6f54"
+  },
+  "pages": [
+    {
+      "name": "feed",
+      "description": "Main chronological timeline of craft posts from people you follow",
+      "components": [
+        "Top bar with the community name 'Handmade Hearth', a large search input, a text-size toggle (A / A+ / A++), a help icon, and an avatar dropdown",
+        "Left sidebar with a 'Share a project' primary button at top, then a navigation list (Feed, My Projects, Patterns, Friends, Groups) with icons, and a 'Daily prompt' card showing today's craft suggestion",
+        "Center column timeline of post cards grouped by date header (Today, Yesterday, This week) \u2014 each card has poster avatar, name, craft specialty, project photo, caption, craft-type tag, and an actions row (Applaud, Comment, Save)",
+        "Right sidebar with a 'Crafters to follow' suggestion list (avatar, name, craft, Follow button), an upcoming community events list, and a quick links panel (Print this week's pattern, Local craft fairs)"
+      ],
+      "animations": [
+        {
+          "element": "'Share a project' primary button at the top of the left sidebar",
+          "type": "slide-right",
+          "trigger": "load",
+          "duration_ms": 1300,
+          "easing": "ease-out"
+        }
+      ]
+    },
+    {
+      "name": "post",
+      "description": "Detailed view of a single craft post with materials, steps, and community comments",
+      "components": [
+        "Same top bar as the feed",
+        "Post header with poster avatar, name, location, craft specialty, posted-date, and Follow / Message buttons on the right",
+        "Project gallery \u2014 large main photo on the left with a vertical thumbnail strip of additional photos, and a caption/story paragraph below describing how the project came together",
+        "Materials and steps panel \u2014 a checklist of materials with quantities on the left, and a numbered list of steps with step number, short title, and body paragraph on the right, plus a 'Print pattern' and 'Save to my scrapbook' button row",
+        "Comments section \u2014 sorted oldest-first, each comment shows commenter avatar, name, body text, posted-date, and a small applaud button, with a large comment composer at the bottom"
+      ],
+      "animations": [
+        {
+          "element": "Large main project photo in the project gallery near the top of the page",
+          "type": "scale-up",
+          "trigger": "load",
+          "duration_ms": 1500,
+          "easing": "ease-in-out"
+        }
+      ]
+    },
+    {
+      "name": "profile",
+      "description": "A crafter's profile page showing their portfolio and activity timeline",
+      "components": [
+        "Same top bar",
+        "Profile header with a large avatar, full name, craft specialties as chips, hometown, years-crafting count, a short bio paragraph, and Follow / Message buttons",
+        "Stats row with four tiles: projects shared, applause received, patterns published, friends",
+        "Tabbed section (Projects, Patterns, Scrapbook, About) with the Projects tab active by default \u2014 showing a three-column grid of project tiles, each tile has a photo, title, craft-type tag, and posted-date",
+        "Activity timeline at the bottom listing recent actions in chronological order (commented on, applauded, saved, followed) with date stamps"
+      ],
+      "animations": [
+        {
+          "element": "Large avatar in the profile header at the top of the page",
+          "type": "scale-up",
+          "trigger": "load",
+          "duration_ms": 1600,
+          "easing": "ease-in-out"
+        }
+      ]
+    },
+    {
+      "name": "share",
+      "description": "Form for sharing a new craft project to the community feed",
+      "components": [
+        "Same top bar",
+        "Page heading 'Share your project' with a one-sentence helper line about what makes a good post",
+        "Photo upload area at the top \u2014 a large drop zone with an 'Add photos' button, supports up to eight photos shown as thumbnails in a row",
+        "Main form with project title, craft-type dropdown, difficulty radio buttons (Beginner, Comfortable, Advanced), time-to-make input, story textarea, a materials list builder, and a numbered steps builder",
+        "Action bar at the bottom with a 'Save draft' secondary button, a 'Preview' secondary button, and a 'Post to feed' primary button"
+      ],
+      "animations": [
+        {
+          "element": "Page heading 'Share your project' at the top of the content area",
+          "type": "slide-down",
+          "trigger": "load",
+          "duration_ms": 1200,
+          "easing": "ease-out"
+        }
+      ]
+    },
+    {
+      "name": "patterns",
+      "description": "Browseable library of community-shared patterns and printable instructions",
+      "components": [
+        "Same top bar",
+        "Page heading 'Patterns library' with a sub-heading showing the total pattern count and a sort dropdown (Newest, Most loved, Easiest, Quickest)",
+        "Filter bar with chips for craft type (Knitting, Crochet, Woodworking, Quilting, Embroidery, Paper craft), a difficulty selector, a time-required range, and a 'Free patterns only' toggle",
+        "Pattern grid (three per row) \u2014 each card has a photo of the finished piece, pattern title, contributor name and avatar, difficulty badge, estimated time, applaud count, and a 'Print' icon button",
+        "Pagination row at the bottom with large page-number buttons and a 'Show more' option"
+      ],
+      "animations": [
+        {
+          "element": "Page heading 'Patterns library' with total-count sub-heading at the top of the page",
+          "type": "slide-left",
+          "trigger": "load",
+          "duration_ms": 1400,
+          "easing": "ease-out"
+        }
+      ]
+    },
+    {
+      "name": "groups",
+      "description": "Directory of crafting circles and interest groups within the community",
+      "components": [
+        "Same top bar",
+        "Hero block with the heading 'Find your crafting circle', a sub-headline about meeting fellow makers, a large search input for groups, and a 'Start a new group' primary button",
+        "Featured groups row \u2014 three large cards in a row, each with a banner image, group name, member count, craft focus, recent-activity line, and a 'Join group' button",
+        "Full groups list grouped by craft category \u2014 each category section has a category heading and a list of group rows with group avatar, name, member count, posts-this-week count, and a Join / Joined toggle button",
+        "Footer panel with a 'How groups work' explainer (three numbered points) and links to community guidelines and group-leader resources"
+      ],
+      "animations": [
+        {
+          "element": "'Start a new group' primary button inside the hero block at the top of the page",
+          "type": "slide-up",
+          "trigger": "load",
+          "duration_ms": 1400,
+          "easing": "ease-out"
+        }
+      ]
+    }
+  ]
+}

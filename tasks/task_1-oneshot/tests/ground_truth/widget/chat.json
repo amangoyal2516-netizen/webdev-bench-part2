@@ -1,0 +1,12 @@
+{
+  "selector": ".wdvb-anim-slide-down-chat",
+  "bbox": [
+    450.0,
+    234.109375,
+    820.0,
+    123.328125
+  ],
+  "type": "slide-down",
+  "duration_ms": 1300,
+  "easing": "ease-out"
+}

@@ -1,0 +1,12 @@
+{
+  "selector": ".wdvb-anim-slide-up-groups",
+  "bbox": [
+    582.265625,
+    478.546875,
+    275.46875,
+    62.390625
+  ],
+  "type": "slide-up",
+  "duration_ms": 1400,
+  "easing": "ease-out"
+}

@@ -1,0 +1,653 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Classical Guitar · Habit detail — Étude</title>
+<link rel="stylesheet" href="./styles.css">
+<style>
+.wdvb-anim-slide-up-habit-detail{animation:wdvb-anim-slide-up-habit-detail 1300ms ease-out both;}
+@keyframes wdvb-anim-slide-up-habit-detail{
+  from{transform:translateY(120px);opacity:0;}
+  to{transform:translateY(0);opacity:1;}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<header class="topbar">
+  <div class="container">
+    <div class="topbar-inner">
+      <a href="./dashboard.html" class="brand">
+        <span class="brand-mark"><img src="./assets/icons/music-4.svg" alt="" class="icon"></span>
+        Étude
+      </a>
+      <div class="topbar-center">
+        <nav class="segmented" aria-label="Primary">
+          <a href="./dashboard.html" class="seg">Dashboard</a>
+          <a href="./habit-detail.html" class="seg active">Habits</a>
+          <a href="./session.html" class="seg">Session</a>
+          <a href="./library.html" class="seg">Library</a>
+          <a href="./insights.html" class="seg">Insights</a>
+          <a href="./settings.html" class="seg">Settings</a>
+        </nav>
+      </div>
+      <div class="topbar-right">
+        <span class="streak-chip"><img src="./assets/icons/flame.svg" alt="" class="icon"> 47</span>
+        <button class="icon-btn" aria-label="Notifications"><img src="./assets/icons/bell.svg" alt="" class="icon"></button>
+        <span class="avatar"><img src="./assets/avatars/notionists-seed-07.svg" alt="Mira Halvorsen"></span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="page-body">
+  <div class="container stack-lg">
+
+    <!-- Breadcrumb -->
+    <div class="row" style="gap:var(--space-2);">
+      <a href="./dashboard.html" class="muted text-sm">Dashboard</a>
+      <img src="./assets/icons/chevron-right.svg" alt="" class="icon icon-sm" style="opacity:.5;">
+      <a href="./library.html" class="muted text-sm">All habits</a>
+      <img src="./assets/icons/chevron-right.svg" alt="" class="icon icon-sm" style="opacity:.5;">
+      <span class="text-sm">Classical Guitar — Daily Études</span>
+    </div>
+
+    <!-- Header card -->
+    <section class="card card-elev">
+      <div class="row-between" style="align-items:flex-start;">
+        <div class="row" style="gap:var(--space-4);align-items:flex-start;">
+          <span class="habit-icon" style="width:64px;height:64px;border-radius:16px;">
+            <img src="./assets/icons/guitar.svg" alt="" class="icon icon-lg">
+          </span>
+          <div class="stack-sm">
+            <div class="row-wrap" style="gap:var(--space-2);">
+              <span class="badge badge-accent">Guitar</span>
+              <span class="badge">Classical</span>
+              <span class="badge badge-warn">Daily ritual</span>
+            </div>
+            <h1 style="font-size:var(--text-2xl);">Classical Guitar — Daily Études</h1>
+            <p class="muted text-sm">Carcassi Op. 60 cycle · nylon string · evening practice window 9:30–10:30 pm</p>
+          </div>
+        </div>
+        <a href="#" class="btn btn-outline">
+          <img src="./assets/icons/pencil-line.svg" alt="" class="icon icon-sm"> Edit habit
+        </a>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="grid grid-4">
+        <div class="stat">
+          <span class="stat-label"><img src="./assets/icons/flame.svg" alt="" class="icon icon-sm" style="vertical-align:-3px;"> Current streak</span>
+          <span class="stat-value" style="color:var(--flame);">47<span class="muted text-sm" style="font-family:var(--font-body);font-weight:400;"> days</span></span>
+          <span class="stat-delta">Best run since June</span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">Longest streak</span>
+          <span class="stat-value">112<span class="muted text-sm" style="font-family:var(--font-body);font-weight:400;"> days</span></span>
+          <span class="stat-delta down">Set 2023 · Spring</span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">Total hours</span>
+          <span class="stat-value">284.5<span class="muted text-sm" style="font-family:var(--font-body);font-weight:400;"> hr</span></span>
+          <span class="stat-delta">+12.3 hr this month</span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">Avg session</span>
+          <span class="stat-value">42<span class="muted text-sm" style="font-family:var(--font-body);font-weight:400;"> min</span></span>
+          <span class="stat-delta">±9 min variance</span>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="row-between">
+        <div class="row" style="gap:var(--space-3);">
+          <span class="card-eyebrow">Last 7 days</span>
+          <span class="dot-row" aria-label="Practice the last seven days">
+            <span class="dot on" title="Mon"></span>
+            <span class="dot on" title="Tue"></span>
+            <span class="dot on" title="Wed"></span>
+            <span class="dot miss" title="Thu"></span>
+            <span class="dot on" title="Fri"></span>
+            <span class="dot on" title="Sat"></span>
+            <span class="dot alt" title="Sun"></span>
+          </span>
+        </div>
+        <div class="row" style="gap:var(--space-3);">
+          <a href="./session.html" class="btn btn-primary"><img src="./assets/icons/circle-play.svg" alt="" class="icon icon-sm"> Start session</a>
+          <button class="icon-btn" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main split: heatmap + technique on left, recordings on right -->
+    <div class="split-main-rail">
+      <div class="stack-lg">
+
+        <!-- Heatmap calendar (the animated widget) -->
+        <section class="card wdvb-anim-slide-up-habit-detail">
+          <div class="card-header">
+            <div class="stack-sm">
+              <span class="card-eyebrow">Past twelve weeks</span>
+              <h3>Practice heatmap</h3>
+            </div>
+            <div class="segmented">
+              <button class="seg">Minutes</button>
+              <button class="seg active">Intensity</button>
+              <button class="seg">Tempo</button>
+            </div>
+          </div>
+
+          <div class="heatmap" role="img" aria-label="12-week practice heatmap">
+            <!-- Week 1 -->
+            <div class="heatmap-week">
+              <span class="heat-cell"></span>
+              <span class="heat-cell l1"></span>
+              <span class="heat-cell l2"></span>
+              <span class="heat-cell l1"></span>
+              <span class="heat-cell"></span>
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell l2"></span>
+            </div>
+            <!-- Week 2 -->
+            <div class="heatmap-week">
+              <span class="heat-cell l2"></span>
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell l1"></span>
+              <span class="heat-cell"></span>
+              <span class="heat-cell l2"></span>
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l3"></span>
+            </div>
+            <!-- Week 3 -->
+            <div class="heatmap-week">
+              <span class="heat-cell l1"></span>
+              <span class="heat-cell l2"></span>
+              <span class="heat-cell l2"></span>
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell l1"></span>
+              <span class="heat-cell"></span>
+              <span class="heat-cell l4"></span>
+            </div>
+            <!-- Week 4 -->
+            <div class="heatmap-week">
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell l2"></span>
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l2"></span>
+              <span class="heat-cell l1"></span>
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell l2"></span>
+            </div>
+            <!-- Week 5 -->
+            <div class="heatmap-week">
+              <span class="heat-cell"></span>
+              <span class="heat-cell l1"></span>
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l2"></span>
+              <span class="heat-cell l3"></span>
+            </div>
+            <!-- Week 6 -->
+            <div class="heatmap-week">
+              <span class="heat-cell l2"></span>
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell l2"></span>
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell l1"></span>
+              <span class="heat-cell"></span>
+            </div>
+            <!-- Week 7 -->
+            <div class="heatmap-week">
+              <span class="heat-cell l1"></span>
+              <span class="heat-cell l2"></span>
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l2"></span>
+            </div>
+            <!-- Week 8 -->
+            <div class="heatmap-week">
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell l2"></span>
+              <span class="heat-cell l1"></span>
+              <span class="heat-cell l2"></span>
+            </div>
+            <!-- Week 9 -->
+            <div class="heatmap-week">
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l2"></span>
+            </div>
+            <!-- Week 10 -->
+            <div class="heatmap-week">
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell"></span>
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell l4"></span>
+            </div>
+            <!-- Week 11 -->
+            <div class="heatmap-week">
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell alt"></span>
+            </div>
+            <!-- Week 12 -->
+            <div class="heatmap-week">
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell l4"></span>
+              <span class="heat-cell alt"></span>
+              <span class="heat-cell l3"></span>
+            </div>
+          </div>
+
+          <div class="row-between" style="margin-top:var(--space-4);flex-wrap:wrap;gap:var(--space-3);">
+            <div class="heat-legend">
+              <span>Less</span>
+              <span class="heat-cell"></span>
+              <span class="heat-cell l1"></span>
+              <span class="heat-cell l2"></span>
+              <span class="heat-cell l3"></span>
+              <span class="heat-cell l4"></span>
+              <span>More</span>
+              <span class="divider-v"></span>
+              <span class="heat-cell alt"></span>
+              <span>Milestone day</span>
+            </div>
+            <div class="row" style="gap:var(--space-4);">
+              <span class="text-xs muted">Aug 18 — Nov 9</span>
+              <span class="text-xs tabular">71 / 84 days</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Technique focus panel -->
+        <section class="card">
+          <div class="card-header">
+            <div class="stack-sm">
+              <span class="card-eyebrow">Currently working on</span>
+              <h3>Technique focus</h3>
+            </div>
+            <a href="#" class="btn btn-ghost btn-sm"><img src="./assets/icons/plus.svg" alt="" class="icon icon-sm"> Add focus area</a>
+          </div>
+
+          <ul class="row-wrap" style="gap:var(--space-3);">
+            <li>
+              <span class="chip-check done">
+                <span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span>
+                Sight reading · Carcassi No. 7
+                <button class="btn btn-sm btn-ghost" style="padding:2px 8px;"><img src="./assets/icons/trophy.svg" alt="" class="icon icon-sm"></button>
+              </span>
+            </li>
+            <li>
+              <span class="chip-check">
+                <span class="check"></span>
+                Scales: D minor (melodic, 3 octaves)
+                <button class="btn btn-sm btn-ghost" style="padding:2px 8px;">Mark mastered</button>
+              </span>
+            </li>
+            <li>
+              <span class="chip-check">
+                <span class="check"></span>
+                Tempo: 92 bpm with metronome
+                <button class="btn btn-sm btn-ghost" style="padding:2px 8px;">Mark mastered</button>
+              </span>
+            </li>
+            <li>
+              <span class="chip-check">
+                <span class="check"></span>
+                Rest stroke — i, m alternation
+                <button class="btn btn-sm btn-ghost" style="padding:2px 8px;">Mark mastered</button>
+              </span>
+            </li>
+            <li>
+              <span class="chip-check done">
+                <span class="check"><img src="./assets/icons/check.svg" alt="" class="icon icon-sm"></span>
+                Tremolo p-a-m-i pattern
+              </span>
+            </li>
+            <li>
+              <span class="chip-check">
+                <span class="check"></span>
+                Barre control — 5th &amp; 7th positions
+                <button class="btn btn-sm btn-ghost" style="padding:2px 8px;">Mark mastered</button>
+              </span>
+            </li>
+            <li>
+              <span class="chip-check">
+                <span class="check"></span>
+                Arpeggio: p-i-m-a-m-i (Villa-Lobos)
+                <button class="btn btn-sm btn-ghost" style="padding:2px 8px;">Mark mastered</button>
+              </span>
+            </li>
+            <li>
+              <span class="chip-check">
+                <span class="check"></span>
+                Dynamic shaping — mp → ff swells
+                <button class="btn btn-sm btn-ghost" style="padding:2px 8px;">Mark mastered</button>
+              </span>
+            </li>
+          </ul>
+
+          <div class="divider"></div>
+          <div class="row-between text-xs muted">
+            <span>2 of 8 mastered this cycle · resets every 4 weeks</span>
+            <span class="row" style="gap:var(--space-2);">
+              <span class="progress" style="width:160px;"><span class="progress-bar" style="width:25%;"></span></span>
+              <span class="tabular">25%</span>
+            </span>
+          </div>
+        </section>
+
+        <!-- Session log table -->
+        <section class="card">
+          <div class="card-header">
+            <div class="stack-sm">
+              <span class="card-eyebrow">Most recent first</span>
+              <h3>Session log</h3>
+            </div>
+            <div class="row" style="gap:var(--space-2);">
+              <div class="input-icon">
+                <img src="./assets/icons/search.svg" alt="" class="icon">
+                <input type="search" class="input" placeholder="Filter sessions…" style="width:200px;">
+              </div>
+              <button class="icon-btn" aria-label="Filter"><img src="./assets/icons/sliders-horizontal.svg" alt="" class="icon"></button>
+              <button class="icon-btn" aria-label="Export"><img src="./assets/icons/download.svg" alt="" class="icon"></button>
+            </div>
+          </div>
+
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Duration</th>
+                <th>Tempo range</th>
+                <th>Focus area</th>
+                <th>Mood</th>
+                <th>Notes</th>
+                <th aria-label="Actions"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="tabular">Nov 09 · 21:42</td>
+                <td class="tabular">52:18</td>
+                <td class="tabular">88 → 96 bpm</td>
+                <td><span class="tag">Sight reading</span></td>
+                <td style="font-size:1.2rem;">🔥</td>
+                <td class="muted">Carcassi No. 7 clicked at 92 — finally clean through bar 24.</td>
+                <td><button class="icon-btn" aria-label="Open"><img src="./assets/icons/chevron-right.svg" alt="" class="icon icon-sm"></button></td>
+              </tr>
+              <tr>
+                <td class="tabular">Nov 08 · 22:05</td>
+                <td class="tabular">38:44</td>
+                <td class="tabular">76 → 84 bpm</td>
+                <td><span class="tag">D minor scales</span></td>
+                <td style="font-size:1.2rem;">🙂</td>
+                <td class="muted">Sluggish left hand on the third octave; right hand felt grounded.</td>
+                <td><button class="icon-btn" aria-label="Open"><img src="./assets/icons/chevron-right.svg" alt="" class="icon icon-sm"></button></td>
+              </tr>
+              <tr>
+                <td class="tabular">Nov 07 · 21:58</td>
+                <td class="tabular">44:02</td>
+                <td class="tabular">80 → 92 bpm</td>
+                <td><span class="tag">Tremolo</span></td>
+                <td style="font-size:1.2rem;">😌</td>
+                <td class="muted">Slow practice paid off — even pulse for two minutes straight.</td>
+                <td><button class="icon-btn" aria-label="Open"><img src="./assets/icons/chevron-right.svg" alt="" class="icon icon-sm"></button></td>
+              </tr>
+              <tr>
+                <td class="tabular">Nov 06 · 22:14</td>
+                <td class="tabular">29:51</td>
+                <td class="tabular">72 → 80 bpm</td>
+                <td><span class="tag">Barre · pos. V</span></td>
+                <td style="font-size:1.2rem;">😐</td>
+                <td class="muted">Thumb cramp on bar 4. Cut session short, stretched, called it.</td>
+                <td><button class="icon-btn" aria-label="Open"><img src="./assets/icons/chevron-right.svg" alt="" class="icon icon-sm"></button></td>
+              </tr>
+              <tr>
+                <td class="tabular">Nov 05 · 21:30</td>
+                <td class="tabular">61:07</td>
+                <td class="tabular">84 → 100 bpm</td>
+                <td><span class="tag">Arpeggio · p-i-m-a</span></td>
+                <td style="font-size:1.2rem;">🤩</td>
+                <td class="muted">Villa-Lobos Étude No. 1 hit tempo for the first time. Recorded take.</td>
+                <td><button class="icon-btn" aria-label="Open"><img src="./assets/icons/chevron-right.svg" alt="" class="icon icon-sm"></button></td>
+              </tr>
+              <tr>
+                <td class="tabular">Nov 04 · 22:02</td>
+                <td class="tabular">40:23</td>
+                <td class="tabular">76 → 88 bpm</td>
+                <td><span class="tag">Rest stroke i-m</span></td>
+                <td style="font-size:1.2rem;">🙂</td>
+                <td class="muted">Nails reshaped before — tone noticeably rounder on the second string.</td>
+                <td><button class="icon-btn" aria-label="Open"><img src="./assets/icons/chevron-right.svg" alt="" class="icon icon-sm"></button></td>
+              </tr>
+              <tr>
+                <td class="tabular">Nov 03 · 21:48</td>
+                <td class="tabular">47:36</td>
+                <td class="tabular">80 → 92 bpm</td>
+                <td><span class="tag">Dynamics</span></td>
+                <td style="font-size:1.2rem;">😌</td>
+                <td class="muted">Worked the mp→ff swell in Tárrega; arm tension lessened by the third pass.</td>
+                <td><button class="icon-btn" aria-label="Open"><img src="./assets/icons/chevron-right.svg" alt="" class="icon icon-sm"></button></td>
+              </tr>
+              <tr>
+                <td class="tabular">Nov 02 · 22:20</td>
+                <td class="tabular">33:19</td>
+                <td class="tabular">68 → 76 bpm</td>
+                <td><span class="tag">Sight reading</span></td>
+                <td style="font-size:1.2rem;">😴</td>
+                <td class="muted">Tired evening. Played slow, read through Sor Op. 35 Nos. 17–19.</td>
+                <td><button class="icon-btn" aria-label="Open"><img src="./assets/icons/chevron-right.svg" alt="" class="icon icon-sm"></button></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="row-between" style="margin-top:var(--space-4);">
+            <span class="text-xs muted">Showing 8 of 187 sessions</span>
+            <div class="row" style="gap:var(--space-2);">
+              <button class="btn btn-sm btn-outline"><img src="./assets/icons/arrow-left.svg" alt="" class="icon icon-sm"> Prev</button>
+              <button class="btn btn-sm btn-outline">Next <img src="./assets/icons/arrow-right.svg" alt="" class="icon icon-sm"></button>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- Right rail: recordings -->
+      <aside class="stack">
+        <section class="card">
+          <div class="card-header">
+            <div class="stack-sm">
+              <span class="card-eyebrow">Last 5 takes</span>
+              <h4>Recordings</h4>
+            </div>
+            <button class="icon-btn" aria-label="Upload take"><img src="./assets/icons/upload.svg" alt="" class="icon"></button>
+          </div>
+
+          <div class="stack" style="gap:var(--space-3);">
+            <div class="recording-row">
+              <div class="recording-meta">
+                <div class="title">Villa-Lobos Étude No. 1 — full pass</div>
+                <div class="waveform" aria-hidden="true">
+                  <span class="bar" style="height:8px;"></span>
+                  <span class="bar" style="height:18px;"></span>
+                  <span class="bar" style="height:24px;"></span>
+                  <span class="bar" style="height:14px;"></span>
+                  <span class="bar alt" style="height:28px;"></span>
+                  <span class="bar alt" style="height:30px;"></span>
+                  <span class="bar" style="height:20px;"></span>
+                  <span class="bar" style="height:12px;"></span>
+                  <span class="bar" style="height:22px;"></span>
+                  <span class="bar" style="height:16px;"></span>
+                  <span class="bar alt" style="height:26px;"></span>
+                  <span class="bar" style="height:14px;"></span>
+                  <span class="bar" style="height:10px;"></span>
+                  <span class="bar" style="height:18px;"></span>
+                </div>
+                <div class="sub">Nov 05 · 03:42</div>
+              </div>
+              <button class="play-btn" aria-label="Play take"><img src="./assets/icons/play.svg" alt="" class="icon icon-sm"></button>
+            </div>
+
+            <div class="recording-row">
+              <div class="recording-meta">
+                <div class="title">Carcassi Op. 60 No. 7 — bar 24 loop</div>
+                <div class="waveform" aria-hidden="true">
+                  <span class="bar" style="height:14px;"></span>
+                  <span class="bar" style="height:10px;"></span>
+                  <span class="bar" style="height:22px;"></span>
+                  <span class="bar" style="height:18px;"></span>
+                  <span class="bar" style="height:24px;"></span>
+                  <span class="bar" style="height:14px;"></span>
+                  <span class="bar" style="height:20px;"></span>
+                  <span class="bar" style="height:10px;"></span>
+                  <span class="bar" style="height:16px;"></span>
+                  <span class="bar" style="height:22px;"></span>
+                  <span class="bar" style="height:12px;"></span>
+                  <span class="bar" style="height:18px;"></span>
+                  <span class="bar" style="height:14px;"></span>
+                  <span class="bar" style="height:10px;"></span>
+                </div>
+                <div class="sub">Nov 09 · 01:18</div>
+              </div>
+              <button class="play-btn" aria-label="Play take"><img src="./assets/icons/play.svg" alt="" class="icon icon-sm"></button>
+            </div>
+
+            <div class="recording-row">
+              <div class="recording-meta">
+                <div class="title">D minor scale · 3 oct · 88 bpm</div>
+                <div class="waveform" aria-hidden="true">
+                  <span class="bar" style="height:6px;"></span>
+                  <span class="bar" style="height:10px;"></span>
+                  <span class="bar" style="height:14px;"></span>
+                  <span class="bar" style="height:18px;"></span>
+                  <span class="bar" style="height:22px;"></span>
+                  <span class="bar" style="height:26px;"></span>
+                  <span class="bar" style="height:22px;"></span>
+                  <span class="bar" style="height:18px;"></span>
+                  <span class="bar" style="height:14px;"></span>
+                  <span class="bar" style="height:10px;"></span>
+                  <span class="bar" style="height:14px;"></span>
+                  <span class="bar" style="height:18px;"></span>
+                  <span class="bar" style="height:22px;"></span>
+                  <span class="bar" style="height:14px;"></span>
+                </div>
+                <div class="sub">Nov 08 · 00:42</div>
+              </div>
+              <button class="play-btn" aria-label="Play take"><img src="./assets/icons/play.svg" alt="" class="icon icon-sm"></button>
+            </div>
+
+            <div class="recording-row">
+              <div class="recording-meta">
+                <div class="title">Tremolo study — Recuerdos opening</div>
+                <div class="waveform" aria-hidden="true">
+                  <span class="bar" style="height:20px;"></span>
+                  <span class="bar" style="height:22px;"></span>
+                  <span class="bar" style="height:20px;"></span>
+                  <span class="bar" style="height:24px;"></span>
+                  <span class="bar" style="height:20px;"></span>
+                  <span class="bar" style="height:22px;"></span>
+                  <span class="bar" style="height:18px;"></span>
+                  <span class="bar alt" style="height:26px;"></span>
+                  <span class="bar" style="height:20px;"></span>
+                  <span class="bar" style="height:22px;"></span>
+                  <span class="bar" style="height:18px;"></span>
+                  <span class="bar" style="height:20px;"></span>
+                  <span class="bar" style="height:22px;"></span>
+                  <span class="bar" style="height:18px;"></span>
+                </div>
+                <div class="sub">Nov 07 · 02:11</div>
+              </div>
+              <button class="play-btn" aria-label="Play take"><img src="./assets/icons/play.svg" alt="" class="icon icon-sm"></button>
+            </div>
+
+            <div class="recording-row">
+              <div class="recording-meta">
+                <div class="title">Sor Op. 35 No. 17 — sight pass</div>
+                <div class="waveform" aria-hidden="true">
+                  <span class="bar" style="height:10px;"></span>
+                  <span class="bar" style="height:14px;"></span>
+                  <span class="bar" style="height:8px;"></span>
+                  <span class="bar" style="height:18px;"></span>
+                  <span class="bar" style="height:12px;"></span>
+                  <span class="bar" style="height:22px;"></span>
+                  <span class="bar" style="height:16px;"></span>
+                  <span class="bar" style="height:10px;"></span>
+                  <span class="bar" style="height:14px;"></span>
+                  <span class="bar" style="height:8px;"></span>
+                  <span class="bar" style="height:18px;"></span>
+                  <span class="bar" style="height:12px;"></span>
+                  <span class="bar" style="height:22px;"></span>
+                  <span class="bar" style="height:14px;"></span>
+                </div>
+                <div class="sub">Nov 02 · 04:08</div>
+              </div>
+              <button class="play-btn" aria-label="Play take"><img src="./assets/icons/play.svg" alt="" class="icon icon-sm"></button>
+            </div>
+          </div>
+
+          <div class="divider"></div>
+          <a href="./library.html" class="row" style="justify-content:space-between;font-size:var(--text-sm);font-weight:700;">
+            <span>All recordings (42)</span>
+            <img src="./assets/icons/arrow-up-right.svg" alt="" class="icon icon-sm">
+          </a>
+        </section>
+
+        <section class="card-deep card-sm">
+          <div class="row" style="gap:var(--space-3);align-items:flex-start;">
+            <span class="milestone-badge alt"><img src="./assets/icons/trophy.svg" alt="" class="icon"></span>
+            <div class="stack-sm">
+              <span class="card-eyebrow">Milestone unlocked</span>
+              <h5>250 lifetime hours</h5>
+              <span class="milestone-date">Nov 05 · 21:30</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="card-deep card-sm">
+          <div class="stack-sm">
+            <span class="card-eyebrow">Practice room</span>
+            <img src="./assets/photos/s5DDiJZ8TMk.jpg" alt="A dim corner of a practice room at night" style="border-radius:var(--radius-md);aspect-ratio:4/3;object-fit:cover;width:100%;">
+            <p class="text-xs muted">Evenings, nylon string, lamp on, phone face-down. The ritual that earned the 47-day streak.</p>
+          </div>
+        </section>
+      </aside>
+    </div>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    Étude · daily-practice journal for solo musicians · v2.4 · synced 9 min ago
+  </div>
+</footer>
+
+</div>
+</body>
+</html>

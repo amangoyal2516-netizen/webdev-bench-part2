@@ -1,0 +1,116 @@
+{
+  "description": "Chat-based help service for residents to talk with their local city hall \u2014 ask about permits, trash pickup, potholes, and council meetings \u2014 designed for first-time users who have never used a chat tool before",
+  "allowed_frameworks": [
+    "html-css"
+  ],
+  "palette": {
+    "background": "#d9a441",
+    "surface": "#7a8b4a",
+    "text": "#2a2218",
+    "accent": "#5a3a22",
+    "accent_alt": "#c25a2d",
+    "muted": "#8a7a5a"
+  },
+  "pages": [
+    {
+      "name": "home",
+      "description": "Welcome landing page that introduces the chat service to residents who have never used it before",
+      "components": [
+        "Top bar with the city seal and service name on the left, a 'Languages' dropdown showing the current language, and a single 'Start a chat' button on the right",
+        "Welcome hero block with a friendly headline ('Talk to City Hall'), a two-sentence plain-language explanation of what the service is, and a large 'Ask a question' primary button with a chat-bubble icon",
+        "Three-card 'What can I ask about?' row with example topics \u2014 each card shows an icon, a topic name (Trash & Recycling, Permits & Licenses, Streets & Parks), and one example question in quotes",
+        "Step-by-step 'How it works' strip with four numbered tiles: 1. Pick a topic, 2. Type your question, 3. Chat with a city helper, 4. Get a reference number",
+        "Footer with city contact phone number, walk-in office hours, accessibility statement link, and a 'Not an emergency \u2014 call 911 for emergencies' notice"
+      ],
+      "animations": [
+        {
+          "element": "Large 'Ask a question' primary button with chat-bubble icon inside the welcome hero block",
+          "type": "scale-up",
+          "trigger": "load",
+          "duration_ms": 1500,
+          "easing": "ease-in-out"
+        }
+      ]
+    },
+    {
+      "name": "chat",
+      "description": "Main chat window where a resident is having a conversation with a city helper",
+      "components": [
+        "Left sidebar with a 'New question' button at top, a 'Your conversations' heading, a list of past chat threads (each showing topic icon, short title, status pill, and date), and a 'Help' link at the bottom",
+        "Top bar of the main pane showing the current chat title, the helper's name and department badge, current wait/response time estimate, and a 'Print this chat' button",
+        "Scrollable message thread with alternating bubbles \u2014 resident on the right, helper on the left with department avatar and timestamp \u2014 plus an inline system intro card and a reference-number card",
+        "Suggested-replies row above the composer with three tappable chip buttons (e.g. 'Yes, that helps', 'Can you explain more?', 'I have a follow-up')",
+        "Message composer at the bottom with a large plain-language text area, an attachment paperclip with helper text 'Add a photo of the issue', a microphone icon for voice input, and a 'Send' button"
+      ],
+      "animations": [
+        {
+          "element": "System intro card 'You are now chatting with Maria from Public Works' at the top of the message thread",
+          "type": "slide-down",
+          "trigger": "load",
+          "duration_ms": 1300,
+          "easing": "ease-out"
+        }
+      ]
+    },
+    {
+      "name": "topics",
+      "description": "Topic picker page that lets a resident start a new chat by choosing what their question is about",
+      "components": [
+        "Same left sidebar as the chat page",
+        "Page heading 'What is your question about?' with a one-sentence subheading 'Pick a topic and we'll connect you with the right department'",
+        "Large search input with placeholder 'Type a word like pothole, dog license, or recycling' and a small helper line underneath",
+        "Topic grid (three per row) of large tiles \u2014 each tile shows a big icon, a department name, a one-line plain-language description, and a small availability status line",
+        "'Not sure?' helper card at the bottom with text 'Tell us in your own words and we'll route your question' and a 'Just describe my problem' button"
+      ],
+      "animations": [
+        {
+          "element": "Page heading 'What is your question about?' at the top of the main content area",
+          "type": "slide-right",
+          "trigger": "load",
+          "duration_ms": 1200,
+          "easing": "ease-out"
+        }
+      ]
+    },
+    {
+      "name": "report-issue",
+      "description": "Guided form for reporting a physical issue (pothole, broken streetlight, fallen tree) inside the chat flow",
+      "components": [
+        "Same left sidebar",
+        "Stepper bar at the top of the main pane showing four steps \u2014 1. What, 2. Where, 3. Photo, 4. Review \u2014 with the current step highlighted and a 'You are on step 2 of 4' plain-language label",
+        "Two-column form area \u2014 left column has the form fields for the current step (address input, 'Use my current location' button, cross-street field, description text area); right column shows a static map preview with a pin",
+        "Reassurance card under the form with three short lines: 'You can stop and come back later', 'Your name stays private unless you choose to share it', and 'You'll get a tracking number when you're done'",
+        "Bottom action row with a 'Go back' secondary button on the left and a 'Next step' primary button on the right"
+      ],
+      "animations": [
+        {
+          "element": "Stepper bar showing the four steps at the top of the main pane",
+          "type": "slide-down",
+          "trigger": "load",
+          "duration_ms": 1200,
+          "easing": "ease-out"
+        }
+      ]
+    },
+    {
+      "name": "help",
+      "description": "Beginner-friendly help page explaining how to use the chat service",
+      "components": [
+        "Same left sidebar",
+        "Page heading 'How to use this chat' with a friendly one-paragraph welcome aimed at first-time users",
+        "Accordion list of six beginner questions \u2014 each row has a question on the left and an expand chevron on the right (What is a chat?, Is this free?, Who am I talking to?, and three more)",
+        "Side-by-side 'Try it out' demo card showing an example message bubble on the left and a labelled diagram on the right pointing to the composer, send button, and attachment icon with plain-language captions",
+        "Contact alternatives card at the bottom listing three other ways to reach the city \u2014 phone number with hours, walk-in address with hours, and a paper-form mailing address \u2014 each in its own row with an icon"
+      ],
+      "animations": [
+        {
+          "element": "Page heading 'How to use this chat' at the top of the main content area",
+          "type": "slide-left",
+          "trigger": "load",
+          "duration_ms": 1300,
+          "easing": "ease-out"
+        }
+      ]
+    }
+  ]
+}

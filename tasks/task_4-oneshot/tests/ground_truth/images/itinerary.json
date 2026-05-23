@@ -1,0 +1,1122 @@
+[
+  {
+    "src": "./assets/icons/disc-3.svg",
+    "alt": "",
+    "x": 151,
+    "y": 23,
+    "w": 16,
+    "h": 16,
+    "phash": "eab0bd4b30bc83e1",
+    "lab_mean": [
+      27.86,
+      -18.86,
+      -5.77
+    ]
+  },
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 1131.546875,
+    "y": 24,
+    "w": 14,
+    "h": 14,
+    "phash": "eb85f02d83728dc3",
+    "lab_mean": [
+      16.28,
+      -0.85,
+      -6.66
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar-days.svg",
+    "alt": "",
+    "x": 161,
+    "y": 238.4375,
+    "w": 14,
+    "h": 14,
+    "phash": "aa3cfcc0fcd28193",
+    "lab_mean": [
+      15.62,
+      -0.69,
+      -4.66
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 426.4375,
+    "y": 238.4375,
+    "w": 14,
+    "h": 14,
+    "phash": "ab4bf08db2309b33",
+    "lab_mean": [
+      18.97,
+      -0.8,
+      -5.41
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 611.0625,
+    "y": 238.4375,
+    "w": 14,
+    "h": 14,
+    "phash": "af3bc510b1c58ec6",
+    "lab_mean": [
+      20.27,
+      -0.85,
+      -5.42
+    ]
+  },
+  {
+    "src": "./assets/icons/share-2.svg",
+    "alt": "",
+    "x": 162,
+    "y": 374.875,
+    "w": 16,
+    "h": 16,
+    "phash": "eab1c8b699942e4e",
+    "lab_mean": [
+      45.94,
+      28.35,
+      26.79
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar-plus.svg",
+    "alt": "",
+    "x": 355.625,
+    "y": 374.875,
+    "w": 16,
+    "h": 16,
+    "phash": "8b7cf8c1b44b9097",
+    "lab_mean": [
+      13.74,
+      -0.7,
+      -5.61
+    ]
+  },
+  {
+    "src": "./assets/icons/sliders-horizontal.svg",
+    "alt": "",
+    "x": 504.4375,
+    "y": 374.875,
+    "w": 16,
+    "h": 16,
+    "phash": "ec26c3d9969b9132",
+    "lab_mean": [
+      15.68,
+      -0.81,
+      -6.31
+    ]
+  },
+  {
+    "src": "./assets/icons/layout-list.svg",
+    "alt": "",
+    "x": 649.953125,
+    "y": 498.71875,
+    "w": 14,
+    "h": 14,
+    "phash": "bbccc4899ce69313",
+    "lab_mean": [
+      71.77,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/map.svg",
+    "alt": "",
+    "x": 771.171875,
+    "y": 498.71875,
+    "w": 14,
+    "h": 14,
+    "phash": "afdabf90c425c425",
+    "lab_mean": [
+      63.08,
+      -0.51,
+      -1.28
+    ]
+  },
+  {
+    "src": "./assets/icons/list.svg",
+    "alt": "",
+    "x": 850.390625,
+    "y": 498.71875,
+    "w": 14,
+    "h": 14,
+    "phash": "eb1f94e194e1941e",
+    "lab_mean": [
+      77.6,
+      -0.71,
+      -1.68
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 415,
+    "y": 567.859375,
+    "w": 14,
+    "h": 14,
+    "phash": "aae2b6f00da5b5a4",
+    "lab_mean": [
+      64.11,
+      -5.17,
+      -1.99
+    ]
+  },
+  {
+    "src": "./assets/icons/landmark.svg",
+    "alt": "",
+    "x": 405,
+    "y": 630.5,
+    "w": 14,
+    "h": 14,
+    "phash": "af90d0f5d3c20e8d",
+    "lab_mean": [
+      71.05,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/footprints.svg",
+    "alt": "",
+    "x": 575.421875,
+    "y": 630.5,
+    "w": 14,
+    "h": 14,
+    "phash": "beb1c99cc243c387",
+    "lab_mean": [
+      73.19,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 405,
+    "y": 664.1875,
+    "w": 14,
+    "h": 14,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      75.17,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/ticket-check.svg",
+    "alt": "",
+    "x": 415,
+    "y": 705.328125,
+    "w": 14,
+    "h": 14,
+    "phash": "9a4cec33b2ccc533",
+    "lab_mean": [
+      66.6,
+      -5.42,
+      -2.12
+    ]
+  },
+  {
+    "src": "./assets/icons/x.svg",
+    "alt": "",
+    "x": 885,
+    "y": 569.5625,
+    "w": 14,
+    "h": 14,
+    "phash": "bd92cb6de2492c92",
+    "lab_mean": [
+      80.44,
+      -0.9,
+      -1.71
+    ]
+  },
+  {
+    "src": "./assets/icons/pizza.svg",
+    "alt": "",
+    "x": 344,
+    "y": 830.265625,
+    "w": 24,
+    "h": 24,
+    "phash": "eba5e40683769e64",
+    "lab_mean": [
+      62.39,
+      -4.93,
+      -1.99
+    ]
+  },
+  {
+    "src": "./assets/icons/beer.svg",
+    "alt": "",
+    "x": 542,
+    "y": 830.265625,
+    "w": 24,
+    "h": 24,
+    "phash": "af03b5d2f0adb094",
+    "lab_mean": [
+      59.67,
+      -4.64,
+      -1.92
+    ]
+  },
+  {
+    "src": "./assets/icons/disc.svg",
+    "alt": "",
+    "x": 740,
+    "y": 830.265625,
+    "w": 24,
+    "h": 24,
+    "phash": "a2f0bd5f70a5c207",
+    "lab_mean": [
+      66.77,
+      -5.24,
+      -2.13
+    ]
+  },
+  {
+    "src": "./assets/icons/store.svg",
+    "alt": "",
+    "x": 405,
+    "y": 956.75,
+    "w": 14,
+    "h": 14,
+    "phash": "ab03fc7a2d2d90d2",
+    "lab_mean": [
+      66.39,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/footprints.svg",
+    "alt": "",
+    "x": 550.21875,
+    "y": 956.75,
+    "w": 14,
+    "h": 14,
+    "phash": "ba37c91c94c2ebe0",
+    "lab_mean": [
+      72.88,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/volume-2.svg",
+    "alt": "",
+    "x": 719.84375,
+    "y": 956.75,
+    "w": 14,
+    "h": 14,
+    "phash": "b331b8cec58e1e31",
+    "lab_mean": [
+      77.7,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/ticket.svg",
+    "alt": "",
+    "x": 415,
+    "y": 997.890625,
+    "w": 14,
+    "h": 14,
+    "phash": "ce03b9fa8ba5911a",
+    "lab_mean": [
+      67.48,
+      4.55,
+      7.48
+    ]
+  },
+  {
+    "src": "./assets/icons/x.svg",
+    "alt": "",
+    "x": 885,
+    "y": 930.40625,
+    "w": 14,
+    "h": 14,
+    "phash": "bd92cb6de2492c92",
+    "lab_mean": [
+      80.44,
+      -0.9,
+      -1.71
+    ]
+  },
+  {
+    "src": "./assets/icons/graduation-cap.svg",
+    "alt": "",
+    "x": 415,
+    "y": 1093.484375,
+    "w": 14,
+    "h": 14,
+    "phash": "fe83a074de83c878",
+    "lab_mean": [
+      69.25,
+      -5.48,
+      -2.17
+    ]
+  },
+  {
+    "src": "./assets/icons/landmark.svg",
+    "alt": "",
+    "x": 405,
+    "y": 1178.625,
+    "w": 14,
+    "h": 14,
+    "phash": "afa192f4f1d3620a",
+    "lab_mean": [
+      68.4,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/footprints.svg",
+    "alt": "",
+    "x": 579.421875,
+    "y": 1178.625,
+    "w": 14,
+    "h": 14,
+    "phash": "ba37c91c94c2ebe0",
+    "lab_mean": [
+      72.88,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/armchair.svg",
+    "alt": "",
+    "x": 695.046875,
+    "y": 1178.625,
+    "w": 14,
+    "h": 14,
+    "phash": "ab68b570c08fd297",
+    "lab_mean": [
+      73.41,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/ticket-check.svg",
+    "alt": "",
+    "x": 415,
+    "y": 1219.765625,
+    "w": 14,
+    "h": 14,
+    "phash": "9a4cec33b2ccc533",
+    "lab_mean": [
+      66.6,
+      -5.42,
+      -2.12
+    ]
+  },
+  {
+    "src": "./assets/icons/x.svg",
+    "alt": "",
+    "x": 885,
+    "y": 1095.1875,
+    "w": 14,
+    "h": 14,
+    "phash": "bd92cb6de2492c92",
+    "lab_mean": [
+      80.44,
+      -0.9,
+      -1.71
+    ]
+  },
+  {
+    "src": "./assets/icons/utensils.svg",
+    "alt": "",
+    "x": 344,
+    "y": 1344.703125,
+    "w": 24,
+    "h": 24,
+    "phash": "da2392caadb6c3c4",
+    "lab_mean": [
+      64.9,
+      -4.99,
+      -2.11
+    ]
+  },
+  {
+    "src": "./assets/icons/wine.svg",
+    "alt": "",
+    "x": 542,
+    "y": 1344.703125,
+    "w": 24,
+    "h": 24,
+    "phash": "b44dc3933467c39c",
+    "lab_mean": [
+      73.15,
+      -5.63,
+      -2.38
+    ]
+  },
+  {
+    "src": "./assets/icons/disc.svg",
+    "alt": "",
+    "x": 740,
+    "y": 1344.703125,
+    "w": 24,
+    "h": 24,
+    "phash": "a2f0bd5f70a5c207",
+    "lab_mean": [
+      66.77,
+      -5.24,
+      -2.13
+    ]
+  },
+  {
+    "src": "./assets/icons/store.svg",
+    "alt": "",
+    "x": 405,
+    "y": 1471.1875,
+    "w": 14,
+    "h": 14,
+    "phash": "ab03fc7a2d2d90d2",
+    "lab_mean": [
+      66.39,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/footprints.svg",
+    "alt": "",
+    "x": 604.640625,
+    "y": 1471.1875,
+    "w": 14,
+    "h": 14,
+    "phash": "ba37c91c94c2ebe0",
+    "lab_mean": [
+      72.88,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/door-open.svg",
+    "alt": "",
+    "x": 720.265625,
+    "y": 1471.1875,
+    "w": 14,
+    "h": 14,
+    "phash": "fbe0e584c41e961e",
+    "lab_mean": [
+      71.96,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/ticket-check.svg",
+    "alt": "",
+    "x": 415,
+    "y": 1512.328125,
+    "w": 14,
+    "h": 14,
+    "phash": "9a4cec33b2ccc533",
+    "lab_mean": [
+      66.6,
+      -5.42,
+      -2.12
+    ]
+  },
+  {
+    "src": "./assets/icons/x.svg",
+    "alt": "",
+    "x": 885,
+    "y": 1444.84375,
+    "w": 14,
+    "h": 14,
+    "phash": "bd92cb6de2492c92",
+    "lab_mean": [
+      80.44,
+      -0.9,
+      -1.71
+    ]
+  },
+  {
+    "src": "./assets/icons/store.svg",
+    "alt": "",
+    "x": 405,
+    "y": 1635.96875,
+    "w": 14,
+    "h": 14,
+    "phash": "ab03fc7a2d2d90d2",
+    "lab_mean": [
+      66.39,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/footprints.svg",
+    "alt": "",
+    "x": 572.625,
+    "y": 1635.96875,
+    "w": 14,
+    "h": 14,
+    "phash": "ba37c91c94c2ebe0",
+    "lab_mean": [
+      72.88,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 738.25,
+    "y": 1635.96875,
+    "w": 14,
+    "h": 14,
+    "phash": "ef3bc510b1c50ec6",
+    "lab_mean": [
+      76.76,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/ticket-check.svg",
+    "alt": "",
+    "x": 415,
+    "y": 1677.109375,
+    "w": 14,
+    "h": 14,
+    "phash": "9a4cec33b2ccc533",
+    "lab_mean": [
+      66.6,
+      -5.42,
+      -2.12
+    ]
+  },
+  {
+    "src": "./assets/icons/x.svg",
+    "alt": "",
+    "x": 885,
+    "y": 1609.625,
+    "w": 14,
+    "h": 14,
+    "phash": "bd92cb6de2492c92",
+    "lab_mean": [
+      80.44,
+      -0.9,
+      -1.71
+    ]
+  },
+  {
+    "src": "./assets/icons/store.svg",
+    "alt": "",
+    "x": 405,
+    "y": 1780.75,
+    "w": 14,
+    "h": 14,
+    "phash": "ab03fc7a2d2d90d2",
+    "lab_mean": [
+      66.39,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/footprints.svg",
+    "alt": "",
+    "x": 583.828125,
+    "y": 1780.75,
+    "w": 14,
+    "h": 14,
+    "phash": "ba37c91c94c2ebe0",
+    "lab_mean": [
+      72.88,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/volume-1.svg",
+    "alt": "",
+    "x": 755.453125,
+    "y": 1780.75,
+    "w": 14,
+    "h": 14,
+    "phash": "b331d8cec58e1e31",
+    "lab_mean": [
+      82.62,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 415,
+    "y": 1821.890625,
+    "w": 14,
+    "h": 14,
+    "phash": "ba1ab4ecc6c4cd83",
+    "lab_mean": [
+      73.82,
+      -0.71,
+      -1.63
+    ]
+  },
+  {
+    "src": "./assets/icons/x.svg",
+    "alt": "",
+    "x": 885,
+    "y": 1754.40625,
+    "w": 14,
+    "h": 14,
+    "phash": "bc008a00e3002800",
+    "lab_mean": [
+      80.11,
+      -0.8,
+      -1.71
+    ]
+  },
+  {
+    "src": "./assets/icons/coffee.svg",
+    "alt": "",
+    "x": 344,
+    "y": 1946.828125,
+    "w": 24,
+    "h": 24,
+    "phash": "af30b4c9d02f4b36",
+    "lab_mean": [
+      69.05,
+      -5.32,
+      -2.24
+    ]
+  },
+  {
+    "src": "./assets/icons/beer.svg",
+    "alt": "",
+    "x": 542,
+    "y": 1946.828125,
+    "w": 24,
+    "h": 24,
+    "phash": "af03b5d2f0adb094",
+    "lab_mean": [
+      59.67,
+      -4.64,
+      -1.92
+    ]
+  },
+  {
+    "src": "./assets/icons/disc.svg",
+    "alt": "",
+    "x": 740,
+    "y": 1946.828125,
+    "w": 24,
+    "h": 24,
+    "phash": "a2f0bd5f70a5c207",
+    "lab_mean": [
+      66.77,
+      -5.24,
+      -2.13
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 415,
+    "y": 2065.265625,
+    "w": 14,
+    "h": 14,
+    "phash": "aae2b6f00da5b5a4",
+    "lab_mean": [
+      64.11,
+      -5.17,
+      -1.99
+    ]
+  },
+  {
+    "src": "./assets/icons/landmark.svg",
+    "alt": "",
+    "x": 405,
+    "y": 2127.90625,
+    "w": 14,
+    "h": 14,
+    "phash": "afa192f4f1d3620a",
+    "lab_mean": [
+      68.4,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/footprints.svg",
+    "alt": "",
+    "x": 533.421875,
+    "y": 2127.90625,
+    "w": 14,
+    "h": 14,
+    "phash": "ba37c91c94c2ebe0",
+    "lab_mean": [
+      72.88,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 649.046875,
+    "y": 2127.90625,
+    "w": 14,
+    "h": 14,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      75.05,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/ticket-check.svg",
+    "alt": "",
+    "x": 415,
+    "y": 2169.046875,
+    "w": 14,
+    "h": 14,
+    "phash": "9a4cec33b2ccc533",
+    "lab_mean": [
+      66.6,
+      -5.42,
+      -2.12
+    ]
+  },
+  {
+    "src": "./assets/icons/x.svg",
+    "alt": "",
+    "x": 885,
+    "y": 2066.96875,
+    "w": 14,
+    "h": 14,
+    "phash": "bd92cb6de2492c92",
+    "lab_mean": [
+      80.44,
+      -0.9,
+      -1.71
+    ]
+  },
+  {
+    "src": "./assets/icons/store.svg",
+    "alt": "",
+    "x": 405,
+    "y": 2272.6875,
+    "w": 14,
+    "h": 14,
+    "phash": "ab03fc7a2d2d90d2",
+    "lab_mean": [
+      66.39,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/footprints.svg",
+    "alt": "",
+    "x": 667.4375,
+    "y": 2272.6875,
+    "w": 14,
+    "h": 14,
+    "phash": "ba37c91c94c2ebe0",
+    "lab_mean": [
+      72.88,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/train-front.svg",
+    "alt": "",
+    "x": 405,
+    "y": 2306.375,
+    "w": 14,
+    "h": 14,
+    "phash": "ab31b5669236c3c9",
+    "lab_mean": [
+      69.81,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/ticket.svg",
+    "alt": "",
+    "x": 415,
+    "y": 2347.515625,
+    "w": 14,
+    "h": 14,
+    "phash": "ce03b9fa8ba5911a",
+    "lab_mean": [
+      67.48,
+      4.55,
+      7.48
+    ]
+  },
+  {
+    "src": "./assets/icons/x.svg",
+    "alt": "",
+    "x": 885,
+    "y": 2246.34375,
+    "w": 14,
+    "h": 14,
+    "phash": "bc008a00e3002800",
+    "lab_mean": [
+      80.11,
+      -0.8,
+      -1.71
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 982,
+    "y": 553.90625,
+    "w": 16,
+    "h": 16,
+    "phash": "aacad03426cd795e",
+    "lab_mean": [
+      36.84,
+      -23.94,
+      -7.32
+    ]
+  },
+  {
+    "src": "./assets/icons/ticket.svg",
+    "alt": "",
+    "x": 1011,
+    "y": 556.234375,
+    "w": 14,
+    "h": 14,
+    "phash": "ce07b9ea9b85914a",
+    "lab_mean": [
+      73.31,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 982,
+    "y": 592.59375,
+    "w": 16,
+    "h": 16,
+    "phash": "aacad03426cd795e",
+    "lab_mean": [
+      36.84,
+      -23.94,
+      -7.32
+    ]
+  },
+  {
+    "src": "./assets/icons/shield-check.svg",
+    "alt": "",
+    "x": 1011,
+    "y": 594.921875,
+    "w": 14,
+    "h": 14,
+    "phash": "aa4ea039b2e4c7b3",
+    "lab_mean": [
+      77.1,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 982,
+    "y": 631.28125,
+    "w": 16,
+    "h": 16,
+    "phash": "aacad03426cd795e",
+    "lab_mean": [
+      36.84,
+      -23.94,
+      -7.32
+    ]
+  },
+  {
+    "src": "./assets/icons/ear.svg",
+    "alt": "",
+    "x": 1011,
+    "y": 633.609375,
+    "w": 14,
+    "h": 14,
+    "phash": "ea69b4e4c116c63e",
+    "lab_mean": [
+      79.08,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 982,
+    "y": 669.96875,
+    "w": 16,
+    "h": 16,
+    "phash": "aacad03426cd795e",
+    "lab_mean": [
+      36.84,
+      -23.94,
+      -7.32
+    ]
+  },
+  {
+    "src": "./assets/icons/banknote.svg",
+    "alt": "",
+    "x": 1011,
+    "y": 672.296875,
+    "w": 14,
+    "h": 14,
+    "phash": "a2e6fd1985e6d019",
+    "lab_mean": [
+      76.75,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/backpack.svg",
+    "alt": "",
+    "x": 1011,
+    "y": 710.984375,
+    "w": 14,
+    "h": 14,
+    "phash": "baa5e4c2938a8f4b",
+    "lab_mean": [
+      64.09,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/phone.svg",
+    "alt": "",
+    "x": 1011,
+    "y": 749.671875,
+    "w": 14,
+    "h": 14,
+    "phash": "bb99c07e8e944c63",
+    "lab_mean": [
+      76.33,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/camera-off.svg",
+    "alt": "",
+    "x": 1011,
+    "y": 788.359375,
+    "w": 14,
+    "h": 14,
+    "phash": "a39faea5901bc85c",
+    "lab_mean": [
+      68.4,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/credit-card.svg",
+    "alt": "",
+    "x": 1011,
+    "y": 827.046875,
+    "w": 14,
+    "h": 14,
+    "phash": "8a7efdd5812a80d5",
+    "lab_mean": [
+      71.05,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/download.svg",
+    "alt": "",
+    "x": 1062.078125,
+    "y": 1358.359375,
+    "w": 16,
+    "h": 16,
+    "phash": "a3e5db932c4c9332",
+    "lab_mean": [
+      31.66,
+      -21.34,
+      -6.62
+    ]
+  },
+  {
+    "src": "./assets/icons/share-2.svg",
+    "alt": "",
+    "x": 1056.390625,
+    "y": 1411.359375,
+    "w": 16,
+    "h": 16,
+    "phash": "eab9c8b499942e4e",
+    "lab_mean": [
+      75.85,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/icons/map.svg",
+    "alt": "",
+    "x": 1060.578125,
+    "y": 1465.359375,
+    "w": 16,
+    "h": 16,
+    "phash": "aef8af9ac407d405",
+    "lab_mean": [
+      68.65,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "src": "./assets/photos/uFomxGheuGk.jpg",
+    "alt": "Berlin street at night",
+    "x": 981,
+    "y": 1609.546875,
+    "w": 290,
+    "h": 217.5,
+    "phash": "9bcc62b3cdcc6621",
+    "lab_mean": [
+      25.8,
+      5.87,
+      -0.95
+    ]
+  },
+  {
+    "src": "./assets/icons/disc-3.svg",
+    "alt": "",
+    "x": 151,
+    "y": 2538.8125,
+    "w": 16,
+    "h": 16,
+    "phash": "eab0bd4b30b4c3e1",
+    "lab_mean": [
+      27.83,
+      -18.84,
+      -5.77
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "_comment": "License allowlist for the recipe-time asset pipeline. Every file vendored into a task's /workspace/output/assets/ (single-mount layout) must trace to an entry here. No API-keyed sources by design. `bulk_local` = git-cloned once into infra/assets/_source/. `bulk_download` = static URL fetches with no auth. `deterministic_generator` = keyless URL-parameter API (no rate-limited secret).",
+  "sources": [
+    {
+      "name": "Unsplash Lite Dataset",
+      "type": "bulk_download",
+      "origin": "https://unsplash.com/data/lite/latest",
+      "download_url": "https://unsplash-datasets.s3.amazonaws.com/lite/latest/unsplash-research-dataset-lite-latest.zip",
+      "local_path": "infra/assets/_source/unsplash-lite",
+      "fetch_cmd": "curl -sL -o /tmp/lite.zip https://unsplash-datasets.s3.amazonaws.com/lite/latest/unsplash-research-dataset-lite-latest.zip && unzip /tmp/lite.zip -d infra/assets/_source/unsplash-lite",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "attribution_required": false,
+      "produced_pool": "infra/assets/photo-pool"
+    },
+    {
+      "name": "Google Fonts (OFL subset)",
+      "type": "bulk_download",
+      "origin": "https://fonts.gstatic.com",
+      "css_index": "https://fonts.googleapis.com/css2",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://scripts.sil.org/OFL",
+      "attribution_required": false,
+      "produced_pool": "infra/assets/font-pool"
+    },
+    {
+      "name": "Lucide Icons",
+      "type": "bulk_local",
+      "origin": "https://github.com/lucide-icons/lucide",
+      "local_path": "infra/assets/_source/lucide",
+      "fetch_cmd": "git clone --depth 1 https://github.com/lucide-icons/lucide infra/assets/_source/lucide",
+      "license": "ISC",
+      "license_url": "https://github.com/lucide-icons/lucide/blob/main/LICENSE",
+      "attribution_required": false,
+      "produced_pool": "infra/assets/icon-pool"
+    },
+    {
+      "name": "DiceBear",
+      "type": "deterministic_generator",
+      "origin": "https://api.dicebear.com",
+      "url_template": "https://api.dicebear.com/9.x/{style}/svg?seed={seed}",
+      "license": "MIT",
+      "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE",
+      "attribution_required": false,
+      "produced_pool": "infra/assets/avatar-pool"
+    }
+  ]
+}

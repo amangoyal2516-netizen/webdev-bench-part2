@@ -1,0 +1,642 @@
+[
+  {
+    "style": "avataaars",
+    "seed": "seed-00",
+    "path": "infra/assets/avatar-pool/avataaars-seed-00.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "avataaars",
+    "seed": "seed-01",
+    "path": "infra/assets/avatar-pool/avataaars-seed-01.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "avataaars",
+    "seed": "seed-02",
+    "path": "infra/assets/avatar-pool/avataaars-seed-02.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "avataaars",
+    "seed": "seed-03",
+    "path": "infra/assets/avatar-pool/avataaars-seed-03.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "avataaars",
+    "seed": "seed-04",
+    "path": "infra/assets/avatar-pool/avataaars-seed-04.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "avataaars",
+    "seed": "seed-05",
+    "path": "infra/assets/avatar-pool/avataaars-seed-05.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "avataaars",
+    "seed": "seed-06",
+    "path": "infra/assets/avatar-pool/avataaars-seed-06.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "avataaars",
+    "seed": "seed-07",
+    "path": "infra/assets/avatar-pool/avataaars-seed-07.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "avataaars",
+    "seed": "seed-08",
+    "path": "infra/assets/avatar-pool/avataaars-seed-08.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "avataaars",
+    "seed": "seed-09",
+    "path": "infra/assets/avatar-pool/avataaars-seed-09.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "avataaars",
+    "seed": "seed-10",
+    "path": "infra/assets/avatar-pool/avataaars-seed-10.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "avataaars",
+    "seed": "seed-11",
+    "path": "infra/assets/avatar-pool/avataaars-seed-11.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "avataaars",
+    "seed": "seed-12",
+    "path": "infra/assets/avatar-pool/avataaars-seed-12.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "avataaars",
+    "seed": "seed-13",
+    "path": "infra/assets/avatar-pool/avataaars-seed-13.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "avataaars",
+    "seed": "seed-14",
+    "path": "infra/assets/avatar-pool/avataaars-seed-14.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "avataaars",
+    "seed": "seed-15",
+    "path": "infra/assets/avatar-pool/avataaars-seed-15.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "avataaars",
+    "seed": "seed-16",
+    "path": "infra/assets/avatar-pool/avataaars-seed-16.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "avataaars",
+    "seed": "seed-17",
+    "path": "infra/assets/avatar-pool/avataaars-seed-17.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "avataaars",
+    "seed": "seed-18",
+    "path": "infra/assets/avatar-pool/avataaars-seed-18.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "avataaars",
+    "seed": "seed-19",
+    "path": "infra/assets/avatar-pool/avataaars-seed-19.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "lorelei",
+    "seed": "seed-00",
+    "path": "infra/assets/avatar-pool/lorelei-seed-00.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "lorelei",
+    "seed": "seed-01",
+    "path": "infra/assets/avatar-pool/lorelei-seed-01.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "lorelei",
+    "seed": "seed-02",
+    "path": "infra/assets/avatar-pool/lorelei-seed-02.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "lorelei",
+    "seed": "seed-03",
+    "path": "infra/assets/avatar-pool/lorelei-seed-03.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "lorelei",
+    "seed": "seed-04",
+    "path": "infra/assets/avatar-pool/lorelei-seed-04.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "lorelei",
+    "seed": "seed-05",
+    "path": "infra/assets/avatar-pool/lorelei-seed-05.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "lorelei",
+    "seed": "seed-06",
+    "path": "infra/assets/avatar-pool/lorelei-seed-06.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "lorelei",
+    "seed": "seed-07",
+    "path": "infra/assets/avatar-pool/lorelei-seed-07.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "lorelei",
+    "seed": "seed-08",
+    "path": "infra/assets/avatar-pool/lorelei-seed-08.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "lorelei",
+    "seed": "seed-09",
+    "path": "infra/assets/avatar-pool/lorelei-seed-09.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "lorelei",
+    "seed": "seed-10",
+    "path": "infra/assets/avatar-pool/lorelei-seed-10.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "lorelei",
+    "seed": "seed-11",
+    "path": "infra/assets/avatar-pool/lorelei-seed-11.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "lorelei",
+    "seed": "seed-12",
+    "path": "infra/assets/avatar-pool/lorelei-seed-12.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "lorelei",
+    "seed": "seed-13",
+    "path": "infra/assets/avatar-pool/lorelei-seed-13.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "lorelei",
+    "seed": "seed-14",
+    "path": "infra/assets/avatar-pool/lorelei-seed-14.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "lorelei",
+    "seed": "seed-15",
+    "path": "infra/assets/avatar-pool/lorelei-seed-15.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "lorelei",
+    "seed": "seed-16",
+    "path": "infra/assets/avatar-pool/lorelei-seed-16.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "lorelei",
+    "seed": "seed-17",
+    "path": "infra/assets/avatar-pool/lorelei-seed-17.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "lorelei",
+    "seed": "seed-18",
+    "path": "infra/assets/avatar-pool/lorelei-seed-18.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "lorelei",
+    "seed": "seed-19",
+    "path": "infra/assets/avatar-pool/lorelei-seed-19.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "notionists",
+    "seed": "seed-00",
+    "path": "infra/assets/avatar-pool/notionists-seed-00.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "notionists",
+    "seed": "seed-01",
+    "path": "infra/assets/avatar-pool/notionists-seed-01.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "notionists",
+    "seed": "seed-02",
+    "path": "infra/assets/avatar-pool/notionists-seed-02.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "notionists",
+    "seed": "seed-03",
+    "path": "infra/assets/avatar-pool/notionists-seed-03.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "notionists",
+    "seed": "seed-04",
+    "path": "infra/assets/avatar-pool/notionists-seed-04.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "notionists",
+    "seed": "seed-05",
+    "path": "infra/assets/avatar-pool/notionists-seed-05.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "notionists",
+    "seed": "seed-06",
+    "path": "infra/assets/avatar-pool/notionists-seed-06.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "notionists",
+    "seed": "seed-07",
+    "path": "infra/assets/avatar-pool/notionists-seed-07.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "notionists",
+    "seed": "seed-08",
+    "path": "infra/assets/avatar-pool/notionists-seed-08.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "notionists",
+    "seed": "seed-09",
+    "path": "infra/assets/avatar-pool/notionists-seed-09.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "notionists",
+    "seed": "seed-10",
+    "path": "infra/assets/avatar-pool/notionists-seed-10.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "notionists",
+    "seed": "seed-11",
+    "path": "infra/assets/avatar-pool/notionists-seed-11.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "notionists",
+    "seed": "seed-12",
+    "path": "infra/assets/avatar-pool/notionists-seed-12.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "notionists",
+    "seed": "seed-13",
+    "path": "infra/assets/avatar-pool/notionists-seed-13.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "notionists",
+    "seed": "seed-14",
+    "path": "infra/assets/avatar-pool/notionists-seed-14.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "notionists",
+    "seed": "seed-15",
+    "path": "infra/assets/avatar-pool/notionists-seed-15.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "notionists",
+    "seed": "seed-16",
+    "path": "infra/assets/avatar-pool/notionists-seed-16.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "notionists",
+    "seed": "seed-17",
+    "path": "infra/assets/avatar-pool/notionists-seed-17.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "notionists",
+    "seed": "seed-18",
+    "path": "infra/assets/avatar-pool/notionists-seed-18.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "notionists",
+    "seed": "seed-19",
+    "path": "infra/assets/avatar-pool/notionists-seed-19.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "shapes",
+    "seed": "seed-00",
+    "path": "infra/assets/avatar-pool/shapes-seed-00.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "shapes",
+    "seed": "seed-01",
+    "path": "infra/assets/avatar-pool/shapes-seed-01.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "shapes",
+    "seed": "seed-02",
+    "path": "infra/assets/avatar-pool/shapes-seed-02.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "shapes",
+    "seed": "seed-03",
+    "path": "infra/assets/avatar-pool/shapes-seed-03.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "shapes",
+    "seed": "seed-04",
+    "path": "infra/assets/avatar-pool/shapes-seed-04.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "shapes",
+    "seed": "seed-05",
+    "path": "infra/assets/avatar-pool/shapes-seed-05.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "shapes",
+    "seed": "seed-06",
+    "path": "infra/assets/avatar-pool/shapes-seed-06.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "shapes",
+    "seed": "seed-07",
+    "path": "infra/assets/avatar-pool/shapes-seed-07.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "shapes",
+    "seed": "seed-08",
+    "path": "infra/assets/avatar-pool/shapes-seed-08.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "shapes",
+    "seed": "seed-09",
+    "path": "infra/assets/avatar-pool/shapes-seed-09.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "shapes",
+    "seed": "seed-10",
+    "path": "infra/assets/avatar-pool/shapes-seed-10.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "shapes",
+    "seed": "seed-11",
+    "path": "infra/assets/avatar-pool/shapes-seed-11.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "shapes",
+    "seed": "seed-12",
+    "path": "infra/assets/avatar-pool/shapes-seed-12.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "shapes",
+    "seed": "seed-13",
+    "path": "infra/assets/avatar-pool/shapes-seed-13.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "shapes",
+    "seed": "seed-14",
+    "path": "infra/assets/avatar-pool/shapes-seed-14.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "shapes",
+    "seed": "seed-15",
+    "path": "infra/assets/avatar-pool/shapes-seed-15.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "shapes",
+    "seed": "seed-16",
+    "path": "infra/assets/avatar-pool/shapes-seed-16.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "shapes",
+    "seed": "seed-17",
+    "path": "infra/assets/avatar-pool/shapes-seed-17.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "shapes",
+    "seed": "seed-18",
+    "path": "infra/assets/avatar-pool/shapes-seed-18.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  },
+  {
+    "style": "shapes",
+    "seed": "seed-19",
+    "path": "infra/assets/avatar-pool/shapes-seed-19.svg",
+    "source": "DiceBear",
+    "license": "MIT",
+    "license_url": "https://github.com/dicebear/dicebear/blob/main/LICENSE"
+  }
+]

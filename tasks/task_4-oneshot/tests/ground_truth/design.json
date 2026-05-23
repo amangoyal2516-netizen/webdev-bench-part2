@@ -1,0 +1,116 @@
+{
+  "description": "Concert tour booking platform for music beginners \u2014 find tribute shows, beginner-friendly classical matinees, and small-venue gigs, with a chronological 'your tour itinerary' planner",
+  "allowed_frameworks": [
+    "html-css"
+  ],
+  "palette": {
+    "background": "#2a323d",
+    "surface": "#f1f3f5",
+    "text": "#1c2128",
+    "accent": "#0d6b6b",
+    "accent_alt": "#d97757",
+    "muted": "#7a8593"
+  },
+  "pages": [
+    {
+      "name": "home",
+      "description": "Landing page that explains the service and invites first-time concertgoers to start planning",
+      "components": [
+        "Top navigation with logo, primary links (Discover, Itineraries, Beginner's guide, Venues), a 'Sign in' link, and a 'Start planning' button",
+        "Hero panel with eyebrow text 'Your first concert, sorted', headline, supporting paragraph, and a search panel containing a city input, a date-range picker, a genre dropdown ('I don't know yet' as default), and a 'Find shows' primary button",
+        "Three-step explainer row titled 'How it works' \u2014 each step has a numbered marker, short title (Pick a city, Build your night, Show up), and one-line description",
+        "Curated 'Easy first concerts' shelf \u2014 a row of five show cards, each with cover image, artist name, venue name, date chip, ticket price, and a 'beginner-friendly' tag",
+        "Footer with four columns (Explore, Help, Company, Legal), a small newsletter input, and a copyright line"
+      ],
+      "animations": [
+        {
+          "element": "Search panel (city, date, genre, button) inside the hero block",
+          "type": "slide-up",
+          "trigger": "load",
+          "duration_ms": 1300,
+          "easing": "ease-out"
+        }
+      ]
+    },
+    {
+      "name": "discover",
+      "description": "Browsable list of upcoming shows with filters and a map preview",
+      "components": [
+        "Same top navigation",
+        "Page header with title 'Shows near you', a result-count subtitle, and a view-toggle (List / Map) on the right",
+        "Filter rail across the top \u2014 chips for Date (Tonight, This weekend, Next 30 days, Custom), a Genre dropdown, a Price range slider, a Venue-size selector (Intimate, Mid, Arena), and a 'Beginner-friendly only' toggle",
+        "Main results grid (three per row) \u2014 each show card has cover art, artist name, support acts line, venue + city, date and door-time, price-from, capacity icon, and a small 'Add to itinerary' plus button",
+        "Right-side static map preview card listing five numbered pins with venue name, distance, and the show headlining there tonight"
+      ],
+      "animations": [
+        {
+          "element": "View-toggle (List / Map) control on the right side of the page header",
+          "type": "slide-left",
+          "trigger": "load",
+          "duration_ms": 1200,
+          "easing": "ease-out"
+        }
+      ]
+    },
+    {
+      "name": "show",
+      "description": "Single show detail page with ticket tiers and a beginner orientation",
+      "components": [
+        "Same top navigation",
+        "Show hero with cover image on the left and a panel on the right showing artist name, support acts, venue + city, date and door-time, age policy, and two buttons ('Get tickets' primary, 'Add to itinerary' secondary)",
+        "Ticket-tier table \u2014 rows for General admission, Seated balcony, and Early-entry, each with description, price, remaining-availability bar, and a select button",
+        "'What to expect' beginner panel \u2014 four labelled rows: Show length, Volume level (a 1\u20135 dot scale), Standing vs seated, Crowd vibe, each with a one-sentence explainer",
+        "Setlist preview accordion listing typical songs from recent tour dates, plus a venue info block with address, transit lines, nearest food, and a small static map thumbnail"
+      ],
+      "animations": [
+        {
+          "element": "Cover image on the left side of the show hero",
+          "type": "scale-up",
+          "trigger": "load",
+          "duration_ms": 1600,
+          "easing": "ease-in-out"
+        }
+      ]
+    },
+    {
+      "name": "itinerary",
+      "description": "Chronological timeline of the user's planned concerts across a trip",
+      "components": [
+        "Same top navigation",
+        "Itinerary header with editable trip name, date range, destination city, total-shows count, total-spend figure, and a 'Share itinerary' button",
+        "Vertical timeline as the main content \u2014 each day is a dated row with a day label on the left rail and event cards on the right showing time, show title, venue, walking distance, ticket status (Booked, Reserved, Wishlist), and a remove control",
+        "Gap rows between timeline events labelled 'free time' with three nearby suggestions (food spot, late-night venue, record store) each as a tappable mini-card",
+        "Right-hand summary sidebar with a packing-style checklist (tickets, ID, earplugs, cash for merch), a budget breakdown bar by category (Tickets, Travel, Food, Extras), and a 'Download .ics' button"
+      ],
+      "animations": [
+        {
+          "element": "Editable trip-name field and date range inside the itinerary header",
+          "type": "slide-down",
+          "trigger": "load",
+          "duration_ms": 1300,
+          "easing": "ease-out"
+        }
+      ]
+    },
+    {
+      "name": "guide",
+      "description": "Beginner's guide explaining genres, venue types, and etiquette",
+      "components": [
+        "Same top navigation",
+        "Guide header with title 'A beginner's guide to live music', a one-paragraph intro, and a table-of-contents chip row (Genres, Venues, Etiquette, Glossary)",
+        "Genres section \u2014 a grid of six genre cards, each with genre name, a one-line description, three example artists, a typical-volume dot scale, and an 'Easy entry point' suggested show link",
+        "Venue-types comparison panel \u2014 three side-by-side columns (Intimate club, Theatre, Arena) listing capacity range, typical ticket price, dress code, sightline notes, and 'good for beginners?' verdict",
+        "Etiquette FAQ accordion with eight items (When to clap, Phones up or down, Mosh pits, Talking during songs, Encores, Merch lines, Photography, Leaving early)"
+      ],
+      "animations": [
+        {
+          "element": "Table-of-contents chip row inside the guide header",
+          "type": "slide-right",
+          "trigger": "load",
+          "duration_ms": 1400,
+          "easing": "ease-out"
+        }
+      ]
+    }
+  ]
+}

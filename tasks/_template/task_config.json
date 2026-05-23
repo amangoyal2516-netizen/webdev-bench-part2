@@ -1,0 +1,9 @@
+{
+  "task_id": "{{ TASK_ID }}",
+  "variant": "{{ VARIANT }}",
+  "allowed_frameworks": {{ ALLOWED_FRAMEWORKS_JSON }},
+  "viewports": ["desktop", "tablet", "mobile"],
+  "pages": {{ PAGES_JSON }},
+  "judge_model": "claude-opus-4-7",
+  "_comment": "Substituted by recipe/03-package/. pages is a flat list of canonical kebab-case names (without .html). allowed_frameworks is an array; for this benchmark = [\"html-css\"]."
+}

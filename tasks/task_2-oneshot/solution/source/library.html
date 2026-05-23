@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Practice library — Métier</title>
+<link rel="stylesheet" href="./styles.css">
+<style>
+.wdvb-anim-slide-left-library{animation:wdvb-anim-slide-left-library 1200ms ease-out both;}
+@keyframes wdvb-anim-slide-left-library{from{transform:translateX(120px);opacity:0;}to{transform:translateX(0);opacity:1;}}
+</style>
+</head>
+<body>
+<div class="page">
+<header class="topbar">
+<div class="container topbar-inner">
+<a href="./dashboard.html" class="brand"><span class="brand-mark"><img src="./assets/icons/music-4.svg" alt="" class="icon icon-sm"></span> Métier</a>
+<div class="topbar-center">
+<nav class="segmented" aria-label="Primary">
+<a href="./dashboard.html" class="seg">Dashboard</a>
+<a href="./library.html" class="seg active">Library</a>
+<a href="./session.html" class="seg">Session</a>
+<a href="./insights.html" class="seg">Insights</a>
+<a href="./settings.html" class="seg">Settings</a>
+</nav>
+</div>
+<div class="topbar-right">
+<span class="streak-chip"><img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> 27</span>
+<button class="icon-btn" aria-label="Notifications"><img src="./assets/icons/bell.svg" alt="" class="icon"></button>
+<span class="avatar"><img src="./assets/avatars/lorelei-seed-04.svg" alt="Yara Acheson"></span>
+</div>
+</div>
+</header>
+
+<main class="page-body">
+<div class="container stack-lg">
+
+<section class="row-between">
+<div class="stack-sm">
+<span class="card-eyebrow">Catalog</span>
+<h1>Practice library</h1>
+<p class="muted">24 active habits · 6 archived · last refresh <span class="tabular">14:02</span></p>
+</div>
+<div class="row">
+<button class="btn btn-outline"><img src="./assets/icons/upload.svg" alt="" class="icon"> Import</button>
+<button class="btn btn-ghost"><img src="./assets/icons/sliders-horizontal.svg" alt="" class="icon"> Manage</button>
+<a href="./session.html" class="btn btn-primary btn-lg wdvb-anim-slide-left-library"><img src="./assets/icons/plus.svg" alt="" class="icon"> New habit</a>
+</div>
+</section>
+
+<section class="card-deep">
+<div class="stack">
+<div class="row" style="flex-wrap:wrap;gap:var(--space-3);">
+<div class="input-icon" style="flex:1;min-width:240px;">
+<img src="./assets/icons/search.svg" alt="" class="icon">
+<input class="input" type="search" placeholder="Search habits, tags, instruments…">
+</div>
+<div class="field" style="min-width:200px;">
+<select class="select" aria-label="Instrument family">
+<option>All instrument families</option>
+<option>Strings</option>
+<option>Keys</option>
+<option>Winds</option>
+<option>Voice</option>
+<option>Production</option>
+</select>
+</div>
+<div class="field" style="min-width:200px;">
+<select class="select" aria-label="Sort">
+<option>Sort: Recently practiced</option>
+<option>Sort: Longest streak</option>
+<option>Sort: Alphabetical</option>
+</select>
+</div>
+</div>
+<div class="row-wrap">
+<span class="muted text-xs upper weight-bold" style="margin-right:var(--space-2);">Tags</span>
+<button class="chip active">All</button>
+<button class="chip"><img src="./assets/icons/tag.svg" alt="" class="icon icon-sm"> Technique</button>
+<button class="chip alt-active"><img src="./assets/icons/book-marked.svg" alt="" class="icon icon-sm"> Repertoire</button>
+<button class="chip"><img src="./assets/icons/sparkles.svg" alt="" class="icon icon-sm"> Theory</button>
+<button class="chip"><img src="./assets/icons/audio-waveform.svg" alt="" class="icon icon-sm"> Improv</button>
+<span class="divider-v"></span>
+<button class="btn btn-sm btn-ghost"><img src="./assets/icons/x.svg" alt="" class="icon icon-sm"> Clear filters</button>
+</div>
+</div>
+</section>
+
+<section class="stack">
+<div class="row-between">
+<div class="row">
+<h3>Active habits</h3>
+<span class="badge">24 results</span>
+</div>
+<div class="row">
+<span class="muted text-xs">View</span>
+<button class="icon-btn active" aria-label="Grid view"><img src="./assets/icons/layout-grid.svg" alt="" class="icon"></button>
+<button class="icon-btn" aria-label="List view"><img src="./assets/icons/list.svg" alt="" class="icon"></button>
+</div>
+</div>
+
+<div class="grid grid-4">
+
+<article class="habit-card">
+<div class="habit-card-head">
+<span class="habit-icon"><img src="./assets/icons/guitar.svg" alt="" class="icon icon-md"></span>
+<button class="icon-btn" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></button>
+</div>
+<div class="stack-sm">
+<h4 class="habit-name">Classical guitar — Villa-Lobos Études</h4>
+<span class="habit-meta">Strings · Nylon</span>
+</div>
+<div class="row-wrap">
+<span class="tag">Repertoire</span>
+<span class="tag">Technique</span>
+</div>
+<div class="row-between">
+<div class="stat"><span class="stat-label">Weekly</span><span class="stat-value">5 / 7</span></div>
+<span class="streak-chip"><img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> 27</span>
+</div>
+<svg class="sparkline" viewBox="0 0 120 36" preserveAspectRatio="none">
+<polyline fill="none" stroke="#4a7bc8" stroke-width="2" points="0,28 15,22 30,24 45,16 60,18 75,10 90,12 105,6 120,8"/>
+<polyline fill="none" stroke="rgba(74,123,200,0.25)" stroke-width="1" points="0,30 120,30"/>
+</svg>
+<div class="row-between text-xs muted">
+<span>Last · <span class="tabular">2h ago</span></span>
+<span>4 wk trend</span>
+</div>
+</article>
+
+<article class="habit-card">
+<div class="habit-card-head">
+<span class="habit-icon alt"><img src="./assets/icons/piano.svg" alt="" class="icon icon-md"></span>
+<button class="icon-btn" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></button>
+</div>
+<div class="stack-sm">
+<h4 class="habit-name">Hanon Virtuoso — exercises 1–20</h4>
+<span class="habit-meta">Keys · Upright</span>
+</div>
+<div class="row-wrap">
+<span class="tag">Technique</span>
+</div>
+<div class="row-between">
+<div class="stat"><span class="stat-label">Weekly</span><span class="stat-value">6 / 6</span></div>
+<span class="streak-chip"><img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> 41</span>
+</div>
+<svg class="sparkline" viewBox="0 0 120 36" preserveAspectRatio="none">
+<polyline fill="none" stroke="#c87a9c" stroke-width="2" points="0,18 15,14 30,20 45,12 60,14 75,8 90,10 105,4 120,2"/>
+</svg>
+<div class="row-between text-xs muted">
+<span>Last · <span class="tabular">yesterday</span></span>
+<span>4 wk trend</span>
+</div>
+</article>
+
+<article class="habit-card">
+<div class="habit-card-head">
+<span class="habit-icon"><img src="./assets/icons/mic-vocal.svg" alt="" class="icon icon-md"></span>
+<button class="icon-btn" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></button>
+</div>
+<div class="stack-sm">
+<h4 class="habit-name">Vocal warm-ups — lip trills &amp; sirens</h4>
+<span class="habit-meta">Voice · Mezzo</span>
+</div>
+<div class="row-wrap">
+<span class="tag">Technique</span>
+<span class="tag">Improv</span>
+</div>
+<div class="row-between">
+<div class="stat"><span class="stat-label">Weekly</span><span class="stat-value">7 / 7</span></div>
+<span class="streak-chip"><img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> 63</span>
+</div>
+<svg class="sparkline" viewBox="0 0 120 36" preserveAspectRatio="none">
+<polyline fill="none" stroke="#4a7bc8" stroke-width="2" points="0,16 15,14 30,12 45,14 60,10 75,12 90,8 105,10 120,6"/>
+</svg>
+<div class="row-between text-xs muted">
+<span>Last · <span class="tabular">today</span></span>
+<span>4 wk trend</span>
+</div>
+</article>
+
+<article class="habit-card">
+<div class="habit-card-head">
+<span class="habit-icon alt"><img src="./assets/icons/audio-waveform.svg" alt="" class="icon icon-md"></span>
+<button class="icon-btn" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></button>
+</div>
+<div class="stack-sm">
+<h4 class="habit-name">Modal improvisation over II–V–I</h4>
+<span class="habit-meta">Theory · All instruments</span>
+</div>
+<div class="row-wrap">
+<span class="tag">Improv</span>
+<span class="tag">Theory</span>
+</div>
+<div class="row-between">
+<div class="stat"><span class="stat-label">Weekly</span><span class="stat-value">3 / 4</span></div>
+<span class="streak-chip"><img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> 9</span>
+</div>
+<svg class="sparkline" viewBox="0 0 120 36" preserveAspectRatio="none">
+<polyline fill="none" stroke="#c87a9c" stroke-width="2" points="0,24 15,20 30,28 45,22 60,18 75,24 90,16 105,18 120,14"/>
+</svg>
+<div class="row-between text-xs muted">
+<span>Last · <span class="tabular">3d ago</span></span>
+<span>4 wk trend</span>
+</div>
+</article>
+
+<article class="habit-card">
+<div class="habit-card-head">
+<span class="habit-icon"><img src="./assets/icons/music-2.svg" alt="" class="icon icon-md"></span>
+<button class="icon-btn" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></button>
+</div>
+<div class="stack-sm">
+<h4 class="habit-name">Bach — Cello Suite no. 1, Prelude</h4>
+<span class="habit-meta">Strings · Cello</span>
+</div>
+<div class="row-wrap">
+<span class="tag">Repertoire</span>
+</div>
+<div class="row-between">
+<div class="stat"><span class="stat-label">Weekly</span><span class="stat-value">4 / 5</span></div>
+<span class="streak-chip"><img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> 18</span>
+</div>
+<svg class="sparkline" viewBox="0 0 120 36" preserveAspectRatio="none">
+<polyline fill="none" stroke="#4a7bc8" stroke-width="2" points="0,22 15,18 30,20 45,14 60,16 75,12 90,8 105,12 120,10"/>
+</svg>
+<div class="row-between text-xs muted">
+<span>Last · <span class="tabular">1d ago</span></span>
+<span>4 wk trend</span>
+</div>
+</article>
+
+<article class="habit-card">
+<div class="habit-card-head">
+<span class="habit-icon alt"><img src="./assets/icons/headphones.svg" alt="" class="icon icon-md"></span>
+<button class="icon-btn" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></button>
+</div>
+<div class="stack-sm">
+<h4 class="habit-name">Mixing — reference track AB</h4>
+<span class="habit-meta">Production · Ableton</span>
+</div>
+<div class="row-wrap">
+<span class="tag">Technique</span>
+</div>
+<div class="row-between">
+<div class="stat"><span class="stat-label">Weekly</span><span class="stat-value">2 / 3</span></div>
+<span class="streak-chip"><img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> 11</span>
+</div>
+<svg class="sparkline" viewBox="0 0 120 36" preserveAspectRatio="none">
+<polyline fill="none" stroke="#c87a9c" stroke-width="2" points="0,18 15,22 30,20 45,18 60,14 75,16 90,12 105,10 120,12"/>
+</svg>
+<div class="row-between text-xs muted">
+<span>Last · <span class="tabular">4d ago</span></span>
+<span>4 wk trend</span>
+</div>
+</article>
+
+<article class="habit-card">
+<div class="habit-card-head">
+<span class="habit-icon"><img src="./assets/icons/music-3.svg" alt="" class="icon icon-md"></span>
+<button class="icon-btn" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></button>
+</div>
+<div class="stack-sm">
+<h4 class="habit-name">Saxophone — long tones &amp; overtones</h4>
+<span class="habit-meta">Winds · Tenor</span>
+</div>
+<div class="row-wrap">
+<span class="tag">Technique</span>
+</div>
+<div class="row-between">
+<div class="stat"><span class="stat-label">Weekly</span><span class="stat-value">5 / 5</span></div>
+<span class="streak-chip"><img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> 22</span>
+</div>
+<svg class="sparkline" viewBox="0 0 120 36" preserveAspectRatio="none">
+<polyline fill="none" stroke="#4a7bc8" stroke-width="2" points="0,26 15,20 30,22 45,18 60,14 75,16 90,10 105,12 120,8"/>
+</svg>
+<div class="row-between text-xs muted">
+<span>Last · <span class="tabular">5h ago</span></span>
+<span>4 wk trend</span>
+</div>
+</article>
+
+<article class="habit-card">
+<div class="habit-card-head">
+<span class="habit-icon alt"><img src="./assets/icons/piano.svg" alt="" class="icon icon-md"></span>
+<button class="icon-btn" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></button>
+</div>
+<div class="stack-sm">
+<h4 class="habit-name">Sight-reading — 15 min daily</h4>
+<span class="habit-meta">Keys · All clefs</span>
+</div>
+<div class="row-wrap">
+<span class="tag">Theory</span>
+<span class="tag">Technique</span>
+</div>
+<div class="row-between">
+<div class="stat"><span class="stat-label">Weekly</span><span class="stat-value">6 / 7</span></div>
+<span class="streak-chip"><img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> 34</span>
+</div>
+<svg class="sparkline" viewBox="0 0 120 36" preserveAspectRatio="none">
+<polyline fill="none" stroke="#c87a9c" stroke-width="2" points="0,20 15,18 30,14 45,16 60,12 75,10 90,12 105,8 120,6"/>
+</svg>
+<div class="row-between text-xs muted">
+<span>Last · <span class="tabular">today</span></span>
+<span>4 wk trend</span>
+</div>
+</article>
+
+<article class="habit-card">
+<div class="habit-card-head">
+<span class="habit-icon"><img src="./assets/icons/guitar.svg" alt="" class="icon icon-md"></span>
+<button class="icon-btn" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></button>
+</div>
+<div class="stack-sm">
+<h4 class="habit-name">Fingerstyle blues — Mississippi John Hurt</h4>
+<span class="habit-meta">Strings · Steel</span>
+</div>
+<div class="row-wrap">
+<span class="tag">Repertoire</span>
+<span class="tag">Improv</span>
+</div>
+<div class="row-between">
+<div class="stat"><span class="stat-label">Weekly</span><span class="stat-value">3 / 4</span></div>
+<span class="streak-chip"><img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> 7</span>
+</div>
+<svg class="sparkline" viewBox="0 0 120 36" preserveAspectRatio="none">
+<polyline fill="none" stroke="#4a7bc8" stroke-width="2" points="0,16 15,20 30,18 45,22 60,20 75,16 90,18 105,14 120,16"/>
+</svg>
+<div class="row-between text-xs muted">
+<span>Last · <span class="tabular">2d ago</span></span>
+<span>4 wk trend</span>
+</div>
+</article>
+
+<article class="habit-card">
+<div class="habit-card-head">
+<span class="habit-icon alt"><img src="./assets/icons/drum.svg" alt="" class="icon icon-md"></span>
+<button class="icon-btn" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></button>
+</div>
+<div class="stack-sm">
+<h4 class="habit-name">Rudiments — paradiddles &amp; flams</h4>
+<span class="habit-meta">Percussion · Practice pad</span>
+</div>
+<div class="row-wrap">
+<span class="tag">Technique</span>
+</div>
+<div class="row-between">
+<div class="stat"><span class="stat-label">Weekly</span><span class="stat-value">4 / 4</span></div>
+<span class="streak-chip"><img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> 15</span>
+</div>
+<svg class="sparkline" viewBox="0 0 120 36" preserveAspectRatio="none">
+<polyline fill="none" stroke="#c87a9c" stroke-width="2" points="0,22 15,16 30,18 45,12 60,14 75,10 90,12 105,8 120,10"/>
+</svg>
+<div class="row-between text-xs muted">
+<span>Last · <span class="tabular">6h ago</span></span>
+<span>4 wk trend</span>
+</div>
+</article>
+
+<article class="habit-card">
+<div class="habit-card-head">
+<span class="habit-icon"><img src="./assets/icons/mic-vocal.svg" alt="" class="icon icon-md"></span>
+<button class="icon-btn" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></button>
+</div>
+<div class="stack-sm">
+<h4 class="habit-name">Ear training — interval recognition</h4>
+<span class="habit-meta">Theory · 10 min set</span>
+</div>
+<div class="row-wrap">
+<span class="tag">Theory</span>
+</div>
+<div class="row-between">
+<div class="stat"><span class="stat-label">Weekly</span><span class="stat-value">5 / 7</span></div>
+<span class="streak-chip"><img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> 12</span>
+</div>
+<svg class="sparkline" viewBox="0 0 120 36" preserveAspectRatio="none">
+<polyline fill="none" stroke="#4a7bc8" stroke-width="2" points="0,24 15,22 30,18 45,20 60,14 75,16 90,10 105,12 120,8"/>
+</svg>
+<div class="row-between text-xs muted">
+<span>Last · <span class="tabular">today</span></span>
+<span>4 wk trend</span>
+</div>
+</article>
+
+<article class="habit-card">
+<div class="habit-card-head">
+<span class="habit-icon alt"><img src="./assets/icons/music.svg" alt="" class="icon icon-md"></span>
+<button class="icon-btn" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="icon"></button>
+</div>
+<div class="stack-sm">
+<h4 class="habit-name">Composition — 8-bar sketch a day</h4>
+<span class="habit-meta">Production · MIDI</span>
+</div>
+<div class="row-wrap">
+<span class="tag">Improv</span>
+<span class="tag">Repertoire</span>
+</div>
+<div class="row-between">
+<div class="stat"><span class="stat-label">Weekly</span><span class="stat-value">7 / 7</span></div>
+<span class="streak-chip"><img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> 52</span>
+</div>
+<svg class="sparkline" viewBox="0 0 120 36" preserveAspectRatio="none">
+<polyline fill="none" stroke="#c87a9c" stroke-width="2" points="0,14 15,12 30,16 45,10 60,12 75,8 90,10 105,6 120,4"/>
+</svg>
+<div class="row-between text-xs muted">
+<span>Last · <span class="tabular">1h ago</span></span>
+<span>4 wk trend</span>
+</div>
+</article>
+
+</div>
+
+<div class="row-between" style="padding-top:var(--space-3);">
+<span class="muted text-xs">Showing 12 of 24 habits</span>
+<div class="row">
+<button class="btn btn-ghost btn-sm"><img src="./assets/icons/chevron-left.svg" alt="" class="icon icon-sm"> Previous</button>
+<span class="kbd">1</span><span class="kbd">2</span>
+<button class="btn btn-outline btn-sm">Next <img src="./assets/icons/chevron-right.svg" alt="" class="icon icon-sm"></button>
+</div>
+</div>
+</section>
+
+<section class="card-deep">
+<div class="collapsible-head">
+<div class="row">
+<img src="./assets/icons/archive.svg" alt="" class="icon">
+<h3>Archived</h3>
+<span class="badge">6 paused</span>
+<span class="muted text-sm">— habits you've retired or set down for now</span>
+</div>
+<div class="row">
+<button class="btn btn-ghost btn-sm">Reactivate all</button>
+<button class="icon-btn" aria-label="Collapse"><img src="./assets/icons/chevron-up.svg" alt="" class="icon"></button>
+</div>
+</div>
+<div class="divider"></div>
+<div class="grid grid-3">
+
+<article class="card-sm card-muted">
+<div class="row-between" style="margin-bottom:var(--space-3);">
+<span class="habit-icon" style="opacity:0.65;"><img src="./assets/icons/guitar.svg" alt="" class="icon icon-md"></span>
+<span class="badge">Paused · Mar 14</span>
+</div>
+<h5 class="habit-name dim">Slide guitar — open D tuning</h5>
+<p class="text-xs muted" style="margin-top:var(--space-2);">Strings · 9 sessions logged</p>
+<div class="row-between" style="margin-top:var(--space-3);">
+<span class="text-xs muted">Best streak <span class="tabular">14</span></span>
+<a href="#"><img src="./assets/icons/archive-restore.svg" alt="" class="icon icon-sm"> Reactivate</a>
+</div>
+</article>
+
+<article class="card-sm card-muted">
+<div class="row-between" style="margin-bottom:var(--space-3);">
+<span class="habit-icon alt" style="opacity:0.65;"><img src="./assets/icons/piano.svg" alt="" class="icon icon-md"></span>
+<span class="badge">Paused · Feb 02</span>
+</div>
+<h5 class="habit-name dim">Chopin Nocturne op. 9 no. 2</h5>
+<p class="text-xs muted" style="margin-top:var(--space-2);">Keys · 23 sessions logged</p>
+<div class="row-between" style="margin-top:var(--space-3);">
+<span class="text-xs muted">Best streak <span class="tabular">31</span></span>
+<a href="#"><img src="./assets/icons/archive-restore.svg" alt="" class="icon icon-sm"> Reactivate</a>
+</div>
+</article>
+
+<article class="card-sm card-muted">
+<div class="row-between" style="margin-bottom:var(--space-3);">
+<span class="habit-icon" style="opacity:0.65;"><img src="./assets/icons/music-3.svg" alt="" class="icon icon-md"></span>
+<span class="badge">Retired · Jan 18</span>
+</div>
+<h5 class="habit-name dim">Clarinet — embouchure drills</h5>
+<p class="text-xs muted" style="margin-top:var(--space-2);">Winds · 6 sessions logged</p>
+<div class="row-between" style="margin-top:var(--space-3);">
+<span class="text-xs muted">Best streak <span class="tabular">4</span></span>
+<a href="#"><img src="./assets/icons/archive-restore.svg" alt="" class="icon icon-sm"> Reactivate</a>
+</div>
+</article>
+
+<article class="card-sm card-muted">
+<div class="row-between" style="margin-bottom:var(--space-3);">
+<span class="habit-icon alt" style="opacity:0.65;"><img src="./assets/icons/headphones.svg" alt="" class="icon icon-md"></span>
+<span class="badge">Paused · Dec 30</span>
+</div>
+<h5 class="habit-name dim">Sound design — granular patches</h5>
+<p class="text-xs muted" style="margin-top:var(--space-2);">Production · 17 sessions logged</p>
+<div class="row-between" style="margin-top:var(--space-3);">
+<span class="text-xs muted">Best streak <span class="tabular">9</span></span>
+<a href="#"><img src="./assets/icons/archive-restore.svg" alt="" class="icon icon-sm"> Reactivate</a>
+</div>
+</article>
+
+<article class="card-sm card-muted">
+<div class="row-between" style="margin-bottom:var(--space-3);">
+<span class="habit-icon" style="opacity:0.65;"><img src="./assets/icons/mic-vocal.svg" alt="" class="icon icon-md"></span>
+<span class="badge">Retired · Nov 09</span>
+</div>
+<h5 class="habit-name dim">Choral repertoire — Tallis motets</h5>
+<p class="text-xs muted" style="margin-top:var(--space-2);">Voice · 4 sessions logged</p>
+<div class="row-between" style="margin-top:var(--space-3);">
+<span class="text-xs muted">Best streak <span class="tabular">3</span></span>
+<a href="#"><img src="./assets/icons/archive-restore.svg" alt="" class="icon icon-sm"> Reactivate</a>
+</div>
+</article>
+
+<article class="card-sm card-muted">
+<div class="row-between" style="margin-bottom:var(--space-3);">
+<span class="habit-icon alt" style="opacity:0.65;"><img src="./assets/icons/music-2.svg" alt="" class="icon icon-md"></span>
+<span class="badge">Paused · Oct 22</span>
+</div>
+<h5 class="habit-name dim">Viola da gamba — figured bass</h5>
+<p class="text-xs muted" style="margin-top:var(--space-2);">Strings · 11 sessions logged</p>
+<div class="row-between" style="margin-top:var(--space-3);">
+<span class="text-xs muted">Best streak <span class="tabular">8</span></span>
+<a href="#"><img src="./assets/icons/archive-restore.svg" alt="" class="icon icon-sm"> Reactivate</a>
+</div>
+</article>
+
+</div>
+</section>
+
+</div>
+</main>
+
+<footer class="footer">
+<div class="container">Métier · solo practice, deliberately tracked · v2.4.1 — <a href="./settings.html">preferences</a></div>
+</footer>
+</div>
+</body>
+</html>

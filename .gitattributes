@@ -1,0 +1,17 @@
+# Force text + LF line endings on shell scripts and common code
+*.sh text eol=lf
+*.py text
+*.js text
+*.ts text
+*.tsx text
+*.jsx text
+*.html text
+*.css text
+*.md text
+*.json text
+*.toml text
+*.yaml text
+*.yml text
+
+# SVGs are text-y; keep as text so diffs work
+*.svg text

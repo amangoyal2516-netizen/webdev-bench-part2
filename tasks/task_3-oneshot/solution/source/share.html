@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Share your project — Handmade Hearth</title>
+<link rel="stylesheet" href="./styles.css">
+<style>
+.wdvb-anim-slide-down-share{animation:wdvb-anim-slide-down-share 1200ms ease-out both;}
+@keyframes wdvb-anim-slide-down-share{
+  from{transform:translateY(-120px);opacity:0;}
+  to{transform:translateY(0);opacity:1;}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="./feed.html" class="brand">
+      <span class="brand-mark"><img src="./assets/icons/scissors.svg" alt="" width="22" height="22" style="filter:invert(1);"></span>
+      Handmade Hearth
+    </a>
+    <div class="search">
+      <img src="./assets/icons/search.svg" alt="" width="22" height="22">
+      <input type="search" placeholder="Search projects, patterns, makers…">
+    </div>
+    <div class="text-size-toggle" aria-label="Text size">
+      <button type="button">A</button>
+      <button type="button" class="active">A</button>
+      <button type="button">A</button>
+    </div>
+    <button type="button" class="icon-btn" aria-label="Notifications"><img src="./assets/icons/bell.svg" alt="" width="22" height="22"></button>
+    <button type="button" class="icon-btn" aria-label="Help"><img src="./assets/icons/badge-question-mark.svg" alt="" width="22" height="22"></button>
+    <div class="avatar-dropdown">
+      <img src="./assets/avatars/lorelei-seed-03.svg" alt="Margaret W." class="avatar avatar-sm">
+      <img src="./assets/icons/chevron-down.svg" alt="" width="18" height="18">
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <div class="layout-single">
+
+    <div class="stack-lg">
+
+      <header class="stack-sm wdvb-anim-slide-down-share">
+        <span class="eyebrow">New post</span>
+        <h1>Share your project</h1>
+        <p class="muted" style="font-size:var(--text-lg);max-width:760px;">A good post has clear photos in natural light, a short story about why you made it, and the materials and steps you used so others can follow along.</p>
+      </header>
+
+      <!-- Photo upload -->
+      <section class="card stack">
+        <div class="row-between">
+          <div class="stack-sm" style="gap:4px;">
+            <h2 style="margin:0;">Photos</h2>
+            <p class="muted" style="margin:0;font-size:var(--text-sm);">Add up to eight photos. The first one becomes the cover.</p>
+          </div>
+          <span class="badge badge-soft">3 of 8 added</span>
+        </div>
+
+        <div class="dropzone stack" style="gap:var(--space-3);align-items:center;">
+          <img src="./assets/icons/upload.svg" alt="" width="48" height="48">
+          <h3 style="margin:0;">Drop photos here</h3>
+          <p class="muted" style="margin:0;">JPG or PNG, up to 12 MB each. Landscape works best.</p>
+          <div class="row-wrap" style="justify-content:center;">
+            <button type="button" class="btn btn-primary btn-lg">
+              <img src="./assets/icons/image.svg" alt="" width="20" height="20" style="filter:invert(1);">
+              Add photos
+            </button>
+            <button type="button" class="btn btn-ghost"><img src="./assets/icons/lightbulb.svg" alt="" width="20" height="20">Photo tips</button>
+          </div>
+        </div>
+
+        <div>
+          <div class="label" style="margin-bottom:var(--space-3);">Your photos</div>
+          <div class="thumb-row">
+            <div style="position:relative;">
+              <img class="thumb" style="width:120px;height:120px;" src="./assets/photos/15YDf39RIVc.jpg" alt="Teacup and book with pink flower">
+              <span class="badge badge-accent" style="position:absolute;top:6px;left:6px;">Cover</span>
+            </div>
+            <img class="thumb" style="width:120px;height:120px;" src="./assets/photos/u1XO8rGzMTQ.jpg" alt="Pink tulips in a white vase">
+            <img class="thumb" style="width:120px;height:120px;" src="./assets/photos/PgfSWgL3wjI.jpg" alt="Notebook beside a mug and candle">
+            <button type="button" class="thumb" style="width:120px;height:120px;background:var(--bg);border:3px dashed var(--border-strong);display:inline-flex;align-items:center;justify-content:center;color:var(--muted);cursor:pointer;">
+              <img src="./assets/icons/plus.svg" alt="Add another photo" width="32" height="32">
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Main form -->
+      <section class="card stack-lg">
+        <h2 style="margin:0;">Project details</h2>
+
+        <div class="stack-sm">
+          <label class="label" for="title">Project title</label>
+          <input id="title" class="input" type="text" value="Walnut & wool sampler in autumn ochre" placeholder="Give your project a friendly name">
+          <p class="helper">Keep it short and clear. Around 5–8 words reads best on the feed.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="stack-sm">
+            <label class="label" for="craft">Craft type</label>
+            <div style="position:relative;">
+              <select id="craft" class="select">
+                <option>Embroidery</option>
+                <option>Knitting</option>
+                <option>Crochet</option>
+                <option>Quilting</option>
+                <option>Cross-stitch</option>
+                <option>Weaving</option>
+                <option>Woodworking</option>
+                <option>Pottery</option>
+                <option>Paper craft</option>
+              </select>
+            </div>
+            <p class="helper">This helps us show your post to makers who love the same craft.</p>
+          </div>
+
+          <div class="stack-sm">
+            <label class="label" for="time">Time to make</label>
+            <div class="row" style="gap:var(--space-3);">
+              <input id="time" class="input" type="text" value="About 14 hours" placeholder="e.g. 6 hours over a weekend" style="flex:1;">
+              <img src="./assets/icons/clock.svg" alt="" width="28" height="28" style="opacity:.6;">
+            </div>
+            <p class="helper">A rough total — hours, evenings, or weekends all work.</p>
+          </div>
+        </div>
+
+        <div class="stack-sm">
+          <span class="label">Difficulty</span>
+          <div class="radio-row">
+            <label class="radio-option">
+              <span class="radio-dot"></span>
+              <img src="./assets/icons/leaf.svg" alt="" width="20" height="20">
+              Beginner
+            </label>
+            <label class="radio-option active">
+              <span class="radio-dot"></span>
+              <img src="./assets/icons/ribbon.svg" alt="" width="20" height="20">
+              Comfortable
+            </label>
+            <label class="radio-option">
+              <span class="radio-dot"></span>
+              <img src="./assets/icons/award.svg" alt="" width="20" height="20">
+              Advanced
+            </label>
+          </div>
+          <p class="helper">Choose how someone new to this craft would find the project.</p>
+        </div>
+
+        <div class="stack-sm">
+          <label class="label" for="story">Your story</label>
+          <textarea id="story" class="textarea" rows="7" placeholder="What inspired this project? Any happy accidents or favourite moments?">I started this sampler in late October when the maples turned. I'd been saving a skein of walnut-dyed wool from a workshop two summers ago and finally felt brave enough to use it. The little persimmon cluster at the bottom is in honour of my grandmother, who always kept a bowl of them on the kitchen table in November. The hardest part was the satin-stitch leaves — I unpicked them twice before they sat right.</textarea>
+          <p class="helper">2–4 short paragraphs is plenty. Tell us what you were thinking, not just what you did.</p>
+        </div>
+
+        <hr>
+
+        <!-- Materials list builder -->
+        <div class="stack">
+          <div class="row-between">
+            <div class="stack-sm" style="gap:4px;">
+              <h3 style="margin:0;">Materials</h3>
+              <p class="muted" style="margin:0;font-size:var(--text-sm);">List the yarns, fabrics, threads, or tools someone would need.</p>
+            </div>
+            <span class="badge badge-soft">6 items</span>
+          </div>
+
+          <ul class="materials-list">
+            <li>
+              <span class="check-box checked"><img src="./assets/icons/check.svg" alt="" width="16" height="16" style="filter:invert(1);"></span>
+              <div class="stack-sm" style="flex:1;gap:4px;">
+                <strong>Walnut-dyed worsted wool</strong>
+                <span class="muted" style="font-size:var(--text-sm);">1 skein, roughly 110 yards — heathered brown</span>
+              </div>
+              <button type="button" class="icon-btn" aria-label="Edit"><img src="./assets/icons/pencil.svg" alt="" width="18" height="18"></button>
+              <button type="button" class="icon-btn" aria-label="Remove"><img src="./assets/icons/trash-2.svg" alt="" width="18" height="18"></button>
+            </li>
+            <li>
+              <span class="check-box checked"><img src="./assets/icons/check.svg" alt="" width="16" height="16" style="filter:invert(1);"></span>
+              <div class="stack-sm" style="flex:1;gap:4px;">
+                <strong>Ochre cotton floss</strong>
+                <span class="muted" style="font-size:var(--text-sm);">3 skeins — DMC 729 or similar</span>
+              </div>
+              <button type="button" class="icon-btn" aria-label="Edit"><img src="./assets/icons/pencil.svg" alt="" width="18" height="18"></button>
+              <button type="button" class="icon-btn" aria-label="Remove"><img src="./assets/icons/trash-2.svg" alt="" width="18" height="18"></button>
+            </li>
+            <li>
+              <span class="check-box checked"><img src="./assets/icons/check.svg" alt="" width="16" height="16" style="filter:invert(1);"></span>
+              <div class="stack-sm" style="flex:1;gap:4px;">
+                <strong>Unbleached linen, 28-count</strong>
+                <span class="muted" style="font-size:var(--text-sm);">10 × 14 inch piece, hemmed on all sides</span>
+              </div>
+              <button type="button" class="icon-btn" aria-label="Edit"><img src="./assets/icons/pencil.svg" alt="" width="18" height="18"></button>
+              <button type="button" class="icon-btn" aria-label="Remove"><img src="./assets/icons/trash-2.svg" alt="" width="18" height="18"></button>
+            </li>
+            <li>
+              <span class="check-box checked"><img src="./assets/icons/check.svg" alt="" width="16" height="16" style="filter:invert(1);"></span>
+              <div class="stack-sm" style="flex:1;gap:4px;">
+                <strong>Wooden 8-inch embroidery hoop</strong>
+                <span class="muted" style="font-size:var(--text-sm);">Beech, with a brass tension screw</span>
+              </div>
+              <button type="button" class="icon-btn" aria-label="Edit"><img src="./assets/icons/pencil.svg" alt="" width="18" height="18"></button>
+              <button type="button" class="icon-btn" aria-label="Remove"><img src="./assets/icons/trash-2.svg" alt="" width="18" height="18"></button>
+            </li>
+            <li>
+              <span class="check-box checked"><img src="./assets/icons/check.svg" alt="" width="16" height="16" style="filter:invert(1);"></span>
+              <div class="stack-sm" style="flex:1;gap:4px;">
+                <strong>Tapestry needle, size 24</strong>
+                <span class="muted" style="font-size:var(--text-sm);">Plus a size 26 for fine details</span>
+              </div>
+              <button type="button" class="icon-btn" aria-label="Edit"><img src="./assets/icons/pencil.svg" alt="" width="18" height="18"></button>
+              <button type="button" class="icon-btn" aria-label="Remove"><img src="./assets/icons/trash-2.svg" alt="" width="18" height="18"></button>
+            </li>
+            <li>
+              <span class="check-box checked"><img src="./assets/icons/check.svg" alt="" width="16" height="16" style="filter:invert(1);"></span>
+              <div class="stack-sm" style="flex:1;gap:4px;">
+                <strong>Water-soluble fabric pen</strong>
+                <span class="muted" style="font-size:var(--text-sm);">For transferring the design — test on a scrap first</span>
+              </div>
+              <button type="button" class="icon-btn" aria-label="Edit"><img src="./assets/icons/pencil.svg" alt="" width="18" height="18"></button>
+              <button type="button" class="icon-btn" aria-label="Remove"><img src="./assets/icons/trash-2.svg" alt="" width="18" height="18"></button>
+            </li>
+          </ul>
+
+          <div class="row" style="gap:var(--space-3);align-items:stretch;flex-wrap:wrap;">
+            <input class="input" type="text" placeholder="Add another material — e.g. 'Beeswax for the thread'" style="flex:1;min-width:220px;">
+            <button type="button" class="btn btn-secondary">
+              <img src="./assets/icons/plus.svg" alt="" width="20" height="20">
+              Add material
+            </button>
+          </div>
+        </div>
+
+        <hr>
+
+        <!-- Numbered steps builder -->
+        <div class="stack">
+          <div class="row-between">
+            <div class="stack-sm" style="gap:4px;">
+              <h3 style="margin:0;">Steps</h3>
+              <p class="muted" style="margin:0;font-size:var(--text-sm);">Walk us through the project in your own order — drag the numbers to reorder.</p>
+            </div>
+            <span class="badge badge-soft">4 steps</span>
+          </div>
+
+          <div>
+            <div class="step-item">
+              <span class="step-num">1</span>
+              <div class="stack-sm" style="flex:1;">
+                <input class="input" type="text" value="Transfer the design to your linen">
+                <textarea class="textarea" rows="3" style="min-height:96px;">Tape your printed pattern to a sunny window, lay the linen on top, and trace gently with the water-soluble pen. Don't press hard — the line just needs to be visible.</textarea>
+                <div class="row-wrap">
+                  <button type="button" class="btn btn-ghost btn-sm"><img src="./assets/icons/image.svg" alt="" width="18" height="18">Add a photo</button>
+                  <button type="button" class="btn btn-ghost btn-sm"><img src="./assets/icons/trash-2.svg" alt="" width="18" height="18">Remove step</button>
+                </div>
+              </div>
+            </div>
+            <div class="step-item">
+              <span class="step-num">2</span>
+              <div class="stack-sm" style="flex:1;">
+                <input class="input" type="text" value="Hoop up and outline in split stitch">
+                <textarea class="textarea" rows="3" style="min-height:96px;">Use two strands of the ochre floss to outline every shape first. This gives the satin stitch a tidy edge to lean against and saves a lot of grief later.</textarea>
+                <div class="row-wrap">
+                  <button type="button" class="btn btn-ghost btn-sm"><img src="./assets/icons/image.svg" alt="" width="18" height="18">Add a photo</button>
+                  <button type="button" class="btn btn-ghost btn-sm"><img src="./assets/icons/trash-2.svg" alt="" width="18" height="18">Remove step</button>
+                </div>
+              </div>
+            </div>
+            <div class="step-item">
+              <span class="step-num">3</span>
+              <div class="stack-sm" style="flex:1;">
+                <input class="input" type="text" value="Fill the leaves with satin stitch">
+                <textarea class="textarea" rows="3" style="min-height:96px;">Work each leaf from the centre vein outward, keeping your stitches at the same angle. Three strands of the walnut wool gives a lovely soft sheen without bulk.</textarea>
+                <div class="row-wrap">
+                  <button type="button" class="btn btn-ghost btn-sm"><img src="./assets/icons/image.svg" alt="" width="18" height="18">Add a photo</button>
+                  <button type="button" class="btn btn-ghost btn-sm"><img src="./assets/icons/trash-2.svg" alt="" width="18" height="18">Remove step</button>
+                </div>
+              </div>
+            </div>
+            <div class="step-item">
+              <span class="step-num">4</span>
+              <div class="stack-sm" style="flex:1;">
+                <input class="input" type="text" value="French knots for the persimmons, then press">
+                <textarea class="textarea" rows="3" style="min-height:96px;">Cluster three or four knots together to suggest each fruit. Once finished, mist away the pen lines, press from the back over a folded towel, and you're done.</textarea>
+                <div class="row-wrap">
+                  <button type="button" class="btn btn-ghost btn-sm"><img src="./assets/icons/image.svg" alt="" width="18" height="18">Add a photo</button>
+                  <button type="button" class="btn btn-ghost btn-sm"><img src="./assets/icons/trash-2.svg" alt="" width="18" height="18">Remove step</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button type="button" class="btn btn-secondary btn-lg" style="align-self:flex-start;">
+            <img src="./assets/icons/plus.svg" alt="" width="20" height="20">
+            Add another step
+          </button>
+        </div>
+
+        <hr>
+
+        <div class="stack-sm">
+          <span class="label">Where it shows up</span>
+          <div class="chip-row">
+            <span class="chip active"><img src="./assets/icons/folder-heart.svg" alt="" width="16" height="16" style="filter:invert(1);">Main feed</span>
+            <span class="chip"><img src="./assets/icons/users-round.svg" alt="" width="16" height="16">Slow Stitch Circle</span>
+            <span class="chip"><img src="./assets/icons/users-round.svg" alt="" width="16" height="16">Natural Dyers</span>
+            <span class="chip"><img src="./assets/icons/book-open.svg" alt="" width="16" height="16">Pattern library</span>
+            <span class="chip"><img src="./assets/icons/plus.svg" alt="" width="16" height="16">Add a group</span>
+          </div>
+          <p class="helper">Posts always appear on your profile. Choose any groups you'd also like to share with.</p>
+        </div>
+      </section>
+
+      <!-- Action bar -->
+      <div class="action-bar">
+        <div class="row" style="margin-right:auto;color:var(--muted);font-size:var(--text-sm);">
+          <img src="./assets/icons/save.svg" alt="" width="20" height="20">
+          Draft saved 2 minutes ago
+        </div>
+        <button type="button" class="btn btn-secondary btn-lg">
+          <img src="./assets/icons/save.svg" alt="" width="20" height="20">
+          Save draft
+        </button>
+        <button type="button" class="btn btn-secondary btn-lg">
+          <img src="./assets/icons/eye.svg" alt="" width="20" height="20">
+          Preview
+        </button>
+        <button type="button" class="btn btn-primary btn-lg">
+          <img src="./assets/icons/send.svg" alt="" width="20" height="20" style="filter:invert(1);">
+          Post to feed
+        </button>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container row-between" style="flex-wrap:wrap;gap:var(--space-4);">
+    <div class="row" style="gap:var(--space-3);">
+      <span class="brand-mark" style="width:32px;height:32px;"><img src="./assets/icons/scissors.svg" alt="" width="16" height="16" style="filter:invert(1);"></span>
+      <span class="muted">Handmade Hearth — a slow, friendly place for makers.</span>
+    </div>
+    <nav class="row-wrap" style="gap:var(--space-5);">
+      <a href="./feed.html">Feed</a>
+      <a href="./patterns.html">Patterns</a>
+      <a href="./groups.html">Groups</a>
+      <a href="./profile.html">Profile</a>
+      <a href="#">Help & guides</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

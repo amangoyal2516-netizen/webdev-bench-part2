@@ -1,0 +1,722 @@
+[
+  {
+    "tag": "span",
+    "font_family": "\"Playfair Display\", Georgia, serif",
+    "font_size_px": 22.4,
+    "font_weight": "700",
+    "line_height": "24.64px",
+    "area": 4752.175537109375,
+    "text_len": 19
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 12.48,
+    "font_weight": "500",
+    "line_height": "19.344px",
+    "area": 3730.62353515625,
+    "text_len": 17
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "500",
+    "line_height": "26.04px",
+    "area": 10145.3994140625,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "700",
+    "line_height": "22.816px",
+    "area": 12327.0478515625,
+    "text_len": 25
+  },
+  {
+    "tag": "a",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "700",
+    "line_height": "16.8px",
+    "area": 10992,
+    "text_len": 16
+  },
+  {
+    "tag": "h3",
+    "font_family": "\"Playfair Display\", Georgia, serif",
+    "font_size_px": 14.72,
+    "font_weight": "700",
+    "line_height": "16.928px",
+    "area": 3875.109375,
+    "text_len": 18
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "500",
+    "line_height": "19.136px",
+    "area": 5928.75,
+    "text_len": 22
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 12.48,
+    "font_weight": "700",
+    "line_height": "17.472px",
+    "area": 2100.24755859375,
+    "text_len": 11
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 12.48,
+    "font_weight": "400",
+    "line_height": "19.344px",
+    "area": 1071.46240234375,
+    "text_len": 8
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "500",
+    "line_height": "19.136px",
+    "area": 5928.75,
+    "text_len": 31
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 12.48,
+    "font_weight": "700",
+    "line_height": "17.472px",
+    "area": 1072.095703125,
+    "text_len": 4
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 12.48,
+    "font_weight": "400",
+    "line_height": "19.344px",
+    "area": 1274.26953125,
+    "text_len": 10
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "500",
+    "line_height": "19.136px",
+    "area": 5928.75,
+    "text_len": 21
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 12.48,
+    "font_weight": "700",
+    "line_height": "17.472px",
+    "area": 1714.81640625,
+    "text_len": 8
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 12.48,
+    "font_weight": "400",
+    "line_height": "19.344px",
+    "area": 1216.23828125,
+    "text_len": 9
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "500",
+    "line_height": "19.136px",
+    "area": 5928.75,
+    "text_len": 28
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 12.48,
+    "font_weight": "700",
+    "line_height": "17.472px",
+    "area": 1714.81640625,
+    "text_len": 8
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 12.48,
+    "font_weight": "400",
+    "line_height": "19.344px",
+    "area": 791.884765625,
+    "text_len": 6
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "500",
+    "line_height": "19.136px",
+    "area": 5928.75,
+    "text_len": 33
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 12.48,
+    "font_weight": "700",
+    "line_height": "17.472px",
+    "area": 1714.81640625,
+    "text_len": 8
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 12.48,
+    "font_weight": "400",
+    "line_height": "19.344px",
+    "area": 781.91064453125,
+    "text_len": 6
+  },
+  {
+    "tag": "a",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "500",
+    "line_height": "26.04px",
+    "area": 9625.15625,
+    "text_len": 13
+  },
+  {
+    "tag": "a",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "500",
+    "line_height": "26.04px",
+    "area": 9625.15625,
+    "text_len": 13
+  },
+  {
+    "tag": "a",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "500",
+    "line_height": "26.04px",
+    "area": 15586.3125,
+    "text_len": 28
+  },
+  {
+    "tag": "h1",
+    "font_family": "\"Playfair Display\", Georgia, serif",
+    "font_size_px": 22.4,
+    "font_weight": "700",
+    "line_height": "25.76px",
+    "area": 12886.435791015625,
+    "text_len": 27
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 12.48,
+    "font_weight": "700",
+    "line_height": "19.344px",
+    "area": 3794.513671875,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "400",
+    "line_height": "22.816px",
+    "area": 3900.9375,
+    "text_len": 21
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "400",
+    "line_height": "22.816px",
+    "area": 4011.0791015625,
+    "text_len": 21
+  },
+  {
+    "tag": "a",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "700",
+    "line_height": "16.8px",
+    "area": 8290.5,
+    "text_len": 12
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "700",
+    "line_height": "22.816px",
+    "area": 1277.5,
+    "text_len": 7
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Playfair Display\", Georgia, serif",
+    "font_size_px": 16.8,
+    "font_weight": "700",
+    "line_height": "26.04px",
+    "area": 1296,
+    "text_len": 1
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "700",
+    "line_height": "22.816px",
+    "area": 2685.458984375,
+    "text_len": 8
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Playfair Display\", Georgia, serif",
+    "font_size_px": 16.8,
+    "font_weight": "700",
+    "line_height": "26.04px",
+    "area": 1296,
+    "text_len": 1
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "700",
+    "line_height": "22.816px",
+    "area": 2685.458984375,
+    "text_len": 8
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Playfair Display\", Georgia, serif",
+    "font_size_px": 16.8,
+    "font_weight": "700",
+    "line_height": "26.04px",
+    "area": 1296,
+    "text_len": 1
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "700",
+    "line_height": "22.816px",
+    "area": 2685.458984375,
+    "text_len": 9
+  },
+  {
+    "tag": "p",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "500",
+    "line_height": "22.816px",
+    "area": 19527.5,
+    "text_len": 46
+  },
+  {
+    "tag": "h2",
+    "font_family": "\"Playfair Display\", Georgia, serif",
+    "font_size_px": 36,
+    "font_weight": "700",
+    "line_height": "41.4px",
+    "area": 32615.8125,
+    "text_len": 21
+  },
+  {
+    "tag": "p",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 18.88,
+    "font_weight": "400",
+    "line_height": "29.264px",
+    "area": 46098,
+    "text_len": 103
+  },
+  {
+    "tag": "label",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "700",
+    "line_height": "22.816px",
+    "area": 9033.75,
+    "text_len": 23
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 12.48,
+    "font_weight": "400",
+    "line_height": "19.344px",
+    "area": 15320.25,
+    "text_len": 68
+  },
+  {
+    "tag": "button",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "700",
+    "line_height": "16.8px",
+    "area": 15049.9375,
+    "text_len": 23
+  },
+  {
+    "tag": "label",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "700",
+    "line_height": "22.816px",
+    "area": 9033.75,
+    "text_len": 31
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 12.48,
+    "font_weight": "400",
+    "line_height": "19.344px",
+    "area": 7660.125,
+    "text_len": 41
+  },
+  {
+    "tag": "label",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "700",
+    "line_height": "22.816px",
+    "area": 9033.75,
+    "text_len": 22
+  },
+  {
+    "tag": "textarea",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "400",
+    "line_height": "normal",
+    "area": 39600,
+    "text_len": 198
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 12.48,
+    "font_weight": "400",
+    "line_height": "19.344px",
+    "area": 7660.125,
+    "text_len": 50
+  },
+  {
+    "tag": "label",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "700",
+    "line_height": "22.816px",
+    "area": 9033.75,
+    "text_len": 25
+  },
+  {
+    "tag": "p",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 12.48,
+    "font_weight": "400",
+    "line_height": "19.344px",
+    "area": 13927.5,
+    "text_len": 101
+  },
+  {
+    "tag": "h4",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 18.88,
+    "font_weight": "700",
+    "line_height": "21.712px",
+    "area": 6727.96875,
+    "text_len": 9
+  },
+  {
+    "tag": "p",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "400",
+    "line_height": "22.816px",
+    "area": 21215.625,
+    "text_len": 104
+  },
+  {
+    "tag": "strong",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "700",
+    "line_height": "26.04px",
+    "area": 6509.9375,
+    "text_len": 33
+  },
+  {
+    "tag": "div",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "400",
+    "line_height": "26.04px",
+    "area": 36547.875,
+    "text_len": 71
+  },
+  {
+    "tag": "strong",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "700",
+    "line_height": "26.04px",
+    "area": 10761.78125,
+    "text_len": 54
+  },
+  {
+    "tag": "div",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "400",
+    "line_height": "26.04px",
+    "area": 36547.875,
+    "text_len": 55
+  },
+  {
+    "tag": "strong",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "700",
+    "line_height": "26.04px",
+    "area": 9256.5,
+    "text_len": 46
+  },
+  {
+    "tag": "div",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "400",
+    "line_height": "26.04px",
+    "area": 36547.875,
+    "text_len": 59
+  },
+  {
+    "tag": "a",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "700",
+    "line_height": "16.8px",
+    "area": 7864.5,
+    "text_len": 7
+  },
+  {
+    "tag": "a",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 18.88,
+    "font_weight": "700",
+    "line_height": "18.88px",
+    "area": 17326.75,
+    "text_len": 22
+  },
+  {
+    "tag": "p",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "400",
+    "line_height": "22.816px",
+    "area": 19527.5,
+    "text_len": 67
+  },
+  {
+    "tag": "span",
+    "font_family": "\"Playfair Display\", Georgia, serif",
+    "font_size_px": 22.4,
+    "font_weight": "700",
+    "line_height": "24.64px",
+    "area": 4752.175537109375,
+    "text_len": 19
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 12.48,
+    "font_weight": "500",
+    "line_height": "19.344px",
+    "area": 3730.62353515625,
+    "text_len": 17
+  },
+  {
+    "tag": "p",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "400",
+    "line_height": "22.816px",
+    "area": 31820.5859375,
+    "text_len": 125
+  },
+  {
+    "tag": "h4",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "700",
+    "line_height": "16.928px",
+    "area": 4215.13330078125,
+    "text_len": 8
+  },
+  {
+    "tag": "a",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "400",
+    "line_height": "26.04px",
+    "area": 6484.2216796875,
+    "text_len": 14
+  },
+  {
+    "tag": "a",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "400",
+    "line_height": "26.04px",
+    "area": 6484.2216796875,
+    "text_len": 13
+  },
+  {
+    "tag": "a",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "400",
+    "line_height": "26.04px",
+    "area": 6484.2216796875,
+    "text_len": 15
+  },
+  {
+    "tag": "a",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "400",
+    "line_height": "26.04px",
+    "area": 6484.2216796875,
+    "text_len": 13
+  },
+  {
+    "tag": "h4",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "700",
+    "line_height": "16.928px",
+    "area": 4215.13330078125,
+    "text_len": 22
+  },
+  {
+    "tag": "a",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "400",
+    "line_height": "26.04px",
+    "area": 12968.443359375,
+    "text_len": 26
+  },
+  {
+    "tag": "a",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "400",
+    "line_height": "26.04px",
+    "area": 12968.443359375,
+    "text_len": 30
+  },
+  {
+    "tag": "a",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "400",
+    "line_height": "26.04px",
+    "area": 6484.2216796875,
+    "text_len": 25
+  },
+  {
+    "tag": "a",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "400",
+    "line_height": "26.04px",
+    "area": 6484.2216796875,
+    "text_len": 16
+  },
+  {
+    "tag": "h4",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "700",
+    "line_height": "16.928px",
+    "area": 4214.868896484375,
+    "text_len": 5
+  },
+  {
+    "tag": "a",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "400",
+    "line_height": "26.04px",
+    "area": 6483.81494140625,
+    "text_len": 16
+  },
+  {
+    "tag": "a",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "400",
+    "line_height": "26.04px",
+    "area": 6483.81494140625,
+    "text_len": 16
+  },
+  {
+    "tag": "a",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "400",
+    "line_height": "26.04px",
+    "area": 6483.81494140625,
+    "text_len": 19
+  },
+  {
+    "tag": "a",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 16.8,
+    "font_weight": "400",
+    "line_height": "26.04px",
+    "area": 6483.81494140625,
+    "text_len": 16
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "400",
+    "line_height": "22.816px",
+    "area": 11508.193359375,
+    "text_len": 63
+  },
+  {
+    "tag": "span",
+    "font_family": "\"DM Sans\", system-ui, -apple-system, sans-serif",
+    "font_size_px": 14.72,
+    "font_weight": "400",
+    "line_height": "22.816px",
+    "area": 6813.095703125,
+    "text_len": 36
+  }
+]

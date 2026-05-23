@@ -1,0 +1,19 @@
+{
+  "criterion": "layout_structure",
+  "scope": "per_page_per_viewport",
+  "questions": [
+    {"id": "ls_q2", "text": "Is each region positioned above/below/left-of/right-of the same neighbours as in the reference?"},
+    {"id": "ls_q3_v2", "text": "Is the grid column count for the main content area the same as the reference's?"},
+    {"id": "ls_q4_v2", "text": "If the reference has a sidebar, is the agent's sidebar's relative width within ~15% of the reference's? Treat 'neither render has a sidebar' as a perfect match (score 5). If the widths differ noticeably (>15%), score ≤ 2."},
+    {"id": "ls_q5_v2", "text": "Does the agent's render show similar white-space density to the reference — not noticeably more cramped or more sparse overall?"},
+    {"id": "ls_q6", "text": "Are element alignments (left / center / right per region) preserved relative to the reference?"},
+    {"id": "ls_q9", "text": "Within each region, is the agent's content density visually comparable to the reference's — neither significantly fuller nor significantly sparser?"},
+    {"id": "ls_q10_v2", "text": "If the reference has a sidebar or vertical navigation, does the agent's same region show a comparable number of items (within ±25%)? Treat 'neither render has such navigation' as a perfect match (score 5). If the counts differ noticeably, score ≤ 2."},
+    {"id": "ls_q11_v2", "text": "In the main content area, do the agent's lists, tables, or grids have a comparable count of items/rows to the reference's (within ±25%)? Treat 'no such structures in either render' as a perfect match (score 5). If the counts differ noticeably, score ≤ 2."},
+    {"id": "ls_q12", "text": "Within the first ~900px of vertical scroll (the above-the-fold region on desktop, or the first viewport-height on tablet/mobile), does the agent show the same primary elements as the reference's same region — same hero presence, same top-level cards or sections, nothing important missing or shifted below the fold?"},
+    {"id": "ls_q13_v2", "text": "Is the *most visually dominant* element on the agent's page (the largest + most contrasted, the thing the eye lands on first) in the **same quadrant** of the page as in the reference? Divide each page into a 3×3 grid (left / center / right × top / middle / bottom). If the dominant element shifted to a different cell, score ≤ 2."},
+    {"id": "ls_q14_v2", "text": "Is the agent's total page height (full vertical scroll) within ±10% of the reference's full page height? If you can see a clearly taller or shorter page on the agent's side, score ≤ 3."},
+    {"id": "ls_q15", "text": "Are adjacent elements (cards in a grid, list items, navigation links) positioned with similar spacing — gaps within ±20% of the reference's gaps? If you can see clearly wider or narrower spacing between adjacent elements on the agent's page, score ≤ 3."},
+    {"id": "ls_q16", "text": "Are the relative proportions of the major regions (header height, sidebar width, content area width) within ±10% of the reference's? If you can see one region clearly disproportioned (e.g., a much taller header, a much wider sidebar), score ≤ 2."}
+  ]
+}

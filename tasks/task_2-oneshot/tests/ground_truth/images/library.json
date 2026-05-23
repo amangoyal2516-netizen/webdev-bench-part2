@@ -1,0 +1,940 @@
+[
+  {
+    "src": "./assets/icons/music-4.svg",
+    "alt": "",
+    "x": 85,
+    "y": 28.1875,
+    "w": 18,
+    "h": 18,
+    "phash": "fa62870d9493b61d",
+    "lab_mean": [
+      38.6,
+      10.71,
+      -20.14
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 1206.671875,
+    "y": 28.171875,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.08,
+      -5.67,
+      5.58
+    ]
+  },
+  {
+    "src": "./assets/icons/bell.svg",
+    "alt": "",
+    "x": 1282,
+    "y": 28.1875,
+    "w": 18,
+    "h": 18,
+    "phash": "bfbcb06383a24b83",
+    "lab_mean": [
+      12.85,
+      8.7,
+      -13.63
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-04.svg",
+    "alt": "Yara Acheson",
+    "x": 1323,
+    "y": 19.1875,
+    "w": 36,
+    "h": 36,
+    "phash": "9823c59c93636dce",
+    "lab_mean": [
+      30.99,
+      4.41,
+      -10.07
+    ]
+  },
+  {
+    "src": "./assets/icons/upload.svg",
+    "alt": "",
+    "x": 928.515625,
+    "y": 152.328125,
+    "w": 18,
+    "h": 18,
+    "phash": "e6e439939159cc6c",
+    "lab_mean": [
+      17.7,
+      -9.66,
+      -0.83
+    ]
+  },
+  {
+    "src": "./assets/icons/sliders-horizontal.svg",
+    "alt": "",
+    "x": 1057.46875,
+    "y": 152.328125,
+    "w": 18,
+    "h": 18,
+    "phash": "ec26c759901b91db",
+    "lab_mean": [
+      17.08,
+      -9.36,
+      -0.79
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 1192.421875,
+    "y": 152.34375,
+    "w": 18,
+    "h": 18,
+    "phash": "e6668c9939999399",
+    "lab_mean": [
+      45.69,
+      1.73,
+      -41.75
+    ]
+  },
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 149,
+    "y": 284.484375,
+    "w": 18,
+    "h": 18,
+    "phash": "eb35f03483528dcb",
+    "lab_mean": [
+      12.99,
+      8.8,
+      -13.77
+    ]
+  },
+  {
+    "src": "./assets/icons/tag.svg",
+    "alt": "",
+    "x": 265.65625,
+    "y": 338.875,
+    "w": 18,
+    "h": 18,
+    "phash": "aa05a51e9679da65",
+    "lab_mean": [
+      12.46,
+      8.47,
+      -13.27
+    ]
+  },
+  {
+    "src": "./assets/icons/book-marked.svg",
+    "alt": "",
+    "x": 401.078125,
+    "y": 338.875,
+    "w": 18,
+    "h": 18,
+    "phash": "eb61789ad06664d6",
+    "lab_mean": [
+      38.46,
+      23.0,
+      -3.35
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 544.65625,
+    "y": 338.875,
+    "w": 18,
+    "h": 18,
+    "phash": "b6e2a60c4d15b5b5",
+    "lab_mean": [
+      11.02,
+      7.5,
+      -11.91
+    ]
+  },
+  {
+    "src": "./assets/icons/audio-waveform.svg",
+    "alt": "",
+    "x": 655.609375,
+    "y": 338.875,
+    "w": 18,
+    "h": 18,
+    "phash": "aba6f44083f9cd19",
+    "lab_mean": [
+      11.26,
+      7.4,
+      -11.88
+    ]
+  },
+  {
+    "src": "./assets/icons/x.svg",
+    "alt": "",
+    "x": 803.5625,
+    "y": 338.875,
+    "w": 18,
+    "h": 18,
+    "phash": "bc92ce64b3392c1e",
+    "lab_mean": [
+      14.28,
+      9.65,
+      -15.02
+    ]
+  },
+  {
+    "src": "./assets/icons/layout-grid.svg",
+    "alt": "",
+    "x": 1246,
+    "y": 432.078125,
+    "w": 18,
+    "h": 18,
+    "phash": "af8cd0e88d07d2f8",
+    "lab_mean": [
+      17.25,
+      -6.59,
+      -6.57
+    ]
+  },
+  {
+    "src": "./assets/icons/list.svg",
+    "alt": "",
+    "x": 1300,
+    "y": 432.078125,
+    "w": 18,
+    "h": 18,
+    "phash": "eb00940094009400",
+    "lab_mean": [
+      13.48,
+      9.05,
+      -14.2
+    ]
+  },
+  {
+    "src": "./assets/icons/guitar.svg",
+    "alt": "",
+    "x": 150,
+    "y": 514.078125,
+    "w": 18,
+    "h": 18,
+    "phash": "afc8db86bc32e00b",
+    "lab_mean": [
+      20.02,
+      7.69,
+      -20.02
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 345,
+    "y": 511.078125,
+    "w": 18,
+    "h": 18,
+    "phash": "eb94946b6b94906b",
+    "lab_mean": [
+      15.34,
+      10.33,
+      -16.01
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 319.671875,
+    "y": 704.140625,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.09,
+      11.27,
+      -7.34
+    ]
+  },
+  {
+    "src": "./assets/icons/piano.svg",
+    "alt": "",
+    "x": 460,
+    "y": 514.078125,
+    "w": 18,
+    "h": 18,
+    "phash": "8fa5be3432d06969",
+    "lab_mean": [
+      18.05,
+      10.94,
+      -10.98
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 655,
+    "y": 511.078125,
+    "w": 18,
+    "h": 18,
+    "phash": "eb94946b6b94906b",
+    "lab_mean": [
+      15.34,
+      10.33,
+      -16.01
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 629.671875,
+    "y": 704.140625,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.09,
+      11.27,
+      -7.34
+    ]
+  },
+  {
+    "src": "./assets/icons/mic-vocal.svg",
+    "alt": "",
+    "x": 770,
+    "y": 514.078125,
+    "w": 18,
+    "h": 18,
+    "phash": "fac2cdac6c2d9324",
+    "lab_mean": [
+      20.13,
+      7.7,
+      -20.04
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 965,
+    "y": 511.078125,
+    "w": 18,
+    "h": 18,
+    "phash": "eb94946b6b94906b",
+    "lab_mean": [
+      15.34,
+      10.33,
+      -16.01
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 939.671875,
+    "y": 704.140625,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.09,
+      11.27,
+      -7.34
+    ]
+  },
+  {
+    "src": "./assets/icons/audio-waveform.svg",
+    "alt": "",
+    "x": 1080,
+    "y": 514.078125,
+    "w": 18,
+    "h": 18,
+    "phash": "ea0ea5e0d25bd8b1",
+    "lab_mean": [
+      20.03,
+      12.12,
+      -12.23
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 1275,
+    "y": 511.078125,
+    "w": 18,
+    "h": 18,
+    "phash": "eb94946b6b94906b",
+    "lab_mean": [
+      15.34,
+      10.33,
+      -16.01
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 1257.828125,
+    "y": 704.140625,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.09,
+      11.27,
+      -7.34
+    ]
+  },
+  {
+    "src": "./assets/icons/music-2.svg",
+    "alt": "",
+    "x": 150,
+    "y": 915.640625,
+    "w": 18,
+    "h": 18,
+    "phash": "b7e0cc3790879a39",
+    "lab_mean": [
+      21.81,
+      8.29,
+      -21.61
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 345,
+    "y": 912.640625,
+    "w": 18,
+    "h": 18,
+    "phash": "eb94946b6b94906b",
+    "lab_mean": [
+      15.34,
+      10.33,
+      -16.01
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 319.671875,
+    "y": 1105.703125,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.09,
+      11.27,
+      -7.34
+    ]
+  },
+  {
+    "src": "./assets/icons/headphones.svg",
+    "alt": "",
+    "x": 460,
+    "y": 915.640625,
+    "w": 18,
+    "h": 18,
+    "phash": "8be2b4749283d34f",
+    "lab_mean": [
+      21.43,
+      12.87,
+      -12.92
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 655,
+    "y": 912.640625,
+    "w": 18,
+    "h": 18,
+    "phash": "eb94946b6b94906b",
+    "lab_mean": [
+      15.34,
+      10.33,
+      -16.01
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 629.671875,
+    "y": 1105.703125,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.09,
+      11.27,
+      -7.34
+    ]
+  },
+  {
+    "src": "./assets/icons/music-3.svg",
+    "alt": "",
+    "x": 770,
+    "y": 915.640625,
+    "w": 18,
+    "h": 18,
+    "phash": "edcf9238c7989232",
+    "lab_mean": [
+      22.62,
+      8.57,
+      -22.37
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 965,
+    "y": 912.640625,
+    "w": 18,
+    "h": 18,
+    "phash": "eb94946b6b94906b",
+    "lab_mean": [
+      15.34,
+      10.33,
+      -16.01
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 939.671875,
+    "y": 1105.703125,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.09,
+      11.27,
+      -7.34
+    ]
+  },
+  {
+    "src": "./assets/icons/piano.svg",
+    "alt": "",
+    "x": 1080,
+    "y": 915.640625,
+    "w": 18,
+    "h": 18,
+    "phash": "8fa5be3432d06969",
+    "lab_mean": [
+      18.05,
+      10.94,
+      -10.98
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 1275,
+    "y": 912.640625,
+    "w": 18,
+    "h": 18,
+    "phash": "eb94946b6b94906b",
+    "lab_mean": [
+      15.34,
+      10.33,
+      -16.01
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 1249.671875,
+    "y": 1105.703125,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.09,
+      11.27,
+      -7.34
+    ]
+  },
+  {
+    "src": "./assets/icons/guitar.svg",
+    "alt": "",
+    "x": 150,
+    "y": 1317.203125,
+    "w": 18,
+    "h": 18,
+    "phash": "afc8db86bc32e00b",
+    "lab_mean": [
+      20.02,
+      7.69,
+      -20.02
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 345,
+    "y": 1314.203125,
+    "w": 18,
+    "h": 18,
+    "phash": "eb94946b6b94906b",
+    "lab_mean": [
+      15.34,
+      10.33,
+      -16.01
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 327.828125,
+    "y": 1507.265625,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.09,
+      11.27,
+      -7.34
+    ]
+  },
+  {
+    "src": "./assets/icons/drum.svg",
+    "alt": "",
+    "x": 460,
+    "y": 1317.203125,
+    "w": 18,
+    "h": 18,
+    "phash": "ae9aefc7c092d02c",
+    "lab_mean": [
+      16.12,
+      9.98,
+      -10.02
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 655,
+    "y": 1314.203125,
+    "w": 18,
+    "h": 18,
+    "phash": "eb94946b6b94906b",
+    "lab_mean": [
+      15.34,
+      10.33,
+      -16.01
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 629.671875,
+    "y": 1507.265625,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.09,
+      11.27,
+      -7.34
+    ]
+  },
+  {
+    "src": "./assets/icons/mic-vocal.svg",
+    "alt": "",
+    "x": 770,
+    "y": 1317.203125,
+    "w": 18,
+    "h": 18,
+    "phash": "fac2cdac6c2d9324",
+    "lab_mean": [
+      20.13,
+      7.7,
+      -20.04
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 965,
+    "y": 1314.203125,
+    "w": 18,
+    "h": 18,
+    "phash": "eb94946b6b94906b",
+    "lab_mean": [
+      15.34,
+      10.33,
+      -16.01
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 939.671875,
+    "y": 1507.265625,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.09,
+      11.27,
+      -7.34
+    ]
+  },
+  {
+    "src": "./assets/icons/music.svg",
+    "alt": "",
+    "x": 1080,
+    "y": 1317.203125,
+    "w": 18,
+    "h": 18,
+    "phash": "fae2a74dc4999498",
+    "lab_mean": [
+      21.37,
+      12.83,
+      -12.85
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 1275,
+    "y": 1314.203125,
+    "w": 18,
+    "h": 18,
+    "phash": "eb94946b6b94906b",
+    "lab_mean": [
+      15.34,
+      10.33,
+      -16.01
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 1249.671875,
+    "y": 1507.265625,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.09,
+      11.27,
+      -7.34
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-left.svg",
+    "alt": "",
+    "x": 1056.203125,
+    "y": 1691.765625,
+    "w": 18,
+    "h": 18,
+    "phash": "e699cc339b6c6688",
+    "lab_mean": [
+      20.85,
+      -11.22,
+      -0.94
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-right.svg",
+    "alt": "",
+    "x": 1297,
+    "y": 1691.765625,
+    "w": 18,
+    "h": 18,
+    "phash": "b3c69989ce313399",
+    "lab_mean": [
+      20.86,
+      -11.23,
+      -0.94
+    ]
+  },
+  {
+    "src": "./assets/icons/archive.svg",
+    "alt": "",
+    "x": 137,
+    "y": 1799.765625,
+    "w": 18,
+    "h": 18,
+    "phash": "af50addaa32b8835",
+    "lab_mean": [
+      10.75,
+      7.13,
+      -11.43
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-up.svg",
+    "alt": "",
+    "x": 1275,
+    "y": 1799.765625,
+    "w": 18,
+    "h": 18,
+    "phash": "eca3930c6cb39b4c",
+    "lab_mean": [
+      15.37,
+      10.25,
+      -15.94
+    ]
+  },
+  {
+    "src": "./assets/icons/guitar.svg",
+    "alt": "",
+    "x": 167,
+    "y": 1906.765625,
+    "w": 18,
+    "h": 18,
+    "phash": "afc8db86bc32e00b",
+    "lab_mean": [
+      16.14,
+      8.21,
+      -18.22
+    ]
+  },
+  {
+    "src": "./assets/icons/archive-restore.svg",
+    "alt": "",
+    "x": 379.515625,
+    "y": 2010.5,
+    "w": 18,
+    "h": 18,
+    "phash": "afc0bcf2ac8aa4d2",
+    "lab_mean": [
+      10.73,
+      7.62,
+      -12.68
+    ]
+  },
+  {
+    "src": "./assets/icons/piano.svg",
+    "alt": "",
+    "x": 563.65625,
+    "y": 1906.765625,
+    "w": 18,
+    "h": 18,
+    "phash": "8ea4bf3432d07969",
+    "lab_mean": [
+      15.19,
+      10.24,
+      -13.44
+    ]
+  },
+  {
+    "src": "./assets/icons/archive-restore.svg",
+    "alt": "",
+    "x": 776.1875,
+    "y": 2010.5,
+    "w": 18,
+    "h": 18,
+    "phash": "afc0bcf2ac8aa4d2",
+    "lab_mean": [
+      10.73,
+      7.62,
+      -12.68
+    ]
+  },
+  {
+    "src": "./assets/icons/music-3.svg",
+    "alt": "",
+    "x": 960.328125,
+    "y": 1906.765625,
+    "w": 18,
+    "h": 18,
+    "phash": "edcf9238d6989232",
+    "lab_mean": [
+      17.52,
+      8.52,
+      -19.29
+    ]
+  },
+  {
+    "src": "./assets/icons/archive-restore.svg",
+    "alt": "",
+    "x": 1172.84375,
+    "y": 2010.5,
+    "w": 18,
+    "h": 18,
+    "phash": "afc0bcf2ac8aa4d2",
+    "lab_mean": [
+      10.73,
+      7.62,
+      -12.68
+    ]
+  },
+  {
+    "src": "./assets/icons/headphones.svg",
+    "alt": "",
+    "x": 167,
+    "y": 2100.984375,
+    "w": 18,
+    "h": 18,
+    "phash": "8aa2f475d283835f",
+    "lab_mean": [
+      17.07,
+      11.11,
+      -14.18
+    ]
+  },
+  {
+    "src": "./assets/icons/archive-restore.svg",
+    "alt": "",
+    "x": 379.515625,
+    "y": 2204.71875,
+    "w": 18,
+    "h": 18,
+    "phash": "af409cf2bd8aa171",
+    "lab_mean": [
+      10.73,
+      7.62,
+      -12.68
+    ]
+  },
+  {
+    "src": "./assets/icons/mic-vocal.svg",
+    "alt": "",
+    "x": 563.65625,
+    "y": 2100.984375,
+    "w": 18,
+    "h": 18,
+    "phash": "fac2cdac6c2d9324",
+    "lab_mean": [
+      16.17,
+      8.2,
+      -18.19
+    ]
+  },
+  {
+    "src": "./assets/icons/archive-restore.svg",
+    "alt": "",
+    "x": 776.1875,
+    "y": 2204.71875,
+    "w": 18,
+    "h": 18,
+    "phash": "af409cf2bd8aa171",
+    "lab_mean": [
+      10.73,
+      7.62,
+      -12.68
+    ]
+  },
+  {
+    "src": "./assets/icons/music-2.svg",
+    "alt": "",
+    "x": 960.328125,
+    "y": 2100.984375,
+    "w": 18,
+    "h": 18,
+    "phash": "b7e0cc3790879a39",
+    "lab_mean": [
+      18.36,
+      11.71,
+      -14.75
+    ]
+  },
+  {
+    "src": "./assets/icons/archive-restore.svg",
+    "alt": "",
+    "x": 1172.84375,
+    "y": 2204.71875,
+    "w": 18,
+    "h": 18,
+    "phash": "af409cf2bd8aa171",
+    "lab_mean": [
+      10.73,
+      7.62,
+      -12.68
+    ]
+  }
+]

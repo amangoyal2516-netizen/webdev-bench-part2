@@ -1,0 +1,12 @@
+{
+  "selector": ".wdvb-anim-slide-up-habit-detail",
+  "bbox": [
+    112.0,
+    534.9375,
+    872.0,
+    631.28125
+  ],
+  "type": "slide-up",
+  "duration_ms": 1300,
+  "easing": "ease-out"
+}

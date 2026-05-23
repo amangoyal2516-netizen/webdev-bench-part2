@@ -1,0 +1,12 @@
+{
+  "selector": ".wdvb-anim-slide-right-settings",
+  "bbox": [
+    112.0,
+    107.390625,
+    1216.0,
+    51.84375
+  ],
+  "type": "slide-right",
+  "duration_ms": 1200,
+  "easing": "ease-out"
+}

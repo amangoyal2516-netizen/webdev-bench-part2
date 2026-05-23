@@ -1,0 +1,13 @@
+{
+  "criterion": "typography",
+  "scope": "per_page_per_viewport",
+  "questions": [
+    {"id": "tp_q1_v2", "text": "Does the font family class per region (serif vs. sans-serif vs. monospace vs. display) on the agent's page match the reference's?"},
+    {"id": "tp_q2_v3", "text": "Is the body text size on the agent's page visually similar to the reference's body text size?"},
+    {"id": "tp_q4_v2", "text": "Does the heading-size hierarchy on the agent's page match the reference's relative ordering — whatever that ordering is?"},
+    {"id": "tp_q5_v2", "text": "Does the font weight per region (headings, body) on the agent's page match the reference's?"},
+    {"id": "tp_q7", "text": "Is the visual differentiation between headings and body text on the agent's page — through some combination of size, weight, and color contrast — comparable in strength to the reference's?"},
+    {"id": "tp_q8", "text": "Does the agent use a visibly distinct font family for headings vs. body text, matching the reference's choice — both use one family throughout → 1; both use a display + body split → 1; different choice → 0?"},
+    {"id": "tp_q9", "text": "Is the agent's text size relative to its surrounding container similar to the reference — text neither obviously larger nor obviously smaller relative to the cards, buttons, or panels containing it?"}
+  ]
+}

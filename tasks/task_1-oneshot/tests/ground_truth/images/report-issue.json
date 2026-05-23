@@ -1,0 +1,422 @@
+[
+  {
+    "src": "./assets/icons/landmark.svg",
+    "alt": "",
+    "x": 136,
+    "y": 28,
+    "w": 28,
+    "h": 28,
+    "phash": "c06b790b0f2f3cb4",
+    "lab_mean": [
+      50.63,
+      8.54,
+      14.09
+    ]
+  },
+  {
+    "src": "./assets/icons/languages.svg",
+    "alt": "",
+    "x": 851.890625,
+    "y": 33,
+    "w": 18,
+    "h": 18,
+    "phash": "bab9c64899d8c927",
+    "lab_mean": [
+      72.43,
+      0.83,
+      15.08
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1000.671875,
+    "y": 33,
+    "w": 18,
+    "h": 18,
+    "phash": "b80cc7b3380ccbf3",
+    "lab_mean": [
+      86.18,
+      0.96,
+      17.86
+    ]
+  },
+  {
+    "src": "./assets/icons/triangle-alert.svg",
+    "alt": "",
+    "x": 1068.671875,
+    "y": 32,
+    "w": 20,
+    "h": 20,
+    "phash": "d50b0f3c40b333f3",
+    "lab_mean": [
+      62.37,
+      30.98,
+      34.1
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 53.03125,
+    "y": 125,
+    "w": 20,
+    "h": 20,
+    "phash": "c99c3663c3363c63",
+    "lab_mean": [
+      55.99,
+      36.83,
+      40.44
+    ]
+  },
+  {
+    "src": "./assets/icons/construction.svg",
+    "alt": "",
+    "x": 45,
+    "y": 232.921875,
+    "w": 20,
+    "h": 20,
+    "phash": "ad078df8d2858727",
+    "lab_mean": [
+      61.44,
+      0.73,
+      12.85
+    ]
+  },
+  {
+    "src": "./assets/icons/trash-2.svg",
+    "alt": "",
+    "x": 45,
+    "y": 355.984375,
+    "w": 20,
+    "h": 20,
+    "phash": "bf20e0b2b49ac34f",
+    "lab_mean": [
+      63.57,
+      0.78,
+      13.27
+    ]
+  },
+  {
+    "src": "./assets/icons/file-text.svg",
+    "alt": "",
+    "x": 45,
+    "y": 451.703125,
+    "w": 20,
+    "h": 20,
+    "phash": "afadb436b09a704a",
+    "lab_mean": [
+      60.61,
+      0.78,
+      12.57
+    ]
+  },
+  {
+    "src": "./assets/icons/trees.svg",
+    "alt": "",
+    "x": 45,
+    "y": 547.421875,
+    "w": 20,
+    "h": 20,
+    "phash": "aba5f452837d9928",
+    "lab_mean": [
+      68.57,
+      0.79,
+      14.32
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar.svg",
+    "alt": "",
+    "x": 45,
+    "y": 643.140625,
+    "w": 20,
+    "h": 20,
+    "phash": "ca6d7dc12d87c0d2",
+    "lab_mean": [
+      62.54,
+      0.79,
+      12.95
+    ]
+  },
+  {
+    "src": "./assets/icons/message-square-text.svg",
+    "alt": "",
+    "x": 32,
+    "y": 1464.953125,
+    "w": 20,
+    "h": 20,
+    "phash": "ed8b50a552932f69",
+    "lab_mean": [
+      52.87,
+      7.54,
+      17.77
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-question-mark.svg",
+    "alt": "",
+    "x": 32,
+    "y": 1506.984375,
+    "w": 20,
+    "h": 20,
+    "phash": "99db46641b936ccc",
+    "lab_mean": [
+      47.25,
+      8.8,
+      18.52
+    ]
+  },
+  {
+    "src": "./assets/icons/phone.svg",
+    "alt": "",
+    "x": 32,
+    "y": 1562.03125,
+    "w": 20,
+    "h": 20,
+    "phash": "c6663f81706b339c",
+    "lab_mean": [
+      45.11,
+      9.26,
+      18.8
+    ]
+  },
+  {
+    "src": "./assets/icons/wrench.svg",
+    "alt": "",
+    "x": 323,
+    "y": 138.4375,
+    "w": 14,
+    "h": 14,
+    "phash": "eb6087accc91d74c",
+    "lab_mean": [
+      69.05,
+      0.86,
+      14.47
+    ]
+  },
+  {
+    "src": "./assets/icons/x.svg",
+    "alt": "",
+    "x": 1253.28125,
+    "y": 121.546875,
+    "w": 20,
+    "h": 20,
+    "phash": "ad788b87f2437838",
+    "lab_mean": [
+      68.59,
+      10.66,
+      49.16
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-check.svg",
+    "alt": "",
+    "x": 457,
+    "y": 239.921875,
+    "w": 22,
+    "h": 22,
+    "phash": "c53313cc4fb338cc",
+    "lab_mean": [
+      66.56,
+      -10.57,
+      23.91
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 484,
+    "y": 568.75,
+    "w": 22,
+    "h": 22,
+    "phash": "ba2eb0ccb3308f33",
+    "lab_mean": [
+      85.83,
+      0.06,
+      7.87
+    ]
+  },
+  {
+    "src": "./assets/icons/navigation.svg",
+    "alt": "",
+    "x": 490,
+    "y": 690.9375,
+    "w": 20,
+    "h": 20,
+    "phash": "ea5ac6e5999eb0a0",
+    "lab_mean": [
+      78.87,
+      1.75,
+      19.68
+    ]
+  },
+  {
+    "src": "./assets/photos/T6VTsM4_fGU.jpg",
+    "alt": "Map preview showing the reported location near Maple Avenue and 4th Street",
+    "x": 896,
+    "y": 518.4375,
+    "w": 356,
+    "h": 266,
+    "phash": "e8f8a34a2c09b6fc",
+    "lab_mean": [
+      52.91,
+      -5.22,
+      10.27
+    ]
+  },
+  {
+    "src": "./assets/icons/map-pin.svg",
+    "alt": "",
+    "x": 1040.3309326171875,
+    "y": 648.8811645507812,
+    "w": 18,
+    "h": 18,
+    "phash": "85815e56799a66d9",
+    "lab_mean": [
+      59.8,
+      32.63,
+      36.02
+    ]
+  },
+  {
+    "src": "./assets/icons/info.svg",
+    "alt": "",
+    "x": 894,
+    "y": 800.4375,
+    "w": 16,
+    "h": 16,
+    "phash": "aa983d76f08cc366",
+    "lab_mean": [
+      70.37,
+      0.83,
+      14.71
+    ]
+  },
+  {
+    "src": "./assets/icons/lightbulb.svg",
+    "alt": "",
+    "x": 919,
+    "y": 878.96875,
+    "w": 20,
+    "h": 20,
+    "phash": "bc1ce3e0b09393cb",
+    "lab_mean": [
+      65.05,
+      10.15,
+      46.73
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 492,
+    "y": 1192.0625,
+    "w": 22,
+    "h": 22,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      68.45,
+      0.8,
+      14.29
+    ]
+  },
+  {
+    "src": "./assets/icons/shield-check.svg",
+    "alt": "",
+    "x": 492,
+    "y": 1256.125,
+    "w": 22,
+    "h": 22,
+    "phash": "aa46a0bbb2ccc733",
+    "lab_mean": [
+      70.41,
+      0.81,
+      14.69
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-check-big.svg",
+    "alt": "",
+    "x": 492,
+    "y": 1320.1875,
+    "w": 22,
+    "h": 22,
+    "phash": "ef55bc9624698323",
+    "lab_mean": [
+      67.72,
+      0.8,
+      14.16
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-left.svg",
+    "alt": "",
+    "x": 490,
+    "y": 1463.25,
+    "w": 20,
+    "h": 20,
+    "phash": "b9ccc7320c739167",
+    "lab_mean": [
+      84.23,
+      1.37,
+      19.38
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1204,
+    "y": 1463.25,
+    "w": 20,
+    "h": 20,
+    "phash": "93266d99a68c3bc9",
+    "lab_mean": [
+      56.82,
+      36.02,
+      39.58
+    ]
+  },
+  {
+    "src": "./assets/icons/lock.svg",
+    "alt": "",
+    "x": 576.265625,
+    "y": 1562.65625,
+    "w": 16,
+    "h": 16,
+    "phash": "eeeca492323a919b",
+    "lab_mean": [
+      53.01,
+      9.81,
+      43.26
+    ]
+  },
+  {
+    "src": "./assets/icons/landmark.svg",
+    "alt": "",
+    "x": 136,
+    "y": 1762.0625,
+    "w": 28,
+    "h": 28,
+    "phash": "d47a780b0f2f3cb0",
+    "lab_mean": [
+      50.6,
+      8.57,
+      14.1
+    ]
+  },
+  {
+    "src": "./assets/icons/phone.svg",
+    "alt": "",
+    "x": 785.8125,
+    "y": 1786.75,
+    "w": 14,
+    "h": 14,
+    "phash": "c6663f81704b379c",
+    "lab_mean": [
+      66.35,
+      -10.76,
+      27.14
+    ]
+  }
+]

@@ -1,0 +1,492 @@
+[
+  {
+    "src": "./assets/icons/music-2.svg",
+    "alt": "",
+    "x": 85,
+    "y": 28.1875,
+    "w": 18,
+    "h": 18,
+    "phash": "c81f33c86f6865c6",
+    "lab_mean": [
+      62.41,
+      12.43,
+      -22.54
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 1117.5,
+    "y": 28.171875,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.04,
+      -5.63,
+      5.52
+    ]
+  },
+  {
+    "src": "./assets/icons/audio-waveform.svg",
+    "alt": "",
+    "x": 1232,
+    "y": 28.1875,
+    "w": 18,
+    "h": 18,
+    "phash": "aaa6b4c2d379c919",
+    "lab_mean": [
+      18.65,
+      -6.44,
+      -7.3
+    ]
+  },
+  {
+    "src": "./assets/icons/bell.svg",
+    "alt": "",
+    "x": 1282,
+    "y": 28.1875,
+    "w": 18,
+    "h": 18,
+    "phash": "bfbcb06383a24b83",
+    "lab_mean": [
+      12.85,
+      8.7,
+      -13.63
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-04.svg",
+    "alt": "Mira Halvorsen",
+    "x": 1323,
+    "y": 19.1875,
+    "w": 36,
+    "h": 36,
+    "phash": "9823c59c93636dce",
+    "lab_mean": [
+      30.99,
+      4.41,
+      -10.07
+    ]
+  },
+  {
+    "src": "./assets/icons/calendar-days.svg",
+    "alt": "",
+    "x": 156,
+    "y": 137.390625,
+    "w": 18,
+    "h": 18,
+    "phash": "af68adc0bdc295c2",
+    "lab_mean": [
+      10.22,
+      6.89,
+      -11.18
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 338.75,
+    "y": 137.390625,
+    "w": 18,
+    "h": 18,
+    "phash": "b6e2b6194915a5b5",
+    "lab_mean": [
+      18.97,
+      11.34,
+      -11.77
+    ]
+  },
+  {
+    "src": "./assets/icons/funnel.svg",
+    "alt": "",
+    "x": 982.21875,
+    "y": 335.875,
+    "w": 18,
+    "h": 18,
+    "phash": "ee1b4631acb98ac3",
+    "lab_mean": [
+      16.98,
+      -9.3,
+      -0.81
+    ]
+  },
+  {
+    "src": "./assets/icons/sliders-horizontal.svg",
+    "alt": "",
+    "x": 1087.6875,
+    "y": 335.875,
+    "w": 18,
+    "h": 18,
+    "phash": "ec26c759901b91db",
+    "lab_mean": [
+      17.08,
+      -9.36,
+      -0.79
+    ]
+  },
+  {
+    "src": "./assets/icons/grid-2x2.svg",
+    "alt": "",
+    "x": 1230.703125,
+    "y": 335.875,
+    "w": 18,
+    "h": 18,
+    "phash": "e600ec006c00c400",
+    "lab_mean": [
+      14.1,
+      -7.84,
+      -0.68
+    ]
+  },
+  {
+    "src": "./assets/icons/guitar.svg",
+    "alt": "",
+    "x": 150,
+    "y": 426.390625,
+    "w": 18,
+    "h": 18,
+    "phash": "d037247943c91ff4",
+    "lab_mean": [
+      33.57,
+      7.53,
+      -28.85
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 451.328125,
+    "y": 420.390625,
+    "w": 18,
+    "h": 18,
+    "phash": "eb94946b6b94906b",
+    "lab_mean": [
+      15.34,
+      10.33,
+      -16.01
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 262,
+    "y": 499.75,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.12,
+      11.3,
+      -7.35
+    ]
+  },
+  {
+    "src": "./assets/icons/play.svg",
+    "alt": "",
+    "x": 243.203125,
+    "y": 652.84375,
+    "w": 18,
+    "h": 18,
+    "phash": "c13c4e3c273e32e3",
+    "lab_mean": [
+      60.19,
+      1.13,
+      -37.25
+    ]
+  },
+  {
+    "src": "./assets/icons/piano.svg",
+    "alt": "",
+    "x": 563.328125,
+    "y": 426.390625,
+    "w": 18,
+    "h": 18,
+    "phash": "8fa5be3432d06969",
+    "lab_mean": [
+      18.05,
+      10.94,
+      -10.98
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 864.65625,
+    "y": 420.390625,
+    "w": 18,
+    "h": 18,
+    "phash": "eb94946b6b94906b",
+    "lab_mean": [
+      15.34,
+      10.33,
+      -16.01
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 675.328125,
+    "y": 499.75,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.12,
+      11.3,
+      -7.35
+    ]
+  },
+  {
+    "src": "./assets/icons/play.svg",
+    "alt": "",
+    "x": 656.53125,
+    "y": 652.84375,
+    "w": 18,
+    "h": 18,
+    "phash": "c13c4e3c273c32eb",
+    "lab_mean": [
+      60.1,
+      1.14,
+      -37.35
+    ]
+  },
+  {
+    "src": "./assets/icons/mic-vocal.svg",
+    "alt": "",
+    "x": 976.65625,
+    "y": 426.390625,
+    "w": 18,
+    "h": 18,
+    "phash": "fac2cdac6c2d9324",
+    "lab_mean": [
+      20.13,
+      7.7,
+      -20.04
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 1278,
+    "y": 420.390625,
+    "w": 18,
+    "h": 18,
+    "phash": "eb94946b6b94906b",
+    "lab_mean": [
+      15.34,
+      10.33,
+      -16.01
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 1088.65625,
+    "y": 499.75,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.12,
+      11.3,
+      -7.35
+    ]
+  },
+  {
+    "src": "./assets/icons/circle-check.svg",
+    "alt": "",
+    "x": 1068.375,
+    "y": 652.84375,
+    "w": 18,
+    "h": 18,
+    "phash": "aa6ced33304cc733",
+    "lab_mean": [
+      15.63,
+      9.8,
+      -15.85
+    ]
+  },
+  {
+    "src": "./assets/icons/music-3.svg",
+    "alt": "",
+    "x": 150,
+    "y": 770.046875,
+    "w": 18,
+    "h": 18,
+    "phash": "edcf9238c7989232",
+    "lab_mean": [
+      24.62,
+      14.61,
+      -14.66
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 451.328125,
+    "y": 764.046875,
+    "w": 18,
+    "h": 18,
+    "phash": "eb94946b6b94906b",
+    "lab_mean": [
+      15.34,
+      10.32,
+      -16.01
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 262,
+    "y": 843.40625,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.09,
+      11.27,
+      -7.33
+    ]
+  },
+  {
+    "src": "./assets/icons/play.svg",
+    "alt": "",
+    "x": 243.203125,
+    "y": 996.5,
+    "w": 18,
+    "h": 18,
+    "phash": "c17e4e35279832cd",
+    "lab_mean": [
+      60.19,
+      1.13,
+      -37.25
+    ]
+  },
+  {
+    "src": "./assets/icons/drum.svg",
+    "alt": "",
+    "x": 563.328125,
+    "y": 770.046875,
+    "w": 18,
+    "h": 18,
+    "phash": "ae8aaec3d4d2d06c",
+    "lab_mean": [
+      14.76,
+      5.88,
+      -15.26
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 864.65625,
+    "y": 764.046875,
+    "w": 18,
+    "h": 18,
+    "phash": "eb94946b6b94906b",
+    "lab_mean": [
+      15.34,
+      10.32,
+      -16.01
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 675.328125,
+    "y": 843.40625,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.09,
+      11.27,
+      -7.33
+    ]
+  },
+  {
+    "src": "./assets/icons/play.svg",
+    "alt": "",
+    "x": 652.453125,
+    "y": 996.5,
+    "w": 18,
+    "h": 18,
+    "phash": "c17e4e35279a32c9",
+    "lab_mean": [
+      60.1,
+      1.14,
+      -37.35
+    ]
+  },
+  {
+    "src": "./assets/icons/headphones.svg",
+    "alt": "",
+    "x": 976.65625,
+    "y": 770.046875,
+    "w": 18,
+    "h": 18,
+    "phash": "8be3b574d282930f",
+    "lab_mean": [
+      21.41,
+      12.86,
+      -12.89
+    ]
+  },
+  {
+    "src": "./assets/icons/ellipsis.svg",
+    "alt": "",
+    "x": 1278,
+    "y": 764.046875,
+    "w": 18,
+    "h": 18,
+    "phash": "eb94946b6b94906b",
+    "lab_mean": [
+      15.34,
+      10.32,
+      -16.01
+    ]
+  },
+  {
+    "src": "./assets/icons/flame.svg",
+    "alt": "",
+    "x": 1088.65625,
+    "y": 843.40625,
+    "w": 18,
+    "h": 18,
+    "phash": "bbe3c49a93cd8438",
+    "lab_mean": [
+      23.09,
+      11.27,
+      -7.33
+    ]
+  },
+  {
+    "src": "./assets/icons/play.svg",
+    "alt": "",
+    "x": 1069.875,
+    "y": 996.5,
+    "w": 18,
+    "h": 18,
+    "phash": "c17e4e35279a32c9",
+    "lab_mean": [
+      60.1,
+      1.14,
+      -37.35
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 1264.859375,
+    "y": 833.59375,
+    "w": 18,
+    "h": 18,
+    "phash": "99993393c6666c66",
+    "lab_mean": [
+      64.71,
+      31.38,
+      -4.54
+    ]
+  }
+]

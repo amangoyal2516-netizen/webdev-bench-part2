@@ -1,0 +1,20 @@
+# Per-criterion weights for Track A's weighted_mean aggregation.
+# The same weights are used for Track B (LLM-judge), so disagreements
+# between the two tracks reflect measurement differences, not
+# prioritisation differences.
+#
+# `framework_compliance` is deliberately NOT here — it's the multiplicative
+# gate, applied by grading/aggregator.py after the weighted mean of
+# these seven. The gate returns 1.0 (pass) or 0.3 (violation).
+
+[scoring]
+aggregation = "weighted_mean"
+
+[scoring.weights]
+layout_structure       = 2.5
+component_presence     = 2.0
+color_palette          = 1.5
+typography             = 1.5
+image_content_fidelity = 1.5
+visible_text_fidelity  = 1.0
+animation_fidelity     = 1.0

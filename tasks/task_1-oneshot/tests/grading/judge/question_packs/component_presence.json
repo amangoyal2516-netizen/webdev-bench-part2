@@ -1,0 +1,14 @@
+{
+  "criterion": "component_presence",
+  "scope": "per_component",
+  "_comment": "Asked once per expected component on each page. The runner instantiates {component} with the component description from design.json. Stubbed in v1 — see grading/judge/runner.py.",
+  "questions": [
+    {"id": "cmp_q1_v2", "text": "Is the visual presence of '{component}' on the agent's page consistent with the reference — visible if visible in the reference, absent if absent there?"},
+    {"id": "cmp_q2_v2", "text": "Is the count of '{component}' close to the reference — within ±1 when the reference shows fewer than 6 instances, otherwise within ±20%?"},
+    {"id": "cmp_q3", "text": "Is '{component}' placed in the same region as in the reference?"},
+    {"id": "cmp_q4_v2", "text": "Does '{component}' on the agent's page have the same visual class as on the reference (button vs. card vs. row, etc.)?"},
+    {"id": "cmp_q5_v2", "text": "Does '{component}' on the agent's page show the same sub-elements as on the reference (e.g., for a card both must have image + title + body)?"},
+    {"id": "cmp_q6", "text": "Is '{component}' on the agent's page visually similar in size to the reference — neither noticeably smaller nor larger?"},
+    {"id": "cmp_q7", "text": "Does the styling treatment of '{component}' on the agent's page match the reference's — filled vs. outlined, light vs. dark surface, flat vs. shadowed, rounded vs. square corners?"}
+  ]
+}

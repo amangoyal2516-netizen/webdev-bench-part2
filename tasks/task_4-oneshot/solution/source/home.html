@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Encore Lane — Your first concert, sorted</title>
+<link rel="stylesheet" href="./styles.css">
+<style>
+.wdvb-anim-slide-up-home{animation:wdvb-anim-slide-up-home 1300ms ease-out both}
+@keyframes wdvb-anim-slide-up-home{from{transform:translateY(120px);opacity:0}to{transform:translateY(0);opacity:1}}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="container">
+    <div class="topbar-inner">
+      <a href="./home.html" class="brand">
+        <span class="brand-mark"><img src="./assets/icons/disc-3.svg" alt=""></span>
+        Encore Lane
+      </a>
+      <nav class="nav-links">
+        <a href="./discover.html" class="nav-link active">Discover</a>
+        <a href="./itinerary.html" class="nav-link">Itineraries</a>
+        <a href="./guide.html" class="nav-link">Beginner's guide</a>
+        <a href="./discover.html" class="nav-link">Venues</a>
+      </nav>
+      <div class="nav-right">
+        <a href="#" class="nav-link">Sign in</a>
+        <a href="./discover.html" class="btn btn-primary">Start planning</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="container stack-lg">
+    <div class="stack">
+      <span class="eyebrow hero-eyebrow">Your first concert, sorted</span>
+      <h1 class="hero-headline">Find a show you'll actually love — even if you've never been to one.</h1>
+      <p class="hero-lead">Tribute nights, beginner-friendly classical matinees, and small-venue gigs picked for newcomers. We sort the volume, the seats, and the bus home so all you do is show up.</p>
+    </div>
+
+    <form class="search-panel wdvb-anim-slide-up-home" onsubmit="return false">
+      <label class="input">
+        <span class="input-label">City</span>
+        <div class="input-with-icon">
+          <img src="./assets/icons/map-pin.svg" alt="">
+          <input class="input-field" type="text" value="Manchester, UK" placeholder="Where are you going?">
+        </div>
+      </label>
+      <label class="input">
+        <span class="input-label">Dates</span>
+        <div class="input-with-icon">
+          <img src="./assets/icons/calendar-days.svg" alt="">
+          <input class="input-field" type="text" value="Fri 14 Mar — Sun 16 Mar" placeholder="Pick a weekend">
+        </div>
+      </label>
+      <label class="input">
+        <span class="input-label">Genre</span>
+        <div class="input-with-icon">
+          <img src="./assets/icons/music.svg" alt="">
+          <select class="input-field">
+            <option>I don't know yet</option>
+            <option>Tribute &amp; covers</option>
+            <option>Classical matinee</option>
+            <option>Indie &amp; small-venue</option>
+            <option>Jazz &amp; lounge</option>
+            <option>Folk &amp; acoustic</option>
+          </select>
+        </div>
+      </label>
+      <button class="btn btn-primary btn-lg" type="submit">
+        <img src="./assets/icons/search.svg" alt="">
+        Find shows
+      </button>
+    </form>
+
+    <div class="row-wrap" style="gap:var(--space-2)">
+      <span class="chip chip-dark"><img src="./assets/icons/sparkles.svg" alt="">Popular: Hometown Queen tribute</span>
+      <span class="chip chip-dark"><img src="./assets/icons/landmark.svg" alt="">Sunday matinees under £20</span>
+      <span class="chip chip-dark"><img src="./assets/icons/train-front.svg" alt="">Near a station</span>
+      <span class="chip chip-dark"><img src="./assets/icons/armchair.svg" alt="">Seated venues only</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container stack-lg">
+    <div class="row-between">
+      <div class="stack-sm">
+        <span class="eyebrow">How it works</span>
+        <h2>Three small steps. One good night.</h2>
+      </div>
+      <a href="./guide.html" class="btn btn-secondary">
+        Read the beginner's guide
+        <img src="./assets/icons/arrow-right.svg" alt="">
+      </a>
+    </div>
+
+    <div class="grid-3">
+      <article class="card card-pad stack">
+        <div class="row-between">
+          <span class="step-num">01</span>
+          <span class="icon-circle"><img src="./assets/icons/map-pinned.svg" alt=""></span>
+        </div>
+        <h3>Pick a city</h3>
+        <p class="muted">Tell us where you'll be and roughly when. We pull shows that work for first-timers — easy entry, fair prices, friendly crowd.</p>
+      </article>
+
+      <article class="card card-pad stack">
+        <div class="row-between">
+          <span class="step-num">02</span>
+          <span class="icon-circle icon-circle-alt"><img src="./assets/icons/calendar-plus.svg" alt=""></span>
+        </div>
+        <h3>Build your night</h3>
+        <p class="muted">Drop a show into your itinerary. We line up dinner, doors, and the last train so the timing actually works.</p>
+      </article>
+
+      <article class="card card-pad stack">
+        <div class="row-between">
+          <span class="step-num">03</span>
+          <span class="icon-circle"><img src="./assets/icons/ticket-check.svg" alt=""></span>
+        </div>
+        <h3>Show up</h3>
+        <p class="muted">Walk-in notes, what to wear, when to clap. Open the itinerary on your phone — you're sorted.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0">
+  <div class="container stack-lg">
+    <div class="row-between">
+      <div class="stack-sm">
+        <span class="eyebrow">Curated for newcomers</span>
+        <h2>Easy first concerts</h2>
+      </div>
+      <a href="./discover.html" class="nav-link" style="color:var(--accent);font-weight:600">
+        See all 84 shows <img src="./assets/icons/arrow-up-right.svg" alt="" style="display:inline;vertical-align:middle;width:14px;height:14px">
+      </a>
+    </div>
+
+    <div class="grid-5">
+      <article class="card">
+        <img src="./assets/photos/A9kYGeJkMZE.jpg" alt="Silhouetted pair under stage lights" class="card-image">
+        <div class="card-body">
+          <span class="tag-beginner"><img src="./assets/icons/sparkle.svg" alt="">Beginner-friendly</span>
+          <h4 class="card-title">Killer Queen — A Tribute</h4>
+          <p class="card-meta"><img src="./assets/icons/map-pin.svg" alt="" class="icon-sm">Albert Hall</p>
+          <div class="card-footer">
+            <div class="date-chip">
+              <span class="date-chip-month">Mar</span>
+              <span class="date-chip-day">14</span>
+            </div>
+            <div class="stack-sm" style="align-items:flex-end;gap:0">
+              <span class="price"><span class="price-from">from</span>£24</span>
+              <span class="muted" style="font-size:var(--text-xs)">Seated</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="./assets/photos/JRsZWmRd_Ws.jpg" alt="Cathedral interior bathed in warm light" class="card-image">
+        <div class="card-body">
+          <span class="tag-beginner"><img src="./assets/icons/sparkle.svg" alt="">Beginner-friendly</span>
+          <h4 class="card-title">Sunday Strings Matinee</h4>
+          <p class="card-meta"><img src="./assets/icons/map-pin.svg" alt="" class="icon-sm">St. Ann's Chapel</p>
+          <div class="card-footer">
+            <div class="date-chip">
+              <span class="date-chip-month">Mar</span>
+              <span class="date-chip-day">16</span>
+            </div>
+            <div class="stack-sm" style="align-items:flex-end;gap:0">
+              <span class="price"><span class="price-from">from</span>£18</span>
+              <span class="muted" style="font-size:var(--text-xs)">All ages</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="./assets/photos/UPWuKzAcuUI.jpg" alt="Person under aurora lights" class="card-image">
+        <div class="card-body">
+          <span class="tag-beginner"><img src="./assets/icons/sparkle.svg" alt="">Beginner-friendly</span>
+          <h4 class="card-title">Aurora Folk Sessions</h4>
+          <p class="card-meta"><img src="./assets/icons/map-pin.svg" alt="" class="icon-sm">The Deaf Institute</p>
+          <div class="card-footer">
+            <div class="date-chip">
+              <span class="date-chip-month">Mar</span>
+              <span class="date-chip-day">21</span>
+            </div>
+            <div class="stack-sm" style="align-items:flex-end;gap:0">
+              <span class="price"><span class="price-from">from</span>£15</span>
+              <span class="muted" style="font-size:var(--text-xs)">Acoustic</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="./assets/photos/wdL8UywQtWU.jpg" alt="Audience silhouetted against a glowing stage" class="card-image">
+        <div class="card-body">
+          <span class="tag-beginner"><img src="./assets/icons/sparkle.svg" alt="">Beginner-friendly</span>
+          <h4 class="card-title">Fleetmac — Rumours Live</h4>
+          <p class="card-meta"><img src="./assets/icons/map-pin.svg" alt="" class="icon-sm">Stoller Hall</p>
+          <div class="card-footer">
+            <div class="date-chip">
+              <span class="date-chip-month">Mar</span>
+              <span class="date-chip-day">28</span>
+            </div>
+            <div class="stack-sm" style="align-items:flex-end;gap:0">
+              <span class="price"><span class="price-from">from</span>£32</span>
+              <span class="muted" style="font-size:var(--text-xs)">Tribute</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="./assets/photos/oMpAz-DN-9I.jpg" alt="Silhouette of a performer on stage" class="card-image">
+        <div class="card-body">
+          <span class="tag-beginner"><img src="./assets/icons/sparkle.svg" alt="">Beginner-friendly</span>
+          <h4 class="card-title">Late Jazz at the Maypole</h4>
+          <p class="card-meta"><img src="./assets/icons/map-pin.svg" alt="" class="icon-sm">Maypole Cellars</p>
+          <div class="card-footer">
+            <div class="date-chip">
+              <span class="date-chip-month">Apr</span>
+              <span class="date-chip-day">04</span>
+            </div>
+            <div class="stack-sm" style="align-items:flex-end;gap:0">
+              <span class="price"><span class="price-from">from</span>£12</span>
+              <span class="muted" style="font-size:var(--text-xs)">Standing</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="row-wrap" style="justify-content:center;gap:var(--space-2)">
+      <span class="chip chip-outline"><img src="./assets/icons/volume-1.svg" alt="">Lower volume</span>
+      <span class="chip chip-outline"><img src="./assets/icons/armchair.svg" alt="">Seated</span>
+      <span class="chip chip-outline"><img src="./assets/icons/timer.svg" alt="">Home by 11</span>
+      <span class="chip chip-outline"><img src="./assets/icons/circle-dollar-sign.svg" alt="">Under £25</span>
+      <span class="chip chip-outline"><img src="./assets/icons/accessibility.svg" alt="">Step-free</span>
+      <span class="chip chip-outline"><img src="./assets/icons/users.svg" alt="">Friendly crowd</span>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a href="./home.html" class="brand">
+          <span class="brand-mark"><img src="./assets/icons/disc-3.svg" alt=""></span>
+          Encore Lane
+        </a>
+        <p class="muted-light" style="font-size:var(--text-sm);max-width:280px">Live music made approachable. We sort the show, the seat, and the supper — you just say yes.</p>
+        <form class="newsletter" onsubmit="return false">
+          <input type="email" placeholder="Get one show a week">
+          <button class="btn btn-primary btn-sm" type="submit">Subscribe</button>
+        </form>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-title">Explore</h4>
+        <a href="./discover.html" class="footer-link">Discover shows</a>
+        <a href="./itinerary.html" class="footer-link">My itinerary</a>
+        <a href="./discover.html" class="footer-link">Venues</a>
+        <a href="./discover.html" class="footer-link">Genres</a>
+        <a href="./discover.html" class="footer-link">This weekend</a>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-title">Help</h4>
+        <a href="./guide.html" class="footer-link">Beginner's guide</a>
+        <a href="#" class="footer-link">Accessibility</a>
+        <a href="#" class="footer-link">Refunds</a>
+        <a href="#" class="footer-link">Contact us</a>
+        <a href="#" class="footer-link">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-title">Company</h4>
+        <a href="#" class="footer-link">About</a>
+        <a href="#" class="footer-link">For venues</a>
+        <a href="#" class="footer-link">Careers</a>
+        <a href="#" class="footer-link">Press</a>
+        <a href="#" class="footer-link">Blog</a>
+      </div>
+      <div class="footer-col">
+        <h4 class="footer-title">Legal</h4>
+        <a href="#" class="footer-link">Terms</a>
+        <a href="#" class="footer-link">Privacy</a>
+        <a href="#" class="footer-link">Cookies</a>
+        <a href="#" class="footer-link">Licences</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Encore Lane Ltd. Registered in Manchester, UK.</span>
+      <span>Built for people who haven't been yet.</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

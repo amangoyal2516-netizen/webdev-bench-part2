@@ -1,0 +1,22 @@
+{
+  "task_id": "task_2",
+  "variant": "oneshot",
+  "allowed_frameworks": [
+    "html-css"
+  ],
+  "viewports": [
+    "desktop",
+    "tablet",
+    "mobile"
+  ],
+  "pages": [
+    "dashboard",
+    "habit-detail",
+    "session",
+    "library",
+    "insights",
+    "settings"
+  ],
+  "judge_model": "claude-opus-4-7",
+  "_comment": "Substituted by recipe/03-package/. pages is a flat list of canonical kebab-case names (without .html). allowed_frameworks is an array; for this benchmark = [\"html-css\"]."
+}

@@ -1,0 +1,34 @@
+# Harbor JobConfig — quick eval for dev iteration.
+# 3 trials = 3 tasks × 1 attempt. Expected wall-clock on Modal with
+# 6 concurrent slots: ~25 min (one trial ≈ 20 min agent + grading;
+# single wave because 3 < 6).
+# Run via:  bash eval/run.sh --quick
+#
+# Use this when iterating on the recipe, the graders, or the prompts —
+# faster signal than the full 20-trial job, same code path.
+
+job_name: webdev-bench-quick
+n_attempts: 1
+n_concurrent_trials: 6
+
+environment:
+  type: modal
+
+agents:
+  - name: claude-code
+    model_name: claude-opus-4-7
+    env:
+      ANTHROPIC_API_KEY: "${ANTHROPIC_API_KEY}"
+
+verifier:
+  env:
+    RUN_TRACK_B: "1"
+    ANTHROPIC_API_KEY: "${ANTHROPIC_API_KEY}"
+
+# 3 most distinctive oneshot tasks from the diverse-10 set:
+# analytics dashboard / marketing landing / editorial magazine —
+# different families, different palettes, different layouts.
+tasks:
+  - path: tasks/task_3-oneshot    # nonprofit impact analytics  (dark, purple/orange)
+  - path: tasks/task_13-oneshot   # dev API marketing landing    (light, white/blue)
+  - path: tasks/task_29-oneshot   # architecture editorial mag   (dark, slate/teal)

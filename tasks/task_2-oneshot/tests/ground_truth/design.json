@@ -1,0 +1,133 @@
+{
+  "description": "Practice-habit tracker for solo musicians \u2014 log daily practice sessions across instruments and skills, build streaks, and review progress in a card-catalog grid",
+  "allowed_frameworks": [
+    "html-css"
+  ],
+  "palette": {
+    "background": "#1f3a36",
+    "surface": "#3a2d52",
+    "text": "#ece6f5",
+    "accent": "#4a7bc8",
+    "accent_alt": "#c87a9c",
+    "muted": "#7a8a86"
+  },
+  "pages": [
+    {
+      "name": "dashboard",
+      "description": "Today's practice overview with a grid of habit cards covering each practice routine",
+      "components": [
+        "Top bar with the app name on the left, a center segmented control (Today / Week / Month), and a right cluster showing current streak count with a flame icon, a metronome quick-toggle, and a user avatar",
+        "Greeting strip with the date, a one-line motivational message, and three inline stats: minutes practiced today, sessions logged, and weekly goal progress bar",
+        "Card-catalog grid (three per row) of practice-habit cards \u2014 each card has instrument name, icon, target minutes, a circular progress ring, 'Start session' button, streak chip, and a seven-day dot row",
+        "Floating action button at the bottom-right labeled '+ Log session' for quick manual entry"
+      ],
+      "animations": [
+        {
+          "element": "Current streak counter with flame icon in the right cluster of the top bar",
+          "type": "scale-up",
+          "trigger": "load",
+          "duration_ms": 1500,
+          "easing": "ease-in-out"
+        }
+      ]
+    },
+    {
+      "name": "habit-detail",
+      "description": "Detail view for a single practice habit \u2014 history, technique focus, and session log",
+      "components": [
+        "Header card with the habit name, instrument icon, current streak, longest streak, total hours logged lifetime, and an 'Edit habit' link",
+        "Heatmap calendar grid showing the past twelve weeks of practice \u2014 each cell is a day, colored by minutes practiced, with a legend underneath",
+        "Technique focus panel listing the current focus areas (e.g. 'Sight reading', 'Scales: D minor', 'Tempo: 92 bpm') as checkable chips with a 'Mark mastered' affordance per chip",
+        "Session log table below \u2014 columns for date, duration, tempo range, focus area, mood emoji, and notes preview, with the latest session at the top",
+        "Right-rail recordings panel listing the last five audio takes attached to this habit \u2014 each row shows take title, duration, waveform thumbnail, and a play button"
+      ],
+      "animations": [
+        {
+          "element": "Heatmap calendar grid of the past twelve weeks in the upper section of the page",
+          "type": "slide-up",
+          "trigger": "load",
+          "duration_ms": 1300,
+          "easing": "ease-out"
+        }
+      ]
+    },
+    {
+      "name": "session",
+      "description": "Active practice session screen with a metronome, tuner, and live timer",
+      "components": [
+        "Session header with the habit name, target duration, and a 'Pause' / 'End session' button pair",
+        "Large circular timer in the center showing elapsed time, surrounded by a progress ring filling toward the target",
+        "Metronome panel below the timer \u2014 tempo readout in bpm, increment and decrement controls, time-signature selector, accent toggle, and a beat-indicator row of dots",
+        "Tuner strip showing detected pitch, cents-off needle, and reference note dropdown",
+        "Side notes column for jotting in-session observations, with a tempo-checkpoint list that auto-records each tempo change with a timestamp"
+      ],
+      "animations": [
+        {
+          "element": "Large circular timer with progress ring in the center of the session screen",
+          "type": "scale-up",
+          "trigger": "load",
+          "duration_ms": 1800,
+          "easing": "ease-in-out"
+        }
+      ]
+    },
+    {
+      "name": "library",
+      "description": "Full catalog of every practice habit the user has created, browsable and filterable",
+      "components": [
+        "Page header with the title 'Practice library', a habit count, and a primary '+ New habit' button",
+        "Filter bar with a search input, instrument-family dropdown (Strings, Keys, Winds, Voice, Production), tag chips (Technique, Repertoire, Theory, Improv), and a sort dropdown (Recently practiced, Longest streak, Alphabetical)",
+        "Card catalog grid (four per row) of habit cards \u2014 each card shows instrument icon, habit name, tag chips, weekly target, current streak, last-practiced relative date, and a small sparkline of the past four weeks",
+        "Archived section at the bottom \u2014 a collapsible row of muted cards for paused or retired habits, each with a 'Reactivate' link"
+      ],
+      "animations": [
+        {
+          "element": "Primary '+ New habit' button in the page header",
+          "type": "slide-left",
+          "trigger": "load",
+          "duration_ms": 1200,
+          "easing": "ease-out"
+        }
+      ]
+    },
+    {
+      "name": "insights",
+      "description": "Weekly and monthly progress review with charts and milestones",
+      "components": [
+        "Hero summary banner with the week range, total practice hours, week-over-week change percentage, and a 'Share recap' button",
+        "Row of four KPI cards: average session length, most-practiced habit, days hit goal, new personal bests count",
+        "Stacked-bar chart showing daily practice minutes for the past four weeks, segmented by habit, with a legend mapping color swatches to habit names",
+        "Milestones list \u2014 entries for streak anniversaries, hour thresholds crossed, and technique masteries, each with a date, badge icon, and one-line description"
+      ],
+      "animations": [
+        {
+          "element": "Hero summary banner with week range and total practice hours at the top of the page",
+          "type": "slide-down",
+          "trigger": "load",
+          "duration_ms": 1400,
+          "easing": "ease-out"
+        }
+      ]
+    },
+    {
+      "name": "settings",
+      "description": "Account and practice preferences",
+      "components": [
+        "Page heading 'Settings' with a vertical sidebar of section links (Profile, Practice defaults, Instruments, Notifications, Data & export)",
+        "Profile section card with avatar upload, display name input, primary instrument dropdown, and timezone selector",
+        "Practice defaults card \u2014 default session length stepper, default metronome bpm, default tuning reference pitch, and a 'Count rest days toward streaks' toggle",
+        "Notifications card with a daily-reminder time picker, day-of-week checkboxes, and toggles for streak-at-risk alerts and weekly recap email",
+        "Action bar at the bottom with a 'Save changes' primary button and a 'Discard' secondary button"
+      ],
+      "animations": [
+        {
+          "element": "Page heading 'Settings' at the top of the content area",
+          "type": "slide-right",
+          "trigger": "load",
+          "duration_ms": 1200,
+          "easing": "ease-out"
+        }
+      ]
+    }
+  ]
+}

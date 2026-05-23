@@ -1,0 +1,12 @@
+{
+  "selector": ".wdvb-anim-slide-up-home",
+  "bbox": [
+    144.0,
+    408.1875,
+    1152.0,
+    97.59375
+  ],
+  "type": "slide-up",
+  "duration_ms": 1300,
+  "easing": "ease-out"
+}

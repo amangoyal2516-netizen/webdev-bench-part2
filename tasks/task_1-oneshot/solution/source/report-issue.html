@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Report an Issue · Riverbend City Hall Chat</title>
+<link rel="stylesheet" href="./styles.css">
+<style>
+.wdvb-anim-slide-down-report-issue { animation: wdvb-anim-slide-down-report-issue 1200ms ease-out both; }
+@keyframes wdvb-anim-slide-down-report-issue {
+from { transform: translateY(-120px); opacity: 0; }
+to   { transform: translateY(0); opacity: 1; }
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+<div class="container topbar-inner">
+<a href="./home.html" class="brand">
+<span class="brand-seal"><img src="./assets/icons/landmark.svg" alt=""></span>
+<span class="brand-text">
+<span class="brand-name">Riverbend City Hall</span>
+<span class="brand-tag">Talk to your city</span>
+</span>
+</a>
+<div class="row">
+<span class="dropdown"><img src="./assets/icons/languages.svg" alt="">English (US) <img src="./assets/icons/chevron-down.svg" alt=""></span>
+<span class="emergency-notice"><img src="./assets/icons/triangle-alert.svg" alt="">For emergencies, call 911</span>
+</div>
+</div>
+</header>
+
+<div class="app-shell">
+
+<aside class="sidebar">
+<a href="./chat.html" class="btn btn-primary btn-block"><img src="./assets/icons/plus.svg" alt="">Start a new chat</a>
+
+<div>
+<h3>Your conversations</h3>
+<ul class="sidebar-list" style="margin-top: var(--space-3);">
+<li class="thread-item active">
+<span class="thread-icon"><img src="./assets/icons/construction.svg" alt=""></span>
+<span class="thread-body">
+<span class="thread-title">Pothole on Maple &amp; 4th</span>
+<span class="thread-meta"><span class="pill pill-waiting">In progress</span><span>Just now</span></span>
+</span>
+</li>
+<li class="thread-item">
+<span class="thread-icon"><img src="./assets/icons/trash-2.svg" alt=""></span>
+<span class="thread-body">
+<span class="thread-title">Missed trash pickup on Pine St.</span>
+<span class="thread-meta"><span class="pill pill-open">Open</span><span>2 days ago</span></span>
+</span>
+</li>
+<li class="thread-item">
+<span class="thread-icon"><img src="./assets/icons/file-text.svg" alt=""></span>
+<span class="thread-body">
+<span class="thread-title">Fence permit question</span>
+<span class="thread-meta"><span class="pill pill-resolved">Resolved</span><span>Last week</span></span>
+</span>
+</li>
+<li class="thread-item">
+<span class="thread-icon"><img src="./assets/icons/trees.svg" alt=""></span>
+<span class="thread-body">
+<span class="thread-title">Fallen branch in Willow Park</span>
+<span class="thread-meta"><span class="pill pill-resolved">Resolved</span><span>Apr 12</span></span>
+</span>
+</li>
+<li class="thread-item">
+<span class="thread-icon"><img src="./assets/icons/calendar.svg" alt=""></span>
+<span class="thread-body">
+<span class="thread-title">When is the next council meeting?</span>
+<span class="thread-meta"><span class="pill pill-resolved">Resolved</span><span>Mar 30</span></span>
+</span>
+</li>
+</ul>
+</div>
+
+<div class="sidebar-foot">
+<a href="./topics.html" class="sidebar-link"><img src="./assets/icons/message-square-text.svg" alt="">Browse topics</a>
+<a href="./help.html" class="sidebar-link"><img src="./assets/icons/circle-question-mark.svg" alt="">Help &amp; how-to</a>
+<a href="#" class="sidebar-link"><img src="./assets/icons/phone.svg" alt="">Call instead: (555) 311-0100</a>
+</div>
+</aside>
+
+<main class="main-pane">
+
+<div class="pane-topbar">
+<div class="pane-title-block">
+<h1 class="pane-title">Report a neighborhood issue</h1>
+<div class="pane-sub">
+<span class="dept-badge"><img src="./assets/icons/wrench.svg" alt="">Public Works</span>
+<span>Started 2 minutes ago</span>
+<span>· Saved automatically</span>
+</div>
+</div>
+<a href="./chat.html" class="btn btn-ghost"><img src="./assets/icons/x.svg" alt="">Save &amp; close</a>
+</div>
+
+<div class="pane-body-narrow">
+
+<div class="stepper wdvb-anim-slide-down-report-issue">
+<div class="step done">
+<span class="step-dot"><img src="./assets/icons/circle-check.svg" alt="" style="width:22px;height:22px;filter:brightness(0) invert(1);"></span>
+<span class="step-label">1. What</span>
+</div>
+<div class="step-bar"></div>
+<div class="step active">
+<span class="step-dot">2</span>
+<span class="step-label">2. Where</span>
+</div>
+<div class="step-bar"></div>
+<div class="step">
+<span class="step-dot">3</span>
+<span class="step-label">3. Photo</span>
+</div>
+<div class="step-bar"></div>
+<div class="step">
+<span class="step-dot">4</span>
+<span class="step-label">4. Review</span>
+</div>
+</div>
+<p class="stepper-label">You are on step 2 of 4 — almost halfway there.</p>
+
+<div class="card" style="margin-top: var(--space-5);">
+<div style="margin-bottom: var(--space-5);">
+<h2 style="margin-bottom: var(--space-2);">Where is the pothole?</h2>
+<p class="lede" style="margin: 0;">Give us a street address or the closest cross-streets. The more we know, the faster a crew can find it.</p>
+</div>
+
+<div class="form-grid">
+<div>
+<div class="form-field">
+<label for="address">Street address or place</label>
+<div class="input-with-icon">
+<img src="./assets/icons/map-pin.svg" alt="" class="input-icon">
+<input id="address" class="input input-lg" type="text" value="412 Maple Avenue" placeholder="e.g. 412 Maple Avenue">
+</div>
+<span class="help">Type the number and street, or a landmark like “behind the library”.</span>
+</div>
+
+<button type="button" class="btn btn-secondary" style="margin-bottom: var(--space-4);">
+<img src="./assets/icons/navigation.svg" alt="">Use my current location
+</button>
+
+<div class="form-field">
+<label for="cross">Closest cross-street (optional)</label>
+<input id="cross" class="input" type="text" value="4th Street" placeholder="e.g. between 3rd St. and 4th St.">
+<span class="help">Helpful on long blocks or unmarked roads.</span>
+</div>
+
+<div class="form-field">
+<label for="notes">Describe where exactly</label>
+<textarea id="notes" class="textarea" placeholder="In your own words — where on the block is it?">It's in the right-hand lane heading north, right in front of the blue mailbox by the corner bakery. About the size of a dinner plate and pretty deep — a few cars have swerved around it this morning.</textarea>
+<span class="help">Plain language is fine. No technical terms needed.</span>
+</div>
+
+<div class="form-field">
+<label for="lane">Which part of the street?</label>
+<select id="lane" class="input">
+<option>Driving lane — northbound</option>
+<option>Driving lane — southbound</option>
+<option>Sidewalk</option>
+<option>Crosswalk</option>
+<option>Parking lane / curb</option>
+<option>I'm not sure</option>
+</select>
+</div>
+</div>
+
+<div>
+<div class="map-preview">
+<img src="./assets/photos/T6VTsM4_fGU.jpg" alt="Map preview showing the reported location near Maple Avenue and 4th Street">
+<span class="map-pin"><img src="./assets/icons/map-pin.svg" alt=""></span>
+</div>
+<p class="muted" style="font-size: var(--text-xs); margin-top: var(--space-3); display: flex; gap: var(--space-2); align-items: flex-start;">
+<img src="./assets/icons/info.svg" alt="" style="width:16px;height:16px;margin-top:2px;flex-shrink:0;">
+The pin shows roughly where we'll send a crew. You can drag it on the next step if it's a little off.
+</p>
+
+<div class="card-soft" style="margin-top: var(--space-4); background: var(--bg);">
+<h4 style="margin-bottom: var(--space-2); display: flex; align-items: center; gap: var(--space-2);"><img src="./assets/icons/lightbulb.svg" alt="" style="width:20px;height:20px;">Quick tip</h4>
+<p style="margin: 0; font-size: var(--text-sm); color: var(--fg-soft);">If you don't know the exact address, the cross-streets are usually enough. Our crews know the city well.</p>
+</div>
+</div>
+</div>
+
+<div class="reassurance" style="margin-top: var(--space-5);">
+<ul>
+<li>
+<img src="./assets/icons/clock.svg" alt="">
+<div><strong>You can stop and come back later.</strong> Everything you've typed is saved to your conversation list on the left.</div>
+</li>
+<li>
+<img src="./assets/icons/shield-check.svg" alt="">
+<div><strong>Your name stays private unless you choose to share it.</strong> City crews see the location and your notes — that's it.</div>
+</li>
+<li>
+<img src="./assets/icons/circle-check-big.svg" alt="">
+<div><strong>You'll get a tracking number when you're done.</strong> Use it to check on the repair anytime, by chat or by phone.</div>
+</li>
+</ul>
+</div>
+
+<div class="action-row">
+<a href="./report-issue.html" class="btn btn-secondary"><img src="./assets/icons/arrow-left.svg" alt="">Go back</a>
+<a href="./report-issue.html" class="btn btn-primary btn-lg">Next step: Add a photo <img src="./assets/icons/arrow-right.svg" alt=""></a>
+</div>
+</div>
+
+<p class="muted" style="text-align: center; font-size: var(--text-sm); margin-top: var(--space-5); display: flex; gap: var(--space-2); align-items: center; justify-content: center;">
+<img src="./assets/icons/lock.svg" alt="" style="width:16px;height:16px;">
+This is a private conversation between you and Riverbend City Hall.
+</p>
+
+</div>
+</main>
+</div>
+
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div>
+<div class="brand" style="margin-bottom: var(--space-4);">
+<span class="brand-seal"><img src="./assets/icons/landmark.svg" alt=""></span>
+<span class="brand-text">
+<span class="brand-name" style="color:#fff8e8;">Riverbend City Hall</span>
+<span class="brand-tag" style="color:#f5e6c4;">Talk to your city</span>
+</span>
+</div>
+<p style="font-size: var(--text-sm); margin: 0;">A friendly way to ask questions, report things that need fixing, and follow along with what's happening in your neighborhood.</p>
+</div>
+<div>
+<h4>Get help</h4>
+<div class="stack" style="gap: var(--space-2);">
+<a href="./help.html">How chat works</a>
+<a href="./topics.html">Browse topics</a>
+<a href="./report-issue.html">Report an issue</a>
+<a href="#">Accessibility</a>
+</div>
+</div>
+<div>
+<h4>Other ways to reach us</h4>
+<div class="stack" style="gap: var(--space-2);">
+<a href="#"><img src="./assets/icons/phone.svg" alt="" style="width:14px;height:14px;display:inline;vertical-align:middle;filter:invert(94%) sepia(20%) saturate(200%);"> Call 311 or (555) 311-0100</a>
+<a href="#">Visit City Hall, 1 Civic Plaza</a>
+<a href="#">Email hello@riverbend.gov</a>
+<a href="#">Mon–Fri, 8am–6pm</a>
+</div>
+</div>
+<div>
+<h4>About</h4>
+<div class="stack" style="gap: var(--space-2);">
+<a href="#">Council meetings</a>
+<a href="#">City departments</a>
+<a href="#">Privacy &amp; your data</a>
+<a href="#">Open data portal</a>
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© 2024 City of Riverbend. A service of the City Clerk's Office.</span>
+<span>Built with neighbors, for neighbors.</span>
+</div>
+</div>
+</footer>
+
+</body>
+</html>

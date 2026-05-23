@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://webdev-bench.local/schemas/design-system.schema.json",
+  "title": "design-system",
+  "description": "Pass-1 envelope from the html-css builder. Returns the shared stylesheet, a short visual-identity summary, and the full asset set the site commits to. Per-page calls only reference assets listed here.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["styles_css", "design_notes", "assets_picked"],
+  "properties": {
+    "styles_css":   { "type": "string", "minLength": 200 },
+    "design_notes": { "type": "string", "minLength": 40,  "maxLength": 1500 },
+    "assets_picked": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "photos":  { "type": "array", "items": { "type": "string" } },
+        "icons":   { "type": "array", "items": { "type": "string" } },
+        "avatars": { "type": "array", "items": { "type": "string" } },
+        "fonts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["family", "weights"],
+            "properties": {
+              "family":  { "type": "string" },
+              "weights": { "type": "array", "items": { "type": "integer" }, "minItems": 1 }
+            }
+          }
+        }
+      }
+    }
+  }
+}

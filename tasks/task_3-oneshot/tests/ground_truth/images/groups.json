@@ -1,0 +1,1052 @@
+[
+  {
+    "src": "./assets/icons/scissors.svg",
+    "alt": "",
+    "x": 35,
+    "y": 31.5,
+    "w": 22,
+    "h": 22,
+    "phash": "bb00da99f624ad99",
+    "lab_mean": [
+      36.47,
+      29.89,
+      32.64
+    ]
+  },
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 296.921875,
+    "y": 31.5,
+    "w": 22,
+    "h": 22,
+    "phash": "eb25f03c83528dcb",
+    "lab_mean": [
+      75.3,
+      0.8,
+      8.16
+    ]
+  },
+  {
+    "src": "./assets/icons/bell.svg",
+    "alt": "",
+    "x": 1199,
+    "y": 31.5,
+    "w": 22,
+    "h": 22,
+    "phash": "afecf02283b64a93",
+    "lab_mean": [
+      75.08,
+      0.76,
+      8.17
+    ]
+  },
+  {
+    "src": "./assets/icons/badge-question-mark.svg",
+    "alt": "",
+    "x": 1271,
+    "y": 31.5,
+    "w": 22,
+    "h": 22,
+    "phash": "ee20b99bc46c9333",
+    "lab_mean": [
+      68.63,
+      0.7,
+      7.5
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-03.svg",
+    "alt": "Margaret Whitfield",
+    "x": 1336,
+    "y": 22.5,
+    "w": 40,
+    "h": 40,
+    "phash": "bc32c4c9c36e6dc4",
+    "lab_mean": [
+      60.88,
+      0.6,
+      8.24
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1384,
+    "y": 33.5,
+    "w": 18,
+    "h": 18,
+    "phash": "b80cc7b3384ccbb3",
+    "lab_mean": [
+      88.03,
+      0.94,
+      9.44
+    ]
+  },
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 426,
+    "y": 417.046875,
+    "w": 22,
+    "h": 22,
+    "phash": "eb25f03c83528dcb",
+    "lab_mean": [
+      75.3,
+      0.8,
+      8.16
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 616.265625,
+    "y": 499.734375,
+    "w": 20,
+    "h": 20,
+    "phash": "a222888828888288",
+    "lab_mean": [
+      43.74,
+      35.44,
+      38.87
+    ]
+  },
+  {
+    "src": "./assets/icons/arrow-right.svg",
+    "alt": "",
+    "x": 1172.015625,
+    "y": 682.734375,
+    "w": 18,
+    "h": 18,
+    "phash": "ec9992665963c476",
+    "lab_mean": [
+      83.03,
+      0.89,
+      8.95
+    ]
+  },
+  {
+    "src": "./assets/photos/15YDf39RIVc.jpg",
+    "alt": "Tea cup beside dried flowers on an open book",
+    "x": 105,
+    "y": 725.734375,
+    "w": 392.65625,
+    "h": 220.859375,
+    "phash": "8847f8e4d244ee3b",
+    "lab_mean": [
+      52.13,
+      5.48,
+      12.09
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 129,
+    "y": 1079.96875,
+    "w": 18,
+    "h": 18,
+    "phash": "ef3ac511b1c50ec6",
+    "lab_mean": [
+      72.8,
+      0.0,
+      5.36
+    ]
+  },
+  {
+    "src": "./assets/icons/folder-heart.svg",
+    "alt": "",
+    "x": 286.484375,
+    "y": 1079.96875,
+    "w": 18,
+    "h": 18,
+    "phash": "8bb3b92c9994c46b",
+    "lab_mean": [
+      72.6,
+      0.0,
+      5.35
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 241.828125,
+    "y": 1207.765625,
+    "w": 20,
+    "h": 20,
+    "phash": "ba7a85a5d949a686",
+    "lab_mean": [
+      38.46,
+      31.38,
+      34.47
+    ]
+  },
+  {
+    "src": "./assets/photos/O6N9RV2rzX8.jpg",
+    "alt": "Pressed leaves arranged on a workbench",
+    "x": 523.65625,
+    "y": 725.734375,
+    "w": 392.671875,
+    "h": 220.875,
+    "phash": "ec07c152cbf3085f",
+    "lab_mean": [
+      51.13,
+      27.98,
+      21.77
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 547.65625,
+    "y": 1079.984375,
+    "w": 18,
+    "h": 18,
+    "phash": "ef3ac511b1c50ec6",
+    "lab_mean": [
+      72.8,
+      0.0,
+      5.36
+    ]
+  },
+  {
+    "src": "./assets/icons/leaf.svg",
+    "alt": "",
+    "x": 691.640625,
+    "y": 1079.984375,
+    "w": 18,
+    "h": 18,
+    "phash": "baeae10bd3859c32",
+    "lab_mean": [
+      74.92,
+      0.0,
+      5.49
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 660.484375,
+    "y": 1207.78125,
+    "w": 20,
+    "h": 20,
+    "phash": "ba7a85a5d949a686",
+    "lab_mean": [
+      38.46,
+      31.38,
+      34.46
+    ]
+  },
+  {
+    "src": "./assets/photos/AiTE9NFQZ3I.jpg",
+    "alt": "Pink roses arranged in a stone pot",
+    "x": 942.328125,
+    "y": 725.734375,
+    "w": 392.65625,
+    "h": 220.859375,
+    "phash": "dc1fe590e090bf0b",
+    "lab_mean": [
+      39.4,
+      10.42,
+      16.25
+    ]
+  },
+  {
+    "src": "./assets/icons/users.svg",
+    "alt": "",
+    "x": 966.328125,
+    "y": 1079.96875,
+    "w": 18,
+    "h": 18,
+    "phash": "ef3ac511b1c50ec6",
+    "lab_mean": [
+      72.8,
+      0.0,
+      5.36
+    ]
+  },
+  {
+    "src": "./assets/icons/palette.svg",
+    "alt": "",
+    "x": 1123.8125,
+    "y": 1079.96875,
+    "w": 18,
+    "h": 18,
+    "phash": "ae59b06cd1b5c392",
+    "lab_mean": [
+      72.16,
+      0.0,
+      5.31
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1079.15625,
+    "y": 1207.765625,
+    "w": 20,
+    "h": 20,
+    "phash": "ba7a85a5d949a686",
+    "lab_mean": [
+      38.43,
+      31.38,
+      34.46
+    ]
+  },
+  {
+    "src": "./assets/icons/sliders-horizontal.svg",
+    "alt": "",
+    "x": 1245.984375,
+    "y": 1329.078125,
+    "w": 16,
+    "h": 16,
+    "phash": "eca6c399961b9133",
+    "lab_mean": [
+      76.52,
+      0.0,
+      5.61
+    ]
+  },
+  {
+    "src": "./assets/icons/scissors.svg",
+    "alt": "",
+    "x": 104,
+    "y": 1389.5625,
+    "w": 28,
+    "h": 28,
+    "phash": "bb00da99f624ad99",
+    "lab_mean": [
+      72.26,
+      0.75,
+      7.83
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-00.svg",
+    "alt": "",
+    "x": 121,
+    "y": 1455.34375,
+    "w": 56,
+    "h": 56,
+    "phash": "b931e28e879998cb",
+    "lab_mean": [
+      77.38,
+      0.39,
+      7.78
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 1208.984375,
+    "y": 1474.34375,
+    "w": 18,
+    "h": 18,
+    "phash": "aecad03426cd791e",
+    "lab_mean": [
+      89.16,
+      0.0,
+      6.46
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-01.svg",
+    "alt": "",
+    "x": 121,
+    "y": 1548.328125,
+    "w": 56,
+    "h": 56,
+    "phash": "bc31e0c2c78f9ccc",
+    "lab_mean": [
+      78.29,
+      0.38,
+      7.64
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1229.984375,
+    "y": 1567.328125,
+    "w": 18,
+    "h": 18,
+    "phash": "be3a8525d949a6c6",
+    "lab_mean": [
+      37.55,
+      30.75,
+      33.74
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-02.svg",
+    "alt": "",
+    "x": 121,
+    "y": 1641.3125,
+    "w": 56,
+    "h": 56,
+    "phash": "b8c3cf3c90cd2731",
+    "lab_mean": [
+      75.78,
+      0.45,
+      8.76
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1229.984375,
+    "y": 1660.3125,
+    "w": 18,
+    "h": 18,
+    "phash": "be3a8525d949a6c6",
+    "lab_mean": [
+      37.55,
+      30.75,
+      33.74
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-04.svg",
+    "alt": "",
+    "x": 121,
+    "y": 1734.296875,
+    "w": 56,
+    "h": 56,
+    "phash": "bc37c198c34b4dc5",
+    "lab_mean": [
+      69.03,
+      0.36,
+      7.25
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 1208.984375,
+    "y": 1753.296875,
+    "w": 18,
+    "h": 18,
+    "phash": "aecad03426cd791e",
+    "lab_mean": [
+      89.16,
+      0.0,
+      6.46
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-05.svg",
+    "alt": "",
+    "x": 121,
+    "y": 1827.28125,
+    "w": 56,
+    "h": 56,
+    "phash": "a464cbcf99993166",
+    "lab_mean": [
+      87.44,
+      0.48,
+      9.16
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1229.984375,
+    "y": 1846.28125,
+    "w": 18,
+    "h": 18,
+    "phash": "be3a8525d949a6c6",
+    "lab_mean": [
+      37.55,
+      30.75,
+      33.74
+    ]
+  },
+  {
+    "src": "./assets/icons/palette.svg",
+    "alt": "",
+    "x": 104,
+    "y": 1937.078125,
+    "w": 28,
+    "h": 28,
+    "phash": "ae49b42dd1b5c392",
+    "lab_mean": [
+      69.02,
+      0.72,
+      7.52
+    ]
+  },
+  {
+    "src": "./assets/avatars/avataaars-seed-00.svg",
+    "alt": "",
+    "x": 121,
+    "y": 2002.859375,
+    "w": 56,
+    "h": 56,
+    "phash": "bc3c34b2b2cbc389",
+    "lab_mean": [
+      76.35,
+      11.61,
+      17.6
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1229.984375,
+    "y": 2021.859375,
+    "w": 18,
+    "h": 18,
+    "phash": "be7a8521d949a6c6",
+    "lab_mean": [
+      37.6,
+      30.79,
+      33.78
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-06.svg",
+    "alt": "",
+    "x": 121,
+    "y": 2095.84375,
+    "w": 56,
+    "h": 56,
+    "phash": "b830e7c7869a9a9c",
+    "lab_mean": [
+      82.57,
+      0.42,
+      8.27
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 1208.984375,
+    "y": 2114.84375,
+    "w": 18,
+    "h": 18,
+    "phash": "aecad03426cd791e",
+    "lab_mean": [
+      89.16,
+      0.0,
+      6.46
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-07.svg",
+    "alt": "",
+    "x": 121,
+    "y": 2188.828125,
+    "w": 56,
+    "h": 56,
+    "phash": "ac2ccfc7c29b3138",
+    "lab_mean": [
+      83.43,
+      0.44,
+      8.67
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1229.984375,
+    "y": 2207.828125,
+    "w": 18,
+    "h": 18,
+    "phash": "be3a8525d949a6c6",
+    "lab_mean": [
+      37.55,
+      30.75,
+      33.74
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-08.svg",
+    "alt": "",
+    "x": 121,
+    "y": 2281.8125,
+    "w": 56,
+    "h": 56,
+    "phash": "b830e3c7c38acccd",
+    "lab_mean": [
+      83.5,
+      0.44,
+      8.61
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1229.984375,
+    "y": 2300.8125,
+    "w": 18,
+    "h": 18,
+    "phash": "be3a8525d949a6c6",
+    "lab_mean": [
+      37.55,
+      30.75,
+      33.74
+    ]
+  },
+  {
+    "src": "./assets/icons/leaf.svg",
+    "alt": "",
+    "x": 104,
+    "y": 2391.609375,
+    "w": 28,
+    "h": 28,
+    "phash": "badae10bd7849c32",
+    "lab_mean": [
+      71.11,
+      0.75,
+      7.71
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-00.svg",
+    "alt": "",
+    "x": 121,
+    "y": 2457.390625,
+    "w": 56,
+    "h": 56,
+    "phash": "b330c7cfcc993870",
+    "lab_mean": [
+      86.48,
+      0.46,
+      8.97
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1229.984375,
+    "y": 2476.390625,
+    "w": 18,
+    "h": 18,
+    "phash": "be3a8525d949a6c6",
+    "lab_mean": [
+      37.55,
+      30.75,
+      33.74
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-09.svg",
+    "alt": "",
+    "x": 121,
+    "y": 2550.375,
+    "w": 56,
+    "h": 56,
+    "phash": "b931c686c7cb989c",
+    "lab_mean": [
+      79.81,
+      0.41,
+      8.07
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 1208.984375,
+    "y": 2569.375,
+    "w": 18,
+    "h": 18,
+    "phash": "aecad03426cd791e",
+    "lab_mean": [
+      89.16,
+      0.0,
+      6.46
+    ]
+  },
+  {
+    "src": "./assets/avatars/avataaars-seed-01.svg",
+    "alt": "",
+    "x": 121,
+    "y": 2643.359375,
+    "w": 56,
+    "h": 56,
+    "phash": "f8a3b05697cad18c",
+    "lab_mean": [
+      73.79,
+      21.89,
+      33.87
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1229.984375,
+    "y": 2662.359375,
+    "w": 18,
+    "h": 18,
+    "phash": "be3a8525d949a6c6",
+    "lab_mean": [
+      37.55,
+      30.75,
+      33.74
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-03.svg",
+    "alt": "",
+    "x": 121,
+    "y": 2736.34375,
+    "w": 56,
+    "h": 56,
+    "phash": "b239c7cc9c996332",
+    "lab_mean": [
+      82.5,
+      0.46,
+      8.87
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1229.984375,
+    "y": 2755.34375,
+    "w": 18,
+    "h": 18,
+    "phash": "be3a8525d949a6c6",
+    "lab_mean": [
+      37.55,
+      30.75,
+      33.74
+    ]
+  },
+  {
+    "src": "./assets/icons/ribbon.svg",
+    "alt": "",
+    "x": 104,
+    "y": 2846.140625,
+    "w": 28,
+    "h": 28,
+    "phash": "bc33c6c6916ec439",
+    "lab_mean": [
+      64.49,
+      0.66,
+      7.03
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-10.svg",
+    "alt": "",
+    "x": 121,
+    "y": 2911.921875,
+    "w": 56,
+    "h": 56,
+    "phash": "b861c7c79e983863",
+    "lab_mean": [
+      81.76,
+      0.46,
+      8.91
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1229.984375,
+    "y": 2930.921875,
+    "w": 18,
+    "h": 18,
+    "phash": "be3a8525d949a6c6",
+    "lab_mean": [
+      37.55,
+      30.75,
+      33.74
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-04.svg",
+    "alt": "",
+    "x": 121,
+    "y": 3004.90625,
+    "w": 56,
+    "h": 56,
+    "phash": "b030c3cfccd83c76",
+    "lab_mean": [
+      86.26,
+      0.46,
+      8.93
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 1208.984375,
+    "y": 3023.90625,
+    "w": 18,
+    "h": 18,
+    "phash": "aecad03426cd791e",
+    "lab_mean": [
+      89.16,
+      0.0,
+      6.46
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-11.svg",
+    "alt": "",
+    "x": 121,
+    "y": 3097.890625,
+    "w": 56,
+    "h": 56,
+    "phash": "bc34e3c39e9c984c",
+    "lab_mean": [
+      85.19,
+      0.46,
+      8.87
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1229.984375,
+    "y": 3116.890625,
+    "w": 18,
+    "h": 18,
+    "phash": "be3a8525d949a6c6",
+    "lab_mean": [
+      37.55,
+      30.75,
+      33.74
+    ]
+  },
+  {
+    "src": "./assets/avatars/avataaars-seed-02.svg",
+    "alt": "",
+    "x": 121,
+    "y": 3190.875,
+    "w": 56,
+    "h": 56,
+    "phash": "bcc398d3c46cc639",
+    "lab_mean": [
+      87.31,
+      2.09,
+      12.15
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1229.984375,
+    "y": 3209.875,
+    "w": 18,
+    "h": 18,
+    "phash": "be3a8525d949a6c6",
+    "lab_mean": [
+      37.55,
+      30.75,
+      33.74
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 104,
+    "y": 3300.671875,
+    "w": 28,
+    "h": 28,
+    "phash": "a6f2b60f490db5a4",
+    "lab_mean": [
+      66.01,
+      0.68,
+      7.2
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-06.svg",
+    "alt": "",
+    "x": 121,
+    "y": 3366.453125,
+    "w": 56,
+    "h": 56,
+    "phash": "a631cfce9c193165",
+    "lab_mean": [
+      87.44,
+      0.48,
+      9.24
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1229.984375,
+    "y": 3385.453125,
+    "w": 18,
+    "h": 18,
+    "phash": "be3a8525d949a6c6",
+    "lab_mean": [
+      37.55,
+      30.75,
+      33.74
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-02.svg",
+    "alt": "",
+    "x": 121,
+    "y": 3459.4375,
+    "w": 56,
+    "h": 56,
+    "phash": "bc70e09e87c93cc5",
+    "lab_mean": [
+      72.46,
+      0.37,
+      7.41
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1229.984375,
+    "y": 3478.4375,
+    "w": 18,
+    "h": 18,
+    "phash": "be3a8525d949a6c6",
+    "lab_mean": [
+      37.55,
+      30.75,
+      33.74
+    ]
+  },
+  {
+    "src": "./assets/avatars/avataaars-seed-03.svg",
+    "alt": "",
+    "x": 121,
+    "y": 3552.421875,
+    "w": 56,
+    "h": 56,
+    "phash": "ac38d22671d28fcb",
+    "lab_mean": [
+      86.05,
+      0.46,
+      13.64
+    ]
+  },
+  {
+    "src": "./assets/icons/check.svg",
+    "alt": "",
+    "x": 1208.984375,
+    "y": 3571.421875,
+    "w": 18,
+    "h": 18,
+    "phash": "aecad03426cd791e",
+    "lab_mean": [
+      89.16,
+      0.0,
+      6.46
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-05.svg",
+    "alt": "",
+    "x": 121,
+    "y": 3645.40625,
+    "w": 56,
+    "h": 56,
+    "phash": "b833c5dc926958cd",
+    "lab_mean": [
+      69.75,
+      0.38,
+      7.57
+    ]
+  },
+  {
+    "src": "./assets/icons/user-plus.svg",
+    "alt": "",
+    "x": 1229.984375,
+    "y": 3664.40625,
+    "w": 18,
+    "h": 18,
+    "phash": "be3a8525d949a6c6",
+    "lab_mean": [
+      37.55,
+      30.75,
+      33.74
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-left.svg",
+    "alt": "",
+    "x": 529.984375,
+    "y": 3759.40625,
+    "w": 18,
+    "h": 18,
+    "phash": "e69bcc269b64668c",
+    "lab_mean": [
+      91.01,
+      0.0,
+      6.59
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-right.svg",
+    "alt": "",
+    "x": 892.015625,
+    "y": 3759.40625,
+    "w": 18,
+    "h": 18,
+    "phash": "b3c6998cce313399",
+    "lab_mean": [
+      91.03,
+      0.0,
+      6.59
+    ]
+  },
+  {
+    "src": "./assets/icons/book-open.svg",
+    "alt": "",
+    "x": 785,
+    "y": 4061.984375,
+    "w": 22,
+    "h": 22,
+    "phash": "a30ced2ccc3bc4d3",
+    "lab_mean": [
+      68.06,
+      0.0,
+      5.0
+    ]
+  },
+  {
+    "src": "./assets/icons/graduation-cap.svg",
+    "alt": "",
+    "x": 785,
+    "y": 4118.78125,
+    "w": 22,
+    "h": 22,
+    "phash": "fe83a174de8b0878",
+    "lab_mean": [
+      73.84,
+      0.0,
+      5.41
+    ]
+  },
+  {
+    "src": "./assets/icons/lightbulb.svg",
+    "alt": "",
+    "x": 785,
+    "y": 4175.578125,
+    "w": 22,
+    "h": 22,
+    "phash": "bc0cf3b2a4a2939b",
+    "lab_mean": [
+      81.63,
+      0.0,
+      5.95
+    ]
+  },
+  {
+    "src": "./assets/icons/badge-question-mark.svg",
+    "alt": "",
+    "x": 785,
+    "y": 4232.375,
+    "w": 22,
+    "h": 22,
+    "phash": "ee20b99bc46c9333",
+    "lab_mean": [
+      71.01,
+      0.0,
+      5.19
+    ]
+  }
+]

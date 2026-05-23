@@ -1,0 +1,12 @@
+{
+  "selector": ".wdvb-anim-slide-left-library",
+  "bbox": [
+    1166.21875,
+    133.75,
+    161.78125,
+    55.1875
+  ],
+  "type": "slide-left",
+  "duration_ms": 1200,
+  "easing": "ease-out"
+}

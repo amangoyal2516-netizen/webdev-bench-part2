@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+.next/
+dist/
+build/
+.parcel-cache/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.history/
+
+# Local Claude config (skills/ tracked separately; settings.local.json is per-machine)
+.claude/settings.local.json
+.claude/projects/
+
+# Recipe scratch (work-in-progress generation that isn't a finalized task)
+recipe/runs/
+recipe/runs/*/scratch/
+recipe/runs/*.log
+
+# Per-task working copies kept locally for debugging; not shipped
+tasks/_workspaces/
+
+# Harbor eval outputs (multi-GB per run; reproducible from packaged tasks)
+jobs/
+
+# Track B verdict cache (~100 MB+, re-derivable from question packs + screenshots)
+grading/judge/_cache/
+grading/judge/__pycache__/
+
+# Eval-side scratch (generated job configs, run metadata)
+eval/_runs/
+
+# Asset pipeline: cloned upstream datasets (don't commit), keep curated pool
+infra/assets/_source/
+infra/assets/_picks.json
+
+# Harbor runtime tmp
+.harbor/
+harbor-cache/
+
+# Docker
+.docker/
+*.tar
+
+# Generated reports (final artifacts go in eval/reports/; raw tmp doesn't)
+eval/runs/**/tmp/
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Internal working docs (not for the public repo)
+plan.md
+steps.md
+decisions.md
+policy.md
+
+# Archive / scratch
+old_stuff/
+tasks_backup_*/

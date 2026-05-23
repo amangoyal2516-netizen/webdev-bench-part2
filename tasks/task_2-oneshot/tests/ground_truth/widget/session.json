@@ -1,0 +1,12 @@
+{
+  "selector": ".wdvb-anim-scale-up-session",
+  "bbox": [
+    428.0,
+    455.078125,
+    240.0,
+    240.0
+  ],
+  "type": "scale-up",
+  "duration_ms": 1800,
+  "easing": "ease-in-out"
+}

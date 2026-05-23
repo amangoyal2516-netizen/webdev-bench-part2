@@ -1,0 +1,15 @@
+{
+  "criterion": "color_palette",
+  "scope": "per_page_per_viewport",
+  "questions": [
+    {"id": "cp_q1_v2", "text": "Is the dominant background color on the agent's page perceptually similar to the reference's — close enough that a casual viewer would not notice the difference?"},
+    {"id": "cp_q2_v2", "text": "Is the primary accent color on the agent's page similar to the reference's primary accent?"},
+    {"id": "cp_q3_v3", "text": "Is the secondary accent color on the agent's page similar to the reference's? Treat 'neither render uses a secondary accent' as a perfect match (score 5). If the agent's secondary accent differs noticeably from the reference's, score ≤ 2."},
+    {"id": "cp_q4_v2", "text": "Do both renders read with the same temperature — warm vs. cool vs. neutral?"},
+    {"id": "cp_q6", "text": "Is the text/background contrast on the agent's page comparable to the reference's?"},
+    {"id": "cp_q7", "text": "Do both renders show a similar level of saturation — neither obviously more vivid or more washed-out than the other?"},
+    {"id": "cp_q8", "text": "Is the accent color on the agent's page applied to comparable UI elements as on the reference (primary buttons, active states, links, badges) — same color used for the same kinds of things?"},
+    {"id": "cp_q9", "text": "Is the proportion of background color vs. accent color usage similar to the reference — e.g., both mostly white with small accent splashes, or both predominantly dark with bright highlights, or both heavily saturated throughout? Answer 0 if one is overwhelmingly neutral while the other is overwhelmingly colorful."},
+    {"id": "cp_q10", "text": "Has the agent avoided introducing colors that are clearly absent from the reference — no obviously new hues that weren't anywhere in the reference's palette?"}
+  ]
+}

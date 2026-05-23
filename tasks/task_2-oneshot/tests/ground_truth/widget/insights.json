@@ -1,0 +1,12 @@
+{
+  "selector": ".wdvb-anim-slide-down-insights",
+  "bbox": [
+    112.0,
+    107.390625,
+    1216.0,
+    253.6875
+  ],
+  "type": "slide-down",
+  "duration_ms": 1400,
+  "easing": "ease-out"
+}

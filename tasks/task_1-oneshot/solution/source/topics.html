@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Topics — Maple Ridge City Hall Chat</title>
+<link rel="stylesheet" href="./styles.css">
+<style>
+.wdvb-anim-slide-right-topics { animation: wdvb-anim-slide-right-topics 1200ms ease-out both; }
+@keyframes wdvb-anim-slide-right-topics {
+from { transform: translateX(-120px); opacity: 0; }
+to { transform: translateX(0); opacity: 1; }
+}
+</style>
+</head>
+<body>
+<header class="topbar">
+<div class="container topbar-inner">
+<a href="./home.html" class="brand" style="text-decoration:none;">
+<span class="brand-seal"><img src="./assets/icons/landmark.svg" alt=""></span>
+<span class="brand-text">
+<span class="brand-name">Maple Ridge City Hall</span>
+<span class="brand-tag">Resident Chat Service</span>
+</span>
+</a>
+<div class="row">
+<span class="dropdown"><img src="./assets/icons/languages.svg" alt="">English<img src="./assets/icons/chevron-down.svg" alt=""></span>
+<a href="./help.html" class="btn btn-ghost"><img src="./assets/icons/circle-question-mark.svg" alt="">Help</a>
+<a href="#" class="emergency-notice"><img src="./assets/icons/triangle-alert.svg" alt="">For emergencies dial 911</a>
+</div>
+</div>
+</header>
+
+<div class="app-shell">
+<aside class="sidebar">
+<a href="./topics.html" class="btn btn-primary btn-block"><img src="./assets/icons/plus.svg" alt="">Start a new chat</a>
+
+<div>
+<h3>Your conversations</h3>
+<ul class="sidebar-list" style="margin-top: var(--space-3);">
+<li class="thread-item active">
+<span class="thread-icon"><img src="./assets/icons/message-square-text.svg" alt=""></span>
+<span class="thread-body">
+<span class="thread-title">Choosing a topic</span>
+<span class="thread-meta"><span class="pill pill-open">New</span><span>just now</span></span>
+</span>
+</li>
+<li class="thread-item">
+<span class="thread-icon"><img src="./assets/icons/construction.svg" alt=""></span>
+<span class="thread-body">
+<span class="thread-title">Pothole on Linden Ave near #412</span>
+<span class="thread-meta"><span class="pill pill-waiting">Waiting</span><span>2 days ago</span></span>
+</span>
+</li>
+<li class="thread-item">
+<span class="thread-icon"><img src="./assets/icons/trash-2.svg" alt=""></span>
+<span class="thread-body">
+<span class="thread-title">Missed recycling pickup</span>
+<span class="thread-meta"><span class="pill pill-resolved">Resolved</span><span>last week</span></span>
+</span>
+</li>
+<li class="thread-item">
+<span class="thread-icon"><img src="./assets/icons/file-text.svg" alt=""></span>
+<span class="thread-body">
+<span class="thread-title">Fence permit questions</span>
+<span class="thread-meta"><span class="pill pill-resolved">Resolved</span><span>Oct 4</span></span>
+</span>
+</li>
+<li class="thread-item">
+<span class="thread-icon"><img src="./assets/icons/trees.svg" alt=""></span>
+<span class="thread-body">
+<span class="thread-title">Tree branch in alley</span>
+<span class="thread-meta"><span class="pill pill-resolved">Resolved</span><span>Sep 22</span></span>
+</span>
+</li>
+</ul>
+</div>
+
+<div class="sidebar-foot">
+<a href="./help.html" class="sidebar-link"><img src="./assets/icons/circle-question-mark.svg" alt="">How this chat works</a>
+<a href="#" class="sidebar-link"><img src="./assets/icons/phone.svg" alt="">Call us: (555) 412‑0100</a>
+<a href="#" class="sidebar-link"><img src="./assets/icons/settings.svg" alt="">Settings</a>
+</div>
+</aside>
+
+<main class="main-pane">
+<div class="pane-topbar">
+<div class="pane-title-block">
+<h2 class="pane-title">Start a new chat</h2>
+<div class="pane-sub">
+<span class="dept-badge"><img src="./assets/icons/house.svg" alt="">Maple Ridge residents</span>
+<span><img src="./assets/icons/clock.svg" alt="" style="width:14px;height:14px;display:inline;vertical-align:-2px;"> Live help today 8:00 AM – 6:00 PM</span>
+</div>
+</div>
+<div class="row">
+<a href="./chat.html" class="btn btn-ghost"><img src="./assets/icons/arrow-left.svg" alt="">Back to chat</a>
+</div>
+</div>
+
+<div class="pane-body-narrow">
+<div class="stack-lg">
+
+<div>
+<h1 class="wdvb-anim-slide-right-topics">What is your question about?</h1>
+<p class="lede">Pick a topic and we'll connect you with the right department.</p>
+</div>
+
+<div class="card-soft">
+<div class="form-field" style="margin-bottom:0;">
+<label for="topic-search">Search topics</label>
+<div class="input-with-icon">
+<img src="./assets/icons/search.svg" alt="" class="input-icon">
+<input id="topic-search" class="input input-lg" type="text" placeholder="Type a word like pothole, dog license, or recycling">
+</div>
+<span class="help"><img src="./assets/icons/info.svg" alt="" style="width:14px;height:14px;display:inline;vertical-align:-2px;"> Don't worry about spelling — we'll figure out what you mean.</span>
+</div>
+</div>
+
+<div class="topic-grid">
+
+<a href="./chat.html" class="topic-tile" style="text-decoration:none;color:inherit;">
+<span class="topic-tile-icon"><img src="./assets/icons/construction.svg" alt=""></span>
+<h3>Streets &amp; Potholes</h3>
+<p>Report a pothole, broken sidewalk, sinkhole, or a streetlight that's out.</p>
+<span class="availability">Live help — usually replies in 4 minutes</span>
+</a>
+
+<a href="./chat.html" class="topic-tile" style="text-decoration:none;color:inherit;">
+<span class="topic-tile-icon"><img src="./assets/icons/trash-2.svg" alt=""></span>
+<h3>Trash &amp; Recycling</h3>
+<p>Missed pickups, bulky item drop‑off, bin replacements, and yard waste days.</p>
+<span class="availability">Live help — usually replies in 6 minutes</span>
+</a>
+
+<a href="./chat.html" class="topic-tile" style="text-decoration:none;color:inherit;">
+<span class="topic-tile-icon"><img src="./assets/icons/file-text.svg" alt=""></span>
+<h3>Permits &amp; Licenses</h3>
+<p>Building permits, fence and shed approvals, dog licenses, and block parties.</p>
+<span class="availability">Live help — usually replies in 10 minutes</span>
+</a>
+
+<a href="./chat.html" class="topic-tile" style="text-decoration:none;color:inherit;">
+<span class="topic-tile-icon"><img src="./assets/icons/trees.svg" alt=""></span>
+<h3>Parks &amp; Trees</h3>
+<p>Overgrown branches, park maintenance, playground repairs, and tree planting requests.</p>
+<span class="availability">Live help — usually replies in 8 minutes</span>
+</a>
+
+<a href="./chat.html" class="topic-tile" style="text-decoration:none;color:inherit;">
+<span class="topic-tile-icon"><img src="./assets/icons/users.svg" alt=""></span>
+<h3>Council &amp; Meetings</h3>
+<p>When meetings happen, how to speak at one, and how to find past minutes.</p>
+<span class="availability">Live help — usually replies in 12 minutes</span>
+</a>
+
+<a href="./chat.html" class="topic-tile" style="text-decoration:none;color:inherit;">
+<span class="topic-tile-icon"><img src="./assets/icons/lightbulb.svg" alt=""></span>
+<h3>Water &amp; Utilities</h3>
+<p>Bill questions, water shut‑offs, low pressure, and signing up for service.</p>
+<span class="availability busy">Busy — usually replies in 20 minutes</span>
+</a>
+
+<a href="./chat.html" class="topic-tile" style="text-decoration:none;color:inherit;">
+<span class="topic-tile-icon"><img src="./assets/icons/wrench.svg" alt=""></span>
+<h3>Housing &amp; Property</h3>
+<p>Property taxes, rental issues, abandoned buildings, and code complaints.</p>
+<span class="availability">Live help — usually replies in 9 minutes</span>
+</a>
+
+<a href="./chat.html" class="topic-tile" style="text-decoration:none;color:inherit;">
+<span class="topic-tile-icon"><img src="./assets/icons/shield-check.svg" alt=""></span>
+<h3>Safety &amp; Code</h3>
+<p>Non‑emergency safety concerns, noise complaints, and parking violations.</p>
+<span class="availability">Live help — usually replies in 7 minutes</span>
+</a>
+
+<a href="./chat.html" class="topic-tile" style="text-decoration:none;color:inherit;">
+<span class="topic-tile-icon"><img src="./assets/icons/landmark.svg" alt=""></span>
+<h3>Voting &amp; Records</h3>
+<p>Where to vote, getting a copy of a birth certificate, and other public records.</p>
+<span class="availability busy">Closed today — opens Monday 8:00 AM</span>
+</a>
+
+</div>
+
+<div class="helper-card">
+<div class="helper-text">
+<h3>Not sure?</h3>
+<p>Tell us in your own words and we'll route your question. You don't need to know the department name — just describe what's going on.</p>
+</div>
+<a href="./chat.html" class="btn btn-secondary btn-lg"><img src="./assets/icons/message-circle.svg" alt="">Just describe my problem</a>
+</div>
+
+</div>
+</div>
+</main>
+</div>
+
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div>
+<div class="brand" style="margin-bottom: var(--space-3);">
+<span class="brand-seal"><img src="./assets/icons/landmark.svg" alt=""></span>
+<span class="brand-text">
+<span class="brand-name" style="color:#fff8e8;">Maple Ridge City Hall</span>
+<span class="brand-tag" style="color:#f5e6c4;">Resident Chat Service</span>
+</span>
+</div>
+<p style="font-size:var(--text-sm);">A friendly way to ask City Hall a question. Open to every resident, no account needed. We answer in plain language.</p>
+<span class="emergency-notice"><img src="./assets/icons/triangle-alert.svg" alt="">For emergencies dial 911</span>
+</div>
+<div>
+<h4>Chat with us</h4>
+<p style="font-size:var(--text-sm);"><a href="./home.html">Start a chat</a></p>
+<p style="font-size:var(--text-sm);"><a href="./topics.html">Browse topics</a></p>
+<p style="font-size:var(--text-sm);"><a href="./report-issue.html">Report an issue</a></p>
+<p style="font-size:var(--text-sm);"><a href="./help.html">How chat works</a></p>
+</div>
+<div>
+<h4>Other ways</h4>
+<p style="font-size:var(--text-sm);"><a href="#"><img src="./assets/icons/phone.svg" alt="" style="width:14px;height:14px;display:inline;vertical-align:-2px;filter:invert(94%) sepia(20%);"> (555) 412‑0100</a></p>
+<p style="font-size:var(--text-sm);"><a href="#">hello@cityhall.mapleridge.gov</a></p>
+<p style="font-size:var(--text-sm);">114 Linden Avenue<br>Maple Ridge, ST 00214</p>
+</div>
+<div>
+<h4>Office hours</h4>
+<p style="font-size:var(--text-sm);">Monday – Friday<br>8:00 AM – 6:00 PM</p>
+<p style="font-size:var(--text-sm);">Saturday<br>9:00 AM – 1:00 PM</p>
+<p style="font-size:var(--text-sm);">Closed Sundays &amp; city holidays</p>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© 2025 City of Maple Ridge. A public service.</span>
+<span><a href="#">Privacy</a> &nbsp;·&nbsp; <a href="#">Accessibility</a> &nbsp;·&nbsp; <a href="#">Translate this page</a></span>
+</div>
+</div>
+</footer>
+</body>
+</html>

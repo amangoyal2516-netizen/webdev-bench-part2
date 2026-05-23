@@ -1,0 +1,870 @@
+[
+  {
+    "src": "./assets/icons/scissors.svg",
+    "alt": "",
+    "x": 34,
+    "y": 30.5,
+    "w": 24,
+    "h": 24,
+    "phash": "c43f251b09f6723c",
+    "lab_mean": [
+      60.9,
+      29.36,
+      32.23
+    ]
+  },
+  {
+    "src": "./assets/icons/search.svg",
+    "alt": "",
+    "x": 316.15625,
+    "y": 32.5,
+    "w": 20,
+    "h": 20,
+    "phash": "abb5f089c3498d6a",
+    "lab_mean": [
+      75.78,
+      0.8,
+      8.22
+    ]
+  },
+  {
+    "src": "./assets/icons/bell.svg",
+    "alt": "",
+    "x": 1198,
+    "y": 32.5,
+    "w": 20,
+    "h": 20,
+    "phash": "afbcf003d3188acd",
+    "lab_mean": [
+      74.37,
+      0.77,
+      8.06
+    ]
+  },
+  {
+    "src": "./assets/icons/badge-question-mark.svg",
+    "alt": "",
+    "x": 1270,
+    "y": 32.5,
+    "w": 20,
+    "h": 20,
+    "phash": "eea0b986e49b938c",
+    "lab_mean": [
+      67.83,
+      0.71,
+      7.43
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-04.svg",
+    "alt": "Margaret",
+    "x": 1334,
+    "y": 22.5,
+    "w": 40,
+    "h": 40,
+    "phash": "b833c198c36b4de5",
+    "lab_mean": [
+      68.29,
+      0.6,
+      8.19
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 1382,
+    "y": 32.5,
+    "w": 20,
+    "h": 20,
+    "phash": "bd8cd2732c8db360",
+    "lab_mean": [
+      88.17,
+      0.9,
+      9.45
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-down.svg",
+    "alt": "",
+    "x": 261.0625,
+    "y": 303.375,
+    "w": 20,
+    "h": 20,
+    "phash": "bd0cc2e3640c9fb6",
+    "lab_mean": [
+      91.14,
+      0.0,
+      6.61
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 337.0625,
+    "y": 303.375,
+    "w": 20,
+    "h": 20,
+    "phash": "cc993366d3362c63",
+    "lab_mean": [
+      53.52,
+      35.04,
+      38.64
+    ]
+  },
+  {
+    "src": "./assets/icons/sparkles.svg",
+    "alt": "",
+    "x": 279,
+    "y": 399.671875,
+    "w": 16,
+    "h": 16,
+    "phash": "d91d5df036c24a4b",
+    "lab_mean": [
+      63.49,
+      26.88,
+      29.44
+    ]
+  },
+  {
+    "src": "./assets/icons/ribbon.svg",
+    "alt": "",
+    "x": 413.46875,
+    "y": 399.671875,
+    "w": 16,
+    "h": 16,
+    "phash": "bc33c6c6916fc431",
+    "lab_mean": [
+      66.86,
+      0.0,
+      4.94
+    ]
+  },
+  {
+    "src": "./assets/icons/leaf.svg",
+    "alt": "",
+    "x": 541.890625,
+    "y": 399.671875,
+    "w": 16,
+    "h": 16,
+    "phash": "baeae10bd7849c32",
+    "lab_mean": [
+      74.84,
+      0.0,
+      5.48
+    ]
+  },
+  {
+    "src": "./assets/icons/x.svg",
+    "alt": "",
+    "x": 1208.1875,
+    "y": 622.765625,
+    "w": 16,
+    "h": 16,
+    "phash": "bc87cae0e3683c1e",
+    "lab_mean": [
+      84.8,
+      0.0,
+      6.16
+    ]
+  },
+  {
+    "src": "./assets/icons/sliders-horizontal.svg",
+    "alt": "",
+    "x": 1190.03125,
+    "y": 712.15625,
+    "w": 20,
+    "h": 20,
+    "phash": "ec26c75990bbc193",
+    "lab_mean": [
+      73.75,
+      0.75,
+      8.01
+    ]
+  },
+  {
+    "src": "./assets/photos/Au1eENDHD10.jpg",
+    "alt": "Cottage garden ladder with terracotta pots",
+    "x": 105,
+    "y": 761.5625,
+    "w": 392.65625,
+    "h": 294.484375,
+    "phash": "fef184d9c89e812a",
+    "lab_mean": [
+      78.05,
+      2.98,
+      8.76
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-00.svg",
+    "alt": "",
+    "x": 129,
+    "y": 1119.046875,
+    "w": 40,
+    "h": 40,
+    "phash": "b931e28ec79898cb",
+    "lab_mean": [
+      77.29,
+      0.39,
+      7.8
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 283.984375,
+    "y": 1178.234375,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.69,
+      0.0,
+      5.33
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 129,
+    "y": 1290.8125,
+    "w": 20,
+    "h": 20,
+    "phash": "ca0ab5edd2b48dc2",
+    "lab_mean": [
+      74.82,
+      0.78,
+      8.15
+    ]
+  },
+  {
+    "src": "./assets/icons/printer.svg",
+    "alt": "",
+    "x": 441.65625,
+    "y": 1290.828125,
+    "w": 20,
+    "h": 20,
+    "phash": "bea8bd14344b3ab4",
+    "lab_mean": [
+      63.36,
+      0.0,
+      4.67
+    ]
+  },
+  {
+    "src": "./assets/photos/15YDf39RIVc.jpg",
+    "alt": "Vintage teacup with pink blossoms \u2014 embroidery hoop",
+    "x": 523.65625,
+    "y": 761.5625,
+    "w": 392.671875,
+    "h": 294.5,
+    "phash": "8c43fce0d623ac3b",
+    "lab_mean": [
+      58.07,
+      4.92,
+      11.45
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-02.svg",
+    "alt": "",
+    "x": 547.65625,
+    "y": 1154.0625,
+    "w": 40,
+    "h": 40,
+    "phash": "bc70e09e87c93cc3",
+    "lab_mean": [
+      72.29,
+      0.37,
+      7.45
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 668.28125,
+    "y": 1214.25,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.69,
+      0.0,
+      5.33
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 547.65625,
+    "y": 1290.8125,
+    "w": 20,
+    "h": 20,
+    "phash": "ca0ab5edd2b48dc2",
+    "lab_mean": [
+      74.82,
+      0.78,
+      8.15
+    ]
+  },
+  {
+    "src": "./assets/icons/printer.svg",
+    "alt": "",
+    "x": 860.328125,
+    "y": 1290.828125,
+    "w": 20,
+    "h": 20,
+    "phash": "bea8bd14344b3ab4",
+    "lab_mean": [
+      63.36,
+      0.0,
+      4.67
+    ]
+  },
+  {
+    "src": "./assets/photos/u1XO8rGzMTQ.jpg",
+    "alt": "Pink tulips in a white ceramic vase",
+    "x": 942.328125,
+    "y": 761.5625,
+    "w": 392.65625,
+    "h": 294.484375,
+    "phash": "bc1b47c31970d167",
+    "lab_mean": [
+      90.49,
+      -3.84,
+      2.76
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-01.svg",
+    "alt": "",
+    "x": 966.328125,
+    "y": 1154.046875,
+    "w": 40,
+    "h": 40,
+    "phash": "e424cfcf98993166",
+    "lab_mean": [
+      88.8,
+      0.48,
+      9.23
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 1121.3125,
+    "y": 1214.234375,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.69,
+      0.0,
+      5.33
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 966.328125,
+    "y": 1290.8125,
+    "w": 20,
+    "h": 20,
+    "phash": "ca0ab5edd2b48dc2",
+    "lab_mean": [
+      74.82,
+      0.78,
+      8.15
+    ]
+  },
+  {
+    "src": "./assets/icons/printer.svg",
+    "alt": "",
+    "x": 1278.984375,
+    "y": 1290.828125,
+    "w": 20,
+    "h": 20,
+    "phash": "bea8bd14344b3ab4",
+    "lab_mean": [
+      63.36,
+      0.0,
+      4.67
+    ]
+  },
+  {
+    "src": "./assets/photos/9VoUqAsW2sA.jpg",
+    "alt": "Succulents in a woven brown basket",
+    "x": 105,
+    "y": 1360.828125,
+    "w": 392.65625,
+    "h": 294.484375,
+    "phash": "e6998eb38d743065",
+    "lab_mean": [
+      49.94,
+      -7.37,
+      3.55
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-05.svg",
+    "alt": "",
+    "x": 129,
+    "y": 1718.3125,
+    "w": 40,
+    "h": 40,
+    "phash": "b833c5dc926958cd",
+    "lab_mean": [
+      69.58,
+      0.39,
+      7.63
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 249.625,
+    "y": 1778.5,
+    "w": 16,
+    "h": 16,
+    "phash": "e6b1b9c4a09bc68e",
+    "lab_mean": [
+      72.76,
+      0.0,
+      5.35
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 129,
+    "y": 1925.09375,
+    "w": 20,
+    "h": 20,
+    "phash": "ca0ab5edd2b48dc2",
+    "lab_mean": [
+      74.82,
+      0.78,
+      8.15
+    ]
+  },
+  {
+    "src": "./assets/icons/printer.svg",
+    "alt": "",
+    "x": 441.65625,
+    "y": 1925.109375,
+    "w": 20,
+    "h": 20,
+    "phash": "bea8bd14344b3ab4",
+    "lab_mean": [
+      63.36,
+      0.0,
+      4.67
+    ]
+  },
+  {
+    "src": "./assets/photos/zWCUF5pTIM4.jpg",
+    "alt": "Pink and purple petalled flowers in a white vase",
+    "x": 523.65625,
+    "y": 1360.828125,
+    "w": 392.671875,
+    "h": 294.5,
+    "phash": "aae6913d0ee3701e",
+    "lab_mean": [
+      61.04,
+      0.85,
+      0.81
+    ]
+  },
+  {
+    "src": "./assets/avatars/avataaars-seed-02.svg",
+    "alt": "",
+    "x": 547.65625,
+    "y": 1753.328125,
+    "w": 40,
+    "h": 40,
+    "phash": "b8d39cc6c46c9339",
+    "lab_mean": [
+      87.27,
+      2.0,
+      12.06
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 702.640625,
+    "y": 1812.515625,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.72,
+      0.0,
+      5.33
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 547.65625,
+    "y": 1925.09375,
+    "w": 20,
+    "h": 20,
+    "phash": "ca0ab5edd2b48dc2",
+    "lab_mean": [
+      74.82,
+      0.78,
+      8.15
+    ]
+  },
+  {
+    "src": "./assets/icons/printer.svg",
+    "alt": "",
+    "x": 860.328125,
+    "y": 1925.109375,
+    "w": 20,
+    "h": 20,
+    "phash": "bea8bd14344b3ab4",
+    "lab_mean": [
+      63.36,
+      0.0,
+      4.67
+    ]
+  },
+  {
+    "src": "./assets/photos/O6N9RV2rzX8.jpg",
+    "alt": "Flat lay of purple and red autumn leaves",
+    "x": 942.328125,
+    "y": 1360.828125,
+    "w": 392.65625,
+    "h": 294.484375,
+    "phash": "ed23d0524bb53a8e",
+    "lab_mean": [
+      50.77,
+      27.51,
+      20.36
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-07.svg",
+    "alt": "",
+    "x": 966.328125,
+    "y": 1753.3125,
+    "w": 40,
+    "h": 40,
+    "phash": "b830e3c3c78ecccc",
+    "lab_mean": [
+      83.48,
+      0.45,
+      8.65
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 1092.171875,
+    "y": 1813.5,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.69,
+      0.0,
+      5.33
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 966.328125,
+    "y": 1925.09375,
+    "w": 20,
+    "h": 20,
+    "phash": "ca0ab5edd2b48dc2",
+    "lab_mean": [
+      74.82,
+      0.78,
+      8.15
+    ]
+  },
+  {
+    "src": "./assets/icons/printer.svg",
+    "alt": "",
+    "x": 1278.984375,
+    "y": 1925.109375,
+    "w": 20,
+    "h": 20,
+    "phash": "bea8bd14344b3ab4",
+    "lab_mean": [
+      63.36,
+      0.0,
+      4.67
+    ]
+  },
+  {
+    "src": "./assets/photos/UrgYjACxvaI.jpg",
+    "alt": "White, orange and purple floral textile",
+    "x": 105,
+    "y": 1995.109375,
+    "w": 392.65625,
+    "h": 294.484375,
+    "phash": "83947958bc3bb323",
+    "lab_mean": [
+      68.56,
+      0.31,
+      3.79
+    ]
+  },
+  {
+    "src": "./assets/avatars/notionists-seed-04.svg",
+    "alt": "",
+    "x": 129,
+    "y": 2387.59375,
+    "w": 40,
+    "h": 40,
+    "phash": "b230c3ceccd93c66",
+    "lab_mean": [
+      86.31,
+      0.46,
+      8.94
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 283.984375,
+    "y": 2446.78125,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.69,
+      0.0,
+      5.33
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 129,
+    "y": 2559.375,
+    "w": 20,
+    "h": 20,
+    "phash": "ca0ab5edd2b48dc2",
+    "lab_mean": [
+      74.82,
+      0.78,
+      8.15
+    ]
+  },
+  {
+    "src": "./assets/icons/printer.svg",
+    "alt": "",
+    "x": 441.65625,
+    "y": 2559.390625,
+    "w": 20,
+    "h": 20,
+    "phash": "bea8bd14344b3ab4",
+    "lab_mean": [
+      63.36,
+      0.0,
+      4.67
+    ]
+  },
+  {
+    "src": "./assets/photos/iGANt1N2ge8.jpg",
+    "alt": "Wooden cart wheel and antlers \u2014 rustic interior detail",
+    "x": 523.65625,
+    "y": 1995.109375,
+    "w": 392.671875,
+    "h": 294.5,
+    "phash": "91956e6a7a4e60ad",
+    "lab_mean": [
+      37.07,
+      3.02,
+      10.0
+    ]
+  },
+  {
+    "src": "./assets/avatars/avataaars-seed-00.svg",
+    "alt": "",
+    "x": 547.65625,
+    "y": 2387.609375,
+    "w": 40,
+    "h": 40,
+    "phash": "bc3c34b2b2cbc389",
+    "lab_mean": [
+      76.18,
+      11.81,
+      17.68
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 673.5,
+    "y": 2446.796875,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.69,
+      0.0,
+      5.33
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 547.65625,
+    "y": 2559.375,
+    "w": 20,
+    "h": 20,
+    "phash": "ca0ab5edd2b48dc2",
+    "lab_mean": [
+      74.82,
+      0.78,
+      8.15
+    ]
+  },
+  {
+    "src": "./assets/icons/printer.svg",
+    "alt": "",
+    "x": 860.328125,
+    "y": 2559.390625,
+    "w": 20,
+    "h": 20,
+    "phash": "bea8bd14344b3ab4",
+    "lab_mean": [
+      63.36,
+      0.0,
+      4.67
+    ]
+  },
+  {
+    "src": "./assets/photos/AiTE9NFQZ3I.jpg",
+    "alt": "Pink roses arranged in a grey concrete pot",
+    "x": 942.328125,
+    "y": 1995.109375,
+    "w": 392.65625,
+    "h": 294.484375,
+    "phash": "d51bedb0f2601b43",
+    "lab_mean": [
+      42.04,
+      10.42,
+      16.18
+    ]
+  },
+  {
+    "src": "./assets/avatars/lorelei-seed-10.svg",
+    "alt": "",
+    "x": 966.328125,
+    "y": 2387.59375,
+    "w": 40,
+    "h": 40,
+    "phash": "b871c7c79a983863",
+    "lab_mean": [
+      81.69,
+      0.46,
+      8.98
+    ]
+  },
+  {
+    "src": "./assets/icons/clock.svg",
+    "alt": "",
+    "x": 1086.953125,
+    "y": 2447.78125,
+    "w": 16,
+    "h": 16,
+    "phash": "e632b9cce4939364",
+    "lab_mean": [
+      72.69,
+      0.0,
+      5.33
+    ]
+  },
+  {
+    "src": "./assets/icons/heart.svg",
+    "alt": "",
+    "x": 966.328125,
+    "y": 2559.375,
+    "w": 20,
+    "h": 20,
+    "phash": "ca0ab5edd2b48dc2",
+    "lab_mean": [
+      74.82,
+      0.78,
+      8.15
+    ]
+  },
+  {
+    "src": "./assets/icons/printer.svg",
+    "alt": "",
+    "x": 1278.984375,
+    "y": 2559.390625,
+    "w": 20,
+    "h": 20,
+    "phash": "bea8bd14344b3ab4",
+    "lab_mean": [
+      63.36,
+      0.0,
+      4.67
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-left.svg",
+    "alt": "",
+    "x": 337.34375,
+    "y": 2665.578125,
+    "w": 20,
+    "h": 20,
+    "phash": "e623cc8c9b3366cc",
+    "lab_mean": [
+      91.2,
+      0.0,
+      6.61
+    ]
+  },
+  {
+    "src": "./assets/icons/chevron-right.svg",
+    "alt": "",
+    "x": 739.390625,
+    "y": 2665.578125,
+    "w": 20,
+    "h": 20,
+    "phash": "b3c69919ce263399",
+    "lab_mean": [
+      91.2,
+      0.0,
+      6.61
+    ]
+  },
+  {
+    "src": "./assets/icons/plus.svg",
+    "alt": "",
+    "x": 847.390625,
+    "y": 2665.578125,
+    "w": 20,
+    "h": 20,
+    "phash": "b366c8992cd9c39c",
+    "lab_mean": [
+      87.74,
+      0.0,
+      6.34
+    ]
+  },
+  {
+    "src": "./assets/icons/scissors.svg",
+    "alt": "",
+    "x": 112,
+    "y": 2832.078125,
+    "w": 20,
+    "h": 20,
+    "phash": "c4ff256609d95266",
+    "lab_mean": [
+      60.45,
+      29.54,
+      32.4
+    ]
+  }
+]

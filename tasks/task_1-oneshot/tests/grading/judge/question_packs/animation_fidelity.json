@@ -1,0 +1,13 @@
+{
+  "criterion": "animation_fidelity",
+  "scope": "per_page_motion_strip",
+  "_comment": "Asked once per page. The judge sees two 5-panel motion strips side by side (reference + agent), each showing the page's load-triggered entrance animation at t=0/25/50/75/100 % of duration_ms. Per-panel SSIM is the Track A measurement; these questions sit on top of the same image pair.",
+  "questions": [
+    {"id": "anim_q1", "text": "Does the agent's motion strip show an entrance animation on the same element as the reference (matched by position within the band)? A 5 means an unambiguous match; a 1 means no animated element is visible in the agent's strip at all."},
+    {"id": "anim_q2", "text": "Is the direction of motion the same in the agent's strip as in the reference (slide-up rising from below, slide-down dropping from above, slide-left coming from the right, slide-right coming from the left, or scale-up growing from a smaller size)? A 5 means unambiguously the same direction; a 1 means a clearly different direction."},
+    {"id": "anim_q3", "text": "Is the magnitude of motion similar — the widget traverses roughly the same distance (or scales by roughly the same factor) as in the reference, within ~2× either way? A 5 means within ~25 %; a 1 means an order-of-magnitude smaller or larger displacement."},
+    {"id": "anim_q4", "text": "Does the agent's animation appear to fire on page load and play once, with the widget moving from start-state to settled-state across the five panels? A 5 means clearly load-triggered, single-shot. A 1 means no motion is captured by the strip (e.g. the widget is static across all five panels, or only changes on hover / scroll which the load-strip wouldn't capture)."},
+    {"id": "anim_q5", "text": "Is the duration of the animation similar to the reference — the widget reaches its settled state at roughly the same panel (within ~50 % of the reference's pacing)? A 5 means matching pacing across the five panels; a 1 means dramatically faster (settled by panel 1) or slower (still moving at panel 5)."},
+    {"id": "anim_q6", "text": "Does the widget end (panel 5) at the same final position, size, and opacity as the reference? A 5 means visually indistinguishable settled-state in the last panel; a 1 means the widget is at a clearly different final position, size, or opacity."}
+  ]
+}

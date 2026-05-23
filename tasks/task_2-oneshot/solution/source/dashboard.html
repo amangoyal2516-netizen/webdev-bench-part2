@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard — Practice Catalog</title>
+<link rel="stylesheet" href="./styles.css">
+<style>
+.wdvb-anim-scale-up-dashboard{animation:wdvb-anim-scale-up-dashboard 1500ms ease-in-out both;}
+@keyframes wdvb-anim-scale-up-dashboard{from{transform:scale(0.6);opacity:0;}to{transform:scale(1);opacity:1;}}
+</style>
+</head>
+<body>
+<div class="page">
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a href="./dashboard.html" class="brand">
+      <span class="brand-mark"><img src="./assets/icons/music-2.svg" alt="" class="icon icon-sm" style="filter:brightness(0) invert(1);"></span>
+      <span>Practice Catalog</span>
+    </a>
+    <div class="topbar-center">
+      <div class="segmented" role="tablist" aria-label="Time range">
+        <button class="seg active" type="button">Today</button>
+        <button class="seg" type="button">Week</button>
+        <button class="seg" type="button">Month</button>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <div class="streak-chip wdvb-anim-scale-up-dashboard" aria-label="Current streak 47 days">
+        <img src="./assets/icons/flame.svg" alt="" class="icon icon-sm">
+        <span class="tabular">47</span>
+        <span class="text-xs upper" style="opacity:0.8;">days</span>
+      </div>
+      <button class="icon-btn active" aria-label="Toggle metronome" title="Metronome 96 bpm">
+        <img src="./assets/icons/audio-waveform.svg" alt="" class="icon icon-md">
+      </button>
+      <button class="icon-btn" aria-label="Notifications">
+        <img src="./assets/icons/bell.svg" alt="" class="icon icon-md">
+      </button>
+      <a href="./settings.html" class="avatar" aria-label="Your profile">
+        <img src="./assets/avatars/lorelei-seed-04.svg" alt="Mira Halvorsen">
+      </a>
+    </div>
+  </div>
+</header>
+
+<main class="page-body">
+  <div class="container stack-lg">
+
+    <section class="greeting">
+      <div class="stack-sm">
+        <div class="row" style="gap:var(--space-3);">
+          <span class="badge"><img src="./assets/icons/calendar-days.svg" alt="" class="icon icon-sm"> <span class="tabular">Thu · Mar 14, 2025</span></span>
+          <span class="badge badge-alt"><img src="./assets/icons/sparkles.svg" alt="" class="icon icon-sm"> Day 47 of streak</span>
+        </div>
+        <h2>Good evening, Mira.</h2>
+        <p class="dim">The slow practice you logged yesterday is still in your hands — keep the tempo honest tonight.</p>
+      </div>
+      <div class="greeting-stats">
+        <div class="stat">
+          <span class="stat-label">Minutes today</span>
+          <span class="stat-value">42<span class="muted text-md"> / 90</span></span>
+        </div>
+        <div class="divider-v"></div>
+        <div class="stat">
+          <span class="stat-label">Sessions logged</span>
+          <span class="stat-value">3</span>
+        </div>
+        <div class="divider-v"></div>
+        <div class="stat" style="min-width:200px;">
+          <span class="stat-label">Weekly goal</span>
+          <div class="row" style="gap:var(--space-3);">
+            <div class="progress" style="flex:1;"><div class="progress-bar" style="width:68%;"></div></div>
+            <span class="tabular weight-bold text-sm">68%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stack">
+      <div class="row-between">
+        <div class="stack-sm">
+          <span class="card-eyebrow">Your catalog</span>
+          <h3>Practice habits — 6 active routines</h3>
+        </div>
+        <div class="row-wrap">
+          <button class="btn btn-ghost btn-sm"><img src="./assets/icons/funnel.svg" alt="" class="icon icon-sm"> Filter</button>
+          <button class="btn btn-ghost btn-sm"><img src="./assets/icons/sliders-horizontal.svg" alt="" class="icon icon-sm"> Sort: Streak</button>
+          <button class="btn btn-outline btn-sm"><img src="./assets/icons/grid-2x2.svg" alt="" class="icon icon-sm"> Grid view</button>
+        </div>
+      </div>
+
+      <div class="grid grid-3">
+
+        <article class="habit-card">
+          <div class="habit-card-head">
+            <div class="row" style="gap:var(--space-3);">
+              <span class="habit-icon"><img src="./assets/icons/guitar.svg" alt="" class="icon icon-md" style="filter:brightness(0) saturate(100%) invert(53%) sepia(34%) saturate(685%) hue-rotate(178deg) brightness(91%) contrast(86%);"></span>
+              <div class="stack-sm" style="gap:2px;">
+                <span class="habit-name">Classical Guitar</span>
+                <span class="habit-meta tabular">Target · 30 min / day</span>
+              </div>
+            </div>
+            <button class="icon-btn" style="width:32px;height:32px;" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="icon icon-sm"></button>
+          </div>
+          <div class="row" style="gap:var(--space-4);">
+            <div class="ring" aria-label="78% of daily target">
+              <svg class="ring-svg" viewBox="0 0 100 100"><circle class="ring-track" cx="50" cy="50" r="42"/><circle class="ring-fill" cx="50" cy="50" r="42" stroke-dasharray="263.9" stroke-dashoffset="58.1"/></svg>
+              <div class="ring-label"><span class="ring-value">23<span class="muted">m</span></span><span class="ring-caption">of 30</span></div>
+            </div>
+            <div class="stack-sm" style="flex:1;">
+              <span class="streak-chip"><img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> 47 days</span>
+              <span class="text-xs muted">Last: Bach BWV 998 · yesterday</span>
+            </div>
+          </div>
+          <div class="stack-sm">
+            <div class="row-between">
+              <span class="dot-label upper tabular">F · S · S · M · T · W · T</span>
+            </div>
+            <div class="dot-row">
+              <span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span>
+            </div>
+          </div>
+          <button class="btn btn-primary btn-block"><img src="./assets/icons/play.svg" alt="" class="icon icon-sm" style="filter:brightness(0) invert(1);"> Start session</button>
+        </article>
+
+        <article class="habit-card">
+          <div class="habit-card-head">
+            <div class="row" style="gap:var(--space-3);">
+              <span class="habit-icon alt"><img src="./assets/icons/piano.svg" alt="" class="icon icon-md"></span>
+              <div class="stack-sm" style="gap:2px;">
+                <span class="habit-name">Piano — Jazz Voicings</span>
+                <span class="habit-meta tabular">Target · 45 min / day</span>
+              </div>
+            </div>
+            <button class="icon-btn" style="width:32px;height:32px;" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="icon icon-sm"></button>
+          </div>
+          <div class="row" style="gap:var(--space-4);">
+            <div class="ring" aria-label="42% of daily target">
+              <svg class="ring-svg" viewBox="0 0 100 100"><circle class="ring-track" cx="50" cy="50" r="42"/><circle class="ring-fill alt" cx="50" cy="50" r="42" stroke-dasharray="263.9" stroke-dashoffset="153.1"/></svg>
+              <div class="ring-label"><span class="ring-value">19<span class="muted">m</span></span><span class="ring-caption">of 45</span></div>
+            </div>
+            <div class="stack-sm" style="flex:1;">
+              <span class="streak-chip"><img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> 21 days</span>
+              <span class="text-xs muted">Last: ii-V-I in all keys · today</span>
+            </div>
+          </div>
+          <div class="stack-sm">
+            <div class="dot-label upper tabular">F · S · S · M · T · W · T</div>
+            <div class="dot-row">
+              <span class="dot on"></span><span class="dot on"></span><span class="dot miss"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot alt"></span>
+            </div>
+          </div>
+          <button class="btn btn-primary btn-block"><img src="./assets/icons/play.svg" alt="" class="icon icon-sm" style="filter:brightness(0) invert(1);"> Start session</button>
+        </article>
+
+        <article class="habit-card">
+          <div class="habit-card-head">
+            <div class="row" style="gap:var(--space-3);">
+              <span class="habit-icon"><img src="./assets/icons/mic-vocal.svg" alt="" class="icon icon-md"></span>
+              <div class="stack-sm" style="gap:2px;">
+                <span class="habit-name">Vocal Warm-ups</span>
+                <span class="habit-meta tabular">Target · 15 min / day</span>
+              </div>
+            </div>
+            <button class="icon-btn" style="width:32px;height:32px;" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="icon icon-sm"></button>
+          </div>
+          <div class="row" style="gap:var(--space-4);">
+            <div class="ring" aria-label="100% of daily target">
+              <svg class="ring-svg" viewBox="0 0 100 100"><circle class="ring-track" cx="50" cy="50" r="42"/><circle class="ring-fill" cx="50" cy="50" r="42" stroke-dasharray="263.9" stroke-dashoffset="0"/></svg>
+              <div class="ring-label"><span class="ring-value">15<span class="muted">m</span></span><span class="ring-caption">complete</span></div>
+            </div>
+            <div class="stack-sm" style="flex:1;">
+              <span class="streak-chip"><img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> 12 days</span>
+              <span class="text-xs muted">Last: SOVT slides · today</span>
+            </div>
+          </div>
+          <div class="stack-sm">
+            <div class="dot-label upper tabular">F · S · S · M · T · W · T</div>
+            <div class="dot-row">
+              <span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span>
+            </div>
+          </div>
+          <button class="btn btn-outline btn-block"><img src="./assets/icons/circle-check.svg" alt="" class="icon icon-sm"> Done for today</button>
+        </article>
+
+        <article class="habit-card">
+          <div class="habit-card-head">
+            <div class="row" style="gap:var(--space-3);">
+              <span class="habit-icon alt"><img src="./assets/icons/music-3.svg" alt="" class="icon icon-md"></span>
+              <div class="stack-sm" style="gap:2px;">
+                <span class="habit-name">Bass — Walking Lines</span>
+                <span class="habit-meta tabular">Target · 25 min / day</span>
+              </div>
+            </div>
+            <button class="icon-btn" style="width:32px;height:32px;" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="icon icon-sm"></button>
+          </div>
+          <div class="row" style="gap:var(--space-4);">
+            <div class="ring" aria-label="0% of daily target">
+              <svg class="ring-svg" viewBox="0 0 100 100"><circle class="ring-track" cx="50" cy="50" r="42"/><circle class="ring-fill alt" cx="50" cy="50" r="42" stroke-dasharray="263.9" stroke-dashoffset="263.9"/></svg>
+              <div class="ring-label"><span class="ring-value">0<span class="muted">m</span></span><span class="ring-caption">of 25</span></div>
+            </div>
+            <div class="stack-sm" style="flex:1;">
+              <span class="streak-chip"><img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> 8 days</span>
+              <span class="text-xs muted">Last: Autumn Leaves · 2 days ago</span>
+            </div>
+          </div>
+          <div class="stack-sm">
+            <div class="dot-label upper tabular">F · S · S · M · T · W · T</div>
+            <div class="dot-row">
+              <span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot miss"></span><span class="dot on"></span><span class="dot on"></span><span class="dot miss"></span>
+            </div>
+          </div>
+          <button class="btn btn-primary btn-block"><img src="./assets/icons/play.svg" alt="" class="icon icon-sm" style="filter:brightness(0) invert(1);"> Start session</button>
+        </article>
+
+        <article class="habit-card">
+          <div class="habit-card-head">
+            <div class="row" style="gap:var(--space-3);">
+              <span class="habit-icon"><img src="./assets/icons/drum.svg" alt="" class="icon icon-md"></span>
+              <div class="stack-sm" style="gap:2px;">
+                <span class="habit-name">Drums — Rudiments</span>
+                <span class="habit-meta tabular">Target · 20 min / day</span>
+              </div>
+            </div>
+            <button class="icon-btn" style="width:32px;height:32px;" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="icon icon-sm"></button>
+          </div>
+          <div class="row" style="gap:var(--space-4);">
+            <div class="ring" aria-label="60% of daily target">
+              <svg class="ring-svg" viewBox="0 0 100 100"><circle class="ring-track" cx="50" cy="50" r="42"/><circle class="ring-fill" cx="50" cy="50" r="42" stroke-dasharray="263.9" stroke-dashoffset="105.6"/></svg>
+              <div class="ring-label"><span class="ring-value">12<span class="muted">m</span></span><span class="ring-caption">of 20</span></div>
+            </div>
+            <div class="stack-sm" style="flex:1;">
+              <span class="streak-chip"><img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> 33 days</span>
+              <span class="text-xs muted">Last: paradiddle @ 110bpm · today</span>
+            </div>
+          </div>
+          <div class="stack-sm">
+            <div class="dot-label upper tabular">F · S · S · M · T · W · T</div>
+            <div class="dot-row">
+              <span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot alt"></span>
+            </div>
+          </div>
+          <button class="btn btn-primary btn-block"><img src="./assets/icons/play.svg" alt="" class="icon icon-sm" style="filter:brightness(0) invert(1);"> Resume session</button>
+        </article>
+
+        <article class="habit-card">
+          <div class="habit-card-head">
+            <div class="row" style="gap:var(--space-3);">
+              <span class="habit-icon alt"><img src="./assets/icons/headphones.svg" alt="" class="icon icon-md"></span>
+              <div class="stack-sm" style="gap:2px;">
+                <span class="habit-name">Ear Training</span>
+                <span class="habit-meta tabular">Target · 10 min / day</span>
+              </div>
+            </div>
+            <button class="icon-btn" style="width:32px;height:32px;" aria-label="More"><img src="./assets/icons/ellipsis.svg" alt="" class="icon icon-sm"></button>
+          </div>
+          <div class="row" style="gap:var(--space-4);">
+            <div class="ring" aria-label="35% of daily target">
+              <svg class="ring-svg" viewBox="0 0 100 100"><circle class="ring-track" cx="50" cy="50" r="42"/><circle class="ring-fill alt" cx="50" cy="50" r="42" stroke-dasharray="263.9" stroke-dashoffset="171.5"/></svg>
+              <div class="ring-label"><span class="ring-value">3.5<span class="muted">m</span></span><span class="ring-caption">of 10</span></div>
+            </div>
+            <div class="stack-sm" style="flex:1;">
+              <span class="streak-chip"><img src="./assets/icons/flame.svg" alt="" class="icon icon-sm"> 19 days</span>
+              <span class="text-xs muted">Last: interval drills · today</span>
+            </div>
+          </div>
+          <div class="stack-sm">
+            <div class="dot-label upper tabular">F · S · S · M · T · W · T</div>
+            <div class="dot-row">
+              <span class="dot on"></span><span class="dot on"></span><span class="dot miss"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span>
+            </div>
+          </div>
+          <button class="btn btn-primary btn-block"><img src="./assets/icons/play.svg" alt="" class="icon icon-sm" style="filter:brightness(0) invert(1);"> Start session</button>
+        </article>
+
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<a href="./session.html" class="fab" aria-label="Log session manually">
+  <img src="./assets/icons/plus.svg" alt="" class="icon icon-md" style="filter:brightness(0) invert(1);">
+  Log session
+</a>
+
+<footer class="footer">
+  <div class="container">Practice Catalog · v2.4.1 · keep the slow tempo honest</div>
+</footer>
+
+</div>
+</body>
+</html>

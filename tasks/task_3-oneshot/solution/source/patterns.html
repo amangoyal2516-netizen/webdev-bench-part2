@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Patterns library — Handmade Hearth</title>
+<link rel="stylesheet" href="./styles.css">
+<style>
+.wdvb-anim-slide-left-patterns{animation:wdvb-anim-slide-left-patterns 1400ms ease-out both;}
+@keyframes wdvb-anim-slide-left-patterns{from{transform:translateX(120px);opacity:0;}to{transform:translateX(0);opacity:1;}}
+.pattern-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-md);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;}
+.pattern-card img.cover{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:var(--surface-2);}
+.pattern-card .body{padding:var(--space-4) var(--space-5);display:flex;flex-direction:column;gap:var(--space-3);flex:1;}
+.pattern-meta{display:flex;flex-wrap:wrap;gap:var(--space-2) var(--space-4);align-items:center;color:var(--muted);font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:var(--text-sm);}
+.pattern-meta .row{gap:var(--space-2);}
+.pattern-foot{display:flex;align-items:center;justify-content:space-between;padding:var(--space-3) var(--space-5);border-top:1px solid var(--border);background:var(--bg);}
+.pattern-title{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:var(--text-xl);line-height:1.25;color:var(--fg);margin:0;}
+.contrib{display:flex;align-items:center;gap:var(--space-2);font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:var(--text-sm);color:var(--fg);}
+.sort-dd{display:inline-flex;align-items:center;gap:var(--space-2);background:var(--surface);border:2px solid var(--border);border-radius:var(--radius-pill);padding:var(--space-2) var(--space-4);font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;color:var(--fg);min-height:48px;}
+.filter-bar{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--space-5);box-shadow:var(--shadow);display:flex;flex-direction:column;gap:var(--space-4);}
+.filter-group{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-3);}
+.filter-label{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:var(--text-sm);text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);min-width:120px;}
+.range{flex:1;min-width:200px;display:flex;align-items:center;gap:var(--space-3);}
+.range-track{flex:1;height:8px;border-radius:var(--radius-pill);background:var(--border);position:relative;}
+.range-fill{position:absolute;left:10%;right:35%;top:0;bottom:0;background:var(--accent);border-radius:var(--radius-pill);}
+.range-handle{position:absolute;top:50%;width:24px;height:24px;border-radius:50%;background:var(--accent);border:3px solid var(--surface);box-shadow:var(--shadow);transform:translate(-50%,-50%);}
+.range-handle.h1{left:10%;}
+.range-handle.h2{left:65%;}
+.range-val{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;color:var(--fg);min-width:80px;}
+.toggle-row{display:flex;align-items:center;gap:var(--space-3);font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;}
+.applaud{display:inline-flex;align-items:center;gap:var(--space-2);color:var(--accent);font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;}
+.print-btn{width:44px;height:44px;border-radius:50%;background:var(--surface);border:2px solid var(--border-strong);display:inline-flex;align-items:center;justify-content:center;color:var(--fg);}
+.print-btn:hover{background:var(--accent);color:#fff;border-color:var(--accent);}
+.icon{width:20px;height:20px;display:inline-block;vertical-align:middle;}
+.icon-sm{width:16px;height:16px;}
+.icon-lg{width:24px;height:24px;}
+.diff-badge.easy{background:#dfe9c8;color:#4a5a25;}
+.diff-badge.intermediate{background:var(--accent-alt);color:var(--fg);}
+.diff-badge.advanced{background:var(--accent);color:#fff;}
+.page-header{padding:var(--space-6) 0 var(--space-5);}
+.page-header h1{margin-bottom:var(--space-2);}
+.subhead{font-size:var(--text-lg);color:var(--muted);}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="./feed.html" class="brand">
+      <span class="brand-mark"><img src="./assets/icons/scissors.svg" alt="" class="icon icon-lg" style="filter:brightness(0) invert(1);"></span>
+      <span>Handmade Hearth</span>
+    </a>
+    <div class="search">
+      <img src="./assets/icons/search.svg" alt="" class="icon">
+      <input type="text" placeholder="Search patterns, makers, crafts…" value="">
+    </div>
+    <div class="text-size-toggle" aria-label="Text size">
+      <button type="button">A</button>
+      <button type="button" class="active">A</button>
+      <button type="button">A</button>
+    </div>
+    <a href="#" class="icon-btn" aria-label="Notifications"><img src="./assets/icons/bell.svg" alt="" class="icon"></a>
+    <a href="#" class="icon-btn" aria-label="Help"><img src="./assets/icons/badge-question-mark.svg" alt="" class="icon"></a>
+    <a href="./profile.html" class="avatar-dropdown">
+      <img src="./assets/avatars/lorelei-seed-04.svg" alt="Margaret" class="avatar avatar-sm">
+      <img src="./assets/icons/chevron-down.svg" alt="" class="icon">
+    </a>
+  </div>
+</header>
+
+<main class="container">
+
+  <section class="page-header">
+    <div class="row-between" style="align-items:flex-end;flex-wrap:wrap;gap:var(--space-5);">
+      <div class="wdvb-anim-slide-left-patterns">
+        <span class="eyebrow">Library</span>
+        <h1>Patterns library</h1>
+        <p class="subhead">Browse <strong>2,847 patterns</strong> shared by our community of makers — print at home, save for later, or applaud the contributor.</p>
+      </div>
+      <div class="row" style="gap:var(--space-3);flex-wrap:wrap;">
+        <button class="sort-dd" type="button">
+          <span class="muted" style="font-weight:400;">Sort by:</span>
+          <span>Newest</span>
+          <img src="./assets/icons/chevron-down.svg" alt="" class="icon">
+        </button>
+        <a href="./share.html" class="btn btn-primary">
+          <img src="./assets/icons/plus.svg" alt="" class="icon" style="filter:brightness(0) invert(1);">
+          Share a pattern
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="filter-bar" aria-label="Filter patterns">
+
+    <div class="filter-group">
+      <span class="filter-label">Craft type</span>
+      <div class="chip-row">
+        <button class="chip active" type="button"><img src="./assets/icons/sparkles.svg" alt="" class="icon icon-sm" style="filter:brightness(0) invert(1);">All crafts</button>
+        <button class="chip" type="button"><img src="./assets/icons/ribbon.svg" alt="" class="icon icon-sm">Knitting</button>
+        <button class="chip" type="button"><img src="./assets/icons/leaf.svg" alt="" class="icon icon-sm">Crochet</button>
+        <button class="chip" type="button">Woodworking</button>
+        <button class="chip" type="button">Quilting</button>
+        <button class="chip" type="button">Embroidery</button>
+        <button class="chip" type="button">Paper craft</button>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="filter-group">
+      <span class="filter-label">Difficulty</span>
+      <div class="radio-row">
+        <label class="radio-option active"><span class="radio-dot"></span>Any level</label>
+        <label class="radio-option"><span class="radio-dot"></span>Beginner</label>
+        <label class="radio-option"><span class="radio-dot"></span>Intermediate</label>
+        <label class="radio-option"><span class="radio-dot"></span>Advanced</label>
+      </div>
+    </div>
+
+    <div class="filter-group">
+      <span class="filter-label">Time required</span>
+      <div class="range">
+        <span class="range-val">1 hr</span>
+        <div class="range-track">
+          <div class="range-fill"></div>
+          <span class="range-handle h1"></span>
+          <span class="range-handle h2"></span>
+        </div>
+        <span class="range-val">8 hrs</span>
+      </div>
+    </div>
+
+    <div class="filter-group">
+      <span class="filter-label">Free only</span>
+      <div class="toggle-row">
+        <span class="toggle on" role="switch" aria-checked="true"></span>
+        <span>Free patterns only</span>
+        <span class="muted" style="font-weight:400;">— hide premium templates</span>
+      </div>
+      <div class="spacer"></div>
+      <button class="btn btn-ghost btn-sm">
+        <img src="./assets/icons/x.svg" alt="" class="icon icon-sm">
+        Clear all
+      </button>
+    </div>
+  </section>
+
+  <section style="padding:var(--space-6) 0 var(--space-4);">
+    <div class="row-between" style="margin-bottom:var(--space-5);">
+      <p class="muted" style="margin:0;font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;">Showing 1–9 of 2,847 patterns</p>
+      <div class="row" style="gap:var(--space-3);">
+        <img src="./assets/icons/sliders-horizontal.svg" alt="" class="icon">
+        <span class="muted">3 filters applied</span>
+      </div>
+    </div>
+
+    <div class="grid-3">
+
+      <article class="pattern-card">
+        <img class="cover" src="./assets/photos/Au1eENDHD10.jpg" alt="Cottage garden ladder with terracotta pots">
+        <div class="body">
+          <h3 class="pattern-title">Garden ladder herb planter</h3>
+          <div class="contrib">
+            <img src="./assets/avatars/lorelei-seed-00.svg" alt="" class="avatar avatar-sm">
+            <span>Eleanor Whitfield</span>
+          </div>
+          <div class="row-wrap">
+            <span class="badge diff-badge intermediate">Intermediate</span>
+            <span class="pattern-meta"><img src="./assets/icons/clock.svg" alt="" class="icon icon-sm"> 4 hrs</span>
+            <span class="badge badge-soft">Woodworking</span>
+          </div>
+        </div>
+        <div class="pattern-foot">
+          <span class="applaud"><img src="./assets/icons/heart.svg" alt="" class="icon"> 1,284 applauds</span>
+          <button class="print-btn" aria-label="Print pattern"><img src="./assets/icons/printer.svg" alt="" class="icon"></button>
+        </div>
+      </article>
+
+      <article class="pattern-card">
+        <img class="cover" src="./assets/photos/15YDf39RIVc.jpg" alt="Vintage teacup with pink blossoms — embroidery hoop">
+        <div class="body">
+          <h3 class="pattern-title">Grandmother's teacup sampler</h3>
+          <div class="contrib">
+            <img src="./assets/avatars/lorelei-seed-02.svg" alt="" class="avatar avatar-sm">
+            <span>Beatrice Holloway</span>
+          </div>
+          <div class="row-wrap">
+            <span class="badge diff-badge easy">Beginner</span>
+            <span class="pattern-meta"><img src="./assets/icons/clock.svg" alt="" class="icon icon-sm"> 2 hrs</span>
+            <span class="badge badge-soft">Embroidery</span>
+          </div>
+        </div>
+        <div class="pattern-foot">
+          <span class="applaud"><img src="./assets/icons/heart.svg" alt="" class="icon"> 3,012 applauds</span>
+          <button class="print-btn" aria-label="Print pattern"><img src="./assets/icons/printer.svg" alt="" class="icon"></button>
+        </div>
+      </article>
+
+      <article class="pattern-card">
+        <img class="cover" src="./assets/photos/u1XO8rGzMTQ.jpg" alt="Pink tulips in a white ceramic vase">
+        <div class="body">
+          <h3 class="pattern-title">Spring tulip crochet bouquet</h3>
+          <div class="contrib">
+            <img src="./assets/avatars/notionists-seed-01.svg" alt="" class="avatar avatar-sm">
+            <span>Harold Pemberton</span>
+          </div>
+          <div class="row-wrap">
+            <span class="badge diff-badge intermediate">Intermediate</span>
+            <span class="pattern-meta"><img src="./assets/icons/clock.svg" alt="" class="icon icon-sm"> 6 hrs</span>
+            <span class="badge badge-soft">Crochet</span>
+          </div>
+        </div>
+        <div class="pattern-foot">
+          <span class="applaud"><img src="./assets/icons/heart.svg" alt="" class="icon"> 892 applauds</span>
+          <button class="print-btn" aria-label="Print pattern"><img src="./assets/icons/printer.svg" alt="" class="icon"></button>
+        </div>
+      </article>
+
+      <article class="pattern-card">
+        <img class="cover" src="./assets/photos/9VoUqAsW2sA.jpg" alt="Succulents in a woven brown basket">
+        <div class="body">
+          <h3 class="pattern-title">Woven raffia plant cozy</h3>
+          <div class="contrib">
+            <img src="./assets/avatars/lorelei-seed-05.svg" alt="" class="avatar avatar-sm">
+            <span>Doris Ainsworth</span>
+          </div>
+          <div class="row-wrap">
+            <span class="badge diff-badge easy">Beginner</span>
+            <span class="pattern-meta"><img src="./assets/icons/clock.svg" alt="" class="icon icon-sm"> 1.5 hrs</span>
+            <span class="badge badge-soft">Knitting</span>
+          </div>
+        </div>
+        <div class="pattern-foot">
+          <span class="applaud"><img src="./assets/icons/heart.svg" alt="" class="icon"> 2,140 applauds</span>
+          <button class="print-btn" aria-label="Print pattern"><img src="./assets/icons/printer.svg" alt="" class="icon"></button>
+        </div>
+      </article>
+
+      <article class="pattern-card">
+        <img class="cover" src="./assets/photos/zWCUF5pTIM4.jpg" alt="Pink and purple petalled flowers in a white vase">
+        <div class="body">
+          <h3 class="pattern-title">Paper peony bouquet — fold &amp; tuck</h3>
+          <div class="contrib">
+            <img src="./assets/avatars/avataaars-seed-02.svg" alt="" class="avatar avatar-sm">
+            <span>Marcus Whitley</span>
+          </div>
+          <div class="row-wrap">
+            <span class="badge diff-badge intermediate">Intermediate</span>
+            <span class="pattern-meta"><img src="./assets/icons/clock.svg" alt="" class="icon icon-sm"> 3 hrs</span>
+            <span class="badge badge-soft">Paper craft</span>
+          </div>
+        </div>
+        <div class="pattern-foot">
+          <span class="applaud"><img src="./assets/icons/heart.svg" alt="" class="icon"> 1,567 applauds</span>
+          <button class="print-btn" aria-label="Print pattern"><img src="./assets/icons/printer.svg" alt="" class="icon"></button>
+        </div>
+      </article>
+
+      <article class="pattern-card">
+        <img class="cover" src="./assets/photos/O6N9RV2rzX8.jpg" alt="Flat lay of purple and red autumn leaves">
+        <div class="body">
+          <h3 class="pattern-title">Autumn leaf appliqué quilt block</h3>
+          <div class="contrib">
+            <img src="./assets/avatars/lorelei-seed-07.svg" alt="" class="avatar avatar-sm">
+            <span>Vivian Lockwood</span>
+          </div>
+          <div class="row-wrap">
+            <span class="badge diff-badge advanced">Advanced</span>
+            <span class="pattern-meta"><img src="./assets/icons/clock.svg" alt="" class="icon icon-sm"> 7 hrs</span>
+            <span class="badge badge-soft">Quilting</span>
+          </div>
+        </div>
+        <div class="pattern-foot">
+          <span class="applaud"><img src="./assets/icons/heart.svg" alt="" class="icon"> 4,891 applauds</span>
+          <button class="print-btn" aria-label="Print pattern"><img src="./assets/icons/printer.svg" alt="" class="icon"></button>
+        </div>
+      </article>
+
+      <article class="pattern-card">
+        <img class="cover" src="./assets/photos/UrgYjACxvaI.jpg" alt="White, orange and purple floral textile">
+        <div class="body">
+          <h3 class="pattern-title">Wildflower meadow cross-stitch</h3>
+          <div class="contrib">
+            <img src="./assets/avatars/notionists-seed-04.svg" alt="" class="avatar avatar-sm">
+            <span>Constance Bramwell</span>
+          </div>
+          <div class="row-wrap">
+            <span class="badge diff-badge intermediate">Intermediate</span>
+            <span class="pattern-meta"><img src="./assets/icons/clock.svg" alt="" class="icon icon-sm"> 5 hrs</span>
+            <span class="badge badge-soft">Embroidery</span>
+          </div>
+        </div>
+        <div class="pattern-foot">
+          <span class="applaud"><img src="./assets/icons/heart.svg" alt="" class="icon"> 1,723 applauds</span>
+          <button class="print-btn" aria-label="Print pattern"><img src="./assets/icons/printer.svg" alt="" class="icon"></button>
+        </div>
+      </article>
+
+      <article class="pattern-card">
+        <img class="cover" src="./assets/photos/iGANt1N2ge8.jpg" alt="Wooden cart wheel and antlers — rustic interior detail">
+        <div class="body">
+          <h3 class="pattern-title">Hand-turned spindle coat rack</h3>
+          <div class="contrib">
+            <img src="./assets/avatars/avataaars-seed-00.svg" alt="" class="avatar avatar-sm">
+            <span>Walter Crenshaw</span>
+          </div>
+          <div class="row-wrap">
+            <span class="badge diff-badge advanced">Advanced</span>
+            <span class="pattern-meta"><img src="./assets/icons/clock.svg" alt="" class="icon icon-sm"> 8 hrs</span>
+            <span class="badge badge-soft">Woodworking</span>
+          </div>
+        </div>
+        <div class="pattern-foot">
+          <span class="applaud"><img src="./assets/icons/heart.svg" alt="" class="icon"> 654 applauds</span>
+          <button class="print-btn" aria-label="Print pattern"><img src="./assets/icons/printer.svg" alt="" class="icon"></button>
+        </div>
+      </article>
+
+      <article class="pattern-card">
+        <img class="cover" src="./assets/photos/AiTE9NFQZ3I.jpg" alt="Pink roses arranged in a grey concrete pot">
+        <div class="body">
+          <h3 class="pattern-title">Cabbage rose knitted brooch</h3>
+          <div class="contrib">
+            <img src="./assets/avatars/lorelei-seed-10.svg" alt="" class="avatar avatar-sm">
+            <span>Pearl Rasmussen</span>
+          </div>
+          <div class="row-wrap">
+            <span class="badge diff-badge easy">Beginner</span>
+            <span class="pattern-meta"><img src="./assets/icons/clock.svg" alt="" class="icon icon-sm"> 1 hr</span>
+            <span class="badge badge-soft">Knitting</span>
+          </div>
+        </div>
+        <div class="pattern-foot">
+          <span class="applaud"><img src="./assets/icons/heart.svg" alt="" class="icon"> 2,956 applauds</span>
+          <button class="print-btn" aria-label="Print pattern"><img src="./assets/icons/printer.svg" alt="" class="icon"></button>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <nav class="pagination" aria-label="Pagination">
+    <button class="page-num" aria-label="Previous page"><img src="./assets/icons/chevron-left.svg" alt="" class="icon"></button>
+    <button class="page-num active" aria-current="page">1</button>
+    <button class="page-num">2</button>
+    <button class="page-num">3</button>
+    <button class="page-num">4</button>
+    <button class="page-num" aria-disabled="true">…</button>
+    <button class="page-num">317</button>
+    <button class="page-num" aria-label="Next page"><img src="./assets/icons/chevron-right.svg" alt="" class="icon"></button>
+    <span style="width:var(--space-5);"></span>
+    <button class="btn btn-secondary btn-lg">
+      <img src="./assets/icons/plus.svg" alt="" class="icon">
+      Show more patterns
+    </button>
+  </nav>
+
+</main>
+
+<footer class="footer">
+  <div class="container row-between" style="flex-wrap:wrap;gap:var(--space-5);">
+    <div class="row" style="gap:var(--space-3);">
+      <span class="brand-mark" style="width:36px;height:36px;"><img src="./assets/icons/scissors.svg" alt="" class="icon" style="filter:brightness(0) invert(1);"></span>
+      <div>
+        <strong style="font-family:'Plus Jakarta Sans',sans-serif;">Handmade Hearth</strong><br>
+        <span class="muted">A gathering place for senior makers since 2014.</span>
+      </div>
+    </div>
+    <div class="row-wrap" style="gap:var(--space-5);">
+      <a href="./feed.html">Feed</a>
+      <a href="./patterns.html">Patterns</a>
+      <a href="./groups.html">Groups</a>
+      <a href="./share.html">Share</a>
+      <a href="#">Help &amp; guides</a>
+      <a href="#">Contact us</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

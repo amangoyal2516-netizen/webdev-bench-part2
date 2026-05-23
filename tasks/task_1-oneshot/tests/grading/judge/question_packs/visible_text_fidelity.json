@@ -1,0 +1,13 @@
+{
+  "criterion": "visible_text_fidelity",
+  "scope": "per_page",
+  "questions": [
+    {"id": "vt_q4_v2", "text": "Do visible form-field labels on the agent's page match the reference's (or 1 if neither render contains a form)?"},
+    {"id": "vt_q5_v2", "text": "Does the agent's body copy avoid hallucinating facts that aren't in the reference?"},
+    {"id": "vt_q6_v2", "text": "Do numbers, dates, currencies, and special characters on the agent's page match the reference exactly?"},
+    {"id": "vt_q7", "text": "Is text rendered inside images on the agent's page the same content as the reference's image text?"},
+    {"id": "vt_q8", "text": "Does the agent's body copy preserve the reference's coverage — no obviously missing paragraphs or sentences?"},
+    {"id": "vt_q9", "text": "Is the overall text volume on the agent's page comparable to the reference — neither significantly stripped down (much shorter copy, fewer items per list) nor significantly padded (much longer copy)?"},
+    {"id": "vt_q10", "text": "Are the visually emphasized words/phrases on the agent's page (the largest text, the boldest text, the most colored text) the same words/phrases the reference visually emphasizes?"}
+  ]
+}
