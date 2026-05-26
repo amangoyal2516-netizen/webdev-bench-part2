@@ -166,6 +166,15 @@ Track A:
 - SSIM-compare panel-by-panel against the reference strip with
   early-weighted averaging `[0.30, 0.25, 0.20, 0.15, 0.10]` (early
   frames contain the higher-information transition).
+- Multiply the panel-mean by a **`duration_factor` ∈ [0, 1]** that
+  compares the agent's computed `animation-duration` to the
+  reference's `duration_ms`. Within ±25 % the factor is 1.0; beyond
+  that it decays linearly on the ratio scale, so a 10× duration
+  mismatch caps the per-page score at ~0.125 even when every panel
+  looks correct. Closes the panel-SSIM blind spot where an animation
+  that settled before panel 1 still matched the reference's settled
+  state on most panels and scored near oracle. See
+  `grading/criteria/animation_fidelity.py::duration_factor`.
 - Score 0 when no agent element matches by IoU, or when all 5 agent
   panels are byte-identical (agent didn't animate at all).
 
@@ -173,7 +182,20 @@ Track B:
 - Same 1-5 anchored scale as the other six criteria.
 - Question pack at `grading/judge/question_packs/animation_fidelity.json`
   covers element / direction / magnitude / trigger / duration /
-  final-state. Scope: `per_page_motion_strip`.
+  final-state / **panel distinguishability** (`anim_q7`).
+  Scope: `per_page_motion_strip`.
+- `anim_q7` was added after sensitivity testing exposed a Track B
+  miss on "no animation at all": when the agent has no animated
+  element, the runner falls back to a duplicated full-page
+  screenshot, and the original six questions rated that as a valid
+  settled state. The new question asks whether the 5 panels are
+  visually distinguishable from each other; a 1 fires when they're
+  all identical, catching `strip_animation` and `static_at_final`
+  failures the rest of the pack missed.
+
+Construct-validity evidence (oracle pass + targeted corruption
+matrix on both tracks) lives in [`grading/SENSITIVITY.md`](grading/SENSITIVITY.md);
+regenerate with `python part2/grading/sensitivity.py --track-b`.
 
 The 7-criterion weighted mean is now:
 

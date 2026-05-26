@@ -137,4 +137,51 @@ way `duration_ms` is leaked today — but at the cost of making the
 task easier than it should be. For now we accept mid-range scores
 as honest discrimination.
 
+### Construct-validity sweep (post-canonical) revealed two grader gaps
+
+After the canonical run shipped, a sensitivity sweep
+(`grading/sensitivity.py`) ran the oracle plus six targeted
+corruptions through both tracks and surfaced two construct-validity
+gaps that the canonical run could not have flagged:
+
+1. **Track A was nearly blind to `fast_10x`.** An animation set to
+   10× the reference's `duration_ms` settled before panel 1, so all
+   five agent panels matched the reference's settled state — panel-SSIM
+   only dropped from 0.92 → 0.88 (Δ = −0.04). A 10× duration mismatch
+   should be a near-zero score.
+2. **Track B was blind to `strip_animation` / `static_at_final`.**
+   With no animated element in the agent's HTML, the judge runner
+   falls back to a duplicated full-page screenshot, and the original
+   six questions rated that as a valid settled state (Δ = +0.00 on
+   both corruptions).
+
+Both gaps were closed by changes documented in `DESIGN.md` §3:
+
+- **Track A** now multiplies the panel-mean by a `duration_factor`.
+  `fast_10x` Δ improved from −0.04 to −0.82; `slow_10x` Δ improved
+  from −0.33 to −0.86.
+- **Track B** adds `anim_q7` ("are the five panels visually
+  distinguishable?"). `strip_animation` / `static_at_final` Δ
+  improved from +0.00 to −0.11. The drop is modest because the
+  original six questions still rate the fallback strip generously
+  on the dimensions they probe, but the previous total miss is
+  gone.
+
+**Implication for the canonical run.** The numbers in the table
+above (`task_1` 0.100, `task_2` 0.556, etc.) predate both fixes.
+Any rollout in `jobs/webdev-bench-20260523-223403/` whose animation
+ran at the wrong duration would score lower on the fixed grader,
+and any rollout where the agent skipped the animation entirely
+would score slightly lower on Track B. Re-grading those rollouts
+locally would shift the canonical mean down somewhat; the new
+scores are stricter (closer to "right by construction") and we
+accept that as the new baseline going forward. The headline
+`animation_fidelity ~0.38 mean` from this run is no longer
+directly comparable to scores produced after the fixes — re-run
+`scripts/regrade_job.py` against this job to get post-fix numbers
+on the canonical trials.
+
+The full corruption matrix, oracle calibration, and per-page
+detail live in `grading/SENSITIVITY.md`.
+
 ---

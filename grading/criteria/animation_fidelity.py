@@ -136,6 +136,7 @@ _JS_ANIMATED_ELEMENTS = """
         out.push({
             x: r.x, y: r.y, w: r.width, h: r.height,
             animation_name: name,
+            animation_duration: cs.animationDuration,
             tag: el.tagName.toLowerCase(),
             cls: (typeof el.className === 'string' && el.className) ? el.className : null,
         });
@@ -143,6 +144,49 @@ _JS_ANIMATED_ELEMENTS = """
     return out;
 }
 """
+
+
+def _parse_animation_duration(raw: str | None) -> float | None:
+    """Parse a CSS `animation-duration` value (`"1500ms"`, `"1.5s"`,
+    `"0s, 2s"` — first value of a comma-separated list) to milliseconds.
+    Returns None when the value can't be parsed or is zero."""
+    if not raw:
+        return None
+    first = raw.split(",", 1)[0].strip().lower()
+    try:
+        if first.endswith("ms"):
+            v = float(first[:-2])
+        elif first.endswith("s"):
+            v = float(first[:-1]) * 1000.0
+        else:
+            v = float(first)
+    except ValueError:
+        return None
+    return v if v > 0 else None
+
+
+# Multiplicative duration penalty: the panel-SSIM mean is multiplied by
+# this factor before being returned as the per-page score. Within ±25 %
+# of the reference duration we don't penalise. Beyond that, the factor
+# decays linearly on the ratio scale so a 10× mismatch caps the per-page
+# score at ~0.125 even if every panel looks correct.
+_DURATION_TOL_LOW = 0.80
+_DURATION_TOL_HIGH = 1.25
+
+
+def duration_factor(agent_ms: float | None, ref_ms: float | None) -> float:
+    """Multiplicative factor in [0, 1] reflecting how well the agent's
+    animation duration matches the reference's `duration_ms`. Returns
+    1.0 when either side is missing — duration mismatch is only counted
+    when both numbers are available."""
+    if not agent_ms or not ref_ms or agent_ms <= 0 or ref_ms <= 0:
+        return 1.0
+    ratio = agent_ms / ref_ms
+    if _DURATION_TOL_LOW <= ratio <= _DURATION_TOL_HIGH:
+        return 1.0
+    if ratio < _DURATION_TOL_LOW:
+        return max(0.0, ratio / _DURATION_TOL_LOW)
+    return max(0.0, _DURATION_TOL_HIGH / ratio)
 
 
 def find_agent_widget(
@@ -222,12 +266,13 @@ def make_agent_motion_strip(
 
     agent_widget = find_agent_widget(page, ref_bbox)
     if agent_widget is None:
-        return None, {"found": False, "iou": None, "agent_bbox": None}
+        return None, {"found": False, "iou": None, "agent_bbox": None, "agent_duration_ms": None}
 
     agent_bbox_dict = {
         "x": agent_widget["x"], "y": agent_widget["y"],
         "w": agent_widget["w"], "h": agent_widget["h"],
     }
+    agent_duration_ms = _parse_animation_duration(agent_widget.get("animation_duration"))
     band = _band_from_rect(agent_bbox_dict, vp_w, vp_h)
     if band is None:
         band = (0, 0, vp_w, vp_h)
@@ -262,9 +307,14 @@ def make_agent_motion_strip(
         crops.append(img.crop((x0, y0, x1, y1)).copy())
 
     if not crops:
-        return None, {"found": True, "iou": agent_widget["iou"], "agent_bbox": [
-            agent_widget["x"], agent_widget["y"], agent_widget["w"], agent_widget["h"]
-        ]}
+        return None, {
+            "found": True,
+            "iou": agent_widget["iou"],
+            "agent_bbox": [
+                agent_widget["x"], agent_widget["y"], agent_widget["w"], agent_widget["h"],
+            ],
+            "agent_duration_ms": agent_duration_ms,
+        }
 
     strip_h = max(c.height for c in crops)
     total_w = sum(c.width for c in crops)
@@ -277,6 +327,7 @@ def make_agent_motion_strip(
         "found": True,
         "iou": agent_widget["iou"],
         "agent_bbox": [agent_widget["x"], agent_widget["y"], agent_widget["w"], agent_widget["h"]],
+        "agent_duration_ms": agent_duration_ms,
     }
 
 
@@ -450,15 +501,23 @@ def score_page(
             _ssim_panel_pair(ap, rp)
             for ap, rp in zip(agent_panels, ref_panels)
         ]
-        page_score = _weighted_panel_mean(panel_scores)
+        panel_mean = _weighted_panel_mean(panel_scores)
+        ref_duration_ms = widget_meta.get("duration_ms")
+        agent_duration_ms = info.get("agent_duration_ms")
+        dur_factor = duration_factor(agent_duration_ms, ref_duration_ms)
+        page_score = panel_mean * dur_factor
         return {
             "score": page_score,
             "detail": (
-                f"panel SSIMs early-weighted; iou={info['iou']:.3f}"
+                f"panel SSIMs early-weighted; iou={info['iou']:.3f}; "
+                f"agent_dur={agent_duration_ms}ms ref_dur={ref_duration_ms}ms "
+                f"dur_factor={dur_factor:.2f}"
             ),
             "found": True,
             "iou": info["iou"],
             "panel_scores": panel_scores,
+            "agent_duration_ms": agent_duration_ms,
+            "duration_factor": dur_factor,
         }
     finally:
         if own_browser and pw is not None:
